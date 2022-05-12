@@ -179,9 +179,65 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
             transform: rotate(45deg);
   -webkit-transform: rotate(-135deg);*/
 
-  position: absolute; width: 32px; height: 32px; line-height: 30px; text-align: center; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; background-color: rgb(250, 250, 250);
+  /* position: absolute; width: 32px; height: 32px; line-height: 30px; text-align: center; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; background-color: rgb(250, 250, 250); */
            
         }
+        .img-comp-slider input::-webkit-slider-thumb{
+  height: 486px;
+  width: 3px;
+  background: none;
+  -webkit-appearance: none;
+  cursor: col-resize;
+}
+.img-comp-slider .drag-line{
+  width: 3px;
+  height: 486px;
+  position: absolute;
+  left: 49.85%;
+  pointer-events: none;
+}
+.simg-comp-slider .drag-line::before,
+.img-comp-slider .drag-line::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 222px;
+  background: #fff;
+}
+.img-comp-slider .drag-line::before{
+  top: 0;
+}
+.img-comp-slider .drag-line::after{
+  bottom: 0;
+}
+.img-comp-slider .drag-line span{
+  height: 42px;
+  width: 42px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-comp-slider .drag-line span::before,
+.img-comp-slider .drag-line span::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  border: 10px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.img-comp-slider .drag-line span::before{
+  left: 40%;
+  border-left-color: #fff;
+}
+.img-comp-slider .drag-line span::after{
+  left: 60%;
+  border-top-color: #fff;
+}
         
 
  </style>
