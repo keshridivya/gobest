@@ -1389,7 +1389,7 @@ html {
                         <div class="root-info pb-5">
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">Fill the Form</h2>
                             <!-- <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:28px; line-height: 200%;" class="mb-3">Contact us</h5> -->
-                            <form method="post" action="thankyou.php" enctype="multipart/form-data">
+                            <form method="post" enctype="multipart/form-data">
     <div class="row">
   
       <div class="col-sm-6">
