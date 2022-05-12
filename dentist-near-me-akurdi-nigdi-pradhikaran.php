@@ -878,8 +878,8 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
+    echo "<script>window.location.href='thankyou.php';</script>";
+    // $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
 {
@@ -1389,7 +1389,7 @@ html {
                         <div class="root-info pb-5">
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">Fill the Form</h2>
                             <!-- <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:28px; line-height: 200%;" class="mb-3">Contact us</h5> -->
-                            <form method="post" action="thankyou.php" enctype="multipart/form-data">
+                            <form method="post" enctype="multipart/form-data">
     <div class="row">
   
       <div class="col-sm-6">
@@ -1409,9 +1409,15 @@ html {
       </div>
       <div class="col-sm-6">
         <div class="form-group">
+        <select class="form-select" name="email">
+          <option selected>Select Branch</option>
+          <option value="Akurdi Branch">Akurdi Branch</option>
+          <option value="Wakad Branch">Wakad Branch</option>
+          <option value="Baner Branch">Baner Branch</option>
+          <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
+        </select>
           <!--									<label for="form_email" class="lbl_contact">Email *</label>-->
-          <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter Your Email"
-            required="required" data-error="Valid email is required.">
+          
         </div>
       </div>
       <div class="col-sm-6">
@@ -1430,7 +1436,7 @@ html {
         </div>
       </div>
       <div class="col-sm-12">
-      <input type="submit" name="subm" class="btn btn-primary" value="Submit" onclick="return confirm('Thanks for Contacting Gobest Dentist. Akurdi Branch');"><br>
+      <input type="submit" name="subm" class="btn btn-primary" value="Submit" ><br>
       </div>
     </div>
   </form>
@@ -1440,7 +1446,7 @@ html {
                     <div class="col-lg-4">
                     <div class="root-info pb-5">
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">Contact:</h2>
-                            <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:20px; line-height: 200%;" class="mb-3"><i class="bi bi-telephone-fill"></i>&emsp;&emsp;07264889986<br><i class="bi bi-clock">&emsp;&emsp;</i>Monday – Saturday<br>&emsp;&emsp;&emsp; 11 AM – 8 PM</h5>
+                            <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:20px; line-height: 200%;" class="mb-3"><i class="bi bi-telephone-fill"></i>&emsp;&emsp;07264889986<br><i class="bi bi-clock">&emsp;&emsp;</i>10 AM – 8 PM</h5>
                     </div>
                     </div>
                 </div>
