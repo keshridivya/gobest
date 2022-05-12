@@ -933,18 +933,19 @@ button:active {
               
                
                 <div class="row mt-3">
-                     <div class="col-lg-3">
+
+                  <!--   <div class="col-lg-3">
                         <div class="img-sec">
-                             <?php
+                             <?php/*
               $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 1";
               $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
+              foreach($data as $d){*/
           ?>	
-                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                              <?php } ?>
+                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php //echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                              <?php //} ?>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
+                    </div>-->
+                    <div class="col-lg-4">
                         <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
@@ -964,7 +965,7 @@ button:active {
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-3">
+                     <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
@@ -984,7 +985,7 @@ button:active {
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-3">
+                     <div class="col-lg-4">
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000" style="background:white"> 
                             <div class="row">
                                 <div class="col-lg-3">
