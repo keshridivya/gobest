@@ -1020,8 +1020,8 @@ button:active {
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>	
-      <div class="col-lg-3 col-6 col-sm-6 patients_speaks_wrap">
-        <div class="patient_speak_videos">
+      <div class="col-lg-3 col-6 col-sm-6 patient_speak_videos">
+        <div class="case_study_img">
           <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid">
         </div>
         <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div>
