@@ -206,9 +206,9 @@ else {
 </li>
 </ul></div> <div class="mobile-nav">
 <ul>
-<li class="menu-item "><a href="about-us.php" class="a">About us</a></li>
+<!-- <li class="menu-item "><a href="about-us.php" class="a">About us</a></li> -->
 
-<li class="menu-item "><a href="careers.php" class="a">CAREER</a></li>
+<!-- <li class="menu-item "><a href="careers.php" class="a">CAREER</a></li> -->
 <li class="menu-item "><a href="contact-us.php" class="a">Contact us</a></li>
 </ul>
 </div>
