@@ -267,7 +267,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   .button-50 span{
       display:none;
   }
-  .patient_speak_videos .iframe-video{
+  .patient_speak_videos .iframe-footer{
     padding:5px !important;
   }
   .img-fluid-set{
