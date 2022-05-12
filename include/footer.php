@@ -21,19 +21,19 @@
               <!-- <li id="menu-item-3009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3009"><a href="dentist-near-me/index.html">Clove Clinics</a></li> -->
 
 
-<li id="menu-item-12292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12292"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php" style="font-size:18px;"> Akurdi Branch</a></br>
+<li id="menu-item-12292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12292"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php" style="font-size:18px !important;"> Akurdi Branch</a></br>
 <span>
     R K Apartment, Near Akurdi Sabji Mandai, Viveknagar, Akurdi, Pune, MH-411035 
 </span></li>
-<li id="menu-item-3006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php" style="font-size:18px;">Wakad Branch</a></br>
+<li id="menu-item-3006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php" style="font-size:18px !important;">Wakad Branch</a></br>
 <span>
 Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057 
 </span></li>
-<li id="menu-item-7280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7280"><a href="best-dentist-in-baner-pune.php" style="font-size:18px;"> Baner Branch</a></br>
+<li id="menu-item-7280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7280"><a href="best-dentist-in-baner-pune.php" style="font-size:18px !important;"> Baner Branch</a></br>
 <span>
     Aditi Samruddhi, Ground Floor, Opp. Savata Mali Temple, Baner Road, Baner, Pune, MH-411045 
 </span></li>
-<li id="menu-item-7275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7275"><a href="best-dentist-in-pimple-saudagar.php" style="font-size:18px;"> Pimple Saudagar</a></br>
+<li id="menu-item-7275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7275"><a href="best-dentist-in-pimple-saudagar.php" style="font-size:18px !important;"> Pimple Saudagar</a></br>
 <span>
     Vision 9 Mall, Shop 269, 2nd floor Kunal Icon Rd, Pimple Saudagar, Pune, MH-411027.  
 </span></li>
