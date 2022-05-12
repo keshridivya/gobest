@@ -1409,9 +1409,15 @@ html {
       </div>
       <div class="col-sm-6">
         <div class="form-group">
+        <select class="" name="email">
+          <option selected>Select Branch</option>
+          <option value="Akurdi Branch">Akurdi Branch</option>
+          <option value="Wakad Branch">Wakad Branch</option>
+          <option value="Baner Branch">Baner Branch</option>
+          <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
+        </select>
           <!--									<label for="form_email" class="lbl_contact">Email *</label>-->
-          <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter Your Email"
-            required="required" data-error="Valid email is required.">
+          
         </div>
       </div>
       <div class="col-sm-6">
@@ -1440,7 +1446,7 @@ html {
                     <div class="col-lg-4">
                     <div class="root-info pb-5">
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">Contact:</h2>
-                            <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:20px; line-height: 200%;" class="mb-3"><i class="bi bi-telephone-fill"></i>&emsp;&emsp;07264889986<br><i class="bi bi-clock">&emsp;&emsp;</i>Monday – Saturday<br>&emsp;&emsp;&emsp; 11 AM – 8 PM</h5>
+                            <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:20px; line-height: 200%;" class="mb-3"><i class="bi bi-telephone-fill"></i>&emsp;&emsp;07264889986<br><i class="bi bi-clock">&emsp;&emsp;</i>10 AM – 8 PM</h5>
                     </div>
                     </div>
                 </div>
