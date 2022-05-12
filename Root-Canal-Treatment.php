@@ -46,7 +46,7 @@
 
     <link async rel="stylesheet" href="css/twentytwenty.min.css" defer>
     <!-- Main css -->
-   <link rel="stylesheet" href="style-new.css">
+   <link rel="stylesheet" href="css/style-new.css">
     <link rel="stylesheet" href="css/common.css">
 
 <style>
