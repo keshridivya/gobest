@@ -250,7 +250,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
       font-size:15px !important;
   }
   .image2{
-   width: 10rem !important;
+   width: 100px !important;
   }
   .button-50 {
     padding: 8px 7px !important;
@@ -541,7 +541,7 @@ button:active {
 <!--stories-->
 <section class="counter1 ">
             <div class="container text-center">
-                <h2 class="mb-5 offset-xl-2">Know More About Our Success Stories</h2>
+                <h2 class=" offset-xl-2">Know More About Our Success Stories</h2>
                 <div class="row">
                     <div class="col-lg-2 offset-lg-1 col-12 my-lg-0">
                         <img src="images/ISO-CERTIFIED-logo.png" alt="ISO" class="img-fluid image2">
