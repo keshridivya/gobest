@@ -1436,7 +1436,7 @@ html {
         </div>
       </div>
       <div class="col-sm-12">
-      <input type="submit" name="subm" class="btn btn-primary" value="Submit" onclick="return confirm('Thanks for Contacting Gobest Dentist. Akurdi Branch');"><br>
+      <input type="submit" name="subm" class="btn btn-primary" value="Submit" ><br>
       </div>
     </div>
   </form>
