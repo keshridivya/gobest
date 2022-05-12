@@ -268,7 +268,10 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
       display:none;
   }
   .patient_speak_videos .iframe-video{
-    padding:5px;
+    padding:5px !important;
+  }
+  .img-fluid-set{
+height:8rem !important;
   }
 }
 .patient_speak_videos .iframe-footer {
@@ -1025,7 +1028,7 @@ button:active {
           ?>	
       <div class="col-lg-3 col-6 col-sm-6 ">
         <div class="case_study_img">
-          <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid" style="height:12rem;width:403px">
+          <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid img-fluid-set" style="height:12rem;width:403px">
         </div>
         <div class="patient_speak_videos">
         <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div></div>
