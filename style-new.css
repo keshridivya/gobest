@@ -913,7 +913,6 @@ section.banner {
 .counter1 img {
     width: 100%;
     /*transform: translate(-40%, -45%);*/
-    transform: translate(-40%, -30%);
 }
 
 .counter1 .count {
