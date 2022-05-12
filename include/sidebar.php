@@ -142,7 +142,7 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-    header("location:thankyou.php");
+    echo "<script>window.location.href='thankyou.php';</script>";
         //$responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
