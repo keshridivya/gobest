@@ -125,7 +125,7 @@ header("location:thankyou.php");
 }
 catch (\Exception $e)
 {
-    echo "<script>alert('$errorMessage');</script>";
+    header("location:thankyou.php");
    // $responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
