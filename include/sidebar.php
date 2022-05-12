@@ -32,7 +32,6 @@
   transition:0.5s;
 }
 .sidebar-contact.active{
-  top: 450px;
   left:0;
 }
 .sidebar-contact input,
@@ -83,7 +82,7 @@
     }
   .sidebar-contact{
     width:100%;
-    height:70%;
+    height:60%;
     left:-100%;
   }
   .sidebar-contact .toggle{
@@ -91,6 +90,9 @@
     transform:translateY(-50%);
     transition:0.5s;
   }
+  .sidebar-contact.active{
+      top:300px;
+}
   .sidebar-contact.active .toggle
   {
     top:0;
@@ -104,6 +106,9 @@
   }
   .content{
     padding:50px 50px;
+  }
+  .hidepop{
+      display:none;
   }
 }
 	</style>
