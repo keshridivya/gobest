@@ -175,7 +175,7 @@ else {
     <div class="scroll">
     <form  method="post" >
       <input type="text" name="name" placeholder="Name" required>
-      <input type="tel" name="PhoneNumber" placeholder="Phone Number" required>
+      <input type="text" name="PhoneNumber" minlength="10" maxlength="10" placeholder="Phone Number" required>
       <textarea name="comments" placeholder="Message here.." required></textarea>
       <input name="date" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("Y-m-d H:i:s"); ?>" style="padding-left: 73px;" required>
                         
