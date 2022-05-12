@@ -122,6 +122,7 @@
 if(isset($_POST['submit'])){
 $name= $_POST['name'];
 $PhoneNumber = $_POST['PhoneNumber'];
+$branch = $_POST['branch'];
 $comments= $_POST['comments'];
 $date= $_POST['date'];
 
@@ -129,7 +130,7 @@ $date= $_POST['date'];
 $from = 'Enquiry <maheshniwate10@gmail.com>';
 $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
 $subject = 'Book an Appointment Form';
-$fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'comments' => 'comments', 'date' => 'date'); // array variable name => Text to appear in email
+$fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date'); // array variable name => Text to appear in email
 $okMessage = 'Thank You';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
@@ -181,6 +182,13 @@ else {
     <form  method="post" >
       <input type="text" name="name" placeholder="Name" required>
       <input type="text" name="PhoneNumber" minlength="10" maxlength="10" placeholder="Phone Number" required>
+      <select class="form-select" name="branch">
+          <option selected>Select Branch</option>
+          <option value="Akurdi Branch">Akurdi Branch</option>
+          <option value="Wakad Branch">Wakad Branch</option>
+          <option value="Baner Branch">Baner Branch</option>
+          <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
+        </select>
       <textarea name="comments" placeholder="Message here.." required></textarea>
       <input name="date" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("Y-m-d H:i:s"); ?>" style="padding-left: 73px;" required>
                         
