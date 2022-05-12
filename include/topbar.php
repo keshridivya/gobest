@@ -88,7 +88,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="text" required="" name="PhoneNumber" id="message-input" placeholder="Mobile Number*" aria-required="true">
+                            <input type="number" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
                         </div>
                     </div>
                 </div>
