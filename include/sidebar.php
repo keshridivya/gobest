@@ -35,6 +35,7 @@
   left:0;
 }
 .sidebar-contact input,
+.sidebar-contact select,
 .sidebar-contact textarea{
   width:100%;
   height:36px;
@@ -182,7 +183,7 @@ else {
     <form  method="post" >
       <input type="text" name="name" placeholder="Name" required>
       <input type="text" name="PhoneNumber" minlength="10" maxlength="10" placeholder="Phone Number" required>
-      <select class="form-select" name="branch">
+      <select class="" name="branch">
           <option selected>Select Branch</option>
           <option value="Akurdi Branch">Akurdi Branch</option>
           <option value="Wakad Branch">Wakad Branch</option>
