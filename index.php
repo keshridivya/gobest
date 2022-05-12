@@ -190,8 +190,9 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
    left: 50%;
     transform: translate(-50%, -50%); 
     border-radius: 50%; background-color: rgb(250, 250, 250);
-        font-size:40px;
+        font-size:60px;
         z-index:1;   
+        font-weight:500;
         }
         
 
