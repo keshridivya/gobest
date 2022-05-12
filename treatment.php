@@ -823,7 +823,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service1.jpg" alt="best dentist in pimpri chinchwad"></a>
 </div>
 <div class="post-content">
-<h3>Tooth Extraction</h3>
+<h3><a href="Tooth-Extraction.php">Tooth Extraction</a></h3>
 <p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
 <a href="#" data-toggle="modal" data-target="#myModal1" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -835,7 +835,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service3.jpg" alt="top dentist in pune"></a>
 </div>
 <div class="post-content">
-<h3>Dental Care</h3>
+<h3><a href="Dental-Care-Hygiene.php"> Dental Care</a></h3>
 <p>Even the all-powerful Pointing has no control about the blind texts it is an</p>
 <a href="#" data-toggle="modal" data-target="#myModal2" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -847,8 +847,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service4.jpg" alt="good dentist in pune"></a>
 </div>
 <div class="post-content">
-<h3>Teeth Whitening
-</h3>
+<h3><a href="Teeth-Whitening.php"> Teeth Whitening</a></h3>
 <p>The process of tooth whitening lightens the colour of a tooth. </p>
 <a href="#" data-toggle="modal" data-target="#myModal3" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -860,7 +859,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service5.jpg" alt="root canal cost"></a>
 </div>
 <div class="post-content">
-<h3>Dental X-Ray</h3>
+<h3><a href="Dental-X-Ray.php"> Dental X-Ray</a></h3>
 <p>Dental radiographs are commonly called X-rays. Dentists use radiographs </p>
 <a href="#" data-toggle="modal" data-target="#myModal4" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -872,7 +871,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service11.jpg" alt="ortodontist in pimpri chinchwad"></a>
 </div>
 <div class="post-content">
-<h3>Root Canal Treatment (RCT)</h3>
+<h3><a href="Root-Canal-Treatment.php">Root Canal Treatment (RCT)</a></h3>
 <p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
 <a href="#" data-toggle="modal" data-target="#myModal5" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -884,7 +883,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service2.jpg" alt="orthodontist in pune"></a>
 </div>
 <div class="post-content">
-<h3>Crowns And Bridges Fixing</h3>
+<h3><a href="Crown-and-Bridges.php">Crowns And Bridges Fixing</a></h3>
 <p>Crowns and bridges are a fixed solution to missing or damaged teeth. </p>
 <a href="#" data-toggle="modal" data-target="#myModal6" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -896,7 +895,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service6.jpg" alt="dentist"></a>
 </div>
 <div class="post-content">
-<h3>Wisdom Tooth Extraction</h3>
+<h3><a href="Wisdom-Tooth-Extraction.php">Wisdom Tooth Extraction</a></h3>
 <p>Wisdom tooth extraction is a surgical procedure to remove one or more </p>
 <a href="#" data-toggle="modal" data-target="#myModal7" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -908,7 +907,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service13.jpg" alt="best dentist"></a>
 </div>
 <div class="post-content">
-<h3>Oral & Maxillofacial Surgery Procedures</h3>
+<h3><a href="Oral-Maxillofacial-Surgery.php">Oral & Maxillofacial Surgery Procedures</a></h3>
 <p>Oral and Maxillofacial Surgery is the specialty of dentistry which includes the </p>
 <a href="#" data-toggle="modal" data-target="#myModal8" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -920,7 +919,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service8.jpg" alt="best dental clinic near me "></a>
 </div>
 <div class="post-content">
- <h3>Dental Implant Fixing</h3>
+ <h3><a href="Dental-Implants.php">Dental Implant Fixing</a></h3>
 <p>Dental implants provide a strong foundation for permanent or removable </p>
 <a href="#" data-toggle="modal" data-target="#myModal9" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -932,7 +931,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service9.jpg" alt="best dental clinic"></a>
 </div>
 <div class="post-content">
-<h3>Dental Ceramics</h3>
+<h3><a href="Dental-Cavity-Fillings.php">Dental Ceramics</a></h3>
 <p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all</p>
 <a href="#" data-toggle="modal" data-target="#myModal10" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -944,7 +943,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service14.jpg" alt="best dental clinic in pune"></a>
 </div>
 <div class="post-content">
-<h3>Cosmetic Dentistry</h3>
+<h3><a href="Cosmetic-Dentistry.php">Cosmetic Dentistry</a></h3>
 <p>Cosmetic dentistry is generally used to refer to any dental work that </p>
 <a href="#" data-toggle="modal" data-target="#myModal11" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -956,7 +955,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service12.jpg" alt="best dental clinic in chinchwad"></a>
 </div>
 <div class="post-content">
-<h3>Straightening Teeth</h3>
+<h3><a href="Scaling-Polishing.php">Scaling Polishing</a></h3>
 <p>Invisalign® is the invisible way to straighten your teeth without braces. </p>
 <a href="#" data-toggle="modal" data-target="#myModal12" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -968,7 +967,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service10.jpg" alt="best dental clinic in pimpri"></a>
 </div>
 <div class="post-content">
-<h3>Partial Denture (Metal Based)</h3>
+<h3><a href="Invisalign-Clear-Aligners.php">Invisalign Clear Aligners</a></h3>
 <p>A cast metal partial denture involves a metal framework that attaches by way of </p>
 <a href="#" data-toggle="modal" data-target="#myModal13" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -981,7 +980,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 </div>
 <div class="post-content">
-<h3>Precision Attachment Dentures</h3>
+<h3><a href="Braces-Orthodontic Treatment.php">Braces Orthodontic Treatment</a></h3>
 <p>Precision Attachment. Precision Attachments are special attachments used </p>
 <a href="#" data-toggle="modal" data-target="#myModal14" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -992,8 +991,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service7.jpg" alt="best dental clinic in nigdi"></a>
 </div>
 <div class="post-content">
-<h3>
-Implant Rehabilitation Surgery</h3>
+<h3><a href="Dental-Implants.php">Implant Rehabilitation Surgery</a></h3>
 <p>The Implant Rehabilitation is a dentistry specialty in charge of the restoration </p>
 <a href="#" data-toggle="modal" data-target="#myModal15" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1005,7 +1003,7 @@ Implant Rehabilitation Surgery</h3>
 <a href="#"><img src="assets/img/services/service16.jpg" alt="best dental clinic in pimpri chinchwad"></a>
 </div>
 <div class="post-content">
-<h3><a href="#">Flexible Partial/Complete Denture</a></h3>
+<h3><a href="Flexible-Partial-Complete-Denture.php">Flexible Partial/Complete Denture</a></h3>
 <p>These are comfortable, beautiful, and an affordable choice in this modern era.</p>
 <a href="#" data-toggle="modal" data-target="#myModal16" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1017,7 +1015,7 @@ Implant Rehabilitation Surgery</h3>
 <a href="#"><img src="assets/img/services/service17.jpg" alt="best dental clinic in pune"></a>
 </div>
 <div class="post-content">
-<h3><a href="#">Scaling / Polishing</a></h3>
+<h3><a href="Scaling-Polishing.php">Scaling / Polishing</a></h3>
 <p>Scaling is a dental process that involves removing the calculus deposits or stains </p>
 <a href="#" data-toggle="modal" data-target="#myModal17" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1029,7 +1027,7 @@ Implant Rehabilitation Surgery</h3>
 <a href="#"><img src="assets/img/services/service18.jpg" alt="best dentist in chinchwad"></a>
 </div>
 <div class="post-content">
-<h3>Flap Surgery</h3>
+<h3><a href="Flap-Surgery-Gum-Treatments.php">Flap Surgery</a></h3>
 <p>Flap surgery is a technique in plastic and reconstructive surgery where any type of</p>
 <a href="#" data-toggle="modal" data-target="#myModal18" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1041,7 +1039,7 @@ Implant Rehabilitation Surgery</h3>
  <a href="#"><img src="assets/img/services/service19.jpg" alt="best dentist in hinjewadi"></a>
 </div>
 <div class="post-content">
-<h3>Full Denture (Acrylic)</h3>
+<h3><a href="Full-Mouth-Rehabilitation.php">Full Mouth Rehabilities</a></h3>
 <p>The finished complete denture is composed of the following: Acrylic resin, </p>
 <a href="#" data-toggle="modal" data-target="#myModal19" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1053,7 +1051,7 @@ Implant Rehabilitation Surgery</h3>
 <a href="#"><img src="assets/img/services/service20.jpg" alt="best dentist in wakad"></a>
 </div>
 <div class="post-content">
-<h3>Children Dentistry</h3>
+<h3><a href="Children-Pediatric-Dentistry.php">Children Dentistry</a></h3>
 <p>Pediatric dentistry is the branch of dentistry dealing with children from birth </p>
 <a href="#" data-toggle="modal" data-target="#myModal20" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a>
 </div>
@@ -1312,7 +1310,7 @@ Implant Rehabilitation Surgery</h3>
 <p>The Implant Rehabilitation is a dentistry specialty in charge of the restoration of the dental pieces, to return them to its original aesthetic and harmonic function. </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1329,7 +1327,7 @@ Implant Rehabilitation Surgery</h3>
 <p>These are comfortable, beautiful, and an affordable choice in this modern era. Flexible denture base material is nylon-based thermoplastic resin. They have shown several advantages over the traditional rigid acrylic denture bases. </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1346,7 +1344,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Scaling is a dental process that involves removing the calculus deposits or stains on the teeth.This process is known as root planing. Polishing, on the other hand, is the process of smoothing the teeth as scaling can make the teeth feel rough. </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
+<button type="button" class="button-62" data-dismiss="modal">Close</button></div>
 </div>
 </div>
 </div>
@@ -1362,7 +1360,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Flap surgery is a technique in plastic and reconstructive surgery where any type of tissue is lifted from a donor site and moved to a recipient site with an intact blood supply. This is distinct from a graft, which does not have an intact blood supply and therefore relies on growth of new blood vessels. </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1379,7 +1377,7 @@ Implant Rehabilitation Surgery</h3>
 <p>The finished complete denture is composed of the following: Acrylic resin, which serves as the base of the complete denture, retains the denture teeth, and emulates the gingiva of supporting teeth. Porcelain or acrylic denture teeth to emulate natural teeth.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1396,7 +1394,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Pediatric dentistry is the branch of dentistry dealing with children from birth through adolescence. The specialty of pediatric dentistry is recognized by the American Dental Association, Royal College of Dentists of Canada, and Royal Australasian College of Dental Surgeons.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
