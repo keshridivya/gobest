@@ -88,7 +88,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="tel" required="" name="PhoneNumber" id="message-input" max="10" placeholder="Mobile Number*" aria-required="true">
+                            <input type="text" required="" name="PhoneNumber" id="message-input" placeholder="Mobile Number*" aria-required="true">
                         </div>
                     </div>
                 </div>
@@ -120,12 +120,12 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-echo "<script>alert('$okMessage');</script>";
+header("location:../thankyou.php");
     
 }
 catch (\Exception $e)
 {
-    header("location:../thank-you.php");
+    echo "<script>alert('$errorMessage');</script>";
    // $responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
