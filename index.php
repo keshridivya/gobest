@@ -96,62 +96,44 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 slider.setAttribute("class", "img-comp-slider");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
-                /*position the slider in the middle:*/
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
                 slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-                /*execute a function when the mouse button is pressed:*/
                 slider.addEventListener("mousedown", slideReady);
-                /*and another function when the mouse button is released:*/
                 window.addEventListener("mouseup", slideFinish);
-                /*or touched (for touch screens:*/
                 slider.addEventListener("touchstart", slideReady);
-                /*and released (for touch screens:*/
                 window.addEventListener("touchend", slideFinish);
 
                 function slideReady(e) {
-                    /*prevent any other actions that may occur when moving over the image:*/
                     e.preventDefault();
-                    /*the slider is now clicked and ready to move:*/
                     clicked = 1;
-                    /*execute a function when the slider is moved:*/
                     window.addEventListener("mousemove", slideMove);
                     window.addEventListener("touchmove", slideMove);
                 }
 
                 function slideFinish() {
-                    /*the slider is no longer clicked:*/
                     clicked = 0;
                 }
 
                 function slideMove(e) {
                     var pos;
-                    /*if the slider is no longer clicked, exit this function:*/
                     if (clicked == 0) return false;
-                    /*get the cursor's x position:*/
                     pos = getCursorPos(e)
-                        /*prevent the slider from being positioned outside the image:*/
                     if (pos < 0) pos = 0;
                     if (pos > w) pos = w;
-                    /*execute a function that will resize the overlay image according to the cursor:*/
                     slide(pos);
                 }
 
                 function getCursorPos(e) {
                     var a, x = 0;
                     e = (e.changedTouches) ? e.changedTouches[0] : e;
-                    /*get the x positions of the image:*/
                     a = img.getBoundingClientRect();
-                    /*calculate the cursor's x coordinate, relative to the image:*/
                     x = e.pageX - a.left;
-                    /*consider any page scrolling:*/
                     x = x - window.pageXOffset;
                     return x;
                 }
 
                 function slide(x) {
-                    /*resize the image:*/
                     img.style.width = x + "px";
-                    /*position the slider:*/
                     slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
                 }
             }
@@ -183,19 +165,21 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
         }
         
         .img-comp-slider {
-            position: absolute;
+            /*position: absolute;
             z-index: 9;
             cursor: col-resize;
             /*set the appearance of the slider:*/
-            width: 20px;
-            height: 20px;
+          /*   width: 20px; */
+            /*height: 20px;
             background-color: white; 
             border: solid black;
             border-width: 5px;
             /* opacity: 0.2; */
-            border-radius: 0%;
+            /*border-radius: 0%;
             transform: rotate(45deg);
-  -webkit-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);*/
+
+  position: absolute; width: 32px; height: 32px; line-height: 30px; text-align: center; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; background-color: rgb(250, 250, 250);
            
         }
         
