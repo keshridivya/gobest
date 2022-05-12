@@ -120,7 +120,7 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-    echo "<script>window.location.href='.thankyou.php.';</script>";
+    echo "<script>window.location.href='thankyou.php';</script>";
     
 }
 catch (\Exception $e)
