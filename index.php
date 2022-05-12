@@ -17,7 +17,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
 
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
-
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="xmlrpc.php"> 
 <link rel="stylesheet" href="style-new.css">
@@ -71,139 +70,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
-
 <script>
-        function initComparisons() {
-            var x, i;
-            /*find all elements with an "overlay" class:*/
-            x = document.getElementsByClassName("img-comp-overlay");
-            for (i = 0; i < x.length; i++) {
-                /*once for each "overlay" element:
-                pass the "overlay" element as a parameter when executing the compareImages function:*/
-                compareImages(x[i]);
-            }
-
-            function compareImages(img) {
-                var slider, img, clicked = 0,
-                    w, h;
-                /*get the width and height of the img element*/
-                w = img.offsetWidth;
-                h = img.offsetHeight;
-                /*set the width of the img element to 50%:*/
-                img.style.width = (w / 2) + "px";
-                /*create slider:*/
-                slider = document.createElement("DIV");
-                slider.setAttribute("class", "img-comp-slider");
-                /*insert slider*/
-                img.parentElement.insertBefore(slider, img);
-                /*position the slider in the middle:*/
-                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-                /*execute a function when the mouse button is pressed:*/
-                slider.addEventListener("mousedown", slideReady);
-                /*and another function when the mouse button is released:*/
-                window.addEventListener("mouseup", slideFinish);
-                /*or touched (for touch screens:*/
-                slider.addEventListener("touchstart", slideReady);
-                /*and released (for touch screens:*/
-                window.addEventListener("touchend", slideFinish);
-
-                function slideReady(e) {
-                    /*prevent any other actions that may occur when moving over the image:*/
-                    e.preventDefault();
-                    /*the slider is now clicked and ready to move:*/
-                    clicked = 1;
-                    /*execute a function when the slider is moved:*/
-                    window.addEventListener("mousemove", slideMove);
-                    window.addEventListener("touchmove", slideMove);
-                }
-
-                function slideFinish() {
-                    /*the slider is no longer clicked:*/
-                    clicked = 0;
-                }
-
-                function slideMove(e) {
-                    var pos;
-                    /*if the slider is no longer clicked, exit this function:*/
-                    if (clicked == 0) return false;
-                    /*get the cursor's x position:*/
-                    pos = getCursorPos(e)
-                        /*prevent the slider from being positioned outside the image:*/
-                    if (pos < 0) pos = 0;
-                    if (pos > w) pos = w;
-                    /*execute a function that will resize the overlay image according to the cursor:*/
-                    slide(pos);
-                }
-
-                function getCursorPos(e) {
-                    var a, x = 0;
-                    e = (e.changedTouches) ? e.changedTouches[0] : e;
-                    /*get the x positions of the image:*/
-                    a = img.getBoundingClientRect();
-                    /*calculate the cursor's x coordinate, relative to the image:*/
-                    x = e.pageX - a.left;
-                    /*consider any page scrolling:*/
-                    x = x - window.pageXOffset;
-                    return x;
-                }
-
-                function slide(x) {
-                    /*resize the image:*/
-                    img.style.width = x + "px";
-                    /*position the slider:*/
-                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-                }
-            }
-        }
-        
-    </script>
-<style>
-       
-       * {
-            box-sizing: border-box;
-        }
-        
-        .img-comp-container {
-            position: relative;
-            height: 350px;
-            /*should be the same height as the images*/
-        }
-        
-        .img-comp-img {
-            position: absolute;
-            width: auto;
-            height: auto;
-            overflow: hidden;
-        }
-        
-        .img-comp-img {
-            display: block;
-            vertical-align: middle;
-        }
-        
-        .img-comp-slider {
-            position: absolute;
-            z-index: 9;
-            cursor: col-resize;
-            /*set the appearance of the slider:*/
-            width: 20px;
-            height: 20px;
-            background-color: white; 
-            border: solid black;
-            border-width: 5px;
-            /* opacity: 0.2; */
-            border-radius: 0%;
-            transform: rotate(45deg);
-  -webkit-transform: rotate(-135deg);
-           
-        }
-        
-
- </style>
-
- <script>
- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
@@ -239,6 +107,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   gtag('js', new Date());
   gtag('config', 'UA-58837352-1');
 </script>
+
+
 
 
 <style>
@@ -501,20 +371,13 @@ button:active {
             <div class="container">
                 <div class="row">
 
-                  <div class="col-xl-4 mt-3 " id="sliderCompImg">
-                    <div class="img-comp-container" >
-                        <div class="img-comp-img">
-                             <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety1-min.jpg" width="350px" height="350px">
-                        </div>
-                        <div class="img-comp-img img-comp-overlay">
-                            <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety2-min.webp" width="350px" height="350px">
-                        </div>
-                    </div>
-                    <!-- <div class="juxtapose" style="position:sticky">
+                    <div class="col-xl-4 mt-3">
+
+                    <div class="juxtapose" style="position:sticky">
                       <img src="wp-content/uploads/2020/10/safety2-min.webp" alt="" />
                       <img src="wp-content/uploads/2020/10/safety1-min.jpg" alt=""/>
-                    </div> -->
-                  </div>
+                    </div>
+                    </div>
 
                     <div class="col-xl-8">
                         <div class="about-info py-3" data-aos="fade-up" data-aos-duration="2000">
@@ -594,16 +457,16 @@ button:active {
    </div> 
    <div class="patients_speaks_wrap">
     <div class="patient_speak_videos row">
-    <?php
+     <?php
               $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>		
-      <div class="item item1 ">
+      <div class="item item1">
        <div class="video-box">
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
         <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+     
        </div>
       </div><!-- item end here -->
       <?php } ?>
@@ -713,7 +576,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Irfan M</i></h3>
                       <p><i class="fa fa-quote-left"></i>
-                        Dr. Mokashi's is very experienced doctor. They provide very best treatement at
+                        Dentists here are good . They're provide very best treatement at
                           affordable prices. You can feel relaxed after visiting the place. It is surely the
                           <strong>best dental clinic in pimpri chinchwad </strong> <i class="fa fa-quote-right"></i>
                       </p>
@@ -727,7 +590,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer" style="padding:5px;"><i> Karishma A</i></h3>
                       <p><i class="fa fa-quote-left"></i>
-                            Very friendly staff. Nice ambience of the clinic. I had gone to Dr Sana Mokashi for my teeth whitening. The results are pretty immaculate. I'm very happy with my treatment. I recommend this clinic as <strong>best dentist in nigdi pradhikaran</strong>. <i class="fa fa-quote-right"></i>
+                            Very friendly staff. Nice ambience of the clinic. I had gone to GoBest Dentist Clinic for my teeth whitening. The results are pretty immaculate. I'm very happy with my treatment. I recommend this clinic as <strong>best dentist in nigdi pradhikaran</strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
                   </div>
@@ -780,7 +643,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important"> 
                       <h3 class="blockquote-footer"><i> Shainaj M</i></h3>
                       <p><i class="fa fa-quote-left"></i>
-                      Visited two dentists for my tooth pain but both doctors made it worse but my friend suggested Dr Mokashi is genuine and affordable dentists. In few visits only my problem was resolved. She is suerly the <strong>best dentist in pimpri </strong>. <i
+                      Visited two dentists for my tooth pain but both doctors made it worse but my friend suggested me.Doctor of GoBest Dentist Clinic are genuine and affordable dentists. In few visits only my problem was resolved. She is suerly the <strong>best dentist in pimpri </strong>. <i
                       class="fa fa-quote-right"></i>
                       </p>
                     </div>
@@ -806,17 +669,17 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Shekhar M</i></h3>
                       <p><i class="fa fa-quote-left"></i>
-                      I had severe pain on Sunday and called so many dentists in my area, nobody helped me but Dr Mokashi attended by appointment on my request. Explained treatment plan and<strong> overall good experience. </strong>. <i class="fa fa-quote-right"></i>
+                      I had severe pain on Sunday and called so many dentists in my area, nobody helped me but GoBest doctor attended by appointment on my request. Explained treatment plan and<strong> overall good experience. </strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" style="background:white!important" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" style="background:white!important" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -931,6 +794,89 @@ button:active {
         </section>
 <!--hygiene-->
 
+<!--more review-->
+  <section class="more-review" style="background: url(images/background.png) no-repeat center center; background-size: cover;background-attachment: fixed;">
+            <div class="container text-center">
+                <h2 class="text-center">More Reviews On</h2>
+              
+               
+                <div class="row mt-3">
+                     <div class="col-lg-3">
+                        <div class="img-sec">
+                             <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 1";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>	
+                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                              <?php } ?>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/google.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Google</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3">
+                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/jd.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Just Dial</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3">
+                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000" style="background:white"> 
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/practo.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Practo</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+<!--more review-->
 
 <!--casestudy-->
 
@@ -1050,7 +996,7 @@ button:active {
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
  <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
 <!-- </div> -->
- <style>
+<style>
 .important_info_icon{
   width:50px;
   height:50px;
@@ -1104,7 +1050,9 @@ button:active {
 </style>
 
 <?php include("include/footer.php"); ?>
-
+<button class="scroll-top wow slideInRight ui-btn ui-shadow ui-corner-all" title="Scroll To Top">
+        <i class="fa fa-long-arrow-up"></i>
+    </button>
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
@@ -1137,11 +1085,6 @@ function openCity(evt, cityName) {
 </script>
 
 
-
-<script>
-/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
-  initComparisons();
- </script>
 
 
 
