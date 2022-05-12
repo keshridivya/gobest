@@ -117,10 +117,10 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 				<div class="footer-bottom-box" >
 					<div class="social-network-box"><ul>
 						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Twitter"><i class="fa fa-twitter-square" style="font-size:xx-large" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Facebook"><i class="fa fa-facebook-square" style="font-size:xx-large" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Linkedin"><i class="fa fa-linkedin-square" style="font-size:xx-large" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Youtube"><i class="fa fa-youtube" style="font-size:xx-large" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Instagram"><i class="fa fa-instagram" style="font-size:xx-large" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 					<p class="copyright">All Rights Reserved - 2022, <span>Go Best Dentist</span></p>
