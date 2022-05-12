@@ -1013,27 +1013,33 @@ button:active {
    <div class="heading">
      <h2>Case Study</h2> 
    </div> 
-   <div class="patients_speaks_wrap">
+   <div class="row">
+      <div class="col-lg-6">
+        <div class="case_study_img">
+          <img src="images/case_study_img.png" alt="case_study_img" class="img-fluid">
+        </div>
+      </div>
+   <!--<div class="patients_speaks_wrap">
     <div class="patient_speak_videos">
     <?php
-               
+             /*  
               $sql = "SELECT * FROM casestudy WHERE is_delete = '0' LIMIT 4";
               $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
+              foreach($data as $d){*/
           ?>		
       <div class="item item1">
        <div class="video-box">
-        <img style="height:250px ;width:270px" src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" class="iframe-photo" title="YouTube video player"> 
-        <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div>
+        <img style="height:250px ;width:270px" src="adm/pages/forms/caseimage/<?php //echo $d['banner']; ?>" class="iframe-photo" title="YouTube video player"> 
+        <div class="iframe-footer"><span class="clinic-location"><?php //echo $d['title']; ?></span><span class="video-time"></span></div>
        </div>
       </div><!-- item end here -->
-      <?php } ?>
-      <div class="clearfix"></div>
+      <?php //} ?>
+      <!--<div class="clearfix"></div>
       <div style="text-align:center;">
         <a href="fullcasestudy.php" class="btn view_more" style="margin-top:0;">View More</a>
       </div>
     </div>   
-   </div><!-- patients_speaks_wrap end here -->  
+   </div>--><!-- patients_speaks_wrap end here -->  
  </div>
 </section>
 <!--casestudy-->
