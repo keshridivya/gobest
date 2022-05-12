@@ -121,7 +121,7 @@ $comments= $_POST['comments'];
 $date= $_POST['date'];
 
 // configure
-$from = 'Enquiry <info@sachinenterprise.in>';
+$from = 'Enquiry <maheshniwate10@gmail.com>';
 $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
 $subject = 'Book an Appointment Form';
 $fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'comments' => 'comments', 'date' => 'date'); // array variable name => Text to appear in email
@@ -173,7 +173,7 @@ else {
     <div class="toggle" onclick="div_hide()"></div>
     <h2>Book An Appointment</h2>
     <div class="scroll">
-    <form action="thankyou.php" method="post" >
+    <form action="sidebar.php" method="post" >
       <input type="text" name="name" placeholder="Name" required>
       <input type="tel" name="PhoneNumber" placeholder="Phone Number" required>
       <textarea name="comments" placeholder="Message here.." required></textarea>
