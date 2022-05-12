@@ -88,7 +88,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="text" required="" name="PhoneNumber" id="message-input" placeholder="Mobile Number*" aria-required="true">
+                            <input type="tel" required="" name="PhoneNumber" id="message-input" max="10" placeholder="Mobile Number*" aria-required="true">
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ echo "<script>alert('$okMessage');</script>";
 }
 catch (\Exception $e)
 {
-    echo "<script>alert('$errorMessage');</script>";
+    header("location:../thank-you.php");
    // $responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
