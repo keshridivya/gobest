@@ -226,10 +226,11 @@ else {
     $('.sidebar-contact').toggleClass('active');
     $('.sidebar-contact').css('display','block');
     $('.toggle').toggleClass('active');
+    $('.orange').css('display','none');
   });
   $('.toggle').click(function(){
           $('.sidebar-contact').fadeOut();
-
+          $('.orange').css('display','block');
   })
 })
 </script>
