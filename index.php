@@ -72,7 +72,10 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
 
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
 <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script>
+
 
 <script>
         function initComparisons() {
@@ -95,7 +98,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
                 slider = document.createElement("i");
-                slider.setAttribute("class", "fa fa-adjust img-comp-slider");
+                slider.setAttribute("class", "fa-brands fa-fulcrum img-comp-slider");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
@@ -188,9 +191,9 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
    text-align: center; 
    top: 50%; 
    left: 50%;
-    transform: translate(-50%, -50%); 
-    border-radius: 50%; background-color: rgb(250, 250, 250);
-        font-size:60px;
+    /* transform: translate(-50%, -50%); 
+    border-radius: 50%; background-color: rgb(250, 250, 250); */
+        font-size:40px;
         z-index:1;   
         font-weight:500;
         }
