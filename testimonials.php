@@ -22,7 +22,7 @@
 <link href="wp-content/themes/clove/css/fonts.css" rel="stylesheet"/>
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
-<link rel="stylesheet" href="style-new.css">
+<link rel="stylesheet" href="css/style-new.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
@@ -1052,7 +1052,7 @@ position: absolute;
 
 </style>
 
-<div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
+<div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
 <div class="breadcrumb">
   <div class="box">
@@ -1330,8 +1330,55 @@ if($(window).width() > 767){
   border-right:10px solid #FFF;
 }
 </style>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite;
+    width: 3.5rem;
+    height: 3.5rem;
+    /* display: flex; */
+    align-items: center;
+}
 
-<?php include("include/footer.php"); ?>
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
+
+<?php include("include/footer.php") ?>
+
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 
 
 <script>
