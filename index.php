@@ -93,7 +93,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
                 slider = document.createElement("div");
-                slider.setAttribute("class", "fa fa-arrows-h");
+                slider.setAttribute("class", "fa fa-arrows-h img-comp-slider");
                 // slider.setAttribute("src","image/Arrow.png");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
