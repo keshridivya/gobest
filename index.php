@@ -94,9 +94,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 /*set the width of the img element to 50%:*/
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
-                slider = document.createElement("img");
-                slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("href","image/Arrow.png");
+                slider = document.createElement("i");
+                slider.setAttribute("class", "fa fa-adjust img-comp-slider");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
@@ -183,17 +182,16 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   -webkit-transform: rotate(-135deg);*/
 
   position: absolute; 
-  width: 30%; 
-  height: 30%; 
+  width: 32px; 
+  height: 32px; 
   line-height: 30px;
    text-align: center; 
    top: 50%; 
    left: 50%;
-   /* background-image: url("image/Arrow.png"); */
- /* background-color: #cccccc; */
-    /* transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%); 
     border-radius: 50%; background-color: rgb(250, 250, 250);
-            */
+        font-size:40px;
+        z-index:1;   
         }
         
 
@@ -271,6 +269,12 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   }
   .button-50 span{
       display:none;
+  }
+  .patient_speak_videos .iframe-footer{
+    padding:5px !important;
+  }
+  .img-fluid-set{
+height:8rem !important;
   }
 }
 .patient_speak_videos .iframe-footer {
@@ -933,18 +937,18 @@ button:active {
               
                
                 <div class="row mt-3">
-                     <div class="col-lg-3">
+                     <!--<div class="col-lg-3">
                         <div class="img-sec">
-                             <?php
+                             <?php/*
               $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 1";
               $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
+              foreach($data as $d){*/
           ?>	
-                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                              <?php } ?>
+                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php //echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                              <?php //} ?>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
+                    </div>-->
+                    <div class="col-lg-4">
                         <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
@@ -964,7 +968,7 @@ button:active {
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-3">
+                     <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
                             <div class="row">
                                 <div class="col-lg-3">
@@ -984,7 +988,7 @@ button:active {
                             </div>
                         </div>
                     </div>
-                     <div class="col-lg-3">
+                     <div class="col-lg-4">
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000" style="background:white"> 
                             <div class="row">
                                 <div class="col-lg-3">
@@ -1019,16 +1023,26 @@ button:active {
      <h2>Case Study</h2> 
    </div> 
    <div class="row">
-      <div class="col-lg-6">
+   <?php
+              
+              $sql = "SELECT * FROM casestudy WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>	
+      <div class="col-lg-3 col-6 col-sm-6 ">
         <div class="case_study_img">
-          <img src="images/case_study_img.png" alt="case_study_img" class="img-fluid">
+          <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid img-fluid-set" style="height:12rem;width:403px">
         </div>
+        <div class="patient_speak_videos">
+        <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div></div>
       </div>
+      <?php } ?>
+              </div>
    <!--<div class="patients_speaks_wrap">
     <div class="patient_speak_videos">
     <?php
-             /*  
-              $sql = "SELECT * FROM casestudy WHERE is_delete = '0' LIMIT 4";
+              
+             /* $sql = "SELECT * FROM casestudy WHERE is_delete = '0' LIMIT 4";
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){*/
           ?>		
@@ -1044,7 +1058,7 @@ button:active {
         <a href="fullcasestudy.php" class="btn view_more" style="margin-top:0;">View More</a>
       </div>
     </div>   
-   </div>--><!-- patients_speaks_wrap end here -->  
+   </div><!-- patients_speaks_wrap end here -->  
  </div>
 </section>
 <!--casestudy-->
