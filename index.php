@@ -187,6 +187,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
    text-align: center; 
    top: 50%; 
    left: 50%;
+   font-size:40px;
+   z-index:1;
    /* background-image: url("image/Arrow.png"); */
  /* background-color: #cccccc; */
     /* transform: translate(-50%, -50%); 
