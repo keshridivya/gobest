@@ -878,8 +878,8 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
+    echo "<script>window.location.href='thankyou.php';</script>";
+    // $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
 {
@@ -1409,7 +1409,7 @@ html {
       </div>
       <div class="col-sm-6">
         <div class="form-group">
-        <select class="" name="email">
+        <select class="form-select" name="email">
           <option selected>Select Branch</option>
           <option value="Akurdi Branch">Akurdi Branch</option>
           <option value="Wakad Branch">Wakad Branch</option>
