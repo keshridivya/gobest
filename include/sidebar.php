@@ -173,7 +173,7 @@ else {
     <div class="toggle" onclick="div_hide()"></div>
     <h2>Book An Appointment</h2>
     <div class="scroll">
-    <form action="sidebar.php" method="post" >
+    <form action="#" method="post" >
       <input type="text" name="name" placeholder="Name" required>
       <input type="tel" name="PhoneNumber" placeholder="Phone Number" required>
       <textarea name="comments" placeholder="Message here.." required></textarea>
