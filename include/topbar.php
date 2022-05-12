@@ -120,7 +120,7 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-header("location:careers.php");
+    echo "<script>alert('$okMessage');</script>";
     
 }
 catch (\Exception $e)
