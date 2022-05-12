@@ -148,7 +148,7 @@ try
 catch (\Exception $e)
 {
     
-    echo "<script>alert('$okMessage');</script>";
+    echo "<script>alert('$errorMessage');</script>";
     //$responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
