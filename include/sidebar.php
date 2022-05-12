@@ -142,12 +142,13 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-echo "<script>alert('$okMessage');</script>";
-    //$responseArray = array('type' => 'success', 'message' => $okMessage);
+    header("location:thankyou.php");
+        //$responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
 {
-    header("location:thankyou.php");
+    
+    echo "<script>alert('$okMessage');</script>";
     //$responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
 
