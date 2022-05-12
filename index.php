@@ -82,6 +82,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 pass the "overlay" element as a parameter when executing the compareImages function:*/
                 compareImages(x[i]);
             }
+            
 
             function compareImages(img) {
                 var slider, img, clicked = 0,
@@ -92,8 +93,10 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 /*set the width of the img element to 50%:*/
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
-                slider = document.createElement("DIV");
+                slider = document.createElement("div");
                 slider.setAttribute("class", "img-comp-slider");
+                slider.setAttribute("style"," background-image: url("paper.gif");
+ background-color: #cccccc;");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
@@ -180,15 +183,17 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   -webkit-transform: rotate(-135deg);*/
 
   position: absolute; 
-  width: 32px; 
-  height: 32px; 
+  width: 30%; 
+  height: 30%; 
   line-height: 30px;
    text-align: center; 
    top: 50%; 
    left: 50%;
-    transform: translate(-50%, -50%); 
+   /* background-image: url("image/Arrow.png"); */
+ /* background-color: #cccccc; */
+    /* transform: translate(-50%, -50%); 
     border-radius: 50%; background-color: rgb(250, 250, 250);
-           
+            */
         }
         
 
