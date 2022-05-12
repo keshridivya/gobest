@@ -92,9 +92,9 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 /*set the width of the img element to 50%:*/
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
-                slider = document.createElement("img");
-                slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("href","image/Arrow.png");
+                slider = document.createElement("i");
+                slider.setAttribute("class", "fa fa-arrows-h");
+                // slider.setAttribute("src","image/Arrow.png");
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
