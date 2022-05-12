@@ -931,6 +931,90 @@ button:active {
         </section>
 <!--hygiene-->
 
+<!--more review-->
+<section class="more-review" style="background: url(images/background.png) no-repeat center center; background-size: cover;background-attachment: fixed;">
+            <div class="container text-center">
+                <h2 class="text-center">More Reviews On</h2>
+              
+               
+                <div class="row mt-3">
+                     <div class="col-lg-3">
+                        <div class="img-sec">
+                             <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 1";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>	
+                             <iframe width="260" height="auto" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                              <?php } ?>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/google.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Google</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3">
+                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000" style="background:white">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/jd.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Just Dial</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-3">
+                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000" style="background:white"> 
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/practo.png" style="max-width:initial!important;">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Practo</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+<!--more review-->
+
 
 <!--casestudy-->
 
