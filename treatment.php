@@ -1091,7 +1091,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. Visit us, as we are the <b>best dentist in pimpri chinchwad</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1108,7 +1108,7 @@ Implant Rehabilitation Surgery</h3>
 <p>The process of tooth whitening lightens the colour of a tooth. Tooth whitening can be achieved by either changing the intrinsic colour or by removing and controlling the formation of extrinsic stains.Visit us, as we are the <b>best dental clinic in pune</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1125,7 +1125,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Dental radiographs are commonly called X-rays. Dentists use radiographs for many reasons: to find hidden dental structures, etc. Visit us, as we are the <b>best dentist in wakad</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1142,7 +1142,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Root canal treatment is a treatment sequence for the infected pulp of a tooth which is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion. Visit us, as we are the <b>best dentist in pimpri</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1159,7 +1159,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Crowns and bridges are a fixed solution to missing or damaged teeth. This restorative procedure uses prosthetic devices to return your smile to its natural state.Visit us, as we are the <b>best dentist in Nigdi</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62"  data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1176,7 +1176,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth — the four permanent adult teeth located at the back corners. Visit us, as we are the <b>best dentist in Chinchwad</b> </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1193,7 +1193,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Oral and Maxillofacial Surgery is the specialty of dentistry which includes the diagnosis, surgical and adjunctive treatment of diseases, injuries and defects involving both the functional and aesthetic aspects of the hard and soft tissues of the oral and maxillofacial region </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1210,7 +1210,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Dental implants provide a strong foundation for permanent or removable prosthesis (replacement teeth) that are made to match your natural teeth. Visit us, as we are the <b>best dentist in hinjewadi</b></p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1227,7 +1227,7 @@ Implant Rehabilitation Surgery</h3>
 <p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1244,7 +1244,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Cosmetic dentistry is generally used to refer to any dental work that improves the appearance of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1261,7 +1261,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Invisalign® is the invisible way to straighten your teeth without braces. Invisalign® uses a series of clear removable aligners (pictured to the left) to straighten your teeth without metal wires or brackets.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1278,7 +1278,7 @@ Implant Rehabilitation Surgery</h3>
 <p>A cast metal partial denture involves a metal framework that attaches by way of clasps connected to crowns. The metal frame is obviously not visible (the gum-colored acrylic plastic covers it), but when you smile, the clasps may be visible.</p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
@@ -1295,7 +1295,7 @@ Implant Rehabilitation Surgery</h3>
 <p>Precision Attachment. Precision Attachments are special attachments used for the perfect fit of removable partial dentures. It is a passive retention mechanism by which the abutment teeth are not exposed to excessive forces. </p>
 </div>
 <div class="modal-footer">
-<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="button-62" data-dismiss="modal">Close</button>
 </div>
 </div>
 </div>
