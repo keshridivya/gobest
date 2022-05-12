@@ -72,6 +72,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
 
+<script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script>
+
 <script>
         function initComparisons() {
             var x, i;
