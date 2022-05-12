@@ -1006,11 +1006,20 @@ button:active {
      <h2>Case Study</h2> 
    </div> 
    <div class="row">
-      <div class="col-lg-6">
+   <?php
+              
+              $sql = "SELECT * FROM casestudy WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>	
+      <div class="col-lg-3 col-6 col-sm-6">
         <div class="case_study_img">
-          <img src="images/case_study_img.png" alt="case_study_img" class="img-fluid">
+          <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid">
         </div>
+        <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div>
       </div>
+      <?php } ?>
+              </div>
    <!--<div class="patients_speaks_wrap">
     <div class="patient_speak_videos">
     <?php
