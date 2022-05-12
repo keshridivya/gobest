@@ -120,7 +120,7 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-header("location:thankyou.php");
+header("location:careers.php");
     
 }
 catch (\Exception $e)
