@@ -1021,7 +1021,7 @@ button:active {
               foreach($data as $d){
           ?>	
       <div class="col-lg-3 col-6 col-sm-6">
-        <div class="case_study_img">
+        <div class="patient_speak_videos">
           <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid">
         </div>
         <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div>
