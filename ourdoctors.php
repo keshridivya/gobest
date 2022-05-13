@@ -912,9 +912,10 @@ function flipCard() {
          <!-- <img src="images/double.png" style="border-top-left-radius: 25px;
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;"> -->
        <div class="card-body">
+       <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read less ></a>
+
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-           <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read less ></a>
 
         </div>
       </div>
