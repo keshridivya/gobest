@@ -899,18 +899,18 @@ function flipCard() {
 			
   <div class="col-lg-3 flip-card" id="flip-card" style="margin-top:20px;perspective: 1000px;">
     <div class="flip-card-inner" id="flip-card-inner">
-      <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
+      <div class="card flip-card-front" style="border-top-left-radius: 30px;">
          <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
-          border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+          border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
         <div class="card-body">
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
            <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
         </div>
       </div>
-      <div class="card h-100 flip-card-back" style="border-top-left-radius: 30px;">
+      <div class="card flip-card-back" style="border-top-left-radius: 30px;">
          <img src="images/double.png" style="border-top-left-radius: 25px;
-           border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
