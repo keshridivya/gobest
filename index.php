@@ -195,6 +195,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
     border-radius: 50%; background-color: rgb(250, 250, 250); */
         font-size:40px;
         z-index:1;   
+        font-weight:500;
         }
         
 
