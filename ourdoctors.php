@@ -895,7 +895,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
   <div class="col-lg-3 flip-card"style="margin-top:20px;">
   <div class="flip-card-inner">
-    <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
+    <div class="card flip-card-front" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
      </div>
