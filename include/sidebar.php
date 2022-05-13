@@ -176,7 +176,7 @@ else {
 
 <body>
     
-	<div class="sidebar-contact"style="z-index:1;">
+	<div class="sidebar-contact"style="z-index:9999999999999999;">
     <div class="toggle" onclick="div_hide()"></div>
     <h2>Book An Appointment</h2>
     <div class="scroll">
