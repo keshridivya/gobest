@@ -868,12 +868,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 	</div>
 
 
-  <!-- flip -->
  
 <style>
-  /* fli */
   
-  /* fli */
 .important_info_icon{
   width:50px;
   height:50px;
