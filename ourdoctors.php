@@ -827,7 +827,7 @@ function flipCard() {
 }
 function flipCardReturn() {
  document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(-180deg);");
- document.getElementById("flip-card").setAttribute("style"," transform: rotateY(-180deg);");
+//  document.getElementById("flip-card").setAttribute("style"," transform: rotateY(-180deg);");
 
 }
 </script>
