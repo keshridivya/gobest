@@ -1273,7 +1273,7 @@ button:active {
         left: 15px;
     }
     .top{
-      top:30%;
+      top:20%;
       height:100vh;
     }
 }
