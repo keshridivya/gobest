@@ -784,8 +784,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <style>
   .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
   perspective: 1000px;
 }
 
