@@ -3322,6 +3322,14 @@ top: 20px;
     font-weight: 100 !important;
 }
 
+.fa-angle-right,
+.fa-angle-left {
+    background: transparent;
+    color: black;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+}
+
 .img-area {
     width: 150px;
     height: 150px;
