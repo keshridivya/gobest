@@ -895,7 +895,25 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
 
-			
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="card flip-card-front">
+    <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" alt="Avatar" style="width:300px;height:300px;">
+    <div class="card-body">
+        <h5 class="card-title"><?php echo $d['name']; ?></h5>
+        <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
+        <a href="javascript:void(0)" class="hover-me">Read More ></a>
+        </div>
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+</div>
+
+<!-- 
   <div class="col-lg-3 flip-card"style="margin-top:20px; margin-bottom: 20px;">
   <div class="flip-card-inner">
     <div class="card  flip-card-front" style="border-top-left-radius: 30px;">
@@ -912,7 +930,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       <h1>John Doe</h1> 
       <p>Architect & Engineer</p> 
       <p>We love that guy</p>
-    </div>
+    </div> -->
     
   </div>
   </div>
