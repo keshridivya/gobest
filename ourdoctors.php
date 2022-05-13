@@ -865,29 +865,141 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		</div>
 	</div>
 
+
+  <!-- flip -->
+  <div class="container">
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-doctor-box flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img src="assets/img/doctors/aparna.jpg" class="img-fluid" alt="best dental clinic in pune">
-                                    <div class="content">
-                                        <h3>Dr. Aparna C</h3>
-                                        <span>Chief Operating & Quality Officer</span>
-                                        <p>Dr. Aparna has done specialised courses and expertise in microscopic endodontistry... </p>
-                                        <a href="javascript:void(0)" class="hover-me">Read More ></a>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p>Dr.Aparna C is graduate in Dental surgery from well known Late Shri Yashwantrao Chavan Memorial and Rural Development Foundation's Dental College , Ahmednagar.</p>
-                                    <p>She holds experience in Aesthitic (Cosmetics), Endodontistry (Root Canal), Teeth extractions (normal and surgical)and prosthesis (Replacement of missing tooth), Splinting, Crown lengthening, Frenectomy, Post and Core, child dentistry.</p>
-                                    <p>She has done specialised courses and expertise in microscopic endodontistry, smile designing ,implants and surgery, awareness, recognition and management of sleep apnea and TMD/CMD for dental surgeon.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-              </div>
+<div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">   
+              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+              <h3>Improved efficiency through automation</h3>
+              <button type="button" class="btn btn-default">Know More</button>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  <div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">   
+              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+              <h3>Improved efficiency through automation</h3>
+              <button type="button" class="btn btn-default">Know More</button>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  <div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">   
+              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+              <h3>Improved efficiency through automation</h3>
+              <button type="button" class="btn btn-default">Know More</button>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  <div class="col-sm-3">
+      <div class="flip">
+        <div class="card"> 
+          <div class="face front"> 
+            <div class="inner">   
+              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+            </div>
+          </div> 
+          <div class="face back"> 
+            <div class="inner text-center"> 
+              <h3>Improved efficiency through automation</h3>
+              <button type="button" class="btn btn-default">Know More</button>
+            </div>
+          </div>
+        </div>	 
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- flip -->
+<script>
+  $('.flip').hover(function(){
+        $(this).find('.card').toggleClass('flipped');
+
+ });
+</script>
 <style>
+  /* fli */
+  .flip {
+  -webkit-perspective: 800;   
+          perspective: 800;
+        position: relative;
+        text-align: center;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+}
+.flip .card {
+    width: 270px;
+    height: 178px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #fff;
+   
+}
+.flip .card .face {
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+   z-index: 2;
+}
+.flip .card .front {
+   position: absolute;
+   width: 270px;
+   z-index: 1;
+}
+.flip .card .front img{
+  width: 270px;
+  height: 100%;
+}
+.flip .card .img {
+   position: relaitve;
+   width: 270px;
+   height: 178px;
+   z-index: 1;
+   border: 2px solid #000;
+}
+.flip .card .back {
+  padding-top: 10%;
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+  position: absolute;
+}
+.inner{
+  margin:0px !important;
+  width: 270px;
+}
+  /* fli */
 .important_info_icon{
   width:50px;
   height:50px;

@@ -829,17 +829,7 @@ button:active {
               </div>
               </div>
 
-                <script>
-                  $(document).ready(function(){
-                    $('.fa-angle-left').click(function(){
-                      $('.carousel-control-prev').css('background','#fff');
-                    });
-                    $('.fa-angle-left').click(function(){
-                      $('.carousel-control-prev').css('background','#fff');
-                    });
-                  });
-                </script>
-                
+              
             </div>
         </section>
 <!--review close-->
