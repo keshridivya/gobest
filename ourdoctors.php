@@ -914,11 +914,11 @@ function flipCardReturn() {
         </div>
       </div>
       <div class=" flip-card-back" style="border-top-left-radius: 30px;">
-        
+         <img src="images/double.png" style="border-top-left-radius: 25px;
+           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+       <div class="card-body">
        <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam.
-</p>
+
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
 
