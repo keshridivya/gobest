@@ -897,7 +897,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="images/double.png" alt="Avatar" style="width:300px;height:300px;">
+      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
       <h1>John Doe</h1> 
@@ -907,7 +907,27 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   </div>
 </div>
 			
- 
+  <div class=" flip-card"style="margin-top:20px;perspective: 1000px;">
+  <div class="flip-card-inner">
+    <div class=" flip-card-front" style="border-top-left-radius: 30px;">
+      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+     
+     <div class="card-body">
+        <h5 class="card-title"><?php echo $d['name']; ?></h5>
+        <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
+        <a href="javascript:void(0)" class="hover-me">Read More ></a>
+        </div>
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+    
+  </div>
+  </div>
+  <?php } ?>	
 </div>
 
 		</div>
