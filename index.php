@@ -1317,7 +1317,7 @@ function openCity(evt, cityName) {
     $('#bookForm').click(function(){
       $('.phone-btn').css('display','none');
       $('.chat-bot-launcher-container').css('display','none');
-      $('.sidebar-contact').css('top':'0','height':'100%');
+      $('.sidebar-contact').css('top':'25%','height':'100%');
     });
     $('.toggle').click(function(){
       $('.phone-btn').css('display','block');
