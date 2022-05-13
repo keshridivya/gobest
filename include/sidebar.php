@@ -179,7 +179,7 @@ else {
 	<div class="sidebar-contact"style="z-index:9999999999999999;">
     <div class="toggle" onclick="div_hide()"></div>
     <h2>Book An Appointment</h2>
-    <div class="scroll">
+    <div class="">
     <form  method="post" id="bookForm">
       <input type="text" name="name" placeholder="Name" required>
       <input type="text" name="PhoneNumber" minlength="10" maxlength="10" placeholder="Phone Number" required>
