@@ -848,8 +848,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               foreach($data as $d){
           ?>
 			
-  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;  background-color: white;
-">
+  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;">
   <div class="flip-card-inner">
     <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
