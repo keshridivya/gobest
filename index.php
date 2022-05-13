@@ -190,6 +190,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   position: absolute; 
   width: 45px; 
   height: 45px; 
+  cursor: col-resize;
   line-height: 30px;
    text-align: center; 
    top: 50%; 

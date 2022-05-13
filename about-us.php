@@ -52,8 +52,10 @@
                 /*set the width of the img element to 50%:*/
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
-                slider = document.createElement("DIV");
+                slider = document.createElement("img");
+                // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
                 slider.setAttribute("class", "img-comp-slider");
+                slider.setAttribute("src","images/double.png")
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 /*position the slider in the middle:*/
@@ -143,21 +145,37 @@
         }
         
         .img-comp-slider {
-            position: absolute;
+            /* position: absolute;
             z-index: 9;
             cursor: col-resize;
-            /*set the appearance of the slider:*/
+            set the appearance of the slider:
             width: 20px;
             height: 20px;
             background-color: white; 
             border: solid black;
             border-width: 5px;
-            /* opacity: 0.2; */
+            opacity: 0.2;
             border-radius: 0%;
             transform: rotate(45deg);
-  -webkit-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg); */
            
+
+  position: absolute; 
+  width: 45px; 
+  height: 45px; 
+  cursor: col-resize;
+  line-height: 30px;
+   text-align: center; 
+   top: 50%; 
+   left: 50%;
+    /* transform: translate(-50%, -50%); 
+    border-radius: 50%; background-color: rgb(250, 250, 250); */
+        font-size:40px;
+        z-index:1;   
+        font-weight:500;
         }
+        
+        
         
 
  </style>
