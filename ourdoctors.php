@@ -894,9 +894,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
           ?>
 
 
-  <div class=" flip-card"style="margin-top:20px;perspective: 1000px;">
+
+			
+  <div class="col-lg-3 flip-card"style="margin-top:20px;perspective: 1000px;">
   <div class="flip-card-inner">
-    <div class=" flip-card-front" style="border-top-left-radius: 30px;">
+    <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
      
@@ -905,11 +907,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
         <a href="javascript:void(0)" class="hover-me">Read More ></a>
         </div>
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
     </div>
     
   </div>
