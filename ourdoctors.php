@@ -782,12 +782,12 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 }
 </style>
 <style>
-  /* .flip-card {
+  .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
   perspective: 1000px;
-} */
+}
 
 .flip-card-inner {
   position: relative;
@@ -826,8 +826,8 @@ function flipCard() {
 
 }
 function flipCardReturn() {
- document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateX(180deg);");
- document.getElementById("flip-card").setAttribute("style"," transform: rotateX(180deg);");
+ document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
 
 }
 </script>
@@ -902,7 +902,7 @@ function flipCardReturn() {
               foreach($data as $d){
           ?>
 			
-  <div class="col-lg-3 flip-card" id="flip-card" style="margin-top:20px;perspective: 1000px;">
+  <div class="col-lg-3 flip-card" id="flip-card" style="">
     <div class="flip-card-inner" id="flip-card-inner">
       <div class="card flip-card-front" style="border-top-left-radius: 30px;">
          <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
