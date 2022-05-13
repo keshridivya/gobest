@@ -815,7 +815,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   background-color: #fff;
   color: white;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) !important;
 }
 </style>
 
@@ -904,7 +904,7 @@ function flipCardReturn() {
 			
   <div class="col-lg-3 flip-card" id="flip-card" style="">
     <div class="flip-card-inner" id="flip-card-inner">
-      <div class=" flip-card-front" style="border-top-left-radius: 30px;">
+      <div class="flip-card-front" style="border-top-left-radius: 30px;">
          <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
         <div class="card-body">
@@ -913,7 +913,7 @@ function flipCardReturn() {
            <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
         </div>
       </div>
-      <div class=" flip-card-back" style="border-top-left-radius: 30px;">
+      <div class="flip-card-back" style="border-top-left-radius: 30px;">
          <img src="images/double.png" style="border-top-left-radius: 25px;
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
