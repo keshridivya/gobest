@@ -808,12 +808,12 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #fff;
   color: black;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #fff;
   color: white;
   transform: rotateY(180deg);
 }
@@ -907,15 +907,15 @@ function flipCardReturn() {
       <div class=" flip-card-front" style="border-top-left-radius: 30px;">
          <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-        <div class="">
+        <div class="card-body">
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
            <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
         </div>
       </div>
       <div class=" flip-card-back" style="border-top-left-radius: 30px;">
-         <!-- <img src="images/double.png" style="border-top-left-radius: 25px;
-           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;"> -->
+         <img src="images/double.png" style="border-top-left-radius: 25px;
+           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
        <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a>
 
