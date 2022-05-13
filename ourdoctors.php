@@ -848,8 +848,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               foreach($data as $d){
           ?>
 			
-  <div class="col-lg-3"style="margin-top:20px;">
-    <div class="card h-100" style="border-top-left-radius: 30px;">
+  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;">
+  <div class="flip-card-inner">
+    <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
       <div class="card-body">
@@ -858,6 +859,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         <a href="javascript:void(0)" class="hover-me">Read More ></a>
       </div>
     </div>
+    <div class="flip-card-back">
+    <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
+    <p class="card-text"><?php echo $d['description']; ?>.</p>
+    </div>
+  </div>
   </div>
   <?php } ?>	
 </div>
@@ -866,86 +872,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 	</div>
 
 
-  <!-- flip -->
-  <div class="container">
-<div class="row">
-<div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-              <div class="card-body">
-        <h5 class="card-title">Improved efficiency through automation</h5>
-        <p class="card-text">Improved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automation</p>
-        <a href="javascript:void(0)" class="hover-me">Read More ></a>
-      </div>
-            </div>
-            
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  <div class="col-sm-3">
-      <div class="flip">
-        <div class="card"> 
-          <div class="face front"> 
-            <div class="inner">   
-              <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
-            </div>
-          </div> 
-          <div class="face back"> 
-            <div class="inner text-center"> 
-              <h3>Improved efficiency through automation</h3>
-              <button type="button" class="btn btn-default">Know More</button>
-            </div>
-          </div>
-        </div>	 
-      </div>
-    </div>
-  </div>
-  </div>
-<!-- flip -->
+  
 <script>
   $('.flip').hover(function(){
         $(this).find('.card').toggleClass('flipped');
@@ -954,56 +881,37 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </script>
 <style>
   /* fli */
-  .flip {
-  -webkit-perspective: 800;   
-          perspective: 800;
-        position: relative;
-        text-align: center;
-}
-.flip .card.flipped {
-  -webkit-transform: rotatey(-180deg);
-          transform: rotatey(-180deg);
-}
-.flip .card {
-    width: 270px;
-    height: 178px;
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: 0.5s;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-    background-color: #fff;
-   
-}
-.flip .card .face {
-  -webkit-backface-visibility: hidden ;
-    backface-visibility: hidden ;
-   z-index: 2;
-}
-.flip .card .front {
-   position: absolute;
-   width: 270px;
-   z-index: 1;
-}
-.flip .card .front img{
-  width: 270px;
+  .flip-card-inner {
+  position: relative;
+  width: 100%;
   height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.flip .card .img {
-   position: relaitve;
-   width: 270px;
-   height: 178px;
-   z-index: 1;
-   border: 2px solid #000;
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
-.flip .card .back {
-  padding-top: 10%;
-  -webkit-transform: rotatey(-180deg);
-          transform: rotatey(-180deg);
+
+.flip-card-front, .flip-card-back {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
-.inner{
-  margin:0px !important;
-  width: 270px;
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
 }
   /* fli */
 .important_info_icon{
