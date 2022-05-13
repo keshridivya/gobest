@@ -825,6 +825,11 @@ function flipCard() {
  document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
 
 }
+function flipCardReturn() {
+ document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(-180deg);");
+ document.getElementById("flip-card").setAttribute("style"," transform: rotateY(-180deg);");
+
+}
 </script>
 
 
@@ -912,7 +917,7 @@ function flipCard() {
          <!-- <img src="images/double.png" style="border-top-left-radius: 25px;
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;"> -->
        <div class="card-body">
-       <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read less ></a>
+       <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a>
 
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
            <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
