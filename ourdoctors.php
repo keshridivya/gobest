@@ -848,9 +848,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               foreach($data as $d){
           ?>
 			
-  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;">
+  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;  background-color: white;
+">
   <div class="flip-card-inner">
-    <div class="card h-100 flip-card-front" style="border-top-left-radius: 30px;">
+    <div class=" h-100 flip-card-front" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
       <div class="card-body">
@@ -885,7 +886,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
