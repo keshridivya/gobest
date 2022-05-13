@@ -860,12 +860,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         <a href="javascript:void(0)" class="hover-me">Read More ></a>
       </div>
     </div>
+    </div>
     <div class="flip-card-back">
     <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
     <p class="card-text"><?php echo $d['description']; ?>.</p>
     </div>
   </div>
-              </div>
+            
   </div>
   <?php } ?>	
 </div>
