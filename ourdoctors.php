@@ -893,27 +893,21 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               foreach($data as $d){
           ?>
 
-  <div class="col-lg-3 flip-card"style="margin-top:20px;">
+
+<div class="flip-card">
   <div class="flip-card-inner">
-    <div class="card flip-card-front" style="border-top-left-radius: 30px;">
-      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-     </div>
-     <div class="card-body">
-        <h5 class="card-title"><?php echo $d['name']; ?></h5>
-        <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-        <a href="javascript:void(0)" class="hover-me">Read More ></a>
-      
+    <div class="flip-card-front">
+      <img src="images/double.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
       <h1>John Doe</h1> 
       <p>Architect & Engineer</p> 
       <p>We love that guy</p>
     </div>
-
   </div>
-  </div>
-  <?php } ?>	
+</div>
+			
+ 
 </div>
 
 		</div>
