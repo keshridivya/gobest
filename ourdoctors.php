@@ -932,13 +932,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       <p>We love that guy</p>
     </div> -->
     
-  </div>
-  </div>
+  <!-- </div>
+  </div> -->
   <?php } ?>	
-</div>
+<!-- </div> -->
 
-		</div>
-	</div>
+		<!-- </div>
+	</div> -->
 
 
  
