@@ -1272,10 +1272,7 @@ button:active {
         right: auto;
         left: 15px;
     }
-    .top{
-      top:20%;
-      height:100vh;
-    }
+    
 }
 
 </style>
@@ -1320,7 +1317,7 @@ function openCity(evt, cityName) {
     $('#bookForm').click(function(){
       $('.phone-btn').css('display','none');
       $('.chat-bot-launcher-container').css('display','none');
-      $('.sidebar-contact').addClass('top');
+      $('.sidebar-contact').css('top','0');
     });
     $('.toggle').click(function(){
       $('.phone-btn').css('display','block');
