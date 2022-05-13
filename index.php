@@ -815,12 +815,12 @@ button:active {
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                <button class="carousel-control-prev" bg-color="white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <i class="fa fa-angle-left" style="color:black" aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <button class="carousel-control-next" bg-color="white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <i class="fa fa-angle-right" style="color:black" aria-hidden="true"></i></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
@@ -1089,7 +1089,7 @@ button:active {
                                         class="hylyt">Affordable</span> Fees !</h2>
                                 <p style="font-size:15px;margin-bottom:1rem !important;">Free Check Up &amp; Upto 50% Discount On All Dental Treatments | Free Consultation |
                                     Root Canal 50% Flat Discount</p>
-                                    <a href="javascript:void(0);" class="call-back click-form btn-primary "  title="Call Us" ">Get Offer</a>
+                                    <a href="javascript:void(0);" class="call-back click-form btn-primary "  title="Call Us" >Get Offer</a>
                                     
                                 
                             </div>
