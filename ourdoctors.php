@@ -908,7 +908,7 @@ function flipCard() {
            <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
         </div>
       </div>
-      <div class="card flip-card-back" style="border-top-left-radius: 30px;">
+      <div class=" flip-card-back" style="border-top-left-radius: 30px;">
          <img src="images/double.png" style="border-top-left-radius: 25px;
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
