@@ -819,11 +819,11 @@ button:active {
 
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <i class="fa-solid fa-angle-left"  aria-hidden="true"></i></span>
+                  <i class="fa fa-angle-left"  aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next"  data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <i class="fa-solid fa-angle-right"  aria-hidden="true"></i>
+                <i class="fa fa-angle-right"  aria-hidden="true"></i>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
