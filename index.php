@@ -74,7 +74,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 
 <!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
 <!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
-<script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
 
 
 <script>
@@ -97,8 +97,11 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 /*set the width of the img element to 50%:*/
                 img.style.width = (w / 2) + "px";
                 /*create slider:*/
-                slider = document.createElement("i");
-                slider.setAttribute("class", "fa-brands fa-fulcrum img-comp-slider");
+                slider = document.createElement("img");
+                // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
+                slider.setAttribute("class", "img-comp-slider");
+                slider.setAttribute("src","images/tooth-brush.png")
+
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
@@ -185,8 +188,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   -webkit-transform: rotate(-135deg);*/
 
   position: absolute; 
-  width: 32px; 
-  height: 32px; 
+  width: 45px; 
+  height: 45px; 
   line-height: 30px;
    text-align: center; 
    top: 50%; 
@@ -815,12 +818,12 @@ button:active {
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" bg-color="white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <i class="fa fa-angle-left" style="color:black" aria-hidden="true"></i></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <i class="fa-solid fa-angle-left"  aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" bg-color="white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <i class="fa fa-angle-right" style="color:black" aria-hidden="true"></i></span>
+                <button class="carousel-control-next"  data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <i class="fa-solid fa-angle-right"  aria-hidden="true"></i>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
