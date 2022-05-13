@@ -180,7 +180,7 @@ else {
     <div class="toggle" onclick="div_hide()"></div>
     <h2>Book An Appointment</h2>
     <div class="scroll">
-    <form  method="post" >
+    <form  method="post" id="bookForm">
       <input type="text" name="name" placeholder="Name" required>
       <input type="text" name="PhoneNumber" minlength="10" maxlength="10" placeholder="Phone Number" required>
       <select class="" name="branch">

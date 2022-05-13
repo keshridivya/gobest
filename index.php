@@ -1242,10 +1242,16 @@ function openCity(evt, cityName) {
 
 </script>
 
-
+<script>
+  $(document).ready(function(){
+    $('#bookForm').click(function(){
+      $('.phone-btn').css('display','none');
+      $('.chat-bot-launcher').css('display','none');
+    });
+  });
+</script>
 
 <script>
-/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
   initComparisons();
  </script>
 
