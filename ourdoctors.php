@@ -876,6 +876,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
             <div class="inner">   
               <img src="https://images.pexels.com/photos/1023756/pexels-photo-1023756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
             </div>
+            <div class="card-body">
+        <h5 class="card-title">Improved efficiency through automation</h5>
+        <p class="card-text">Improved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automationImproved efficiency through automation</p>
+        <a href="javascript:void(0)" class="hover-me">Read More ></a>
+      </div>
           </div> 
           <div class="face back"> 
             <div class="inner text-center"> 
