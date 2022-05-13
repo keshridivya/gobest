@@ -894,7 +894,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
           ?>
 
 
-<div class="flip-card">
+<!-- <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
@@ -905,7 +905,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       <p>We love that guy</p>
     </div>
   </div>
-</div>
+</div> -->
 			
   <div class="col-lg-3 flip-card"style="margin-top:20px;perspective: 1000px;">
   <div class="flip-card-inner">
