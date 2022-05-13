@@ -821,13 +821,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 <script>
 function flipCard() {
- document.getElementById("<?php echo $d['shortdesc']; ?>").setAttribute("style"," transform: rotateY(180deg);");
- document.getElementById("<?php echo $d['name']; ?>").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
+//  document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
 
 }
 function flipCardReturn() {
- document.getElementById("<?php echo $d['shortdesc']; ?>").setAttribute("style"," transform: rotateY(180deg);");
- document.getElementById("<?php echo $d['name']; ?>").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
 
 }
 </script>
@@ -902,8 +902,8 @@ function flipCardReturn() {
               foreach($data as $d){
           ?>
 			
-  <div class="col-lg-3 flip-card" id="<?php echo $d['name']; ?>" style="">
-    <div class="flip-card-inner" id="<?php echo $d['shortdesc']; ?>">
+  <div class="col-lg-3 flip-card" id="flip-card" style="">
+    <div class="flip-card-inner" id="flip-card-inner">
       <div class="flip-card-front" style="border-top-left-radius: 30px;">
          <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
