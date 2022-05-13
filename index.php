@@ -816,13 +816,13 @@ button:active {
                       </p>
                     </div>
                   </div>
-
+                  <a href="wp-content/themes/clove-child/images/Shekhar-M.png" download><img src="wp-content/themes/clove-child/images/Shekhar-M.png" class="d-block w-100" alt="..."></a>
                 </div>
-                <button class="carousel-control-prev" style="background:white !important" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="background:white !important;border:none!important" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <i class="fa fa-angle-left"   aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" style="background:white !important" bg-color="white" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" style="background:white !important;border:none!important" bg-color="white" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <i class="fa fa-angle-right"  aria-hidden="true"></i>
                   <span class="visually-hidden">Next</span>
                 </button>
