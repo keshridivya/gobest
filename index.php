@@ -100,7 +100,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 slider = document.createElement("img");
                 // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
                 slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","images/tooth-brush.png")
+                slider.setAttribute("src","images/double.png")
 
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
@@ -704,7 +704,7 @@ button:active {
 <!--section-->
 
 <!--review-->
-<section class="review ">
+<section class="review pt-5 pb-5" style="background-color: aliceblue;">
             <div class="container text-center">
                 <h5 style="color:#fe235b;">REVIEWS</h5>
                 <h2>What Patients Speak</h2>
@@ -718,7 +718,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Irfan M</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                         Dr. Mokashi's is very experienced doctor. They provide very best treatement at
                           affordable prices. You can feel relaxed after visiting the place. It is surely the
                           <strong>best dental clinic in pimpri chinchwad </strong> <i class="fa fa-quote-right"></i>
@@ -732,7 +732,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer" style="padding:5px;"><i> Karishma A</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                             Very friendly staff. Nice ambience of the clinic. I had gone to Dr Sana Mokashi for my teeth whitening. The results are pretty immaculate. I'm very happy with my treatment. I recommend this clinic as <strong>best dentist in nigdi pradhikaran</strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
@@ -744,7 +744,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i> Rafiq M</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                           Thanks a lot doctor for such a nice treatment to my daughter. The doctor was handling
                           very nicely to her. Even i visited for root canal of my father and that too done very
                           nicely at affordable cost. It is the <strong>best dental clinic in pune</strong>. <i
@@ -759,7 +759,7 @@ button:active {
                     </div>
                     <div class="carousel-caption  d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer">Rahul K</h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                           I went for wisdom tooth extraction of my mother and that happened very smoothly with
                           minimum pain and minimum cost too. Also Root canal and CAP were suggested for other
                           teeth as precaution. <strong>It can be sonsidered as best orthodontist in pune.</strong><i class="fa fa-quote-right"></i>
@@ -773,7 +773,7 @@ button:active {
                     </div>
                     <div class="carousel-caption  d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i> Samir S</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                             The doctor is so polite and yet knowledgeable.The clinic has good facilities and my root canal and capping were done so neatly with so less pain at affordable prices. It is surely the <strong>best dental clinic in pimpri chinchwad </strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
@@ -785,7 +785,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important"> 
                       <h3 class="blockquote-footer"><i> Shainaj M</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                       Visited two dentists for my tooth pain but both doctors made it worse but my friend suggested Dr Mokashi is genuine and affordable dentists. In few visits only my problem was resolved. She is suerly the <strong>best dentist in pimpri </strong>. <i
                       class="fa fa-quote-right"></i>
                       </p>
@@ -798,7 +798,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>  Shama M</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%"><i class="fa fa-quote-left"></i>
                       Great facilities in the clinic. Effective treatments and dental surgeries. And most importantly all the doctors are very friendly, cooperative and caring. They make Most painful dental problem look<strong> like small ones. </strong>. <i
                       class="fa fa-quote-right"></i>
                       </p>
@@ -811,7 +811,7 @@ button:active {
                     </div>
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Shekhar M</i></h3>
-                      <p><i class="fa fa-quote-left"></i>
+                      <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
                       I had severe pain on Sunday and called so many dentists in my area, nobody helped me but Dr Mokashi attended by appointment on my request. Explained treatment plan and<strong> overall good experience. </strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
@@ -819,11 +819,11 @@ button:active {
 
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <i class="fa-solid fa-angle-left"  aria-hidden="true"></i></span>
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next"  data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <i class="fa-solid fa-angle-right"  aria-hidden="true"></i>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
