@@ -799,10 +799,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
