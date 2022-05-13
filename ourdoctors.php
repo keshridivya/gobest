@@ -574,10 +574,6 @@ $( "#app_error4_r" ).show();
 
 }
 
-/*if(phone1=="8851672425" || phone1=="8178109008" || phone1=='08851672425' || phone1=='08178109008' || phone1=="+918851672425" || phone1=="+918178109008" || phone1=="8268868995"){
-		$( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "*The phone number mentioned has been blocked due to multiple unscrupulous requests generated. Kindly use a different phone number to register your request." ); error = error+2;
-}*/
-
 
 if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); return true; }
 });
@@ -859,6 +855,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       <div class="card-body">
         <h5 class="card-title"><?php echo $d['name']; ?></h5>
         <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
+        <a href="javascript:void(0)" class="hover-me">Read More ></a>
       </div>
     </div>
   </div>
@@ -868,10 +865,28 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		</div>
 	</div>
 
-<!--<div class="important_info_icon">
- <a href="https://clovedental.in/press-release-on-covid-19/"></a>
-<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
-<!--</div>-->
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-doctor-box flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/img/doctors/aparna.jpg" class="img-fluid" alt="best dental clinic in pune">
+                                    <div class="content">
+                                        <h3>Dr. Aparna C</h3>
+                                        <span>Chief Operating & Quality Officer</span>
+                                        <p>Dr. Aparna has done specialised courses and expertise in microscopic endodontistry... </p>
+                                        <a href="javascript:void(0)" class="hover-me">Read More ></a>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Dr.Aparna C is graduate in Dental surgery from well known Late Shri Yashwantrao Chavan Memorial and Rural Development Foundation's Dental College , Ahmednagar.</p>
+                                    <p>She holds experience in Aesthitic (Cosmetics), Endodontistry (Root Canal), Teeth extractions (normal and surgical)and prosthesis (Replacement of missing tooth), Splinting, Crown lengthening, Frenectomy, Post and Core, child dentistry.</p>
+                                    <p>She has done specialised courses and expertise in microscopic endodontistry, smile designing ,implants and surgery, awareness, recognition and management of sleep apnea and TMD/CMD for dental surgeon.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
 <style>
 .important_info_icon{
   width:50px;
