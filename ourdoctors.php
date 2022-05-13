@@ -894,19 +894,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
           ?>
 
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
-			
   <div class=" flip-card"style="margin-top:20px;perspective: 1000px;">
   <div class="flip-card-inner">
     <div class=" flip-card-front" style="border-top-left-radius: 30px;">
