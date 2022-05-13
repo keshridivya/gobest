@@ -783,7 +783,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </style>
 
 <script>
-
+function flipCard() {
+  alert("clicked");
+}
 </script>
 
 
