@@ -83,7 +83,6 @@
     }
   .sidebar-contact{
     width:100%;
-    height:60%;
     left:-100%;
   }
   .sidebar-contact .toggle{
