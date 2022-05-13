@@ -670,7 +670,78 @@
 }
 </style>
 
-<?php include("include/footer.php"); ?>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
+
+<?php include("include/footer.php") ?>
+
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 <script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
 <script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
 <!--<script src="https://clovedental.in/wp-content/themes/clove/js/owl.carousel.min.js" ></script>-->
