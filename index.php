@@ -1314,6 +1314,8 @@ function openCity(evt, cityName) {
 </script>
 
 <script>
+  if (window.matchMedia('(max-width: 1024px)').matches)
+{
   $(document).ready(function(){
     $('#bookForm').click(function(){
       $('.phone-btn').css('display','none');
@@ -1325,6 +1327,7 @@ function openCity(evt, cityName) {
       $('.chat-bot-launcher-container').css('display','block');
     });
   });
+}
 </script>
 
 <script>
