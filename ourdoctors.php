@@ -781,51 +781,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 }
 </style>
-
-
-<style>
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
-}
-</style>
-
-
  <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
@@ -892,53 +847,25 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>
-
-
-
-<div class="flip-card">
+			
+  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;">
   <div class="flip-card-inner">
-    <div class="card flip-card-front">
-    <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" alt="Avatar" style="width:300px;height:300px;">
-    <!-- <div class="card-body"> -->
-        <h5 class="card-title"><?php echo $d['name']; ?></h5>
-        <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-        <a href="javascript:void(0)" class="hover-me">Read More ></a>
-        <!-- </div> -->
-    </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
-    </div>
-  </div>
-</div>
-
-<!-- 
-  <div class="col-lg-3 flip-card"style="margin-top:20px; margin-bottom: 20px;">
-  <div class="flip-card-inner">
-    <div class="card  flip-card-front" style="border-top-left-radius: 30px;">
+    <div class="card h-100" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-     
-     <div class="card-body">
+      <div class="card-body">
         <h5 class="card-title"><?php echo $d['name']; ?></h5>
         <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
         <a href="javascript:void(0)" class="hover-me">Read More ></a>
-        </div>
+      </div>
     </div>
-    <div class="flip-card-back">
-      <h1>John Doe</h1> 
-      <p>Architect & Engineer</p> 
-      <p>We love that guy</p>
-    </div> -->
-    
-  <!-- </div>
-  </div> -->
+  </div>
+  </div>
   <?php } ?>	
-<!-- </div> -->
+</div>
 
-		<!-- </div>
-	</div> -->
+		</div>
+	</div>
 
 
  
@@ -994,77 +921,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border-right:10px solid #FFF;
 }
 </style>
-<style>
-  
-.phone-btn {
-    position: fixed;
-    z-index: 999;
-    background-color: #fe0600;
-    color: #fff;
-    padding: .6rem .9rem;
-    border-radius: 50%;
-    transition: .6s;
-    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
-    width: 3.5rem;
-    height: 3.5rem;
-    /* display: flex; */
-    align-items: center;
-}
 
-@-webkit-keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-@keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-.phone-btn:hover {
-    text-decoration: none;
-}
-
-.phone-btn i {
-    font-size: 2rem;
-    transition: .3s ease;
-}
-
-.phone-btn:hover {
-    color: #fff;
-    box-shadow: 0px 0px 16px 3px #fff;
-    transform: translateY(-10px);
-    transition: .6s;ooter
-}
-
-@media (max-width: 1024px) {
-  .phone-btn {
-        bottom: 1rem;
-        right: auto;
-        left: 15px;
-    }
-}
-
-</style>
-
-<?php include("include/footer.php") ?>
-
-    <!-- Call Us -->
-    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+<?php include("include/footer.php"); ?>
 
 <!--<script type="text/javascript">
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
