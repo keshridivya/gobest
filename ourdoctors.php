@@ -918,7 +918,7 @@ function flipCardReturn() {
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
        <!-- <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a> -->
-       <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
+       <!-- <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a> -->
 
 
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
