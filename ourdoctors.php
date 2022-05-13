@@ -1009,7 +1009,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     
     width: 3.5rem;
     height: 3.5rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
