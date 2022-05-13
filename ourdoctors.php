@@ -781,6 +781,14 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 }
 </style>
+
+<script>
+
+</script>
+
+
+
+
  <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
@@ -856,7 +864,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       <div class="card-body">
         <h5 class="card-title"><?php echo $d['name']; ?></h5>
         <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-        <a href="javascript:void(0)" class="hover-me">Read More ></a>
+        <a type="button" href="javascript:void(0)" onClick="flipCard()" class="hover-me">Read More ></a>
       </div>
     </div>
   </div>
