@@ -1313,8 +1313,12 @@ function openCity(evt, cityName) {
   $(document).ready(function(){
     $('#bookForm').click(function(){
       $('.phone-btn').css('display','none');
-      $('.chat-bot-launcher').css('display','none');
-      $(this).css('top','200px');
+      $('.chat-bot-launcher-container').css('display','none');
+      $(this).css('top','0');
+    });
+    $('.toggle').click(function(){
+      $('.phone-btn').css('display','block');
+      $('.chat-bot-launcher-container').css('display','block');
     });
   });
 </script>
