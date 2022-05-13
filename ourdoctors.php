@@ -899,11 +899,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   <div class="flip-card-inner">
     <div class="card flip-card-front">
     <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" alt="Avatar" style="width:300px;height:300px;">
-    <div class="card-body">
+    <!-- <div class="card-body"> -->
         <h5 class="card-title"><?php echo $d['name']; ?></h5>
         <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
         <a href="javascript:void(0)" class="hover-me">Read More ></a>
-        </div>
+        <!-- </div> -->
     </div>
     <div class="flip-card-back">
       <h1>John Doe</h1> 
