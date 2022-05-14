@@ -1,3 +1,12 @@
+<style>
+  @media (max-width: 1024px){
+h4 {
+    font-size: 1rem !important;
+}
+}
+</style>
+
+
 <div class="full-footer">
 		<div class="footer-top">	
 			</div>

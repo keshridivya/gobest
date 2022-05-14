@@ -1,5 +1,5 @@
- <?php
-$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+<?php
+$conn = new mysqli("151.106.124.51","u188140722_dentist","Admin@123","u188140722_dentist");
  $name='';
   $des='';
   $img='';
@@ -574,6 +574,10 @@ $( "#app_error4_r" ).show();
 
 }
 
+/*if(phone1=="8851672425" || phone1=="8178109008" || phone1=='08851672425' || phone1=='08178109008' || phone1=="+918851672425" || phone1=="+918178109008" || phone1=="8268868995"){
+		$( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "*The phone number mentioned has been blocked due to multiple unscrupulous requests generated. Kindly use a different phone number to register your request." ); error = error+2;
+}*/
+
 
 if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); return true; }
 });
@@ -764,7 +768,7 @@ form-group{
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Our Doctors</h1></div>
+</script><div class="banner" style=" margin-top: 8rem;"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Our Doctors</h1></div>
 </div><style>
 .contact-form .button-row{text-align:left}
 .helpline-center li{margin:0;padding:0;padding:10px 0;}
@@ -783,9 +787,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </style>
 <style>
   .flip-card {
-  background-color: transparent;
-  width: 500px;
-  height: 500px;
+  border-style: hidden;
+  /* background-color: transparent; */
+  width: 120px;
+  height: 470px;
   perspective: 1000px;
 }
 
@@ -796,14 +801,18 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
+  height: 470px;
   backface-visibility: hidden;
 }
 
@@ -814,27 +823,29 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 .flip-card-back {
   background-color: #fff;
-  color: white;
-  transform: rotateY(180deg) !important;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width:767px)
+{
+  .card-text{
+    font-size:16px !important;
+     line-height: 200% !important; 
+     font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+  }
+
+  .flip-card-front,
+.flip-card-back {
+  height: 650px;
+}
+.flip-card {
+  width: 120px;
+  height: 650px;
+}
 }
 </style>
-
-<script>
-function flipCard() {
- document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
- document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
-
-}
-function flipCardReturn() {
- document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
- document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
-
-}
-</script>
-
-
-
-
  <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
@@ -901,43 +912,41 @@ function flipCardReturn() {
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>
-			
-  <div class="col-lg-3 flip-card" id="flip-card" style="">
-    <div class="flip-card-inner" id="flip-card-inner">
-      <div class="flip-card-front" style="border-top-left-radius: 30px;">
-         <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
-          border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-        <div class="card-body">
-           <h5 class="card-title"><?php echo $d['name']; ?></h5>
-           <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-           <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
-        </div>
-      </div>
-      <div class="flip-card-back" style="border-top-left-radius: 30px;">
-         <img src="images/double.png" style="border-top-left-radius: 25px;
-           border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-       <div class="card-body">
-       <!-- <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a> -->
-       <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
+
+<!-- <div class="row"> -->
 
 
-           <h5 class="card-title"><?php echo $d['name']; ?></h5>
-           <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
+<!-- #str heroes -->
+<!-- #abaddon -->
 
-        </div>
-      </div>
+<div class="flip-card rounded pb-2 mb-5 col-lg-3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front mb-5" style="border-top-left-radius: 30px;">
+      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
+         border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+        <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
+        <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
     </div>
-   </div>
-    <?php } ?>	
+    <div class="flip-card-back p-1">
+      </br>
+      <p style="font-size:15px; line-height: 130%;" class="card-text" type="text"><?php echo $d['description']; ?></p>
+
+    </div>
   </div>
+</div>
+			
+
+  <?php } ?>	
+</div>
 
 		</div>
 	</div>
 
-
- 
+<!--<div class="important_info_icon">
+ <a href="https://clovedental.in/press-release-on-covid-19/"></a>
+<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
+<!--</div>-->
 <style>
-  
 .important_info_icon{
   width:50px;
   height:50px;
@@ -988,8 +997,77 @@ function flipCardReturn() {
   border-right:10px solid #FFF;
 }
 </style>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    align-items: center;
+}
 
-<?php include("include/footer.php"); ?>
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
+
+<?php include("include/footer.php") ?>
+
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 
 <!--<script type="text/javascript">
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
