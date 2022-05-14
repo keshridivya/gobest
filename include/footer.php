@@ -71,9 +71,10 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 </ul></div>					</div>
 					<div class="links-comman-box toggle-mbl">
 						<h4>Treatments</h4>
-						<div class="menu-join-clove-container"><ul id="menu-join-clove" class="menu"><li id="menu-item-7235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7235"><a href="Tooth-Extraction.php"> Tooth Extraction</a></li>
-						<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Crown-and-Bridges.php">Crown and Bridges </a></li>
-						<li id="menu-item-12104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Braces-Orthodontic Treatment.php" class="a">Braces- Orthodontic Treatment </a></li>
+						<div class="menu-join-clove-container"><ul id="menu-join-clove" class="menu">
+  <li id="menu-item-7235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7235"><a href="Tooth-Extraction.php" class="a"> Tooth Extraction</a></li>
+	<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Crown-and-Bridges.php" class="a">Crown and Bridges </a></li>
+	<li id="menu-item-12104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Braces-Orthodontic Treatment.php" class="a">Braces- Orthodontic Treatment </a></li>
 	<li id="menu-item-7271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Scaling-Polishing.php" class="a">Scaling/Polishing</a></li>
 	<li id="menu-item-7268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Children-Pediatric-Dentistry.php" class="a">Children/Pediatric dentistry</a></li>
 	<li id="menu-item-8191" class="menu-item menu-item-type-post_type menu-item-object-specialties menu-item-7236"><a href="Dental-Cavity-Fillings.php" class="a">Dental cavity and Fillings</a></li>
