@@ -821,8 +821,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 <script>
 function flipCard() {
- document.getElementByClassName("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
- document.getElementByClassName("flip-card").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card-inner").setAttribute("style"," transform: rotateY(180deg);");
+ document.getElementById("flip-card").setAttribute("style"," transform: rotateY(180deg);");
 
 }
 function flipCardReturn() {
@@ -877,7 +877,7 @@ function flipCardReturn() {
                             <div class="row">
                                 <div class="col-md-4 col-lg-4 col-sm-12"  class="imgclass" >
                                     <img src="adm/pages/forms/image/<?php echo $img ?>" style="border-top-left-radius: 30px;
-                                                 border-bottom-right-radius: 30px;" alt="dentist in pimpri chinchwad">
+    border-bottom-right-radius: 30px;" alt="dentist in pimpri chinchwad">
                                 </div>
                                 <div class="col-md-8 col-lg-8 col-sm-12">
                                     <h2><span style="color:#7a0e77;font-size: 2rem;margin-bottom:15px;">Dr. Sana Mokashi</span> <small>Founder and CEO, GoBest Dentist.</small></h2>
@@ -918,7 +918,7 @@ function flipCardReturn() {
            border-bottom-right-radius: 25px;" class="" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
        <div class="card-body">
        <!-- <a type="button" href="javascript:void(0)" onClick="flipCardReturn()" >Read less ></a> -->
-       <!-- <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a> -->
+       <a type="button" href="javascript:void(0)" onClick="flipCard()" >Read More ></a>
 
 
            <h5 class="card-title"><?php echo $d['name']; ?></h5>
@@ -930,6 +930,9 @@ function flipCardReturn() {
    </div>
     <?php } ?>	
   </div>
+
+		</div>
+	</div>
 
 
  
