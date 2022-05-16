@@ -68,6 +68,8 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 <!-- <li id="menu-item-9991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9991"><a href="leasing/index.html">Leasing</a></li> -->
 <!-- <li id="menu-item-10785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10785"><a href="journal/index.html">Clove&#8217;s Scientific Journal</a></li> -->
 <li id="menu-item-13135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13135"><a href="refund_policy.php">Refund &#038; Re-treatment Policy</a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="paymentcopy.php">Online Payment </a></li>
+
 </ul></div>					</div>
 					<div class="links-comman-box toggle-mbl">
 						<h4>Treatments</h4>
@@ -114,7 +116,6 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 <li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in Pimpri  </a></li>
 <li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in chinchwad  </a></li>
 <li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pune  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="paymentcopy.php">Online Payment </a></li>
 
 
 

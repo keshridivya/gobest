@@ -33432,8 +33432,9 @@ color:#b1afaf;
                                                             color: #ceb3a0;
                                                         }
                                                         .full-footer .full-footer-in .links-box .links-comman-box ul li a {
-                                                            background: url(images/teeth-icon-2.png) left top no-repeat;
+                                                            background: url(images\teeth-icon-3.png) left top no-repeat;
                                                             padding-left: 20px;
+                                                            /* background-size: 13px; */
                                                             background-position: 0 3px;
                                                         }
                                                         .full-footer .full-footer-in .links-box .links-comman-box ul li span {
