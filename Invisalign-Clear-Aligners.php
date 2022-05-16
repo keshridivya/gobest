@@ -841,6 +841,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 <div class="row">
 
+<?php include("include/treatments.php") ?>
+
     <!-- <div class="col-lg-5">
 
         <div class="root-img py-3">

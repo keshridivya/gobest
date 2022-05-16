@@ -805,6 +805,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 			</ul>
 		</div> 
 	</div>
+  
 
 <!--
 	<div class="bg-grey">
@@ -817,6 +818,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <section class="blog-area ptb-100">
 <div class="container">
 <div class="row" style="margin-top:25%" >
+<?php include("include/treatments.php") ?>
 <div class="col-lg-3 col-md-6">
 <div class="single-blog-post">
 <div class="post-image">

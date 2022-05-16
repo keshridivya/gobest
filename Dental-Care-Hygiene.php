@@ -838,6 +838,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 -->	 <section class="root">
 <div class="container">
                 <div class="row">
+                <?php include("include/treatments.php") ?>
+
                     <!-- <div class="col-lg-5">
                         <div class="root-img py-3">
                             <img src="image/root-canal.jpg" alt="Root Canal">
