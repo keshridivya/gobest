@@ -3,7 +3,11 @@
 h4 {
     font-size: 1rem !important;
 }
+.menu-item .a {
+    font-size: 15px !important;
 }
+}
+
 </style>
 
 
@@ -18,7 +22,7 @@ h4 {
 						<h4>CALL US </h4>
 						<div class="call-t">
 <ul>
-<li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+9172648 89986" style="color:style="color: #ffffff;";font-family:sans-sarif;font-size: initial;">72648 89986</a></li>
+<li><a href="tel:+9172648 89986" style="color: #ffffff;font-family:sans-sarif;font-size: initial;"><i class="fa fa-phone" aria-hidden="true"></i> 72648 89986</a></li>
 </ul>
 						</div>
 					</div>
@@ -51,7 +55,7 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 						<h4>MENU</h4>
 						<div class="menu-about-container"><ul id="menu-about" class="menu">
 <li id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-632"><a href="index.php">Home</a></li>
-<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="about-us.php">About US</a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="about-us.php">About Us</a></li>
 <li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634"><a href="testimonials.php"> Reviews</a></li>
 <li id="menu-item-3017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3017"><a href="careers.php">  Careers</a></li>
 
@@ -62,11 +66,11 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 						<div class="menu-usefull-links-container"><ul id="menu-usefull-links" class="menu"><li id="menu-item-8156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8156"><a href="blog.php">Blogs</a></li>
 <!-- <li id="menu-item-15253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15253"><a href="news-media/index.html">News &#038; Media</a></li> -->
 <!-- <li id="menu-item-8157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8157"><a href="dental-education-videos/index.html">Dental Education Videos</a></li> -->
-<li id="menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6779"><a href="privacy_policy.php">Privacy Policy</a></li>
 <!-- <li id="menu-item-6559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6559"><a href="coupon-policy/index.html">Coupon Policy</a></li> -->
-<li id="menu-item-7288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7288"><a href="">Book An Appointment</a></li>
 <!-- <li id="menu-item-9991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9991"><a href="leasing/index.html">Leasing</a></li> -->
 <!-- <li id="menu-item-10785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10785"><a href="journal/index.html">Clove&#8217;s Scientific Journal</a></li> -->
+<li id="menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6779"><a href="privacy_policy.php">Privacy Policy</a></li>
+<li id="menu-item-7288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7288"><a class="toggle1 display">Book An Appointment</a></li>
 <li id="menu-item-13135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13135"><a href="refund_policy.php">Refund &#038; Re-treatment Policy</a></li>
 <li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="paymentcopy.php">Online Payment </a></li>
 

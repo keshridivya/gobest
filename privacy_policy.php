@@ -22,6 +22,46 @@
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
 
+ <!-- Font awesome  -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+       
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+      <!-- animated css  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- validation -->
+    <link rel="stylesheet" href="css/validation/validation.css">
+
+    <link async rel="stylesheet" href="css/twentytwenty.min.css" defer>
+    <!-- Main css -->
+   <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="css/common.css">
+
+<style>
+  h1,h2,h3,h4,h5,h6{
+      font-family: Anton, sans-serif;
+
+    }
+    p {
+      font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+    }
+    .nav-bar li{
+      font-family: 'Open Sans', sans-serif;
+    }
+</style>
 
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
@@ -75,7 +115,7 @@ jQuery(window).scroll(function() {
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Privacy_policy - Clove Dental" />
+<meta property="og:title" content="Contact Us - Clove Dental" />
 <meta property="og:description" content="Reach out to the Clove Dental Helpline or book an appointment online at Clove Dental here to put all your oral worries away." />
 <meta property="og:url" content="https://clovedental.in/contact-us/" />
 <meta property="og:site_name" content="Clove Dental" />
@@ -517,7 +557,7 @@ if ( phone1 == "" ) { $( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "P
 
 $.ajax({
 		url : 'https://clovedental.in/blocknumber/chkblock.php',
-		type : 'POST',c
+		type : 'POST',
 		cache : false,
 		async : false,
 		data :{phone1:phone1},
@@ -542,8 +582,15 @@ $( "#app_error4_r" ).show();
 
 }
 
+/*if(phone1=="8851672425" || phone1=="8178109008" || phone1=='08851672425' || phone1=='08178109008' || phone1=="+918851672425" || phone1=="+918178109008" || phone1=="8268868995"){
+		$( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "*The phone number mentioned has been blocked due to multiple unscrupulous requests generated. Kindly use a different phone number to register your request." ); error = error+2;
+}*/
+
+
 if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); return true; }
 });
+
+
 
 
 
@@ -579,66 +626,6 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
   fbq('track', 'Lead');
   /*End Facebook Pixel Code*/
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-958029923');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-58837352-1');
-</script>
-
-
- 
- <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5JX6KNP');</script>
-<!-- End Google Tag Manager -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2005823,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script> 
-
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    
-      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
-       
-    <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-    <!-- OWL Carousel -->
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
-    
-      <!-- animated css  -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- validation -->
-    <link rel="stylesheet" href="../css/validation/validation.css">
-
-    <link async rel="stylesheet" href="../css/twentytwenty.min.css" defer>
-    <!-- Main css -->
-    <link rel="stylesheet" href="../css/style-new.css">
-    <link rel="stylesheet" href="../css/common.css">
 <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 <script>
@@ -715,6 +702,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	.number-mbl .click-form span {
     display: block;
 }
+@media(max-width:1024px){
+    h3{
+        width:100% !important;
+        font-size:1rem !important;
+    }
+    .content_fullco img.img_placed{
+     width:100% !important; 
+     margin-bottom:18px !important;
+    }
+}
 .dropdown_patient_safety > li a {
     font-size: 14px;
     line-height: 15px;
@@ -777,30 +774,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 }
 .form-overlay.in, .form-overlay.in .request-formbox {display:block!important;}
 .error-c{display: inline-block;}
-
-.mr{
-	margin-left:38%;
-}
-@media (max-width:1024px){
-	.mr{
-		margin-left:0;
-	}
-}
-
-.text-margin{
-	margin-left:2.6%
-}
-@media (max-width:1024px){
-	.text-margin{
-		margin-left:7.8%;
-	}
-}
 </style>
 <script>
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Privacy Policy</h1></div>
+</script><div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h4 style="line-height:5rem">Privacy Policy</h4></div>
 </div><style>
 .contact-form .button-row{text-align:left}
 .helpline-center li{margin:0;padding:0;padding:10px 0;}
@@ -1011,23 +990,79 @@ iv. Analyzing software usage patterns for improving product design and utility.<
 		padding:2%;
 	}
 </style>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
 
 <?php include("include/footer.php") ?>
 
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-<script>
-$zoho.salesiq.ready=function(){
-{
-$zoho.salesiq.customfield.add(
-{
-"name":"Enter your city",
-"hint":"Enter your city",
-"required":"false",
-"visibility":"both",
-});
-}
-}
-</script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>

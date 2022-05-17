@@ -790,7 +790,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border-style: hidden;
   /* background-color: transparent; */
   width: 120px;
-  height: 470px;
+  height: 500px;
   perspective: 1000px;
 }
 
@@ -812,7 +812,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 470px;
+  height: 500px;
   backface-visibility: hidden;
 }
 
@@ -926,6 +926,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
          border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
         <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
+        <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
+        <a href="">Read More</a>
+        <!-- onMouseOver="this.style.color='#0F0'" -->
     </div>
     <div class="flip-card-back p-1">
       </br>
