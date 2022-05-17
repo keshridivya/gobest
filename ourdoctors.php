@@ -838,11 +838,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
   .flip-card-front,
 .flip-card-back {
-  height: 650px;
+  height: 670px;
 }
 .flip-card {
   width: 120px;
-  height: 650px;
+  height: 670px;
 }
 }
 </style>
