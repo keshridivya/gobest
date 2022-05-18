@@ -193,9 +193,9 @@ else {
                         
     <?php
     date_default_timezone_set('Asia/Calcutta'); 
-    $date=date("h:i");
+    $date=date("h");
     echo"<script>alert('$date');</script>";
-    if($date>=13 && $date<=20){ ?>
+    if($date>13 && $date<20){ ?>
       <input type="submit" name="submit" value="Make Your Appointment" required  disabled="disabled">
     <?php }else{ ?>
       <input type="submit" name="submit" value="Make Your Appointment" required >
