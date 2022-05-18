@@ -191,7 +191,7 @@ else {
       <textarea name="comments" placeholder="Message here.." required></textarea>
       <input name="date" style="text-align:center" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y h:i"); ?>" style="padding-left: 73px;" required>
                         
-    <?php if(date(13)<=10 && 13>=20){ ?>
+    <?php if(date("H")<=13 && date("H")>=20){ ?>
       <input type="submit" name="submit" value="Make Your Appointment" required  disabled>
     <?php }else{ ?>
       <input type="submit" name="submit" value="Make Your Appointment" required >
