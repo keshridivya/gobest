@@ -193,13 +193,14 @@ else {
                         
     <?php
     date_default_timezone_set('Asia/Calcutta'); 
-    $date=date("h");
-    echo"<script>alert('$date');</script>";
-    if($date<13 && $date>20){ ?>
-      <input type="submit" name="submit" value="Make Appointment" required  disabled>
-    <?php }else{ ?>
-      <input type="submit" name="submit" value="Make Your Appointment" required >
-      <?php } ?>
+    $currentTime=time();
+    if(((int)date('H',$currentTime))<=12){
+      echo "<script>alert('mrongf')</script>";
+    }
+    else{
+      echo "<script>alert('good')</script>";
+    }
+    ?>
     </form>
   
     </div>
