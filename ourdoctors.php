@@ -829,7 +829,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 @media only screen and (max-width:767px)
 {
-  .card-text{
+  .card-text,
+  .readMore{
     font-size:16px !important;
      line-height: 200% !important; 
      font-family: 'Lora', sans-serif;
@@ -844,6 +845,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   width: 120px;
   height: 670px;
 }
+}
+.readMore:hover{
+  text-decoration:underline;
 }
 </style>
  <script type="application/ld+json">
@@ -927,8 +931,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
         <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
-        <a onMouseOver="this.style.color='#00F'"
-        onMouseOut="this.style.color='black'">Read More</a>
+        <p class="card-text readMore m-2" style="color:blue;">Read More</p>
         <!-- onMouseOver="this.style.color='#0F0'" -->
     </div>
     <div class="flip-card-back p-1">
