@@ -1416,7 +1416,6 @@ html {
           <option value="Baner Branch">Baner Branch</option>
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
         </select>
-          <!--									<label for="form_email" class="lbl_contact">Email *</label>-->
           
         </div>
       </div>
