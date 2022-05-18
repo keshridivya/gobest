@@ -893,7 +893,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border-right:10px solid #FFF;
 }
 </style>
-
 <style>
   
 .phone-btn {
@@ -909,7 +908,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     
     width: 3.5rem;
     height: 3.5rem;
-    display: flex;
     align-items: center;
 }
 
