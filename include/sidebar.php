@@ -194,7 +194,7 @@ else {
     <?php
     date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if(((int)date('H',$currentTime))>=13){?>
+    if(((int)date('H',$currentTime))<=13){?>
       <input type="submit" name="submit" value="Make Appointment" required  disabled>
     <?php }
     else{ ?>
