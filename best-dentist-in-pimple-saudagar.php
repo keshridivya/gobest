@@ -1430,7 +1430,6 @@ html {
       <div class="col-sm-12">
         <div class="form-group">
   
-          <!--									<label for="form_message" class="lbl_contact">Message *</label>-->
   
           <textarea id="form_message" name="message" class="form-control" placeholder="Your Message"></textarea>
         </div>
