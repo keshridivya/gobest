@@ -839,6 +839,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <section class="root">
             <div class="container">
                 <div class="row">
+                <?php include("include/treatments.php") ?>
                    
                     <div class="col-lg-12">
                         <div class="root-info py-3">

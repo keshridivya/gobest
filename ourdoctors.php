@@ -1,5 +1,5 @@
- <?php
-$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+<?php
+$conn = new mysqli("151.106.124.51","u188140722_dentist","Admin@123","u188140722_dentist");
  $name='';
   $des='';
   $img='';
@@ -574,6 +574,10 @@ $( "#app_error4_r" ).show();
 
 }
 
+/*if(phone1=="8851672425" || phone1=="8178109008" || phone1=='08851672425' || phone1=='08178109008' || phone1=="+918851672425" || phone1=="+918178109008" || phone1=="8268868995"){
+		$( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "*The phone number mentioned has been blocked due to multiple unscrupulous requests generated. Kindly use a different phone number to register your request." ); error = error+2;
+}*/
+
 
 if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); return true; }
 });
@@ -764,7 +768,7 @@ form-group{
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Our Doctors</h1></div>
+</script><div class="banner" style=" margin-top: 8rem;"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Our Doctors</h1></div>
 </div><style>
 .contact-form .button-row{text-align:left}
 .helpline-center li{margin:0;padding:0;padding:10px 0;}
@@ -779,6 +783,71 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     text-align:left;
 } 
 
+}
+</style>
+<style>
+  .flip-card {
+  border-style: hidden;
+  /* background-color: transparent; */
+  width: 120px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #fff;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width:767px)
+{
+  .card-text,
+  .readMore{
+    font-size:16px !important;
+     line-height: 200% !important; 
+     font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+  }
+
+  .flip-card-front,
+.flip-card-back {
+  height: 670px;
+}
+.flip-card {
+  width: 120px;
+  height: 670px;
+}
+}
+.readMore:hover{
+  text-decoration:underline;
 }
 </style>
  <script type="application/ld+json">
@@ -847,30 +916,44 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>
-			
-  <div class="col-lg-3"style="margin-top:20px;perspective: 1000px;">
+
+<!-- <div class="row"> -->
+
+
+<!-- #str heroes -->
+<!-- #abaddon -->
+
+<div class="flip-card rounded pb-2 mb-5 col-lg-3">
   <div class="flip-card-inner">
-    <div class="card h-100" style="border-top-left-radius: 30px;">
+    <div class="flip-card-front mb-5" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
-      <div class="card-body">
-        <h5 class="card-title"><?php echo $d['name']; ?></h5>
-        <p class="card-text"><?php echo $d['shortdesc']; ?>.</p>
-        <a href="javascript:void(0)" class="hover-me">Read More ></a>
-      </div>
+         border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+        <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
+        <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
+        <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
+        <p class="card-text readMore m-2" style="color:blue;">Read More</p>
+        <!-- onMouseOver="this.style.color='#0F0'" -->
+    </div>
+    <div class="flip-card-back p-1">
+      </br>
+      <p style="font-size:15px; line-height: 130%;" class="card-text" type="text"><?php echo $d['description']; ?></p>
+
     </div>
   </div>
-  </div>
+</div>
+			
+
   <?php } ?>	
 </div>
 
 		</div>
 	</div>
 
-
- 
+<!--<div class="important_info_icon">
+ <a href="https://clovedental.in/press-release-on-covid-19/"></a>
+<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
+<!--</div>-->
 <style>
-  
 .important_info_icon{
   width:50px;
   height:50px;
@@ -936,7 +1019,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     
     width: 3.5rem;
     height: 3.5rem;
-    display: flex;
     align-items: center;
 }
 
@@ -975,7 +1057,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     color: #fff;
     box-shadow: 0px 0px 16px 3px #fff;
     transform: translateY(-10px);
-    transition: .6s;ooter
+    transition: .6s;
 }
 
 @media (max-width: 1024px) {
@@ -992,6 +1074,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 
 <!--<script type="text/javascript">
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");

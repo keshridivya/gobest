@@ -101,7 +101,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 slider = document.createElement("img");
                 // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
                 slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","images/double.png")
+                slider.setAttribute("src","images/black-arrow.png")
 
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
@@ -721,7 +721,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Irfan M</i></h3>
                       <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
-                        Dr. Mokashi's is very experienced doctor. They provide very best treatement at
+                        Doctor of GoBest Dentist is very experienced. They provide very best treatement at
                           affordable prices. You can feel relaxed after visiting the place. It is surely the
                           <strong>best dental clinic in pimpri chinchwad </strong> <i class="fa fa-quote-right"></i>
                       </p>
@@ -735,7 +735,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer" style="padding:5px;"><i> Karishma A</i></h3>
                       <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
-                            Very friendly staff. Nice ambience of the clinic. I had gone to Dr Sana Mokashi for my teeth whitening. The results are pretty immaculate. I'm very happy with my treatment. I recommend this clinic as <strong>best dentist in nigdi pradhikaran</strong>. <i class="fa fa-quote-right"></i>
+                            Very friendly staff. Nice ambience of the clinic. I had gone to GoBest Dentist for my teeth whitening. The results are pretty immaculate. I'm very happy with my treatment. I recommend this clinic as <strong>best dentist in nigdi pradhikaran</strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
                   </div>
@@ -788,7 +788,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important"> 
                       <h3 class="blockquote-footer"><i> Shainaj M</i></h3>
                       <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
-                      Visited two dentists for my tooth pain but both doctors made it worse but my friend suggested Dr Mokashi is genuine and affordable dentists. In few visits only my problem was resolved. She is suerly the <strong>best dentist in pimpri </strong>. <i
+                      Visited two dentists for my tooth pain but both doctors made it worse but my friend suggested GoBest Dentist is genuine and affordable dentist. In few visits only my problem was resolved. GoBest Dentist is suerly the <strong>best dentist in pimpri </strong>. <i
                       class="fa fa-quote-right"></i>
                       </p>
                     </div>
@@ -814,7 +814,7 @@ button:active {
                     <div class="carousel-caption d-md-block" style="position:absolute;bottom:0rem !important">
                       <h3 class="blockquote-footer"><i>Shekhar M</i></h3>
                       <p style="line-height:100%;"><i class="fa fa-quote-left"></i>
-                      I had severe pain on Sunday and called so many dentists in my area, nobody helped me but Dr Mokashi attended by appointment on my request. Explained treatment plan and<strong> overall good experience. </strong>. <i class="fa fa-quote-right"></i>
+                      I had severe pain on Sunday and called so many dentists in my area, nobody helped me but GoBest Dentist attended by appointment on my request. Explained treatment plan and<strong> overall good experience. </strong>. <i class="fa fa-quote-right"></i>
                       </p>
                     </div>
                   </div>

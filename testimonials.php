@@ -1080,11 +1080,11 @@ position: absolute;
                 <div class="row mt-3">
                     <div class="col-lg-4">
                         <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
                                     <img src="images/google.png">
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="p-2 bd-highligh">
                                     <h5>Google Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1092,7 +1092,9 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
                                 </div>
                             </div>
@@ -1100,11 +1102,11 @@ position: absolute;
                     </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
                                     <img src="images/jd.png">
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="p-2 bd-highligh">
                                     <h5>Just Dial Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1112,7 +1114,9 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
                                 </div>
                             </div>
@@ -1120,11 +1124,12 @@ position: absolute;
                     </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
                                     <img src="images/practo.png">
                                 </div>
-                                <div class="col-lg-9">
+                            
+                                <div class="p-2 bd-highligh">
                                     <h5>Practo Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1132,10 +1137,12 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
                                 </div>
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>

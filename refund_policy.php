@@ -10,8 +10,8 @@
 	<meta charset="UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-	<link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.ico" type="image/x-icon">
-	<title>Dental-Cavity-Filling - Gobest Dentist	</title>
+<link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
+	<title>Refund & Re-Treatment Policy - Gobest Dentist	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<link rel="pingback" href="xmlrpc.php">
@@ -22,6 +22,46 @@
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
 
+ <!-- Font awesome  -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+       
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+      <!-- animated css  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- validation -->
+    <link rel="stylesheet" href="css/validation/validation.css">
+
+    <link async rel="stylesheet" href="css/twentytwenty.min.css" defer>
+    <!-- Main css -->
+   <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="css/common.css">
+
+<style>
+  h1,h2,h3,h4,h5,h6{
+      font-family: Anton, sans-serif;
+
+    }
+    p {
+      font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+    }
+    .nav-bar li{
+      font-family: 'Open Sans', sans-serif;
+    }
+</style>
 
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
@@ -554,6 +594,7 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
 
 
 
+
 	if ($(window).width() < 767) {
 		$(".toggle-mbl h4").click(function(){
 		$(this).parent().siblings().find('div').slideUp("slow");
@@ -661,6 +702,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	.number-mbl .click-form span {
     display: block;
 }
+@media(max-width:1024px){
+    h3{
+        width:100% !important;
+        font-size:1rem !important;
+    }
+    .content_fullco img.img_placed{
+     width:100% !important; 
+     margin-bottom:18px !important;
+    }
+}
 .dropdown_patient_safety > li a {
     font-size: 14px;
     line-height: 15px;
@@ -721,35 +772,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     margin: 0 10px;
     padding: 4px 10px 0px 10px;
 }
-h3{
-  width: 100% !important;
-    padding: 10px !important;
-    padding-left:0 !important;
-    background-color: white !important;
-    box-shadow: 0px 0px 8px #fff !important;
-    border-radius: 10px!important;
-    font-size:18px !important;
-    color:#130947 !important;
-}
-p{
-  color: #6d7a8c !important;
-    line-height: 1.8 !important;
-    margin-bottom: 6px !important;
-    font-size: 16.5px !important;
-}
-.single-blog-post {
-    margin-bottom: 30px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
-    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 11%);
-}
-.single-blog-post .post-content {
-    padding: 20px;
-}
-.ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 .form-overlay.in, .form-overlay.in .request-formbox {display:block!important;}
 .error-c{display: inline-block;}
 </style>
@@ -757,7 +779,7 @@ p{
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div class="banner" style=" margin-top: 8rem;" > <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h1>Treatments</h1></div>
+</script><div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h4 style="line-height:5rem">REFUND & RE-TREATMENT POLICY</h4></div>
 </div><style>
 .contact-form .button-row{text-align:left}
 .helpline-center li{margin:0;padding:0;padding:10px 0;}
@@ -797,697 +819,112 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   ]
 }
 </script>
+  	
+
+
   	<div class="breadcrumb">
 		<div class="box">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li>Treatments</li>
+				<li><a href="index.php">Home</a></li>
+				<li>Refund & Re-Treatment Policy</li>
 			</ul>
 		</div> 
 	</div>
-  
 
-<!--
-	<div class="bg-grey">
-		<div class="box">
-			
-			
-		</div>
-	</div>
--->
-<section class="blog-area ptb-100">
-<div class="container">
+<div class="containear">
+<div class="box">
+<div class="refund privacy_policy">
+    <h2>Policy on Refunds & Re-treatment</h2>
+<h4>REFUND POLICY</h4>
+<p>Refunds will be available when there is a wrong payment or swiping of card into GoBest account. Refunds are also available when there is a change in patient’s general medical condition like Cardiac, Pulmonary or Endocrinal etc, rendering the patient unsuitable for said treatment.</p>
+<p>Dental treatment outcome (much like all medical) depends on many factors including condition and progress of under-lying disease, patient’s biology, pre-and post-treatment care and patient’s compliance. If GoBest Dental management, subject to review by the GoBest Dental Quality Processes, determines that treatment outcome could have been better, they under sole discretion may approve refunds</p>
+<h6>Refunds (2 Modes):</h6> <p> Credit to patient’s Bank (takes 15-30 days) or patient may choose GoBest Credit Cover’. <br>
+GoBest Credit Cover: It is quicker & they can use their money for any alternate treatment for self or for anyone else:</p>
+<p> <strong>1.</strong> What is it: Refund will be credited in patient’s GoBest Account, which may be used for any treatment within one year for the patient or anyone known to patient and may transfer same to anyone by an e-mail to GoBest.</p>
+<p> <strong>2.</strong> GoBest Credit Advantages: ‘No deductions will be done for Consultations, x-rays, diagnosis & treatment planning except for treatment carried out like scaling, extraction, lab work etc.</p>
+
+<h6>Refund Process</h6><p>(Time required for the process to complete 15-30 days)</p>
+<p><strong>1.</strong> Refund process will start once written request is received from patient with reasons. Request should have been initiated within 6 months.</p>
+<p><strong>2.</strong>For Refund: Patient will submit documents, receipts, x-rays. Patient will also return GoBest delivered dentures, crowns, aligners, failed implants, ortho appliances if any, to the treating clinic for which refund is asked. No refund will be eligible if there is a loss of prosthesis or failure to return the implant.</p>
+<p><strong>3.</strong>GoBest Quality Team will review refund request based on all facts & patient-provided records pertaining to the underlying condition and reserves full and complete right to approve the above.</p>
+<p><strong>4.</strong>Consultations, x-rays, diagnosis & treatment planning, membership plans are not eligible for refund; these will be deducted. Lab charges for prosthesis, aligners, crowns, dentures etc. will also be deducted.</p>
+
+<h6>Refund Claims will not be eligible:</h6>
+<p><strong>1.</strong>Treatment has started / part completed / prosthesis fitted or the implant, brackets or crowns have been ordered</p>
+<p><strong>2.</strong>Patient does not report for treatment for long time and condition deteriorates or the fit has changed; like in cases of dentures, crowns, aligners etc.</p>
+<p><strong>3.</strong>6 months have passed since the treatment is over or the patient gets treatment done at any clinic outside GoBest.</p>
+<p><strong>4.</strong>Patient did not comply with instructions or failed to report for further treatment like in implants or wear retention plates in Orthodontic treatment as advised.</p>
+<p><strong>5.</strong>Aligners: If impressions or scan has been done and the aligners have been ordered.</p>
+<p><strong>6.</strong>If the Aligner / crown / denture has not been collected by the patient and the ‘fit has changed’, due to shifting of teeth, requiring new measurements.</p>
+<p><strong>7.</strong>If the treatment is booked under ‘zero interest’ finance schemes.</p>
+
+<p><h6>Warranty treatments:</h6>
+<p><strong>1.</strong>Crowns/ bridges under warranty by Lab: Warranty is limited to free replacement of prosthesis (crown, bridge) during warranty if it cracks, chips or comes out. Crown will have to be returned to avail warranty.</p>
+<p><strong>2.</strong>Wherever, the crown or prosthesis is lost, cost of remaking will be charged.</p>
+<p><strong>3.</strong>Warranty is for the crown only and not for tooth. Pain in tooth does not qualify for refunds towards the Crown.</p>
+<p><strong>4.</strong>The warranty does not cover tooth fracture, tooth disease or toothache.</p>
+
+<h6>Compulsory Deductions for Aligners/Orthodontic/Implant/Other Treatment:</h6>
+
 <div class="row">
-
-<?php include("include/treatments.php") ?>
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service1.jpg" alt="best dentist in pimpri chinchwad"></a>
+<table class="table table-bordered col-6">
+  <tbody>
+    <tr>
+        <th>1</th>
+        <td>Cancellation of Aligners work</td>
+        <td>– Rs 10,000</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>Cancellation of Implant / Orthodontic treatment</td>
+        <td>	– Rs 5,000</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>For any other Treatment</td>
+        <td>	– Rs 3,000</td>
+    </tr>
+</tbody>
+</table>
 </div>
-<div class="post-content">
-<h3>Tooth Extraction</h3>
-<p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Tooth-Extraction.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service3.jpg" alt="top dentist in pune"></a>
-</div>
-<div class="post-content">
-<h3>Dental Care</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an</p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal2" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-Care-Hygiene.php">Read more</a>
-</div>
-</div>
-</div>
+<h2>RE-TREATMENT POLICY (Re-treatments)</h2>
+<p>‘GoBest Dental’ always aims to ensure best clinical practices by highly qualified and trained doctors in its clinics. However, if the prognosis/outcome of any treatment is not on the desired lines, due to various limitations.</p>
 
 
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service4.jpg" alt="good dentist in pune"></a>
-</div>
-<div class="post-content">
-<h3>Teeth Whitening</h3>
-<p>The process of tooth whitening lightens the colour of a tooth. </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal3" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Teeth-Whitening.php">Read more</a>
-</div>
-</div>
-</div>
+<p><h4>Re-treatment will be undertaken on priority by GoBest Dental in case:</h4> (limited to 6 months unless otherwise specified)</p>
+<p><strong>1.</strong>There is Loss of filling, breakage of appliance or cementation failure.</p>
+<p><strong>2.</strong> When treatment outcome is not as per patient’s satisfaction – Patient should have been regular in appointments and post-operative check-ups and followed instructions and not done anything contrary to instructions. However, if the patient has not complied with appointments and/or instructions as specified by the dental surgeon during the treatment, leading to a situation resulting in need of additional procedure to rectify the presented situation, difference in costs will be paid for by the patient. If the cost of re-treatment is higher than previously paid, differential amount will be paid by the patient.</p>
+<p><strong>3.</strong>In case of failed treatment: Re-treatment or alternate treatment at any GoBest Clinic within 6 months will be undertaken.</p>
+<p><strong>4.</strong>Patient should not have got any treatment done from a clinic other than GoBest Dental clinic to qualify for the re-treatment.</p>
+
+<h4>Orthodontic Patient’ will qualify for Re-treatment: Within 1 yr of completion of treatment if:</h4>
+<p><strong>1.</strong>Patient has complied with the timely appointments and review visits, reported immediately on breakages of brackets/appliances, worn the retainers and/or aligners as advised and not delayed the visits to dentists. Failure to do so causes relapse or prolong the treatment, which is not covered under re-treatment.</p>
+<p><strong>2.</strong>Will not Qualify: If the patient stops coming (for 4 months at a stretch) after the treatment has started, the company will be at liberty to cancel the treatment.</p>
+
+<h4>Implant Patient’ will qualify for Re-treatment:</h4><p> Within 1 yr of completion of treatment if:</p>
+<p><strong>1.</strong>Patient has come for balance treatment in time, both for Implant surgery or for fixing crowns or teeth etc.</p>
+<p><strong>2.</strong>Patient must have followed post-operative instructions, maintained normal blood parameters specially Serum Calcium & Vit D & abstained from smoking.</p>
+<p><strong>3.</strong>Diabetic or hypertension patients should have come for timely post-operative check-ups every month till prosthesis is fitted and then every alternate month for one year.</p>
+<p><strong>4.</strong> Will not Qualify: If the patient has delayed coming to get the balance treatment done (implant surgery/fixing teeth), re-treatment will not be eligible. Additional costs will be applicable as per procedure.</p>
+
+<h4>Patient Relocates to Other City/Country</h4>
+<p><strong>1.</strong>Treatment will be continued, or the Re-Treatment will be undertaken at any GoBest Clinic across the country after consultation by GoBest Doctor, subject to approval by the Management on case to case basis.</p>
+<p><strong>2.</strong>For Ortho & Implant Patients – If GoBest Clinic has ‘No In-house specialist’ of that specialty, in that city, patient will have to bear the visitation charges for external specialist. Further, if there is ‘No GoBest Clinic’ in the city, where patient relocates, no refunds will be admissible, and treatment will only be given in the closest GoBest Clinics.</p>
+
+<h2>MANAGEMENT RIGHTS</h2>
+<p>In case a patient has made any attempt to defame GoBest or the doctors of GoBest, management reserves the right to reject the claim for refund or retreatment. GoBest Dental Management reserves the right to accept or reject any refund claim based on the clinical findings & patient history. Management has also the right to accept or reject any Re-treatment if the patient has not followed the instructions. Disputes if any are subject to exclusive Jurisdiction of Delhi courts, where the company has its registered office.</p>
 
 
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service5.jpg" alt="root canal cost"></a>
-</div>
-<div class="post-content">
-<h3>Dental X-Ray</h3>
-<p>Dental radiographs are commonly called X-rays. Dentists use radiographs </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal4" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-X-Ray.php">Read more</a>
-</div>
-</div>
-</div>
 
 
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service11.jpg" alt="ortodontist in pimpri chinchwad"></a>
-</div>
-<div class="post-content">
-<h3>Root Canal Treatment (RCT)</h3>
-<p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal5" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Root-Canal-Treatment.php">Read more</a>
-</div>
-</div>
-</div>
 
 
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service2.jpg" alt="orthodontist in pune"></a>
-</div>
-<div class="post-content">
-<h3>Crowns And Bridges Fixing</h3>
-<p>Crowns and bridges are a fixed solution to missing or damaged teeth. </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal6" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Crown-and-Bridges.php">Read more</a>
-</div>
-</div>
-</div>
 
 
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service6.jpg" alt="dentist"></a>
 </div>
-<div class="post-content">
-<h3>Wisdom Tooth Extraction</h3>
-<p>Wisdom tooth extraction is a surgical procedure to remove one or more </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal7" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Wisdom-Tooth-Extraction.php">Read more</a>
 </div>
+<!-----------------Video News------------------>
 </div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service13.jpg" alt="best dentist"></a>
-</div>
-<div class="post-content">
-<h3>Oral & Maxillofacial Surgery Procedures</h3>
-<p>Oral and Maxillofacial Surgery is the specialty of dentistry which includes the </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal8" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Oral-Maxillofacial-Surgery.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service8.jpg" alt="best dental clinic near me "></a>
-</div>
-<div class="post-content">
- <h3>Dental Implant Fixing</h3>
-<p>Dental implants provide a strong foundation for permanent or removable </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal9" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-Implants.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service9.jpg" alt="best dental clinic"></a>
-</div>
-<div class="post-content">
-<h3>Dental Ceramics</h3>
-<p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all</p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal10" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-Cavity-Fillings.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service14.jpg" alt="best dental clinic in pune"></a>
-</div>
-<div class="post-content">
-<h3>Cosmetic Dentistry</h3>
-<p>Cosmetic dentistry is generally used to refer to any dental work that </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal11" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Cosmetic-Dentistry.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service12.jpg" alt="best dental clinic in chinchwad"></a>
-</div>
-<div class="post-content">
-<h3>Scaling Polishing</h3>
-<p>Invisalign® is the invisible way to straighten your teeth without braces. </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal12" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Scaling-Polishing.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service10.jpg" alt="best dental clinic in pimpri"></a>
-</div>
-<div class="post-content">
-<h3>Invisalign Clear Aligners</h3>
-<p>A cast metal partial denture involves a metal framework that attaches by way of </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal13" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Invisalign-Clear-Aligners.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service15.jpg" alt="best dental clinic in wakad"></a>
-</div>
-<div class="post-content">
-<h3>Braces Orthodontic Treatment</h3>
-<p>Precision Attachment. Precision Attachments are special attachments used </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal14" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Braces-Orthodontic Treatment.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service7.jpg" alt="best dental clinic in nigdi"></a>
-</div>
-<div class="post-content">
-<h3>Implant Rehabilitation Surgery</h3>
-<p>The Implant Rehabilitation is a dentistry specialty in charge of the restoration </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal15" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-Implants.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service16.jpg" alt="best dental clinic in pimpri chinchwad"></a>
-</div>
-<div class="post-content">
-<h3>Flexible Partial/Complete Denture</h3>
-<p>These are comfortable, beautiful, and an affordable choice in this modern era.</p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal16" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Flexible-Partial-Complete-Denture.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service17.jpg" alt="best dental clinic in pune"></a>
-</div>
-<div class="post-content">
-<h3>Scaling / Polishing</h3>
-<p>Scaling is a dental process that involves removing the calculus deposits or stains </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal17" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Scaling-Polishing.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service18.jpg" alt="best dentist in chinchwad"></a>
-</div>
-<div class="post-content">
-<h3>Flap Surgery</h3>
-<p>Flap surgery is a technique in plastic and reconstructive surgery where any type of</p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal18" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Flap-Surgery-Gum-Treatments.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
- <a href="#"><img src="assets/img/services/service19.jpg" alt="best dentist in hinjewadi"></a>
-</div>
-<div class="post-content">
-<h3>Full Mouth Rehabilities</h3>
-<p>The finished complete denture is composed of the following: Acrylic resin, </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal19" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Full-Mouth-Rehabilitation.php">Read more</a>
-</div>
-</div>
-</div>
-
-
-<div class="col-lg-3 col-md-6">
-<div class="single-blog-post">
-<div class="post-image">
-<a href="#"><img src="assets/img/services/service20.jpg" alt="best dentist in wakad"></a>
-</div>
-<div class="post-content">
-<h3>Children Dentistry</h3>
-<p>Pediatric dentistry is the branch of dentistry dealing with children from birth </p>
-<!-- <a href="#" data-toggle="modal" data-target="#myModal20" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Children-Pediatric-Dentistry.php">Read more</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<!-- MODAL -->
-
-<div class="modal fade" id="myModal1" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Tooth Extraction</h3>
-<p>A surgical extraction is a slightly more complex procedure that occurs when a tooth has not yet broken through the gum line, or has not yet fully grown into the mouth. Visit us, as we are the <b>best dentist in pune</b>.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal2" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Dental Care</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. Visit us, as we are the <b>best dentist in pimpri chinchwad</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal3" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Teeth Whitening</h3>
-<p>The process of tooth whitening lightens the colour of a tooth. Tooth whitening can be achieved by either changing the intrinsic colour or by removing and controlling the formation of extrinsic stains.Visit us, as we are the <b>best dental clinic in pune</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal4" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Dental X-Ray</h3>
-<p>Dental radiographs are commonly called X-rays. Dentists use radiographs for many reasons: to find hidden dental structures, etc. Visit us, as we are the <b>best dentist in wakad</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal5" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Root Canal Treatment (RCT)</h3>
-<p>Root canal treatment is a treatment sequence for the infected pulp of a tooth which is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion. Visit us, as we are the <b>best dentist in pimpri</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal6" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Crowns And Bridges Fixing</h3>
-<p>Crowns and bridges are a fixed solution to missing or damaged teeth. This restorative procedure uses prosthetic devices to return your smile to its natural state.Visit us, as we are the <b>best dentist in Nigdi</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62"  data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal7" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Wisdom Tooth Extraction</h3>
-<p>Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth — the four permanent adult teeth located at the back corners. Visit us, as we are the <b>best dentist in Chinchwad</b> </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal8" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Oral & Maxillofacial Surgery Procedures</h3>
-<p>Oral and Maxillofacial Surgery is the specialty of dentistry which includes the diagnosis, surgical and adjunctive treatment of diseases, injuries and defects involving both the functional and aesthetic aspects of the hard and soft tissues of the oral and maxillofacial region </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal9" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Dental Implant Fixing</h3>
-<p>Dental implants provide a strong foundation for permanent or removable prosthesis (replacement teeth) that are made to match your natural teeth. Visit us, as we are the <b>best dentist in hinjewadi</b></p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal10" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Dental Ceramics</h3>
-<p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal11" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Cosmetic Dentistry</h3>
-<p>Cosmetic dentistry is generally used to refer to any dental work that improves the appearance of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal12" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Straightening Teeth</h3>
-<p>Invisalign® is the invisible way to straighten your teeth without braces. Invisalign® uses a series of clear removable aligners (pictured to the left) to straighten your teeth without metal wires or brackets.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal13" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Partial Denture (Metal Based)</h3>
-<p>A cast metal partial denture involves a metal framework that attaches by way of clasps connected to crowns. The metal frame is obviously not visible (the gum-colored acrylic plastic covers it), but when you smile, the clasps may be visible.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal14" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Precision Attachment Dentures</h3>
-<p>Precision Attachment. Precision Attachments are special attachments used for the perfect fit of removable partial dentures. It is a passive retention mechanism by which the abutment teeth are not exposed to excessive forces. </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal15" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Implant Rehabilitation Surgery</h3>
-<p>The Implant Rehabilitation is a dentistry specialty in charge of the restoration of the dental pieces, to return them to its original aesthetic and harmonic function. </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal16" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Flexible Partial/Complete Denture</h3>
-<p>These are comfortable, beautiful, and an affordable choice in this modern era. Flexible denture base material is nylon-based thermoplastic resin. They have shown several advantages over the traditional rigid acrylic denture bases. </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal17" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Scaling / Polishing</h3>
-<p>Scaling is a dental process that involves removing the calculus deposits or stains on the teeth.This process is known as root planing. Polishing, on the other hand, is the process of smoothing the teeth as scaling can make the teeth feel rough. </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button></div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal18" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Flap Surgery</h3>
-<p>Flap surgery is a technique in plastic and reconstructive surgery where any type of tissue is lifted from a donor site and moved to a recipient site with an intact blood supply. This is distinct from a graft, which does not have an intact blood supply and therefore relies on growth of new blood vessels. </p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal19" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Full Denture (Acrylic)</h3>
-<p>The finished complete denture is composed of the following: Acrylic resin, which serves as the base of the complete denture, retains the denture teeth, and emulates the gingiva of supporting teeth. Porcelain or acrylic denture teeth to emulate natural teeth.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<div class="modal fade" id="myModal20" role="dialog">
-<div class="modal-dialog modal-sm">
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="closed" data-dismiss="modal">&times;</button>
-</div>
-<div class="modal-body">
-<h3>Children Dentistry</h3>
-<p>Pediatric dentistry is the branch of dentistry dealing with children from birth through adolescence. The specialty of pediatric dentistry is recognized by the American Dental Association, Royal College of Dentists of Canada, and Royal Australasian College of Dental Surgeons.</p>
-</div>
-<div class="modal-footer">
-<button type="button" class="button-62" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-
-<!--<div class="subscribe-area">
-<div class="container">
-<div class="subscribe-inner">
-<div class="row align-items-center">
-<div class="col-lg-9 col-md-12">
-<div class="subscribe-content"><div class="inner">
-</div>
-<h2> <img class="smile" src="assets/img/smile.png" alt="best dentist in pune"> Smile At <span class="hylyt">Affordable</span> Fees !</h2>
-<p>Free Check Up & Upto 50% Discount On All Dental Treatments | Free Consultation | Root Canal 50% Flat Discount</p>
-</div>
-</div>
-<div class="col-lg-3 col-md-12">
-<div class="ad-price">
-<div class="ad-price-inner">
-<span>Special Offer <span class="rate">50% Off</span></span>
-<a href="contact-us.html">Get Offer</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>-->
-
 <script>function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -1574,56 +1011,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border-right:10px solid #FFF;
 	
 }
-.modal-header .closed {
-    padding: 1rem 1rem;
-    margin: -1rem -1rem -1rem auto;
-}
-.closed {
-    float: right;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
-    opacity: .5;
-    background: transparent;
-    border: none;
-    color: black;
-}
 	.service-contentbox{
 		padding:2%;
 	}
-
-/* CSS */
-.button-62 {
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
-  border: 0;
-  border-radius: 12px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-}
-
-.button-62:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
-
-.button-62:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
 </style>
 <style>
   
@@ -1636,13 +1026,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     border-radius: 50%;
     transition: .6s;
     box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite;
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
     width: 3.5rem;
     height: 3.5rem;
     display: flex;
     align-items: center;
 }
-
 
 @-webkit-keyframes cc-calto-action-ripple {
     0% {
@@ -1697,23 +1087,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-
-<!--<script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
-</script>-->
-<script>
-$zoho.salesiq.ready=function(){
-{
-$zoho.salesiq.customfield.add(
-{
-"name":"Enter your city",
-"hint":"Enter your city",
-"required":"false",
-"visibility":"both",
-});
-}
-}
-</script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>
@@ -1799,22 +1173,16 @@ jQuery(this).addClass('active');
 	});
 });	
 </script>
-<!-- Start of LiveChat (www.livechatinc.com) code --
-            <script type="text/javascript">
-              window.__lc = window.__lc || {};
-              window.__lc.license = 4175831;
-              (function() {
-                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-              })();
-            </script>
-            <noscript>
-            <a href="https://www.livechatinc.com/chat-with/4175831/" rel="nofollow">Chat with us</a>,
-            powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
-            </noscript>
-            <!-- End of LiveChat code -->
-
+<script>$('.read').click(function(){
+		  $(this).prev().toggle();
+		  $(this).siblings('.dots').toggle();
+		  if($(this).text()=='Read More'){
+		     $(this).text('Read Less');
+		  }
+		  else{
+		     $(this).text('Read More');
+		  }
+		});</script>
 </body>
 <!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
 </html><script>
@@ -1843,11 +1211,3 @@ function refreshCaptcha2() {
     padding-left: 5px;
 }
 </style>
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Object Caching 140/161 objects using disk
-Database Caching 6/15 queries in 0.043 seconds using disk
-
-Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
--->

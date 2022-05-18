@@ -845,11 +845,15 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <section class="root">
             <div class="container" > 
                 <div class="row">
+
+                <?php include("include/treatments.php") ?>
                     <!-- <div class="col-lg-5">
                         <div class="root-img py-3">
                             <img src="image/root-canal.jpg" alt="Root Canal">
                         </div>
                     </div> -->
+
+
 
                     <div class="col-lg-12">
                         <div class="root-info py-3">
@@ -1338,19 +1342,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <!--<script type="text/javascript">
 var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>-->
-<script>
-$zoho.salesiq.ready=function(){
-{
-$zoho.salesiq.customfield.add(
-{
-"name":"Enter your city",
-"hint":"Enter your city",
-"required":"false",
-"visibility":"both",
-});
-}
-}
-</script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>

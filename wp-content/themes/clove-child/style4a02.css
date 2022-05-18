@@ -6545,7 +6545,7 @@ Version:1.0.0 */
                                                         background: #eee2bc;
                                                         padding: 40px 0px;
                                                         border-top: 1px solid #d4c9a8;
-                                                        margin-bottom: 40px;
+                                                        /* margin-bottom: 40px; */
                                                     }
                                                     
                                                     .contact-add {
@@ -33428,11 +33428,11 @@ color:#b1afaf;
                                                             position: relative;
                                                         }
                                                         .full-footer .full-footer-in .links-box .links-comman-box ul li {
-                                                            font-size: 13px;
+                                                            /* font-size: 13px; */
                                                             color: #ceb3a0;
                                                         }
                                                         .full-footer .full-footer-in .links-box .links-comman-box ul li a {
-                                                            background: url(images/teeth-icon-2.png) left top no-repeat;
+                                                            background: url(images/teeth-icon-2.png) left top no-repeat !important;
                                                             padding-left: 20px;
                                                             background-position: 0 3px;
                                                         }

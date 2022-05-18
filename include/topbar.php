@@ -77,7 +77,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-7 pdr-0">
                <div class="validateContainer">
-                <form class="form-inline form" name="form1" method="post" id="form1"> 
+                <form class="form-inline form" style="flex-flow: nowrap;" name="form1" method="post" id="form1"> 
                   <!--  <div class="form-group">
                     <div class="input-container">
                         <div class="validateField">
@@ -88,7 +88,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="text" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
+                            <input type="tel" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ else {
 ?>
             </div>
           </div>
-            <div class="col-lg-3 col-md-4 col-5 pd-0" style="line-height: 2;">
+            <div class="col-lg-3 col-md-4 col-5 pl-2 pd-0" style="line-height: 2;">
                 <span class="cp-info-bar-msg"><i class="fa fa-phone"></i> <a href="tel:+917264889986" style="color: #fff;font-size:13px">+91 72648 89986</a></span>
             </div>
         </div>
@@ -220,7 +220,7 @@ else {
 
 <div class="number-mbl toggle1">
    <div class="toggle1" style="cursor:pointer; padding-bottom:-20px;"></div><i class="fa fa-calendar" style="margin-left:40%;font-size:28px"></i>
-   <p style="margin-bottom:0rem;font-size:12px!important;">Book &nbsp; Appointment</p>
+   <p style="margin-bottom:0rem;font-size:12px!important;"><strong> Book Appointment</strong> </p>
 </div>
 </div>
 </div>
