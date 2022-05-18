@@ -194,8 +194,8 @@ else {
     <?php
     date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if(((int)date('H',$currentTime))<=14 || (int)date('H',$currentTime)>=20){
-      echo "<div style='color:red;font-size:10px!important;'>**Please book appointment after 10 AM and before 8 PM</div>";
+    if(((int)date('H',$currentTime))<=10 || (int)date('H',$currentTime)>=20){
+      echo "<div style='color:red;font-size:12px!important;'>**Please book appointment after 10 AM and before 8 PM</div>";
       ?>
       <input type="submit" name="submit" value="Make Your Appointment" required  disabled style="background:light grey !important">
     <?php }
