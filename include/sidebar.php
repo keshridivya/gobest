@@ -120,9 +120,10 @@
 
 <?php
 if(isset($_POST['submit'])){
+  $date= $_POST['date'];
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if(((int)date('H',$currentTime))<11 || (int)date('H',$currentTime)>=20){?>
+    if($date<11 || $date>=20){?>
      <script>swal("Good job!", "You clicked the button!", "success");</script>
     <?php }
     else{ 
@@ -131,7 +132,6 @@ $PhoneNumber = $_POST['PhoneNumber'];
 $branch = $_POST['branch'];
 $comments= $_POST['comments'];
 $date= $_POST['date'];
-
     
 
 // configure
