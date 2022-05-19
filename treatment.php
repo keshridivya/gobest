@@ -828,7 +828,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="post-content">
 <h3>Tooth Extraction</h3>
-<p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
+<p>A surgical extraction is a slightly more complex procedure that occurs when a tooth has not yet broken through the gum line </p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
 <a href="Tooth-Extraction.php">Read more</a>
 </div>
@@ -1040,7 +1040,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <h3>Teeth Discoloration / Stained Teeth</h3>
 <p>Tooth discoloration is when the color of your teeth change.</p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal15" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Full-Mouth-Rehabilitation.php">Read more</a>
+<a href="Teeth-Discoloration-Stained-Teeth.php">Read more</a>
 </div>
 </div>
 </div>

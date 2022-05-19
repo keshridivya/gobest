@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
 	<title>
-	Careers - Clove Dental	</title>
+	Careers - GoBest Dentist	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<link rel="pingback" href="xmlrpc.php">

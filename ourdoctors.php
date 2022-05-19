@@ -20,8 +20,7 @@ $conn = new mysqli("151.106.124.51","u188140722_dentist","Admin@123","u188140722
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
-	<title>
-	Our Doctors - Gobest Dentist	</title>
+	<title>Our Doctors - Gobest Dentist	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<link rel="pingback" href="xmlrpc.php">
