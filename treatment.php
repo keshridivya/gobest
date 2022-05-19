@@ -992,10 +992,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service12.jpg" alt="best dental clinic in chinchwad"></a>
 </div>
 <div class="post-content">
-<h3>Scaling Polishing</h3>
+<h3>Invisalign/Clear Aligner</h3>
 <p>Invisalign® is the invisible way to straighten your teeth without braces. </p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal12" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Scaling-Polishing.php">Read more</a>
+<a href="Invisalign-Clear-Aligners.php">Read more</a>
 </div>
 </div>
 </div>
@@ -1285,8 +1285,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <button type="button" class="closed" data-dismiss="modal">&times;</button>
 </div>
 <div class="modal-body">
-<h3>Dental Ceramics</h3>
-<p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
+<h3>DENTAL CAVITY & FILLINGS</h3>
+<p> surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
 </div>
 <div class="modal-footer">
 <button type="button" class="button-62" data-dismiss="modal">Close</button>
