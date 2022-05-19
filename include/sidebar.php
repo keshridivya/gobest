@@ -123,7 +123,7 @@ if(isset($_POST['submit'])){
   $time= $_POST['time'];
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if($time<15 || $time>=20){?>
+    if($time<10 || $time>=20){?>
      <script>swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script>
     <?php }
     else{ 
@@ -211,24 +211,7 @@ else {
   </div>
   
   
-  <script>
-    $(document).ready(function(){
-      $("#bookForm1").hide();
-      $("#Visitortime2").keyup(function(){
-          time_val();
-      });
-      function time_val(){
-     var time=$("#Visitortime2").val();
-     if(time>=10 && time<20){
-       $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
-       return false;
-     }
-     else{
-      $("#bookForm1").hide();
-     }
-    }
-          });
-  </script>
+ 
   
 <style>
 
@@ -276,4 +259,21 @@ else {
 })
 </script>
 
-
+<script>
+    $(document).ready(function(){
+      $("#bookForm1").hide();
+      $("#Visitortime2").keyup(function(){
+          time_val();
+      });
+      function time_val(){
+     var time=$("#Visitortime2").val();
+     if(time>=10 && time<20){
+       $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
+       return false;
+     }
+     else{
+      $("#bookForm1").hide();
+     }
+    }
+          });
+  </script>
