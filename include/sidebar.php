@@ -123,7 +123,7 @@ if(isset($_POST['submit'])){
   $time= $_POST['time'];
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if($time<10 || $time>=20){?>
+    if($time<15 || $time>=20){?>
      <script>swal("Good job!","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script>
     <?php }
     else{ 
