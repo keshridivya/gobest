@@ -828,7 +828,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="post-content">
 <h3>Tooth Extraction</h3>
-<p>Root canal treatment is a treatment sequence for the infected pulp of a tooth </p>
+<p>A surgical extraction is a slightly more complex procedure that occurs when a tooth has not yet broken through the gum line </p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal1" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
 <a href="Tooth-Extraction.php">Read more</a>
 </div>
@@ -962,7 +962,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <a href="#"><img src="assets/img/services/service9.jpg" alt="best dental clinic"></a>
 </div>
 <div class="post-content">
-<h3>Dental Ceramics</h3>
+<h3>Dental Cavity Fillings</h3>
 <p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all</p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal10" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
 <a href="Dental-Cavity-Fillings.php">Read more</a>
@@ -1004,13 +1004,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="col-lg-3 col-md-6">
 <div class="single-blog-post">
 <div class="post-image">
-<a href="#"><img src="assets/img/services/service10.jpg" alt="best dental clinic in pimpri"></a>
+<a href="#"><img src="assets/img/services/service22.jpg" alt="best dental clinic in pimpri"></a>
 </div>
 <div class="post-content">
-<h3>Invisalign Clear Aligners</h3>
-<p>A cast metal partial denture involves a metal framework that attaches by way of </p>
+<h3>Teeth Sensetivity</h3>
+<p>Sensitive teeth are typically the result of worn tooth enamel or exposed tooth roots.</p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal13" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Invisalign-Clear-Aligners.php">Read more</a>
+<a href="Teeth-Sensitivity.php">Read more</a>
 </div>
 </div>
 </div>
@@ -1019,11 +1019,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="col-lg-3 col-md-6">
 <div class="single-blog-post">
 <div class="post-image">
-<a href="#"><img src="assets/img/services/service15.jpg" alt="best dental clinic in wakad"></a>
+<a href="#"><img src="assets/img/services/service21.jpg" alt="best dental clinic in wakad"></a>
 </div>
 <div class="post-content">
 <h3>Braces Orthodontic Treatment</h3>
-<p>Precision Attachment. Precision Attachments are special attachments used </p>
+<p>Orthodontia is the branch of dentistry that deals with abnormalities of the teeth and jaw.</p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal14" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
 <a href="Braces-Orthodontic Treatment.php">Read more</a>
 </div>
@@ -1034,13 +1034,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="col-lg-3 col-md-6">
 <div class="single-blog-post">
 <div class="post-image">
-<a href="#"><img src="assets/img/services/service7.jpg" alt="best dental clinic in nigdi"></a>
+<a href="#"><img src="assets/img/services/service23.jpg" alt="best dental clinic in nigdi"></a>
 </div>
 <div class="post-content">
-<h3>Implant Rehabilitation Surgery</h3>
-<p>The Implant Rehabilitation is a dentistry specialty in charge of the restoration </p>
+<h3>Teeth Discoloration / Stained Teeth</h3>
+<p>Tooth discoloration is when the color of your teeth change.</p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal15" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
-<a href="Dental-Implants.php">Read more</a>
+<a href="Teeth-Discoloration-Stained-Teeth.php">Read more</a>
 </div>
 </div>
 </div>
@@ -1098,7 +1098,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="post-content">
 <h3>Full Mouth Rehabilities</h3>
-<p>The finished complete denture is composed of the following: Acrylic resin, </p>
+<p>Full Mouth Rehabilitation is a dentistry specialty in charge of the restoration </p>
 <!-- <a href="#" data-toggle="modal" data-target="#myModal19" class="read-more-btn">Read More <i class="flaticon-next-1"></i></a> -->
 <a href="Full-Mouth-Rehabilitation.php">Read more</a>
 </div>
@@ -1285,8 +1285,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <button type="button" class="closed" data-dismiss="modal">&times;</button>
 </div>
 <div class="modal-body">
-<h3>DENTAL CAVITY & FILLINGS</h3>
-<p> surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
+<h3>Dental Ceramics</h3>
+<p>In other words, surgery of the teeth, gums and jaw bones.All-ceramic or all-porcelain dental crowns provide better natural color match than any other crown type and may be more suitable for people with metal allergies.</p>
 </div>
 <div class="modal-footer">
 <button type="button" class="button-62" data-dismiss="modal">Close</button>
