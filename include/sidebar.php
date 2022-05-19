@@ -122,7 +122,7 @@
 if(isset($_POST['submit'])){
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if(((int)date('H',$currentTime))<=10 || (int)date('H',$currentTime)>=20){?>
+    if(((int)date('H',$currentTime))<=11 || (int)date('H',$currentTime)>=20){?>
      <script>swal("Good job!", "You clicked the button!", "success");</script>
      
     <?php }
