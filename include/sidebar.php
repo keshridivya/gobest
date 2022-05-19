@@ -116,15 +116,24 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <?php
 if(isset($_POST['submit'])){
-$name= $_POST['name'];
+  date_default_timezone_set('Asia/Calcutta'); 
+    $currentTime=time();
+    if(((int)date('H',$currentTime))<=10 || (int)date('H',$currentTime)>=20){?>
+     <script>swal("Good job!", "You clicked the button!", "success");</script>
+     
+    <?php }
+    else{ 
+      $name= $_POST['name'];
 $PhoneNumber = $_POST['PhoneNumber'];
 $branch = $_POST['branch'];
 $comments= $_POST['comments'];
 $date= $_POST['date'];
+
+    
 
 // configure
 $from = 'Enquiry <maheshniwate10@gmail.com>';
@@ -168,6 +177,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+   } 
+
 }
 ?>
 </head>
@@ -191,18 +202,7 @@ else {
       <textarea name="comments" placeholder="Message here.." required></textarea>
       <input name="date" style="text-align:center" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y h:i a"); ?>" style="padding-left: 73px;" required>
                         
-    <?php
-    date_default_timezone_set('Asia/Calcutta'); 
-    $currentTime=time();
-    if(((int)date('H',$currentTime))<=10 || (int)date('H',$currentTime)>=20){
-      echo "<div style='color:red;font-size:12px!important;'>**Please book appointment after 10 AM and before 8 PM</div>";
-      ?>
-      <input type="submit" name="submit" value="Make Your Appointment" required  disabled style="background:light grey !important">
-    <?php }
-    else{ ?>
-      <input type="submit" name="submit" value="Make Your Appointment" required >
-   <?php } ?>
-    
+   <input type="submit" name="submit" value="Make Your Appointment" required >
     </form>
     </div>
   </div>
