@@ -120,10 +120,10 @@
 
 <?php
 if(isset($_POST['submit'])){
-  $date= $_POST['date'];
+  $time= $_POST['time'];
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
-    if($date<11 || $date>=20){?>
+    if($time<12 || $time>=20){?>
      <script>swal("Good job!", "You clicked the button!", "success");</script>
     <?php }
     else{ 
@@ -132,13 +132,13 @@ $PhoneNumber = $_POST['PhoneNumber'];
 $branch = $_POST['branch'];
 $comments= $_POST['comments'];
 $date= $_POST['date'];
-    
+$time= $_POST['time'];   
 
 // configure
 $from = 'Enquiry <maheshniwate10@gmail.com>';
 $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
 $subject = 'Book an Appointment Form';
-$fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date'); // array variable name => Text to appear in email
+$fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date', 'time' => 'time'); // array variable name => Text to appear in email
 $okMessage = 'Thank You';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
@@ -199,7 +199,8 @@ else {
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
         </select>
       <textarea name="comments" placeholder="Message here.." required></textarea>
-      <input name="date" style="text-align:center" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); echo time("h:i a"); ?>" style="padding-left: 73px;" required>
+      <input name="date" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); ?>" style="padding-left: 73px;" required>
+      <input name="time" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("h:i a"); ?>" style="padding-left: 73px;" required>
                         
    <input type="submit" name="submit" value="Make Your Appointment" required >
     </form>
