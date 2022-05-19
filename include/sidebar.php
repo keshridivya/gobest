@@ -203,7 +203,7 @@ else {
       <input name="date" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); ?>" style="padding-left: 73px;" required>
      
       <input name="time" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="Visitortime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("h:i a"); ?>" style="padding-left: 73px;" required>
-      <div id="bookForm"></div>
+      <div id="bookForm1"></div>
 </div>               
    <input type="submit" name="submit" value="Make Your Appointment" required >
     </form>
@@ -213,18 +213,18 @@ else {
   
   <script>
     $(document).ready(function(){
-      $("#bookForm").hide();
+      $("#bookForm1").hide();
       $("#Visitortime2").keyup(function(){
           time_val();
       });
       function time_val(){
      var time=$("#Visitortime2").val();
      if(time>=10 && time<20){
-       $("#bookForm").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
+       $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
        return false;
      }
      else{
-      $("#bookForm").hide();
+      $("#bookForm1").hide();
      }
     }
           });
