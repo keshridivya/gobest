@@ -1453,13 +1453,6 @@ html {
     </div>
     </section>
     
-
-
-
-    <!--<div class="important_info_icon">
- <a href="https://clovedental.in/press-release-on-covid-19/"></a>
-<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
-    <!--</div>-->
     <style>
       .important_info_icon {
         width: 50px;
