@@ -199,9 +199,10 @@ else {
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
         </select>
       <textarea name="comments" placeholder="Message here.." required></textarea>
+      <div style="display:flex;">
       <input name="date" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); ?>" style="padding-left: 73px;" required>
       <input name="time" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("h:i a"); ?>" style="padding-left: 73px;" required>
-                        
+</div>               
    <input type="submit" name="submit" value="Make Your Appointment" required >
     </form>
     </div>
