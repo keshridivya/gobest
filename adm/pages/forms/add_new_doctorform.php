@@ -116,6 +116,7 @@ if(isset($_GET['id'])){
 		  <label for="description">Description:</label>
 		  <textarea class="form-control description"  maxlength="1000" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
 		  </textarea>
+      <diV class="error"></div>
 		</div>
 		<div class="form-group">
 		  <label for="image">Image:</label>
@@ -174,11 +175,27 @@ $("#show-sidebar").click(function() {
   $(".page-wrapper").addClass("toggled");
 });
 
-
-   
-   
 });
 		</script>
+    <script>
+      $(document).ready(function() {
+        $(".error").hide();
+
+       $('#description').keyup(function() {
+         err_func();
+       });
+       function  err_func(){
+       let text_length = $('#description').val().length;
+         if(text_length > 1000){
+           $(".error").show();
+           $(".error").text("Maximum 1000 characters allowed");
+           $("#description").css("border-color","red");
+       }else{
+            $(".error").hide();
+            $("#description").css("border-color","#ced4da");
+       }
+      });
+    </script>
 </body>
 </html>
 <?php } ?>
