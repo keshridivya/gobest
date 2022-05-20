@@ -1044,7 +1044,7 @@ else {
         srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w"
         sizes="(max-width: 1920px) 100vw, 1920px" />
       <div class="overlay">
-        <h1>Wakad Branch</h1>
+        <h1>Wakad Branch Address</h1>
       </div>
     </div>
     <style>
