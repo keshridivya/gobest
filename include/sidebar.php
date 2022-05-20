@@ -198,7 +198,7 @@ else {
           <option value="Baner Branch">Baner Branch</option>
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
         </select>
-      <textarea name="comments" placeholder="Message here.." required></textarea>
+      <textarea name="comments" placeholder="Message here.." id="message" required></textarea>
       <div style="display:flex;">
       <input name="date" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); ?>" style="padding-left: 73px;" required>
      
@@ -260,9 +260,9 @@ else {
 </script>
 
 <script>
-   /* $(document).ready(function(){
+    $(document).ready(function(){
       $("#bookForm1").hide();
-      $("#Visitortime2").keyup(function(){
+      $("#message").keyup(function(){
           time_val();
       });
       function time_val(){
@@ -275,9 +275,9 @@ else {
       $("#bookForm1").hide();
      }
     }
-          });*/
+          });
 
-          function fun(){
+       /*   function fun(){
             var date = document.getElementById("VisitorDtime2").value;
             if(time>10 && time<=20){
               $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
@@ -287,5 +287,5 @@ else {
             else{
               $("#bookForm1").hide();
             }
-          }
+          }*/
             </script>
