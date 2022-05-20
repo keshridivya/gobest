@@ -267,7 +267,7 @@ else {
       });
       function time_val(){
     let time=$("#Visitortime2").val();
-     if(time>10 && time<=20){
+     if(time>10 || time<=20){
        $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
        return false;
      }
