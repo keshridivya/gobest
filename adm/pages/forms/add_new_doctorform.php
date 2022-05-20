@@ -114,7 +114,7 @@ if(isset($_GET['id'])){
 		</div>
 		<div class="form-group">
 		  <label for="description">Description:</label>
-		  <textarea class="form-control description"  maxlength="500" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
+		  <textarea class="form-control description"  maxlength="1000" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
 		  </textarea>
 		</div>
 		<div class="form-group">
