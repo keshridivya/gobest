@@ -120,13 +120,13 @@
 
 <?php
 if(isset($_POST['submit'])){
-  $time= $_POST['time'];
+  /*$time= $_POST['time'];
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
     if($time<10 || $time>=20){?>
-     <script>swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script>
+     <!-- <script>swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script> -->
     <?php }
-    else{ 
+    else{ */
       $name= $_POST['name'];
 $PhoneNumber = $_POST['PhoneNumber'];
 $branch = $_POST['branch'];
@@ -178,7 +178,7 @@ else {
 }
    } 
 
-}
+// }
 ?>
 </head>
 
@@ -205,7 +205,7 @@ else {
       <input name="time" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="Visitortime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("h:i a"); ?>" style="padding-left: 73px;" required>
       <div id="bookForm1"></div>
 </div>               
-   <input type="submit" name="submit" value="Make Your Appointment" required >
+   <input type="submit" name="submit" value="Make Your Appointment" onclick="fun()" required >
     </form>
     </div>
   </div>
@@ -260,13 +260,13 @@ else {
 </script>
 
 <script>
-    $(document).ready(function(){
+   /* $(document).ready(function(){
       $("#bookForm1").hide();
       $("#Visitortime2").keyup(function(){
           time_val();
       });
       function time_val(){
-     var time=$("#Visitortime2").val();
+    let time=$("#Visitortime2").val();
      if(time>10 && time<=20){
        $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
        return false;
@@ -275,5 +275,17 @@ else {
       $("#bookForm1").hide();
      }
     }
-          });
-  </script>
+          });*/
+
+          function fun(){
+            var date = document.getElementById("VisitorDtime2").value;
+            if(time>10 && time<=20){
+              $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
+              swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");
+              return false;
+            }
+            else{
+              $("#bookForm1").hide();
+            }
+          }
+            </script>
