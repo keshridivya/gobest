@@ -261,6 +261,7 @@ else {
 
 <script>
     $(document).ready(function(){
+      date_default_timezone_set('Asia/Calcutta'); 
       $("#bookForm1").hide();
       $("#message").keyup(function(){
           time_val();
