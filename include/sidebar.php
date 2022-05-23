@@ -124,8 +124,61 @@ if(isset($_POST['submit'])){
   date_default_timezone_set('Asia/Calcutta'); 
     $currentTime=time();
     if($time<10 || $time>=20){?>
-     <script>swal("Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script>
-    <?php }
+    <script>swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script> 
+    
+    <?php
+    $name= $_POST['name'];
+    $PhoneNumber = $_POST['PhoneNumber'];
+    $branch = $_POST['branch'];
+    $comments= $_POST['comments'];
+    $date= $_POST['date'];
+    $time= $_POST['time'];   
+    
+    // configure
+    $from = 'Enquiry <maheshniwate10@gmail.com>';
+    $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
+    $subject = 'Book an Appointment Form';
+    $fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date', 'time' => 'time'); // array variable name => Text to appear in email
+    $okMessage = 'Thank You';
+    $errorMessage = 'There was an error while submitting the form. Please try again later';
+    
+    // let's do the sending
+    
+    try
+    {
+        $emailText = "You have new message from contact form\n=============================\n";
+    
+        foreach ($_POST as $key => $value) {
+    
+            if (isset($fields[$key])) {
+                $emailText .= "$fields[$key]: $value\n";
+            }
+        }
+    
+        mail($sendTo, $subject, $emailText, "From: " . $from);
+        echo "<script>window.location.href='thankyou.php';</script>";
+            //$responseArray = array('type' => 'success', 'message' => $okMessage);
+    }
+    catch (\Exception $e)
+    {
+        
+        echo "<script>alert('$errorMessage');</script>";
+        //$responseArray = array('type' => 'danger', 'message' => $errorMessage);
+    }
+    
+    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+        $encoded = json_encode($responseArray);
+        
+        header('Content-Type: application/json');
+        
+        echo $encoded;
+    }
+    else {
+        echo $responseArray['message'];
+    }
+       } 
+      
+  
     else{ 
       $name= $_POST['name'];
 $PhoneNumber = $_POST['PhoneNumber'];
@@ -198,37 +251,20 @@ else {
           <option value="Baner Branch">Baner Branch</option>
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
         </select>
-      <textarea name="comments" placeholder="Message here.." required></textarea>
+      <textarea name="comments" placeholder="Message here.." id="message" required></textarea>
       <div style="display:flex;">
       <input name="date" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="VisitorDtime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("d-m-Y"); ?>" style="padding-left: 73px;" required>
      
       <input name="time" style="text-align:center;width:50%" class="form-control input-group date input-group-addon" type="text" id="Visitortime2" value="<?php date_default_timezone_set('Asia/Calcutta'); echo date("h:i a"); ?>" style="padding-left: 73px;" required>
       <div id="bookForm1"></div>
 </div>               
-   <input type="submit" name="submit" value="Make Your Appointment" required >
+   <input type="submit" name="submit" value="Make Your Appointment" onclick="fun()" required >
     </form>
     </div>
   </div>
   
   
-  <script>
-    $(document).ready(function(){
-      $("#bookForm1").hide();
-      $("#Visitortime2").keyup(function(){
-          time_val();
-      });
-      function time_val(){
-     var time=$("#Visitortime2").val();
-     if(time>=10 && time<20){
-       $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
-       return false;
-     }
-     else{
-      $("#bookForm1").hide();
-     }
-    }
-          });
-  </script>
+ 
   
 <style>
 
@@ -276,4 +312,34 @@ else {
 })
 </script>
 
+<script>
+    $(document).ready(function(){
+      date_default_timezone_set('Asia/Calcutta'); 
+      $("#bookForm1").hide();
+      $("#message").keyup(function(){
+          time_val();
+      });
+      function time_val(){
+    let time=$("#Visitortime2").val();
+     if(time>10 || time<=20){
+       $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
+       return false;
+     }
+     else{
+      $("#bookForm1").hide();
+     }
+    }
+          });
 
+       /*   function fun(){
+            var date = document.getElementById("VisitorDtime2").value;
+            if(time>10 && time<=20){
+              $("#bookForm1").show().html("Please choose Appointment timing between 10:00 Am to 08:00pm").css("color","red").focus();
+              swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");
+              return false;
+            }
+            else{
+              $("#bookForm1").hide();
+            }
+          }*/
+            </script>
