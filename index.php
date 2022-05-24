@@ -639,7 +639,7 @@ button:active {
       <div class="item item1 ">
        <div class="video-box">
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="yt_players" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" class="iframe-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
        </div>
       </div><!-- item end here -->
