@@ -106,12 +106,20 @@ section.banner {
 }
 
 .animateHeader {
-    animation: sdb05 1.5s;
+    /* animation: sdb05 1.5s; */
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    /* animation-direction: normal; */
+    /* animation-fill-mode: none; */
+    animation-play-state: running;
+    animation-name: sdb05;
 }
 
 @keyframes sdb05 {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-50px);
     }
     100% {
         transform: translateY(0);
@@ -3719,11 +3727,30 @@ a.jx-knightlab:focus span.juxtapose-name {
         height: 25vh!important;
     }
     .why-choose .why {
-        height: 165px;
-        width: 165px;
+        height: 175px;
+        width: 175px;
         padding: 15px 5px;
     }
     .item {
         height: 25vh;
     }
+}
+
+height: 175px;
+width: 175px;
+padding: 15px 5px;
+
+}
+.item {
+    height: 25vh;
+}
+
+}
+adding: 15px 5px;
+
+}
+.item {
+    height: 25vh;
+}
+
 }

@@ -408,7 +408,7 @@ button:active {
       <!-- Slide Two - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-2.jpg')">
       <div class="carousel-caption caption">
-                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
+                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Our Passion is Designing<br>The Perfect Smile</span></h1>
               </div>
               <div class="btn1">
                 <a href="#" class="btn1 mt-sm-1 toggle1" >Make Your Appointment </a>
@@ -417,7 +417,7 @@ button:active {
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-3.jpg')">
       <div class="carousel-caption caption">
-                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
+                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>BISO Certified and<br>Awarded Dental Clinic</span></h1>
               </div>
               <div class="btn1">
                 <a href="#" class="btn1 mt-sm-1 toggle1" >Make Your Appointment </a>
@@ -653,7 +653,7 @@ button:active {
                                     <img src="wp-content/themes/clove-child/images/AFFORDABLE-DENTISTS.png" alt="Why choose us"
                                         class="img-fluid p-xl-2">
                                 </div>
-                                <div class="col-12 pt-2">
+                                <div class="col-12 pt-2 px-3">
                                     <h5>AFFORDABLE DENTISTS</h5>
                                     <p>The best affordable dental care, for your family.</p>
                                 </div>
@@ -666,7 +666,7 @@ button:active {
                                 <div class="col-12">
                                     <img src="wp-content/themes/clove-child/images/ISO-CERTIFIED.png" alt="Why choose us" class="img-fluid p-xl-2">
                                 </div>
-                                <div class="col-12 pt-2">
+                                <div class="col-12 pl-4 pr-4 pt-2">
                                     <h5>ISO CERTIFIED</h5>
                                     <p>We are a hi-tech, modern and ISO certified dental care.</p>
                                 </div>
@@ -680,7 +680,7 @@ button:active {
                                     <img src="wp-content/themes/clove-child/images/Advanced-Technology1.png" alt="Why choose us"
                                         class="img-fluid p-xl-2">
                                 </div>
-                                <div class="col-12 pt-2">
+                                <div class="col-12 px-3 pt-2">
                                     <h5>ADVANCED TECHNOLOGY</h5>
                                     <p>We strive to use advanced dental technology.</p>
                                 </div>
@@ -693,7 +693,7 @@ button:active {
                                 <div class="col-12 ">
                                     <img src="wp-content/themes/clove-child/images/SAFETY-&-QUALITY.png" alt="Why choose us" class="img-fluid p-xl-2">
                                 </div>
-                                <div class="col-12 pt-2">
+                                <div class="col-12 px-3 pt-2">
                                     <h5>SAFETY & QUALITY</h5>
                                     <p>Dedication to quality & patient safety is embedded in everything we do.</p>
                                 </div>
@@ -1068,6 +1068,9 @@ button:active {
     </div>   
    </div><!-- patients_speaks_wrap end here -->  
  </div>
+ <div style="text-align:center;">
+        <a href="fullcasestudy.php" class="btn view_more">View More</a>
+      </div>
 </section>
 <!--casestudy-->
 
