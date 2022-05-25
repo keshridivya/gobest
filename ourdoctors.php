@@ -954,6 +954,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   <div class="col-md-12 col-sm-12 col-lg-12 mtb-10">
 <h2>Our Specialist Doctors</h2>
 </div>
+<div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/manali.jpg" class="img-fluid" alt="dentist in pune">
@@ -1001,6 +1002,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <h3>Dr. Harshala P</h3>
 <span>BDS MDS Orthodontist</span>
 <p>Tooth Braces specialist</p>
+</div>
 </div>
 </div>
 </div>
