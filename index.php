@@ -80,38 +80,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
 <!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
 
-<script>
-  players = new Array();
-
-function onYouTubeIframeAPIReady() {
-    var temp = $("iframe.yt_players");
-    for (var i = 0; i < temp.length; i++) {
-        var t = new YT.Player($(temp[i]).attr('id'), {
-            events: {
-                'onStateChange': onPlayerStateChange
-            }
-        });
-        players.push(t);
-    }
-
-}
-onYouTubeIframeAPIReady();
-
-
-function onPlayerStateChange(event) {
-
-    if (event.data == YT.PlayerState.PLAYING) {
-        //alert(event.target.getVideoUrl());
-       // alert(players[0].getVideoUrl());
-        var temp = event.target.getVideoUrl();
-        var tempPlayers = $("iframe.yt_players");
-        for (var i = 0; i < players.length; i++) {
-            if (players[i].getVideoUrl() != temp) players[i].stopVideo();
-
-        }
-    }
-}
-</script>
 
 <script>
         function initComparisons() {
@@ -626,7 +594,33 @@ button:active {
             </div>
         </section>
 <!--stories-->
+<script type="text/javascript">
+    players = new Array();
 
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.a.src;
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].a.src != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
 
 <!--video-->
 <section class="patient_speaks light_gray_bg light">
@@ -646,7 +640,7 @@ button:active {
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
         <ul class="image-grid" id="list">
           <li>
-        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="iframe-video yt_players" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="260" height="320" id="<?php echo $d['link']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="iframe-video yt_players" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
         </li>
         </ul> 
