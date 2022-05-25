@@ -306,6 +306,19 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 <script>
   $('.animateHeader').delay(10000).fadeIn('1000');
 </script>
+<script>
+  function onPlayerStateChange(event) {
+  const playing = YT.PlayerState.PLAYING;
+  if (event.data === playing) {
+    for (const player of youtubePlayers) {
+      if (player !== event.target && player.getPlayerState() === playing) {
+        player.stopVideo();
+      }
+    }
+  }
+}
+
+</script>
 
 		<?php include('include/sidebar.php')?>
 
