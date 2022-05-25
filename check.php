@@ -25,37 +25,39 @@
 </div>
 
 <div class="col-xl-6">
-    <div class="about-info py-3 aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000">
-        <h5 class="mb-3">WHO WE ARE</h5>
-        <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2>
-        <p>If you need to know is there a <strong>Best Dentist in pimpri chinchwad</strong> or
-            <strong>Best Dental Clinic in pimpri chinchwad</strong>. Yes, there is. GoBest Dentist
-            is a modern, hi-tech, and ISO certified chain of multi-specialty dental clinic in Pune,
-            India. Headed by Dr. Sana Mokashi it has a team of super specialists that is dedicated
-            towards delivering all dental treatment under one roof. We strive to provide high
-            quality, personalized dental care in a relaxing, comfortable, and safe environment.
-            Lifelong relationships are created with our patients based on trust and honesty.</p>
-        <div class="row about-point">
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="500">
-                <div class="point"><a href="#." class="btn">Affordable Dentists</a></div>
-            </div>
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="700">
-                <div class="point"><a href="#." class="btn">Advanced Techniques</a></div>
-            </div>
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="900">
-                <div class="point"><a href="#." class="btn">Hygiene Safety priority</a></div>
-            </div>
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="1200">
-                <div class="point"><a href="#." class="btn">Advanced Instruments</a></div>
-            </div>
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="1500">
-                <div class="point"><a href="#." class="btn">Multispecialist Dentists</a></div>
-            </div>
-            <div class="col-lg-4 col-6 aos-init" data-aos="fade-up" data-aos-duration="1800">
-                <div class="point"><a href="#." class="btn">Professional Staff</a></div>
-            </div>
-        </div>
-    </div>
+<script>
+    var tag = document.createElement('script');
+    tag.src = "//www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    function onYouTubeIframeAPIReady() {
+        var $ = jQuery;
+        var players = [];
+        $('iframe').filter(function(){return this.src.indexOf('http://www.youtube.com/') == 0}).each( function (k, v) {
+            if (!this.id) { this.id='embeddedvideoiframe' + k }
+            players.push(new YT.Player(this.id, {
+                events: {
+                    'onStateChange': function(event) {
+                        if (event.data == YT.PlayerState.PLAYING) {
+                            $.each(players, function(k, v) {
+                                if (this.getIframe().id != event.target.getIframe().id) {
+                                    this.pauseVideo();
+                                }
+                            });
+                        }
+                    }
+                }
+            }))
+        });
+    }
+</script>
+
+One: 
+<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="160" height="100" src="http://www.youtube.com/embed/zXV8GMSc5Vg?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
+<br/>
+Two:
+<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="160" height="100" src="http://www.youtube.com/embed/LTy0TzA_4DQ?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
 </div>
 
 </div>
