@@ -122,7 +122,7 @@ img.emoji {
 .headimg{
     line-height: 1.8;
     margin-bottom: 6px;
-    padding-right:60px;
+    /* padding-right:60px; */
 }
 .ceo-box {
     padding: 20px;
@@ -798,7 +798,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border:solid #eee2bc 10px;
   background-color: #fff;
   width: 110px;
-  height: 540px;
+  height: 580px;
   perspective: 1000px;
 }
 
@@ -820,7 +820,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 540px;
+  height: 101%;
   backface-visibility: hidden;
 }
 
