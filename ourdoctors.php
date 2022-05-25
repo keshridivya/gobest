@@ -790,7 +790,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border:solid #eee2bc 10px;
   background-color: #fff;
   width: 110px;
-  height: 510px;
+  height: 540px;
   perspective: 1000px;
 }
 
@@ -812,7 +812,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 510px;
+  height: 540px;
   backface-visibility: hidden;
 }
 
@@ -927,12 +927,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <!-- #str heroes -->
 <!-- #abaddon -->
 
-<div class="flip-card rounded pb-2 pl-0 pr-0 mb-5 col-lg-3" style="border-top-left-radius: 25px;">
-  <div class="flip-card-inner" style="border-top-left-radius: 25px;">
-    <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px;">
-      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
+<div class="flip-card rounded pb-2 pl-0 pr-0 mb-5 col-lg-3" style="border-top-left-radius: 30px !important;">
+  <div class="flip-card-inner" style="border-top-left-radius: 30px !important;">
+    <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px !important;">
+      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;
          border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;border-bottom-left-radius:2px;">
-        <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
+        <h4 class="card-title m-2"><?php echo $d['name']; ?></h4>
+        <h6 style="color:pink;">Position  </h6>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
         <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
         <p class="card-text readMore m-2" style="color:blue;">Read More</p>
