@@ -1166,7 +1166,7 @@ position: absolute;
     players = new Array();
 
     function onYouTubeIframeAPIReady() {
-        var temp = $("iframe.yt_players");
+        var temp = $("iframe.yt_playerss");
         for (var i = 0; i < temp.length; i++) {
             var t = new YT.Player($(temp[i]).attr('id'), {
                 events: {
@@ -1181,7 +1181,7 @@ position: absolute;
     function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING) {
             var temp = event.target.getVideoUrl();
-            var tempPlayers = $("iframe.yt_players");
+            var tempPlayers = $("iframe.yt_playerss");
             for (var i = 0; i < players.length; i++) {
                 if (players[i].getVideoUrl() != temp) 
                     players[i].stopVideo();
@@ -1197,16 +1197,16 @@ position: absolute;
             <div class="patients_speaks_wrap">
              <div class="patient_speak_videos row">
              <?php
-                       $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+                       $sql = "SELECT * FROM review WHERE is_delete = '0' ";
                        $data = mysqli_query($conn, $sql);
                        foreach($data as $d){
                    ?>	
-	       <div class="w3-col l3">
-           <div class="video-box">	
+	       <div class="item item1 ">
+       <div class="video-box">	
            <ul class="image-grid" id="list">
           <li>
            <p><?php echo $d['id']; ?></p>
-            <iframe width="726" height="250" id="<?php echo $d['id']; ?>1" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+            <iframe width="726" height="250" id="<?php echo $d['id']; ?>1" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_playerss" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
 		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
          </li>
         </ul>
