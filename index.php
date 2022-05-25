@@ -677,7 +677,7 @@ button:active {
                 <iframe class="yt_players" id="player2" width="385" height="230" src="http://www.youtube.com/embed/c7b_WLkztXc?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
                 frameborder="0" allowfullscreen></iframe>
             </li>
-        </ul>
+        </ul>a
 
 <!-- video popup -->
 <div class="patient_speak_modal" id="patient_speak_modal">
