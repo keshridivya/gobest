@@ -843,6 +843,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
    width: 90px;
    height:350px;
   }
+  .headingName{
+    font-size:20px !important;
+    font-weight:bold;
+     line-height: 200% !important; 
+     font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+  }
   .card-text,
   .readMore{
     font-size:16px !important;
@@ -853,11 +860,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
   .flip-card-front,
 .flip-card-back {
-  height: 670px;
+  height: 570px;
 }
 .flip-card {
   width: 120px;
-  height: 670px;
+  height: 570px;
 }
 }
 .readMore:hover{
@@ -942,8 +949,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px !important;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;
          border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;border-bottom-left-radius:2px;">
-        <h4 class="card-title m-2"><?php echo $d['name']; ?></h4>
-        <h6 style="color:pink;">Position  </h6>
+        <h4 class="card-title headingName m-2"><?php echo $d['name']; ?></h4>
+        <h6 style="color:#fe235b;"><?php echo $d['degree']; ?></h6>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
         <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
         <p class="card-text readMore m-2" style="color:blue;">Read More</p>
