@@ -109,7 +109,7 @@ section.banner {
     /* animation: sdb05 1.5s; */
     animation-duration: 1.5s;
     animation-timing-function: ease;
-    animation-delay: 1s;
+    animation-delay: 60s;
     animation-iteration-count: 1;
     /* animation-direction: normal; */
     /* animation-fill-mode: none; */
@@ -3734,23 +3734,8 @@ a.jx-knightlab:focus span.juxtapose-name {
     .item {
         height: 25vh;
     }
+   
 }
 
-height: 175px;
-width: 175px;
-padding: 15px 5px;
 
-}
-.item {
-    height: 25vh;
-}
 
-}
-adding: 15px 5px;
-
-}
-.item {
-    height: 25vh;
-}
-
-}
