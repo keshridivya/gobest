@@ -1183,24 +1183,23 @@ position: absolute;
         }
     }
 </script>
- <div class="testimonial_content">		
- <!-- testimonials-text start here -->
-
-		 <div class="text_testimonials_wrap patient_speak_videos">
-    
-		    <div class="w3-row live_from_clinic_testi_row">	
-        <?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-              $sql = "SELECT * FROM review WHERE is_delete = '0'";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-          ?>		
+	<section class="patient_speaks light_gray_bg light">
+          <div class="container_2">
+            <div class="heading">
+              <h2>Patient Speaks</h2> 
+            </div> 
+            <div class="patients_speaks_wrap">
+             <div class="patient_speak_videos row">
+             <?php
+                       $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+                       $data = mysqli_query($conn, $sql);
+                       foreach($data as $d){
+                   ?>	
 	       <div class="w3-col l3">
            <div class="video-box">	
            <ul class="image-grid" id="list">
           <li>
-<p><?php echo $d['id']; ?></p>
+           <p><?php echo $d['id']; ?></p>
             <iframe width="726" height="250" id="<?php echo $d['id']; ?>1" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
 		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
          </li>
