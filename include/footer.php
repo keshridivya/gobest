@@ -307,18 +307,18 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
   $('.animateHeader').delay(10000).fadeIn('1000');
 </script>
 <script>
-  function pauseAllVideos() 
-    { 
-        $('iframe').contents().find('video').each(function () 
-        {
-            this.pause();
-        });
-        $('video').each(function () 
-        {
-            this.pause();
-        });
-    }
-
+   @param  {Element} element The element that contains the video
+var stopVideo = function ( element ) {
+	var iframe = element.querySelector( 'iframe');
+	var video = element.querySelector( 'video' );
+	if ( iframe ) {
+		var iframeSrc = iframe.src;
+		iframe.src = iframeSrc;
+	}
+	if ( video ) {
+		video.pause();
+	}
+};
 </script>
 
 		<?php include('include/sidebar.php')?>
