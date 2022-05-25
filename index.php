@@ -642,14 +642,11 @@ button:active {
               foreach($data as $d){
           ?>		
       <div class="item item1 ">
-       <div class="video-box">
-       <ul class="image-grid" id="list">
-            <li>
+      
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
         <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_playerss" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-        </li>
-        </ul> 
+        
        </div>
       </div><!-- item end here -->
       <?php } ?>
@@ -662,6 +659,22 @@ button:active {
  </div>
 </section>
 <!--video-->
+
+<div>TODO write content</div>
+        <ul class="image-grid" id="list">
+            <li>
+                <iframe class="yt_players" id="player0" width="385" height="230" src="http://www.youtube.com/embed/erDxb4IkgjM?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
+                frameborder="0" allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe class="yt_players" id="player1" width="385" height="230" src="http://www.youtube.com/embed/wSrA5iQGlDc?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
+                frameborder="0" allowfullscreen></iframe>
+            </li>
+            <li>
+                <iframe class="yt_players" id="player2" width="385" height="230" src="http://www.youtube.com/embed/c7b_WLkztXc?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0"
+                frameborder="0" allowfullscreen></iframe>
+            </li>
+        </ul>
 
 <!-- video popup -->
 <div class="patient_speak_modal" id="patient_speak_modal">
