@@ -950,7 +950,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   <?php } ?>	
 </div>
 
-<section>
+<!-- <section> -->
   <div class="col-md-12 col-sm-12 col-lg-12 mtb-10">
 <h2>Our Specialist Doctors</h2>
 </div>
@@ -1006,7 +1006,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 </div>
 </div>
-</section>
+<!-- </section> -->
 		</div>
 	</div>
 
