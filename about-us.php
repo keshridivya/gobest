@@ -682,10 +682,9 @@
     transition: .6s;
     box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
     animation: cc-calto-action-ripple .6s linear infinite !important;
-    
     width: 3.5rem;
     height: 3.5rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 

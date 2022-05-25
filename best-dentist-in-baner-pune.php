@@ -1038,7 +1038,7 @@ else {
         });
       }(jQuery));
     </script>
-    <div class="banner" style=" margin-top: 8rem;  position: sticky;">
+    <div class="banner mb-3" style=" margin-top: 8rem;  position: sticky;">
       <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg"
         class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy"
         srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w"
@@ -1212,25 +1212,18 @@ html {
 </style>
 
 
-<div class="breadcrumb pt-4 mb-0">
-      <div class="box ">
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li>Baner Branch</li>
-        </ul>
-      </div>
-    </div>
-    <div class="mask1 mt-0">
-    <img src="assets/img/research-image/4.jpg" alt="Avatar" class="rounded" style="width:100%">
+
+    <div class="mask1">
+    <img src="assets/img/research-image/4.jpg" alt="Avatar" class="rounded" style="width:100%; height: 400px;">
 </div>
-<section class="root">
+<section class="root p-2">
             <div class="container">
             <div class="root-info ">
     <h2 style="font-family: Anton, sans-serif; font-size:50px; line-height:200%;  text-shadow: 2px 1px #fe235b;" class="mb-3 text-center" >Gobest Dentist In Baner.</h2>
     </div>
     <div class="row">
     <div class="col-lg-4">
-                        <div class="root-info py-5">
+                        <div class="root-info py-2">
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">Address:</h2>
                             <h5 style="font-family: 'Lora', sans-serif;font-family: 'Muli', sans-serif; font-size:20px; line-height: 200%;" class="mb-3">Aditi Samruddhi, Ground Floor, Baner Rd, opp. Savata Mali Temple, Baner, Pune, Maharashtra 411045
 </h5>

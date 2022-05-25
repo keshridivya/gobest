@@ -69,7 +69,7 @@
     </div>
 </div>
 <div class="head-outer">
-<div class="header-main"><div class="orange helpme overlay animateHeader aos-init aos-animate" id="myModal" data-aos="fade-up" data-aos-delay="15000">
+<div class="header-main"><div class="orange helpme overlay animateHeader aos-init aos-animate" id="myModal" >
     <div class="container positionRel"> 
         <div class="row">
             <div class="col-lg-5 col-md-6">
@@ -166,7 +166,10 @@ else {
 <ul id="primary-menu" class="menu">
 <li id="menu-item-427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-427"><a href="index.php" class="a">HOME</a>
 </li>
-<li id="menu-item-4792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4792"><a href="about-us.php" class="a">ABOUT US</a>
+<li id="menu-item-4792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4792"><a class="a" href="about-us.php" class="a">ABOUT US</a>
+<ul class="sub-menu">
+	<li id="menu-item-481100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="fullcasestudy.php" class="a">Case Study</a></li>
+</ul>
 </li>
 <li id="menu-item-7267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7267"><a class="a" href="treatment.php" style="cursor:pointer">TREATMENT</a>
 	<ul class="sub-menu">

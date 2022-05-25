@@ -786,10 +786,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </style>
 <style>
   .flip-card {
-  border-style: hidden;
-  /* background-color: transparent; */
-  width: 120px;
-  height: 500px;
+  /* border-style: hidden; */
+  border:solid #eee2bc 10px;
+  background-color: #fff;
+  width: 110px;
+  height: 510px;
   perspective: 1000px;
 }
 
@@ -811,7 +812,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 500px;
+  height: 510px;
   backface-visibility: hidden;
 }
 
@@ -828,6 +829,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 @media only screen and (max-width:767px)
 {
+  .card-img-top{
+   width: 90px;
+   height:350px;
+  }
   .card-text,
   .readMore{
     font-size:16px !important;
@@ -922,18 +927,18 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <!-- #str heroes -->
 <!-- #abaddon -->
 
-<div class="flip-card rounded pb-2 mb-5 col-lg-3">
-  <div class="flip-card-inner">
-    <div class="flip-card-front mb-5" style="border-top-left-radius: 30px;">
+<div class="flip-card rounded pb-2 pl-0 pr-0 mb-5 col-lg-3" style="border-top-left-radius: 25px;">
+  <div class="flip-card-inner" style="border-top-left-radius: 25px;">
+    <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px;">
       <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 25px;
-         border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;boder-bottom-left-radius:2px;">
+         border-bottom-right-radius: 25px;" class="card-img-top" alt="..." style=" border-top-right-radius:5px;border-bottom-left-radius:2px;">
         <h5 class="card-title m-2"><?php echo $d['name']; ?></h5>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
         <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
         <p class="card-text readMore m-2" style="color:blue;">Read More</p>
         <!-- onMouseOver="this.style.color='#0F0'" -->
     </div>
-    <div class="flip-card-back p-1">
+    <div class="flip-card-back p-1" style="border-top-left-radius: 25px;">
       </br>
       <p style="font-size:15px; line-height: 130%;" class="card-text" type="text"><?php echo $d['description']; ?></p>
 
