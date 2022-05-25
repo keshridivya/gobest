@@ -1156,7 +1156,33 @@ position: absolute;
    </div> 
 	<div class="box">
 
+<script type="text/javascript">
+    players = new Array();
 
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
  <div class="testimonial_content">		
  <!-- testimonials-text start here -->
 
@@ -1172,9 +1198,13 @@ position: absolute;
           ?>		
 	       <div class="w3-col l3">
            <div class="video-box">	
-            <iframe width="726" height="250" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-		     </div>
+           <ul class="image-grid" id="list">
+          <li>
+        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+        </li>
+        </ul> 
+	     </div>
 	    </div>
       <?php } ?>
 	  </div>

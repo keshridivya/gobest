@@ -81,134 +81,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
 
 
-<script>
-        function initComparisons() {
-            var x, i;
-            /*find all elements with an "overlay" class:*/
-            x = document.getElementsByClassName("img-comp-overlay");
-            for (i = 0; i < x.length; i++) {
-                /*once for each "overlay" element:
-                pass the "overlay" element as a parameter when executing the compareImages function:*/
-                compareImages(x[i]);
-            }
-
-            function compareImages(img) {
-                var slider, img, clicked = 0,
-                    w, h;
-                /*get the width and height of the img element*/
-                w = img.offsetWidth;
-                h = img.offsetHeight;
-                /*set the width of the img element to 50%:*/
-                img.style.width = (w / 2) + "px";
-                /*create slider:*/
-                slider = document.createElement("img");
-                // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
-                slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","images/black-arrow.png")
-
-                /*insert slider*/
-                img.parentElement.insertBefore(slider, img);
-                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-                slider.addEventListener("mousedown", slideReady);
-                window.addEventListener("mouseup", slideFinish);
-                slider.addEventListener("touchstart", slideReady);
-                window.addEventListener("touchend", slideFinish);
-
-                function slideReady(e) {
-                    e.preventDefault();
-                    clicked = 1;
-                    window.addEventListener("mousemove", slideMove);
-                    window.addEventListener("touchmove", slideMove);
-                }
-
-                function slideFinish() {
-                    clicked = 0;
-                }
-
-                function slideMove(e) {
-                    var pos;
-                    if (clicked == 0) return false;
-                    pos = getCursorPos(e)
-                    if (pos < 0) pos = 0;
-                    if (pos > w) pos = w;
-                    slide(pos);
-                }
-
-                function getCursorPos(e) {
-                    var a, x = 0;
-                    e = (e.changedTouches) ? e.changedTouches[0] : e;
-                    a = img.getBoundingClientRect();
-                    x = e.pageX - a.left;
-                    x = x - window.pageXOffset;
-                    return x;
-                }
-
-                function slide(x) {
-                    img.style.width = x + "px";
-                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-                }
-            }
-        }
-        
-    </script>
-<style>
-       
-       * {
-            box-sizing: border-box;
-        }
-        
-        .img-comp-container {
-            position: relative;
-            height: 350px;
-            /*should be the same height as the images*/
-        }
-        
-        .img-comp-img {
-            position: absolute;
-            width: auto;
-            height: auto;
-            overflow: hidden;
-        }
-        
-        .img-comp-img {
-            display: block;
-            vertical-align: middle;
-        }
-        
-        .img-comp-slider {
-            /*position: absolute;
-            z-index: 9;
-            cursor: col-resize;
-            /*set the appearance of the slider:*/
-          /*   width: 20px; */
-            /*height: 20px;
-            background-color: white; 
-            border: solid black;
-            border-width: 5px;
-            /* opacity: 0.2; */
-            /*border-radius: 0%;
-            transform: rotate(45deg);
-  -webkit-transform: rotate(-135deg);*/
-
-  position: absolute; 
-  width: 45px; 
-  height: 45px; 
-  cursor: col-resize;
-  line-height: 30px;
-   text-align: center; 
-   top: 50%; 
-   left: 50%;
-    /* transform: translate(-50%, -50%); 
-    border-radius: 50%; background-color: rgb(250, 250, 250); */
-        font-size:40px;
-        z-index:1;   
-        font-weight:500;
-        }
-        
-
- </style>
-
  <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -368,14 +240,11 @@ button:active {
             "@context": "http://schema.org", "@type": "MedicalOrganization", "name": "Gobest Dentist", "url": "https://clovedental.in/", "logo": "https://clovedental.in/wp-content/themes/clove/images/logo-img.jpg", "contactPoint": {"@type": "ContactPoint", "telephone": "+9111 3355 3232", "contactType": "customer service" },
             "sameAs": [ "https://www.facebook.com/clovedentalindia", "https://twitter.com/Clove_Dental", "https://www.instagram.com/Gobest Dentist/", "https://www.youtube.com/watch?v=7XEZ7qnVaeg" ] } </</script>
 
+            <?php include("include/topbar.php") ?>
 
 </head>
 <body class="home-page header-home">
      
-<?php include("include/topbar.php"); ?>
-<script>
-
-</script>
 
   
 
@@ -408,14 +277,14 @@ button:active {
       <!-- Slide Two - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-2.jpg');height:50vh!important;">
       <div class="carousel-caption caption"  style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
+                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>Our Passion is Designing<br>The Perfect Smile</span></h1>
               </div>
              
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-3.jpg');height:50vh!important;">
       <div class="carousel-caption caption"  style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
+                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>BISO Certified and<br>Awarded Dental Clinic</span></h1>
               </div>
              
       </div>
@@ -437,7 +306,7 @@ button:active {
 
                     <div class="alert alert-success text-center">
                     	<h3>Thank You. </h3>
-                    	<p>We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.</p>
+                    	<h6>We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.</h6>
                     </div>
 
                 </div>
@@ -448,10 +317,6 @@ button:active {
 
     </section>
 
-
-<script>
-
-</script>
 
 
 
@@ -576,6 +441,7 @@ button:active {
         right: auto;
         left: 15px;
     }
+    
 }
 
 </style>
@@ -585,171 +451,45 @@ button:active {
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
-<script type='text/javascript' id='wp-polyfill-js-after'>
-( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
-</script>
-<script type='text/javascript' id='contact-form-7-js-extra'>
-/* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/clovedental.in\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index5697.js?ver=5.5.3' id='contact-form-7-js'></script>
-<script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-<script type='text/javascript' src='wp-includes/js/masonry.min3a05.js?ver=4.2.2' id='masonry-js'></script>
-<script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b' id='jquery-masonry-js'></script>
-<!-- Google Code for Remarketing Tag -->
-<script src="wp-content/themes/clove/js/waypoints.min.js" ></script>
-<script src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
-<script src="wp-content/themes/clove/js/owl.carousel.min.js" ></script>
+<script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
+<script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
+<!--<script src="https://clovedental.in/wp-content/themes/clove/js/owl.carousel.min.js" ></script>-->
+
+<script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
+<script defer src="wp-content/themes/clove/js/scripts.js" ></script>
+
+<script defer src="wp-content/themes/clove-child/js/style.js"></script>
+<script src="js/comparisonimage.js"></script>
+
 <script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("button-50");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 
-jQuery(document).ready(function() {
-	jQuery(".br_close").click(function(){
-        jQuery(".br_overlay").hide();
-    });
-
-
-	 
-	if(localStorage.getItem("timesec") === null)
-	{	
-	var time = "30", 
-	gettime = time; 	
-    localStorage.setItem('timesec', time);
-	}
-	if(localStorage.getItem("timesec") >=0)
-	{
-    var timer = setInterval(function(){
-		gettime = localStorage.getItem('timesec');
-		gettime--; 
-		localStorage.setItem('timesec', gettime);	 
-	   if(gettime==-1) {  
-		  localStorage.setItem('timesec', gettime);
-		  jQuery(".br_overlay").show();
-		  clearInterval(timer);		 
-		  return;
-		}  
-    }, 1000);
-	}
-
-jQuery('.counter').counterUp({ delay: 39, time: 2000 });
-
-jQuery( ".video-btn-box" ).click(function() {jQuery( ".corporate-video-wrap" ).addClass('active');});
-
-jQuery(".corporate-video-wrap .close").click(function(){jQuery(".corporate-video-wrap").removeClass('active');});
-
-jQuery(".down-arrow").click(function(){ jQuery('html,body').animate({scrollTop: jQuery(".Specialities-box").offset().top-210},'slow');});
-
-jQuery(".next").click(function(){ owl.trigger('owl.next'); });
-jQuery(".prev").click(function(){ owl.trigger('owl.prev'); });
-jQuery("#vidTest").click(function(){
-  jQuery("#Text").hide();
-  jQuery("#txtTest").removeClass('active');
-  jQuery("#Video").show();
-  jQuery(this).addClass('active');      
-})
-jQuery("#txtTest").click(function(){
-jQuery("#Video").hide();
-jQuery("#vidTest").removeClass('active');
-jQuery("#Text").show();
-jQuery(this).addClass('active');
-})
-
-	jQuery('.acc-content').hide(); 								
-	jQuery('.acc-tab').click(function(){
-	if( jQuery(this).next().is(':hidden') ) {
-	jQuery('.acc-tab').removeClass('active').next().slideUp(); 
-	jQuery(this).toggleClass('active').next().slideDown(); 
-	}
-		return false;
-	});
-	jQuery('#wplc_chatmsg').removeAttr("disabled");
-	jQuery(".mobile.read_more3").click(function(){
-	jQuery(".tab-content3 p").css("height", "auto");
-	jQuery(".mobile.read_more3").css("display", "none");
-	jQuery(".tab-content3").addClass("remove_after");
-	});
-});	
 </script>
-<script>$('.read').click(function(){
-		  $(this).prev().toggle();
-		  $(this).siblings('.dots').toggle();
-		  if($(this).text()=='Read More'){
-		     $(this).text('Read Less');
-		  }
-		  else{
-		     $(this).text('Read More');
-		  }
-		});</script>
-</body>
-<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
-</html><script>
-	$(".capcher-row").hide();
-
-function refreshCaptcha2() {
-	jQuery("#captcha_code2").attr('src','captcha/captchaCode48de.jpg?id=5&amp;var='+new Date().getTime());
-}
-</script>
-<style>
-.form-disclaimer {
-    position: relative;
-    padding: 20px;
-    float: left;
-}
-
-.form-disclaimer input {
-    width: 15px;
-    height: 20px;
-    position: absolute;
-    left: 0;
-    top: 16px;
-}
-.form-disclaimer label {
-    float: left;
-    padding-left: 5px;
-}
-</style>
 
 
-<Script>
 
-    $(document).ready(function() {
+<script>
+  initComparisons();
+ </script>
 
-        // Handler for .ready() called.
 
-        window.setTimeout(function() {
 
-            location.href = "index.php";
-
-        }, 60000000);
-
-    });
-
-    </Script>
 
 
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
