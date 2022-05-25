@@ -974,7 +974,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/manali.jpg" class="img-fluid" alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="assets/img/doctors/manali.jpg"  alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
 <h4 class="card-title">Dr. Manali K</h4>
 <span style="color:pink;font-size: 1rem;">BDS MDS Endodontist</span>
@@ -984,7 +984,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/namrata.jpg" class="img-fluid" alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="assets/img/doctors/namrata.jpg"  alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
 <h4 class="card-title">Dr. Namrata C</h4>
 <span style="color:pink;font-size: 1rem;">BDS MDS Oral Surgeon</span>
@@ -994,7 +994,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/richa.jpg" class="img-fluid" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="assets/img/doctors/richa.jpg" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
 <h4 class="card-title"    >Dr. Richa A</h4>
 <span style="color:pink;font-size: 1rem;">BDS MDS Pedodontist</span>
@@ -1004,7 +1004,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/shina.jpg" class="img-fluid" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="assets/img/doctors/shina.jpg" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
 <h4 class="card-title">Dr. Shine M</h4>
 <span style="color:pink;font-size: 1rem;">BDS MDS Prosthodontist</span>
@@ -1014,7 +1014,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/harshala.jpg" class="img-fluid" alt="Best Dentist in Wakad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="assets/img/doctors/harshala.jpg" alt="Best Dentist in Wakad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
 <h4 class="card-title">Dr. Harshala P</h4>
 <span style="color:pink;font-size: 1rem;">BDS MDS Orthodontist</span>
