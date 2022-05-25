@@ -2,8 +2,7 @@
               //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
               $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
               // $sql = "SELECT * FROM review WHERE is_delete = '0'";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
+            
           ?>	
 <!DOCTYPE html>
 
