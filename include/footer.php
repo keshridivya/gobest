@@ -307,18 +307,31 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
   $('.animateHeader').delay(10000).fadeIn('1000');
 </script>
 <script>
-   @param  {Element} element The element that contains the video
-var stopVideo = function ( element ) {
-	var iframe = element.querySelector( 'iframe');
-	var video = element.querySelector( 'video' );
-	if ( iframe ) {
-		var iframeSrc = iframe.src;
-		iframe.src = iframeSrc;
-	}
-	if ( video ) {
-		video.pause();
-	}
-};
+   var tag = document.createElement('script');
+    tag.src = "//www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    function onYouTubeIframeAPIReady() {
+        var $ = jQuery;
+        var players = [];
+        $('iframe').filter(function(){return this.src.indexOf('http://www.youtube.com/') == 0}).each( function (k, v) {
+            if (!this.id) { this.id='embeddedvideoiframe' + k }
+            players.push(new YT.Player(this.id, {
+                events: {
+                    'onStateChange': function(event) {
+                        if (event.data == YT.PlayerState.PLAYING) {
+                            $.each(players, function(k, v) {
+                                if (this.getIframe().id != event.target.getIframe().id) {
+                                    this.pauseVideo();
+                                }
+                            });
+                        }
+                    }
+                }
+            }))
+        });
+    }
 </script>
 
 		<?php include('include/sidebar.php')?>
