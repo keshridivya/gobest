@@ -644,9 +644,7 @@ button:active {
       <div class="item item1 ">
        <div class="video-box">
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-        <ul class="image-grid" id="list">
-          <li>
-        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="iframe-video yt_players" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_playerss" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
         </li>
         </ul> 

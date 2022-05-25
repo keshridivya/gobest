@@ -107,22 +107,27 @@ section.banner {
 
 .animateHeader {
     /* animation: sdb05 1.5s; */
+    display:none;
     animation-duration: 1.5s;
-    animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    /* animation-direction: normal; */
+    /* animation-timing-function: ease; */
+    /* -webkit-animation: fadein 6s; */
+    /* -webkit-animation-delay: 10s; */
+    /* animation-iteration-count: 1; */
+    animation-direction: normal;
     /* animation-fill-mode: none; */
-    animation-play-state: running;
+    /* animation-play-state: running; */
     animation-name: sdb05;
 }
 
 @keyframes sdb05 {
     0% {
         transform: translateY(-50px);
+        margin-top:-50px;
+        ;
     }
     100% {
         transform: translateY(0);
+        margin-top:0;
     }
 }
 
