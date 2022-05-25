@@ -16,7 +16,9 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
 
-<link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
+
+
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="xmlrpc.php"> 
 <link rel="stylesheet" href="style-new.css">
@@ -70,8 +72,145 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+
+
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        function initComparisons() {
+            var x, i;
+            /*find all elements with an "overlay" class:*/
+            x = document.getElementsByClassName("img-comp-overlay");
+            for (i = 0; i < x.length; i++) {
+                /*once for each "overlay" element:
+                pass the "overlay" element as a parameter when executing the compareImages function:*/
+                compareImages(x[i]);
+            }
+
+            function compareImages(img) {
+                var slider, img, clicked = 0,
+                    w, h;
+                /*get the width and height of the img element*/
+                w = img.offsetWidth;
+                h = img.offsetHeight;
+                /*set the width of the img element to 50%:*/
+                img.style.width = (w / 2) + "px";
+                /*create slider:*/
+                slider = document.createElement("img");
+                // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
+                slider.setAttribute("class", "img-comp-slider");
+                slider.setAttribute("src","images/black-arrow.png")
+
+                /*insert slider*/
+                img.parentElement.insertBefore(slider, img);
+                slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+                slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+                slider.addEventListener("mousedown", slideReady);
+                window.addEventListener("mouseup", slideFinish);
+                slider.addEventListener("touchstart", slideReady);
+                window.addEventListener("touchend", slideFinish);
+
+                function slideReady(e) {
+                    e.preventDefault();
+                    clicked = 1;
+                    window.addEventListener("mousemove", slideMove);
+                    window.addEventListener("touchmove", slideMove);
+                }
+
+                function slideFinish() {
+                    clicked = 0;
+                }
+
+                function slideMove(e) {
+                    var pos;
+                    if (clicked == 0) return false;
+                    pos = getCursorPos(e)
+                    if (pos < 0) pos = 0;
+                    if (pos > w) pos = w;
+                    slide(pos);
+                }
+
+                function getCursorPos(e) {
+                    var a, x = 0;
+                    e = (e.changedTouches) ? e.changedTouches[0] : e;
+                    a = img.getBoundingClientRect();
+                    x = e.pageX - a.left;
+                    x = x - window.pageXOffset;
+                    return x;
+                }
+
+                function slide(x) {
+                    img.style.width = x + "px";
+                    slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+                }
+            }
+        }
+        
+    </script>
+<style>
+       
+       * {
+            box-sizing: border-box;
+        }
+        
+        .img-comp-container {
+            position: relative;
+            height: 350px;
+            /*should be the same height as the images*/
+        }
+        
+        .img-comp-img {
+            position: absolute;
+            width: auto;
+            height: auto;
+            overflow: hidden;
+        }
+        
+        .img-comp-img {
+            display: block;
+            vertical-align: middle;
+        }
+        
+        .img-comp-slider {
+            /*position: absolute;
+            z-index: 9;
+            cursor: col-resize;
+            /*set the appearance of the slider:*/
+          /*   width: 20px; */
+            /*height: 20px;
+            background-color: white; 
+            border: solid black;
+            border-width: 5px;
+            /* opacity: 0.2; */
+            /*border-radius: 0%;
+            transform: rotate(45deg);
+  -webkit-transform: rotate(-135deg);*/
+
+  position: absolute; 
+  width: 45px; 
+  height: 45px; 
+  cursor: col-resize;
+  line-height: 30px;
+   text-align: center; 
+   top: 50%; 
+   left: 50%;
+    /* transform: translate(-50%, -50%); 
+    border-radius: 50%; background-color: rgb(250, 250, 250); */
+        font-size:40px;
+        z-index:1;   
+        font-weight:500;
+        }
+        
+
+ </style>
+
+ <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
@@ -109,8 +248,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 </script>
 
 
-
-
 <style>
 
   @media (max-width:1024px){
@@ -136,9 +273,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
       font-size:15px !important;
   }
   .image2{
-   width: 10rem !important;
-    margin-left: 45%;
-    padding-top: 50px;
+   width: 100px !important;
   }
   .button-50 {
     padding: 8px 7px !important;
@@ -146,6 +281,12 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   }
   .button-50 span{
       display:none;
+  }
+  .patient_speak_videos .iframe-footer{
+    padding:5px !important;
+  }
+  .img-fluid-set{
+height:8rem !important;
   }
 }
 .patient_speak_videos .iframe-footer {
@@ -196,9 +337,10 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   text-decoration: none;
 }
 
-.button-50:active {
+button:active {
   box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
+  background:red !important;
 }
 
 .button-50:not([disabled]):active {
@@ -234,7 +376,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <script>
 
 </script>
-
 
   
 
