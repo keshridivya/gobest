@@ -303,6 +303,9 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
           }
         });
     </script>
+<script>
+  $('.animateHeader').delay(10000).fadeIn('1000');
+</script>
 
 		<?php include('include/sidebar.php')?>
 
