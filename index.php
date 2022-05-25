@@ -1202,7 +1202,7 @@ button:active {
 
 
 <script>
-
+onYouTubeIframeAPIReady();
 </script>
 
 
