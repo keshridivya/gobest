@@ -107,9 +107,9 @@ section.banner {
 
 .animateHeader {
     /* animation: sdb05 1.5s; */
-    animation-duration: 1.5s;
+    animation-duration: 120s;
     animation-timing-function: ease;
-    animation-delay: 60s;
+    animation-delay: 1s;
     animation-iteration-count: 1;
     /* animation-direction: normal; */
     /* animation-fill-mode: none; */
