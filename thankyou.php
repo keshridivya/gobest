@@ -534,7 +534,7 @@ function openCity(evt, cityName) {
 
             location.href = "index.php";
 
-        }, 5000);
+        }, 60000);
 
     });
 
