@@ -820,7 +820,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 101%;
   backface-visibility: hidden;
 }
 
