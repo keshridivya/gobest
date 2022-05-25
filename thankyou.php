@@ -372,156 +372,202 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   border-right:10px solid #FFF;
 }
 </style>
-
-<div class="full-footer">
-		<div class="footer-top">	
-			</div>
-		<div class="box">
-
-			<div class="full-footer-in">
-				<div class="links-box">
-					<div class="links-comman-box toggle-mbl h4">
-						<h4 class="h4">Branches</h4>
-						<div class="menu-clove-advantage-container" style="display:block;"><ul id="menu-clove-advantage" class="menu">
-              
-              <!-- <li id="menu-item-3009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3009"><a href="dentist-near-me/index.html">Clove Clinics</a></li> -->
-
-
-<li id="menu-item-12292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12292"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php"> Akurdi Branch</a></br>
-<span>
-    R K Apartment, Vivek Nagar, Akurdi, Pimpri-Chinchwad, MH-411035 
-</span></li>
-<li id="menu-item-3006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php">Wakad Branch</a></br>
-<span>
-Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pimpri-Chinchwad, MH-411057 
-</span></li>
-<li id="menu-item-7280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7280"><a href="best-dentist-in-baner-pune.php"> Baner Branch</a></br>
-<span>
-    Ground Floor, Aditi Samruddhi, Opp. Savata Mali Temple, Baner Road, Baner, Pune, Maharashtra 411045 
-</span></li>
-<li id="menu-item-7275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7275"><a href="best-dentist-in-pimple-saudagar.php"> Pimple Saudagar</a></br>
-<span>
-    Vision 9 Mall, 2nd floor Kunal Icon Rd, Pimple Saudagar, Pune, Maharashtra 411027.  
-</span></li>
-</ul></div>					</div>
-					<div class="links-comman-box toggle-mbl">
-						<h4>MENU</h4>
-						<div class="menu-about-container"><ul id="menu-about" class="menu">
-<li id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-632"><a href="index.php">Home</a></li>
-<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="about-us.php">About US</a></li>
-<li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634"><a href="testimonials.php"> Reviews</a></li>
-<li id="menu-item-3017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3017"><a href="careers.php">  Careers</a></li>
-
-<li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a href="contact-us.php">Contact Us</a></li>
-</ul></div>					</div>
-					<div class="links-comman-box toggle-mbl">
-						<h4>USEFUL LINKS </h4>
-						<div class="menu-usefull-links-container"><ul id="menu-usefull-links" class="menu"><li id="menu-item-8156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8156"><a href="blog.php">Blogs</a></li>
-<!-- <li id="menu-item-15253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15253"><a href="news-media/index.html">News &#038; Media</a></li> -->
-<!-- <li id="menu-item-8157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8157"><a href="dental-education-videos/index.html">Dental Education Videos</a></li> -->
-<li id="menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6779"><a href="privacy_policy.php">Privacy Policy</a></li>
-<!-- <li id="menu-item-6559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6559"><a href="coupon-policy/index.html">Coupon Policy</a></li> -->
-<li id="menu-item-7288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7288"><a href="">Book An Appointment</a></li>
-<!-- <li id="menu-item-9991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9991"><a href="leasing/index.html">Leasing</a></li> -->
-<!-- <li id="menu-item-10785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10785"><a href="journal/index.html">Clove&#8217;s Scientific Journal</a></li> -->
-<li id="menu-item-13135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13135"><a href="refund_policy.php">Refund &#038; Re-treatment Policy</a></li>
-</ul></div>					</div>
-					<div class="links-comman-box toggle-mbl">
-						<h4>Treatments</h4>
-						<div class="menu-join-clove-container"><ul id="menu-join-clove" class="menu"><li id="menu-item-7235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7235"><a href="Tooth-Extraction.php"> Tooth Extraction</a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Dental-Care-Hygiene.php">Dental Care & Hygiene </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Teeth-Whitening.php">Teeth Whitening  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Dental-X-Ray.php">Dental X-Ray </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Root-Canal-Treatment.php">Root Canal Treatment  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Crown-and-Bridges.php">Crowns And Bridges </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Wisdom-Tooth-Extraction.php">Wisdom Tooth Extraction </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="">Dental Implants </a></li>
-</ul></div>					</div>
-					<div class="call-list-box toggle-mbl">
-						<h4>Popular Searches</h4>
-						<div class="call-t">
-<ul>
-<!--<li><i class="fa fa-phone" aria-hidden="true"></i> Akurdi <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
-<li><i class="fa fa-phone" aria-hidden="true"></i> Wakad <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
-<li><i class="fa fa-phone" aria-hidden="true"></i> Baner <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
-<li><i class="fa fa-phone" aria-hidden="true"></i> Pimple <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>-->
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Wakad  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Pune </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Pimpri Chinchwad  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Nigdi </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in wakad </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pune  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in hinjewadi  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in nigdi </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pradhikaran </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in Pimpri  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in chinchwad  </a></li>
-<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pune  </a></li>
-
-
-<li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+9172648 89986" style="color:style="color: #ffffff;";font-family:sans-sarif;font-size: initial;">72648 89986</a></li>
-<li class="call-last"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 10 am to 8 pm every day</li>
-</ul>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom-box" >
-					<div class="social-network-box"><ul>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						</ul>
-					</div>
-					<p class="copyright">All Rights Reserved - 2022, <span>Go Best Dentist</span></p>
-					
-				</div>
-			
-			</div>
-			</div>
-			</div>
-
-
-			
-		<script src="js/jsddd.js">
-		    
-		</script>
-				
-		
-			
-		
-			
-
-<script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
-<script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
-<!--<script src="https://clovedental.in/wp-content/themes/clove/js/owl.carousel.min.js" ></script>-->
-
-<script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
-<script defer src="wp-content/themes/clove/js/scripts.js" ></script>
-
-<script defer src="wp-content/themes/clove-child/js/style.js"></script>
-<script src="js/comparisonimage.js"></script>
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    /* display: flex; */
+    align-items: center;
 }
 
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
 
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
+
+<?php include("include/footer.php") ?>
+
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/clovedental.in\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index5697.js?ver=5.5.3' id='contact-form-7-js'></script>
+<script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='wp-includes/js/masonry.min3a05.js?ver=4.2.2' id='masonry-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b' id='jquery-masonry-js'></script>
+<!-- Google Code for Remarketing Tag -->
+<script src="wp-content/themes/clove/js/waypoints.min.js" ></script>
+<script src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
+<script src="wp-content/themes/clove/js/owl.carousel.min.js" ></script>
+<script>
+
+jQuery(document).ready(function() {
+	jQuery(".br_close").click(function(){
+        jQuery(".br_overlay").hide();
+    });
 
 
+	 
+	if(localStorage.getItem("timesec") === null)
+	{	
+	var time = "30", 
+	gettime = time; 	
+    localStorage.setItem('timesec', time);
+	}
+	if(localStorage.getItem("timesec") >=0)
+	{
+    var timer = setInterval(function(){
+		gettime = localStorage.getItem('timesec');
+		gettime--; 
+		localStorage.setItem('timesec', gettime);	 
+	   if(gettime==-1) {  
+		  localStorage.setItem('timesec', gettime);
+		  jQuery(".br_overlay").show();
+		  clearInterval(timer);		 
+		  return;
+		}  
+    }, 1000);
+	}
+
+jQuery('.counter').counterUp({ delay: 39, time: 2000 });
+
+jQuery( ".video-btn-box" ).click(function() {jQuery( ".corporate-video-wrap" ).addClass('active');});
+
+jQuery(".corporate-video-wrap .close").click(function(){jQuery(".corporate-video-wrap").removeClass('active');});
+
+jQuery(".down-arrow").click(function(){ jQuery('html,body').animate({scrollTop: jQuery(".Specialities-box").offset().top-210},'slow');});
+
+jQuery(".next").click(function(){ owl.trigger('owl.next'); });
+jQuery(".prev").click(function(){ owl.trigger('owl.prev'); });
+jQuery("#vidTest").click(function(){
+  jQuery("#Text").hide();
+  jQuery("#txtTest").removeClass('active');
+  jQuery("#Video").show();
+  jQuery(this).addClass('active');      
+})
+jQuery("#txtTest").click(function(){
+jQuery("#Video").hide();
+jQuery("#vidTest").removeClass('active');
+jQuery("#Text").show();
+jQuery(this).addClass('active');
+})
+
+	jQuery('.acc-content').hide(); 								
+	jQuery('.acc-tab').click(function(){
+	if( jQuery(this).next().is(':hidden') ) {
+	jQuery('.acc-tab').removeClass('active').next().slideUp(); 
+	jQuery(this).toggleClass('active').next().slideDown(); 
+	}
+		return false;
+	});
+	jQuery('#wplc_chatmsg').removeAttr("disabled");
+	jQuery(".mobile.read_more3").click(function(){
+	jQuery(".tab-content3 p").css("height", "auto");
+	jQuery(".mobile.read_more3").css("display", "none");
+	jQuery(".tab-content3").addClass("remove_after");
+	});
+});	
+</script>
+<script>$('.read').click(function(){
+		  $(this).prev().toggle();
+		  $(this).siblings('.dots').toggle();
+		  if($(this).text()=='Read More'){
+		     $(this).text('Read Less');
+		  }
+		  else{
+		     $(this).text('Read More');
+		  }
+		});</script>
+</body>
+<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
+</html><script>
+	$(".capcher-row").hide();
+
+function refreshCaptcha2() {
+	jQuery("#captcha_code2").attr('src','captcha/captchaCode48de.jpg?id=5&amp;var='+new Date().getTime());
+}
+</script>
+<style>
+.form-disclaimer {
+    position: relative;
+    padding: 20px;
+    float: left;
+}
+
+.form-disclaimer input {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.form-disclaimer label {
+    float: left;
+    padding-left: 5px;
+}
+</style>
 
 
 <Script>
@@ -534,7 +580,7 @@ function openCity(evt, cityName) {
 
             location.href = "index.php";
 
-        }, 60000);
+        }, 60000000);
 
     });
 
