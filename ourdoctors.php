@@ -826,7 +826,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   color: black;
   transform: rotateY(180deg);
 }
-
+.content1{
+  padding:30px 0px;
+}
 @media only screen and (max-width:767px)
 {
   .card-img-top{
@@ -966,50 +968,50 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/manali.jpg" class="img-fluid" alt="dentist in pune">
-<div class="content special">
-<h3>Dr. Manali K</h3>
-<span>BDS MDS Endodontist</span>
-<p>Root Canal Specialist</p>
+<div class="content1 ">
+<h3 class="card-title">Dr. Manali K</h3>
+<span style="color:pink;font-size: 1rem;">BDS MDS Endodontist</span>
+<p class="card-text">Root Canal Specialist</p>
 </div>
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/namrata.jpg" class="img-fluid" alt="dentist in pune">
-<div class="content special">
-<h3>Dr. Namrata C</h3>
-<span>BDS MDS Oral Surgeon</span>
-<p>Oral and Maxillofacial Surgeon</p>
+<div class="content1 ">
+<h3 class="card-title">Dr. Namrata C</h3>
+<span style="color:pink;font-size: 1rem;">BDS MDS Oral Surgeon</span>
+<p class="card-text">Oral and Maxillofacial Surgeon</p>
 </div>
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/richa.jpg" class="img-fluid" alt="dentist in pimpri chinchwad">
-<div class="content special">
-<h3>Dr. Richa A</h3>
-<span>BDS MDS Pedodontist</span>
-<p>Child Teeth Specialist</p>
+<div class="content1 ">
+<h3 class="card-title"    >Dr. Richa A</h3>
+<span style="color:pink;font-size: 1rem;">BDS MDS Pedodontist</span>
+<p class="card-text">Child Teeth Specialist</p>
 </div>
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/shina.jpg" class="img-fluid" alt="dentist in pimpri chinchwad">
-<div class="content special">
-<h3>Dr. Shine M</h3>
-<span>BDS MDS Prosthodontist</span>
-<p>Crown and Denture Specialist</p>
+<div class="content1 ">
+<h3 class="card-title">Dr. Shine M</h3>
+<span style="color:pink;font-size: 1rem;">BDS MDS Prosthodontist</span>
+<p class="card-text">Crown and Denture Specialist</p>
 </div>
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
 <img src="assets/img/doctors/harshala.jpg" class="img-fluid" alt="Best Dentist in Wakad">
-<div class="content special">
-<h3>Dr. Harshala P</h3>
-<span>BDS MDS Orthodontist</span>
-<p>Tooth Braces specialist</p>
+<div class="content1 ">
+<h3 class="card-title">Dr. Harshala P</h3>
+<span style="color:pink;font-size: 1rem;">BDS MDS Orthodontist</span>
+<p class="card-text">Tooth Braces specialist</p>
 </div>
 </div>
 </div>
