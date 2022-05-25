@@ -107,7 +107,7 @@ section.banner {
 
 .animateHeader {
     /* animation: sdb05 1.5s; */
-    animation-duration: 120s;
+    animation-duration: 1.5s;
     animation-timing-function: ease;
     animation-delay: 1s;
     animation-iteration-count: 1;
@@ -3734,8 +3734,5 @@ a.jx-knightlab:focus span.juxtapose-name {
     .item {
         height: 25vh;
     }
-   
 }
-
-
 
