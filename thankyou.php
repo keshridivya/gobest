@@ -295,8 +295,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 <div class="col-lg-12">
 
                     <div class="alert alert-success text-center">
-                    	<h1>Thank You. </h1>
-                    	<h6>We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.</h6>
+                    	<h3>Thank You. </h3>
+                    	<p>We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.</p>
                     </div>
 
                 </div>
@@ -372,79 +372,115 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   border-right:10px solid #FFF;
 }
 </style>
-<style>
-  
-.phone-btn {
-    position: fixed;
-    z-index: 999;
-    background-color: #fe0600;
-    color: #fff;
-    padding: .6rem .9rem;
-    border-radius: 50%;
-    transition: .6s;
-    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
-    width: 3.5rem;
-    height: 3.5rem;
-    /* display: flex; */
-    align-items: center;
-}
 
-@-webkit-keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
+<div class="full-footer">
+		<div class="footer-top">	
+			</div>
+		<div class="box">
 
-@keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-.phone-btn:hover {
-    text-decoration: none;
-}
-
-.phone-btn i {
-    font-size: 2rem;
-    transition: .3s ease;
-}
-
-.phone-btn:hover {
-    color: #fff;
-    box-shadow: 0px 0px 16px 3px #fff;
-    transform: translateY(-10px);
-    transition: .6s;
-}
-
-@media (max-width: 1024px) {
-  .phone-btn {
-        bottom: 1rem;
-        right: auto;
-        left: 15px;
-    }
-}
-
-</style>
-
-<?php include("include/footer.php") ?>
-
-    <!-- Call Us -->
-    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+			<div class="full-footer-in">
+				<div class="links-box">
+					<div class="links-comman-box toggle-mbl h4">
+						<h4 class="h4">Branches</h4>
+						<div class="menu-clove-advantage-container" style="display:block;"><ul id="menu-clove-advantage" class="menu">
+              
+              <!-- <li id="menu-item-3009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3009"><a href="dentist-near-me/index.html">Clove Clinics</a></li> -->
 
 
+<li id="menu-item-12292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12292"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php"> Akurdi Branch</a></br>
+<span>
+    R K Apartment, Vivek Nagar, Akurdi, Pimpri-Chinchwad, MH-411035 
+</span></li>
+<li id="menu-item-3006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php">Wakad Branch</a></br>
+<span>
+Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pimpri-Chinchwad, MH-411057 
+</span></li>
+<li id="menu-item-7280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7280"><a href="best-dentist-in-baner-pune.php"> Baner Branch</a></br>
+<span>
+    Ground Floor, Aditi Samruddhi, Opp. Savata Mali Temple, Baner Road, Baner, Pune, Maharashtra 411045 
+</span></li>
+<li id="menu-item-7275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7275"><a href="best-dentist-in-pimple-saudagar.php"> Pimple Saudagar</a></br>
+<span>
+    Vision 9 Mall, 2nd floor Kunal Icon Rd, Pimple Saudagar, Pune, Maharashtra 411027.  
+</span></li>
+</ul></div>					</div>
+					<div class="links-comman-box toggle-mbl">
+						<h4>MENU</h4>
+						<div class="menu-about-container"><ul id="menu-about" class="menu">
+<li id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-632"><a href="index.php">Home</a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="about-us.php">About US</a></li>
+<li id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634"><a href="testimonials.php"> Reviews</a></li>
+<li id="menu-item-3017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3017"><a href="careers.php">  Careers</a></li>
+
+<li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a href="contact-us.php">Contact Us</a></li>
+</ul></div>					</div>
+					<div class="links-comman-box toggle-mbl">
+						<h4>USEFUL LINKS </h4>
+						<div class="menu-usefull-links-container"><ul id="menu-usefull-links" class="menu"><li id="menu-item-8156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8156"><a href="blog.php">Blogs</a></li>
+<!-- <li id="menu-item-15253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15253"><a href="news-media/index.html">News &#038; Media</a></li> -->
+<!-- <li id="menu-item-8157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8157"><a href="dental-education-videos/index.html">Dental Education Videos</a></li> -->
+<li id="menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6779"><a href="privacy_policy.php">Privacy Policy</a></li>
+<!-- <li id="menu-item-6559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6559"><a href="coupon-policy/index.html">Coupon Policy</a></li> -->
+<li id="menu-item-7288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7288"><a href="">Book An Appointment</a></li>
+<!-- <li id="menu-item-9991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9991"><a href="leasing/index.html">Leasing</a></li> -->
+<!-- <li id="menu-item-10785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10785"><a href="journal/index.html">Clove&#8217;s Scientific Journal</a></li> -->
+<li id="menu-item-13135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13135"><a href="refund_policy.php">Refund &#038; Re-treatment Policy</a></li>
+</ul></div>					</div>
+					<div class="links-comman-box toggle-mbl">
+						<h4>Treatments</h4>
+						<div class="menu-join-clove-container"><ul id="menu-join-clove" class="menu"><li id="menu-item-7235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7235"><a href="Tooth-Extraction.php"> Tooth Extraction</a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Dental-Care-Hygiene.php">Dental Care & Hygiene </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Teeth-Whitening.php">Teeth Whitening  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Dental-X-Ray.php">Dental X-Ray </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Root-Canal-Treatment.php">Root Canal Treatment  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Crown-and-Bridges.php">Crowns And Bridges </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="Wisdom-Tooth-Extraction.php">Wisdom Tooth Extraction </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="">Dental Implants </a></li>
+</ul></div>					</div>
+					<div class="call-list-box toggle-mbl">
+						<h4>Popular Searches</h4>
+						<div class="call-t">
+<ul>
+<!--<li><i class="fa fa-phone" aria-hidden="true"></i> Akurdi <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
+<li><i class="fa fa-phone" aria-hidden="true"></i> Wakad <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
+<li><i class="fa fa-phone" aria-hidden="true"></i> Baner <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>
+<li><i class="fa fa-phone" aria-hidden="true"></i> Pimple <span><a href="tel:00000000"  onclick="ga('send','event','footer','click','website', 1);">00000000</a></span></li>-->
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Wakad  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Pune </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Pimpri Chinchwad  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dentist in Nigdi </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in wakad </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pune  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in hinjewadi  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in nigdi </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pradhikaran </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in Pimpri  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in chinchwad  </a></li>
+<li id="menu-item-7236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7236"><a href="#">Best Dental clinic in pune  </a></li>
+
+
+<li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+9172648 89986" style="color:style="color: #ffffff;";font-family:sans-sarif;font-size: initial;">72648 89986</a></li>
+<li class="call-last"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 10 am to 8 pm every day</li>
+</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom-box" >
+					<div class="social-network-box"><ul>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						<li><a onclick="ga('send','event','footer-social','click-social','website-social', 1);" target="_blank" href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<p class="copyright">All Rights Reserved - 2022, <span>Go Best Dentist</span></p>
+					
+				</div>
+			
+			</div>
+			</div>
+			</div>
 
 
 			
@@ -498,7 +534,7 @@ function openCity(evt, cityName) {
 
             location.href = "index.php";
 
-        }, 15000);
+        }, 60000);
 
     });
 

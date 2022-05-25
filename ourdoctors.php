@@ -951,8 +951,70 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   <?php } ?>	
 </div>
 
+<!-- <section> -->
+  <div class="col-md-12 col-sm-12 col-lg-12 mtb-10">
+<h2>Our Specialist Doctors</h2>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="single-doctor-box">
+<img src="assets/img/doctors/manali.jpg" class="img-fluid" alt="dentist in pune">
+<div class="content special">
+<h3>Dr. Manali K</h3>
+<span>BDS MDS Endodontist</span>
+<p>Root Canal Specialist</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="single-doctor-box">
+<img src="assets/img/doctors/namrata.jpg" class="img-fluid" alt="dentist in pune">
+<div class="content special">
+<h3>Dr. Namrata C</h3>
+<span>BDS MDS Oral Surgeon</span>
+<p>Oral and Maxillofacial Surgeon</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="single-doctor-box">
+<img src="assets/img/doctors/richa.jpg" class="img-fluid" alt="dentist in pimpri chinchwad">
+<div class="content special">
+<h3>Dr. Richa A</h3>
+<span>BDS MDS Pedodontist</span>
+<p>Child Teeth Specialist</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="single-doctor-box">
+<img src="assets/img/doctors/shina.jpg" class="img-fluid" alt="dentist in pimpri chinchwad">
+<div class="content special">
+<h3>Dr. Shine M</h3>
+<span>BDS MDS Prosthodontist</span>
+<p>Crown and Denture Specialist</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6">
+<div class="single-doctor-box">
+<img src="assets/img/doctors/harshala.jpg" class="img-fluid" alt="Best Dentist in Wakad">
+<div class="content special">
+<h3>Dr. Harshala P</h3>
+<span>BDS MDS Orthodontist</span>
+<p>Tooth Braces specialist</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- </section> -->
 		</div>
 	</div>
+
+ 
+
 
 <!--<div class="important_info_icon">
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
