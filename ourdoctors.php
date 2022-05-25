@@ -950,10 +950,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   <?php } ?>	
 </div>
 
-		</div>
-	</div>
-
-  <section>
+<section>
   <div class="col-md-12 col-sm-12 col-lg-12 mtb-10">
 <h2>Our Specialist Doctors</h2>
 </div>
@@ -1010,8 +1007,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 </div>
 </section>
+		</div>
+	</div>
 
-  </section>
+ 
+
 
 <!--<div class="important_info_icon">
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
