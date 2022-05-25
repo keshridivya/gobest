@@ -132,15 +132,7 @@ img.emoji {
     box-shadow: 0 0 40px rgb(82 85 90 / 10%);
     margin-bottom: 30px;
 }
-.single-doctor-box {
-    margin-bottom: 30px;
-    text-align: center;
-    background-color: #fff;
-    -webkit-box-shadow: 0 0 40px rgb(82 85 90 / 10%);
-    box-shadow: 0 0 40px rgb(82 85 90 / 10%);
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min9f31.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles5697.css?ver=5.5.3' type='text/css' media='all' />
