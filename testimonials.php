@@ -1156,7 +1156,7 @@ position: absolute;
    </div> 
 	<div class="box">
 
-<script type="text/javascript">
+  <script type="text/javascript">
     players = new Array();
 
     function onYouTubeIframeAPIReady() {
@@ -1198,13 +1198,10 @@ position: absolute;
           ?>		
 	       <div class="w3-col l3">
            <div class="video-box">	
-           <ul class="image-grid" id="list">
-          <li>
-        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-        </li>
-        </ul> 
-	     </div>
+<p><?php echo $d['id']; ?></p>
+            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+		     </div>
 	    </div>
       <?php } ?>
 	  </div>
