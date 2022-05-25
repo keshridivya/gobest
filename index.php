@@ -1202,84 +1202,10 @@ button:active {
 
 
 <script>
-onYouTubeIframeAPIReady();<script>
-var tag = document.createElement('script');
-tag.src = "//www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-function onYouTubeIframeAPIReady() {
-    var $ = jQuery;
-    var players = [];
-    $('iframe').filter(function(){return this.src.indexOf('http://www.youtube.com/') == 0}).each( function (k, v) {
-        if (!this.id) { this.id='embeddedvideoiframe' + k }
-        players.push(new YT.Player(this.id, {
-            events: {
-                'onStateChange': function(event) {
-                    if (event.data == YT.PlayerState.PLAYING) {
-                        $.each(players, function(k, v) {
-                            if (this.getPlayerState() == YT.PlayerState.PLAYING && this.getIframe().id != event.target.getIframe().id) { 
-                                this.pauseVideo();
-                            }
-                        });
-                    }
-                }
-            }
-        }))
-    });
-}
+onYouTubeIframeAPIReady();
 </script>
 
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/gbug3zTm3Ws?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
 
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/JFBUJ6kNl28?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/pUjE9H8QlA4?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/saz1vsk69KI?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-</script>
-
-<script>
-var tag = document.createElement('script');
-tag.src = "//www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-function onYouTubeIframeAPIReady() {
-    var $ = jQuery;
-    var players = [];
-    $('iframe').filter(function(){return this.src.indexOf('http://www.youtube.com/') == 0}).each( function (k, v) {
-        if (!this.id) { this.id='embeddedvideoiframe' + k }
-        players.push(new YT.Player(this.id, {
-            events: {
-                'onStateChange': function(event) {
-                    if (event.data == YT.PlayerState.PLAYING) {
-                        $.each(players, function(k, v) {
-                            if (this.getPlayerState() == YT.PlayerState.PLAYING && this.getIframe().id != event.target.getIframe().id) { 
-                                this.pauseVideo();
-                            }
-                        });
-                    }
-                }
-            }
-        }))
-    });
-}
-</script>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/gbug3zTm3Ws?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/JFBUJ6kNl28?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/pUjE9H8QlA4?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
-<br/>
-
-<iframe frameborder="0" allowfullscreen="1" title="YouTube video player" width="300" height="200" src="http://www.youtube.com/embed/saz1vsk69KI?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net"></iframe>
 
 <!-- corona popup start here -->
 <!-- corona popup end here -->
