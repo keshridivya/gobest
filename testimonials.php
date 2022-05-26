@@ -1325,7 +1325,9 @@ button:active {
 
     <div class="container">
     <section class="about">
-   <div class="container">
+   
+</section>
+<div class="container">
 
     <div class="row">
        <div class="col-xl-12">
@@ -1405,8 +1407,6 @@ button:active {
                     </div>
          </div>
     </div>
-</section>
-
 <h1>sasas</h1>
         <div class="textimonial-tab">
         <div class="heading " style="text-align:center;">
