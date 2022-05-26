@@ -232,7 +232,271 @@ button:active {
 
 
 
+<style>
+  <style>
+.testimonal-nav.fixed {
+    width: 100%;
+    background-color: #FFF;
+    padding: 20px 0 25px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 72px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    z-index: 9;
+}
+.w3-row{
+  margin-left:-15px;
+  margin-right:-15px;
+}
+.w3-row:before,
+.w3-row:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.w3-row > .w3-col{
+  padding:15px;
+}
+.w3-col{
+  display:block;
+  float:left;
+}
+.w3-col.l3{
+   width:25%;
+}
+.grid-sizer,
+.testi_item{
+  width:25%;
+}
+.testi_item{
+  padding:15px;
+}
+.testi_item .testi_box{
+  width:100%;
+  padding:15px;
+  box-shadow:0 0 6px rgba(0,0,0,.4);
+  border-radius:5px;
+}
+.testi_item .testi_box .text-box{
+  width:100%;
+  min-height:160px;
+  padding:10px;
+}
+.testi_item .testi_box .text-box q:before,
+.testi_item .testi_box .text-box q:after{
+   position:relative;
+   left:initial;
+   top:initial;
+   margin: 0px 10px 0;
+}
+.testi_item .testi_box .text-box q:after{
+  bottom:-5px;
+}
+.testi_item .testi_box .clients-bar{
+  background-color:#FFF;
+  margin-top:0;
+  text-align:center;
+}
+.testi_item .testi_box .clients-bar:before{
+  display:none;
+}
+.testi_item .testi_box .clients-bar img{
+  display:inline-block;
+  float:none;
+  margin:10px 0 0;
+} 
+.testi_item .testi_box .clients-bar h4{
+  margin:0;
+  padding:0;
+  color:#000;
+}
 
+/*
+.testimonial_content .row{
+   width:50%;
+   padding:15px;
+   border:0;
+}
+.testi_with_video .row .video,
+.testi_with_video .row.right .video,
+.testi_with_video .text-box{
+  width:100%;
+  float:none;
+}
+.testi_with_video .text-box{
+  padding:20px;
+}
+.testi_with_video .text-box q{
+  display:block;
+  min-height:160px;
+}
+*/
+
+.video-box{
+  width:100%;
+  position:relative;
+}
+.video-box iframe{
+  width:100%;
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  border-radius:5px 5px 0 0;
+}
+.video-box .iframe-footer{
+  font-size: 15px;
+  color: #000000;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  background: #FBEBCC;
+  padding: 10px 15px;
+  box-shadow: -1px 0 2px rgba(0,0,0,.4);
+  border-radius:0 0 5px 5px;
+  position:static;
+ 
+}
+.testimonial_content .video iframe{
+   border-radius:5px;
+}
+.patient_speak_videos .video-box{
+  position:relative;
+}
+.patient_speak_videos .play_btn{
+   width:100%;
+   position:absolute;
+   left:0;
+   top:0;
+   bottom:40px;
+   z-index:1;
+   cursor:pointer;
+   background:url('wp-content/uploads/2020/05/play-btn.png') no-repeat center;
+}
+.patient_speak_videos .play_btn:hover{
+   background:url('wp-content/uploads/2020/05/play-btn-active.png') no-repeat center;
+}
+.patient_speak_videos img{
+   width:100%;
+   border-radius:5px 5px 0 0;
+}
+
+.patient_speak_modal{
+   width:100%;
+   height:100%;
+   position:fixed;
+   top:0;
+   left:0;
+   background-color:rgba(0,0,0,.5);
+   display:none;
+   z-index:99999;
+  padding:0 20px;
+}
+.patient_speak_modal.in{
+  display:block;
+}
+.patient_speak_modal_body{
+   width:100%;
+   max-width:680px;
+   margin:90px auto 0;
+   background-color:#FFF;
+   border-radius:8px;
+   padding:15px;
+   box-shadow:0 0 4px rgba(0,0,0,.4);
+}
+.modal_video_box{
+  width:100%;
+  position:relative;
+}
+.modal_video_box iframe{
+  width:100%;
+  border-radius:4px;
+}
+.modal_video_box .close_btn{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-size:22px;
+  line-height:50px;
+  position:absolute;
+  right:-15px;
+  top:-65px;
+  background-color:rgba(255,255,255,.8);
+  border-radius:4px;
+  cursor:pointer;
+}
+.modal_video_box .close_btn:hover{
+  background-color:#FFF;
+}
+
+@media screen and (max-width:1024px){
+  .testimonal-nav.fixed{
+    top:97px;
+  }
+
+}
+@media screen and (max-width:992px){
+  .grid-sizer,
+  .testi_item{
+    width:33.3333%;
+  }
+  .live_from_clinic_testi_row .w3-col.l3{
+    width:33.3333%;
+  }
+}
+@media screen and (max-width:880px){
+  body .testimonials_wrap li{
+    width:50%;
+  }
+}
+@media screen and (max-width:768px){
+  .testi_with_video .row{
+    width:100%;
+    float:none;
+  }
+  body .testimonials_wrap li .text-box{
+     min-height:170px;
+  }
+  .video-box .iframe-footer{min-height: 57px;}
+
+}
+@media screen and (max-width:767px){
+ .testi_item{
+   padding:10px;
+ }
+ .live_from_clinic_testi_row{
+   margin-left:-10px;
+   margin-right:-10px;
+ }
+ .live_from_clinic_testi_row .w3-col.l3{
+   padding:10px;
+ }
+ 
+}
+@media screen and (max-width:600px){
+  body .testimonials_wrap li{
+    width:100%;
+  }
+  body .testimonials_wrap li .text-box{
+    min-height:120px;
+  }
+  .grid-sizer,
+  .testi_item{
+    width:50%;
+ }
+ .testi_item .testi_box{
+   padding:10px;
+  }
+  .live_from_clinic_testi_row .w3-col.l3{
+   width:50%;
+  }
+  .video-box .iframe-footer {
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+   }
+}
+</style>
 
 
 
@@ -476,37 +740,6 @@ button:active {
 		
    </div>
 
-
-<!--video-->
-<section class="patient_speaks light_gray_bg light">
- <div class="container_2">
-   <div class="heading">
-     <h2>Patient Speaks</h2> 
-   </div> 
-   <div class="patients_speaks_wrap">
-    <div class="patient_speak_videos row">
-    <?php
-              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-          ?>		
-      <div class="item item1 col-sm-3 ">
-       <div class="video-box">
-        <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-        <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-       </div>
-      </div><!-- item end here -->
-      <?php } ?>
-      <div class="clearfix"></div>
-      <div style="text-align:center;">
-        <a href="testimonials.php" class="btn view_more">View More</a>
-      </div>
-    </div>   
-   </div><!-- patients_speaks_wrap end here -->  
- </div>
-</section>
-<!--video-->
 
 <!-- video popup -->
 <div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
