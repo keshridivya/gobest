@@ -1,9 +1,3 @@
-<?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-              // $sql = "SELECT * FROM review WHERE is_delete = '0'";
-            
-          ?>	
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -1160,66 +1154,34 @@ position: absolute;
         <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
  
    </div> 
-	<!-- <div class="box"> -->
+	<div class="box">
 
-  <script type="text/javascript">
-    players = new Array();
 
-    function onYouTubeIframeAPIReady() {
-        var temp = $("iframe.yt_playerss");
-        for (var i = 0; i < temp.length; i++) {
-            var t = new YT.Player($(temp[i]).attr('id'), {
-                events: {
-                    'onStateChange': onPlayerStateChange
-                }
-            });
-            players.push(t);
-        }
-    }
-    onYouTubeIframeAPIReady();
+ <div class="testimonial_content">		
+ <!-- testimonials-text start here -->
 
-    function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING) {
-            var temp = event.target.getVideoUrl();
-            var tempPlayers = $("iframe.yt_playerss");
-            for (var i = 0; i < players.length; i++) {
-                if (players[i].getVideoUrl() != temp) 
-                    players[i].stopVideo();
-            }
-        }
-    }
-</script>
-<section class="patient_speaks light_gray_bg light">
-          <div class="container_2">
-            <div class="heading">
-              <h2>Patient Speaks</h2> 
-            </div> 
-            <div class="patients_speaks_wrap">
-             <div class="patient_speak_videos row">
-             <?php
-                       $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
-                       $data = mysqli_query($conn, $sql);
-                       foreach($data as $d){
-                   ?>	
-	              <div class="w3-col l3">
-                 <div class="video-box">	
-                                                   <ul class="image-grid" id="list">
-                                                  <li>
-                                                   <p><?php echo $d['id']; ?></p>
-                                                    <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-		                     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-                         </li>
-                        </ul>
+		 <div class="text_testimonials_wrap patient_speak_videos">
+    
+		    <div class="w3-row live_from_clinic_testi_row">	
+        <?php
+              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
+              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+              $sql = "SELECT * FROM review WHERE is_delete = '0'";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>		
+	       <div class="w3-col l3">
+           <div class="video-box">	
+            <iframe width="726" height="250" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
 		     </div>
 	    </div>
       <?php } ?>
-
-	    </div>
-	   </div>			
-  </div>    
-</section>
-<!-- text_testimonials_wrap end here -->    
-<!-- width="726" height="250" -->
+	  </div>
+	
+	</div>			
+</div><!-- text_testimonials_wrap end here -->  
+			  
 		<!-- status elements -->
 <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
   <div class="infinite-scroll-request loader-ellips">
@@ -1317,9 +1279,69 @@ if($(window).width() > 767){
 });
 </script>
 
-<script>
-onYouTubeIframeAPIReady();
+<script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
 </script>
+
+<!--video-->
+<section class="patient_speaks light_gray_bg light">
+ <div class="container_2">
+   <div class="heading">
+     <h2>Patient Speaks</h2> 
+   </div> 
+   <div class="patients_speaks_wrap">
+    <div class="patient_speak_videos row">
+    <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>		
+      <div class="item item1 ">
+       <div class="video-box">
+        <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
+        <ul class="image-grid" id="list">
+          <li>
+        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+        </li>
+        </ul> 
+       </div>
+      </div><!-- item end here -->
+      <?php } ?>
+      <div class="clearfix"></div>
+      <div style="text-align:center;">
+        <a href="testimonials.php" class="btn view_more">View More</a>
+      </div>
+    </div>   
+   </div><!-- patients_speaks_wrap end here -->  
+ </div>
+</section>
+<!--video-->
+
 
 <!--<div class="important_info_icon">
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
@@ -1564,6 +1586,7 @@ jQuery(this).addClass('active');
             powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
             </noscript>
             <!-- End of LiveChat code -->
+
 
 </body>
 <!-- Mirrored from clovedental.in/testimonials-clinics/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:50:07 GMT -->
