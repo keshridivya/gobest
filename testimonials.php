@@ -11,6 +11,30 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <head>
 
 	<meta charset="UTF-8">
+  <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
+<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
+<meta property="og:url" content="https://clovedental.in/" />
+<meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+
+
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
