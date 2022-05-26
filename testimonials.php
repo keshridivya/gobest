@@ -831,29 +831,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		</div> 
 	</div>
 
-<!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
-
-<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
-<link rel="canonical" href="index.html" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
-<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
-<meta property="og:url" content="https://clovedental.in/" />
-<meta property="og:site_name" content="Clove Dental" />
-
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
-<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
-<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
-
-
  <script>
  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1337,39 +1314,27 @@ button:active {
 
 
     <!-- Static caption -->
-    <div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
-</div>
-<div class="breadcrumb">
-  <div class="box">
-    <ul>
-	  <li><a href="index.php">Home</a></li>
-	  <li>
-		Testimonials	  </li>
-	</ul>
-  </div>
-</div>
 
+    <div class="containear">
+    <section class="about">
+   <div class="container">
 
-<div class="container">
- <section class="about"></section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
-                            <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
-                            <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-lg-4">
-                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <img src="images/google.png">
-                                </div>
-                                <div class="col-lg-9">
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
+         </div>
+       </div>
+    </div>
+     <div class="row mt-3">
+         <div class="col-lg-4">
+            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                 <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highligh">
+                            <img src="images/google.png">
+                         </div>
+                                <div class="p-2 bd-highligh">
                                     <h5>Google Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1377,19 +1342,21 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
-                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                      </div>
+                   </div>
+           </div>
+         </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
                                     <img src="images/jd.png">
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="p-2 bd-highligh">
                                     <h5>Just Dial Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1397,7 +1364,9 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
                                 </div>
                             </div>
@@ -1405,11 +1374,12 @@ button:active {
                     </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="row">
-                                <div class="col-lg-3">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
                                     <img src="images/practo.png">
                                 </div>
-                                <div class="col-lg-9">
+                            
+                                <div class="p-2 bd-highligh">
                                     <h5>Practo Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1417,18 +1387,17 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <div class="col-lg-12 mt-3">
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
                                 </div>
-                            </div>
+                                </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-
-
+         </div>
+    </div>
+</section>
 
 
         <div class="textimonial-tab">
