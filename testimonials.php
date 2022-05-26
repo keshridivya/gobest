@@ -268,29 +268,43 @@ button:active {
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active"style="background-image: url('wp-content/themes/clove-child/images/banner-1.jpg');height:50vh !important;">
-      <div class="carousel-caption caption" style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
+      <div class="carousel-item active"style="background-image: url('wp-content/themes/clove-child/images/banner-1.jpg')">
+      <div class="carousel-caption caption">
+                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Best Dentist in Pune<br>and Pimpri Chinchwad</span></h1>
               </div>
-             
+              <div class="btn1">
+                <a href="#" class="btn1 mt-sm-1 toggle1" >Make Your Appointment </a>
+              </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-2.jpg');height:50vh!important;">
-      <div class="carousel-caption caption"  style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>Our Passion is Designing<br>The Perfect Smile</span></h1>
+      <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-2.jpg')">
+      <div class="carousel-caption caption">
+                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>Our Passion is Designing<br>The Perfect Smile</span></h1>
               </div>
-             
+              <div class="btn1">
+                <a href="#" class="btn1 mt-sm-1 toggle1" >Make Your Appointment </a>
+              </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-3.jpg');height:50vh!important;">
-      <div class="carousel-caption caption"  style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>BISO Certified and<br>Awarded Dental Clinic</span></h1>
+      <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-3.jpg')">
+      <div class="carousel-caption caption">
+                <h1 class=" hi" style="width: max-content;padding:0 10px"><span>BISO Certified and<br>Awarded Dental Clinic</span></h1>
               </div>
-             
+              <div class="btn1">
+                <a href="#" class="btn1 mt-sm-1 toggle1" >Make Your Appointment </a>
+              </div>
       </div>
     </div>
   </div>
 </header>
+
+
+
+
+<!--banner close-->
+    
+</div>
+
 
 
 
