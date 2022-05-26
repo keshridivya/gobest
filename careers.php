@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<h1>s</h1>
+
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 
@@ -894,8 +894,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="banner" style=" margin-top: 8rem;"> 
 <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w"  /><div class="overlay">
 <h1>Careers</h1>
-	<h1>s</h1>
-
 </div>
 </div>
 <div class="breadcrumb">
