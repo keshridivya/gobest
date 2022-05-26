@@ -1229,14 +1229,13 @@ position: absolute;
        <!-- text_testimonials_wrap end here -->  
 			  
 		<!-- status elements -->
-    <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
-     <div class="infinite-scroll-request loader-ellips">
-         <i class="fa fa-spinner fa-spin"></i>
-       </div>
-              <p class="infinite-scroll-last">End of content</p>
-              <p class="infinite-scroll-error">No more Content to load</p>
-    </div>
+<div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+  <div class="infinite-scroll-request loader-ellips">
+    <i class="fa fa-spinner fa-spin"></i>
   </div>
+  <p class="infinite-scroll-last">End of content</p>
+  <p class="infinite-scroll-error">No more Content to load</p>
+</div>
 
 <!-- status elements end here -->
 		<!-- <div class="pagination1 video_pagination">
