@@ -1202,9 +1202,9 @@ position: absolute;
         <div class="textimonial-tab">
    <div class="heading " style="text-align:center;">
      <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
-   </div> 
-</div> 
-	<div class="container">
+    </div> 
+    </div> 
+	 <div class="container">
       <div class="testimonial_content">		
                 <!-- testimonials-text start here -->
 		      <div class="text_testimonials_wrap patient_speak_videos">
@@ -1228,38 +1228,26 @@ position: absolute;
        </div>
        <!-- text_testimonials_wrap end here -->  
 			  
-		<!-- status elements -->
-<div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
-  <div class="infinite-scroll-request loader-ellips">
-    <i class="fa fa-spinner fa-spin"></i>
-  </div>
-  <p class="infinite-scroll-last">End of content</p>
-  <p class="infinite-scroll-error">No more Content to load</p>
+              		<!-- status elements -->
+              <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+                <div class="infinite-scroll-request loader-ellips">
+                  <i class="fa fa-spinner fa-spin"></i>
+                </div>
+                <p class="infinite-scroll-last">End of content</p>
+                <p class="infinite-scroll-error">No more Content to load</p>
+              </div>
+
+               <!-- video popup -->
+               <div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+                     <div class="patient_speak_modal_body">
+                        <div class="modal_video_box">
+                           <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+                              <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+                            </div>
+                         </div>
+                     </div>
+               </div>
 </div>
-
-<!-- status elements end here -->
-		<!-- <div class="pagination1 video_pagination">
-		<span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="page/2/index.html">2</a>
-<a class="page-numbers" href="page/3/index.html">3</a>
-<span class="page-numbers dots">&hellip;</span>
-<a class="page-numbers" href="page/12/index.html">12</a>
-<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
-			 			</div>
-		</div>pagination end here -->
-
-
-<!-- video popup -->
-<div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
-      <div class="patient_speak_modal_body">
-         <div class="modal_video_box">
-            <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
-               <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
-             </div>
-          </div>
-      </div>
-</div>
-
 
 <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 <script>
