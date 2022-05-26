@@ -1056,6 +1056,39 @@ position: absolute;
 
 </style>
 
+
+<script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+
+
+
+
 <div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
 <div class="breadcrumb">
@@ -1158,34 +1191,6 @@ position: absolute;
  
    </div> 
 			  
-
-   <script type="text/javascript">
-    players = new Array();
-
-    function onYouTubeIframeAPIReady() {
-        var temp = $("iframe.yt_players");
-        for (var i = 0; i < temp.length; i++) {
-            var t = new YT.Player($(temp[i]).attr('id'), {
-                events: {
-                    'onStateChange': onPlayerStateChange
-                }
-            });
-            players.push(t);
-        }
-    }
-    onYouTubeIframeAPIReady();
-
-    function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING) {
-            var temp = event.target.getVideoUrl();
-            var tempPlayers = $("iframe.yt_players");
-            for (var i = 0; i < players.length; i++) {
-                if (players[i].getVideoUrl() != temp) 
-                    players[i].stopVideo();
-            }
-        }
-    }
-</script>
 
 <!--video-->
 <section class="patient_speaks light_gray_bg light">

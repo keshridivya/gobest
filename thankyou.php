@@ -318,6 +318,80 @@ button:active {
     </section>
 
 
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+<!--video-->
+<section class="patient_speaks light_gray_bg light">
+ <div class="container_2">
+   <div class="heading">
+     <h2>Patient Speaks</h2> 
+   </div> 
+   <div class="patients_speaks_wrap">
+    <div class="patient_speak_videos row">
+    <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>		
+      <div class="item item1 ">
+       <div class="video-box">
+        <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
+        <ul class="image-grid" id="list">
+          <li>
+        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+        </li>
+        </ul> 
+       </div>
+      </div><!-- item end here -->
+      <?php } ?>
+      <div class="clearfix"></div>
+      <div style="text-align:center;">
+        <a href="testimonials.php" class="btn view_more">View More</a>
+      </div>
+    </div>   
+   </div><!-- patients_speaks_wrap end here -->  
+ </div>
+</section>
+<!--video-->
+
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn"><i class="fa fa-close"></i></div>
+   <iframe src="#" height="400" frameborder="0" allowfullscreen=""></iframe> 
+  </div>
+ </div>
+</div>
+<!-- video popup end here -->
+
 
 
 <!-- corona popup start here -->
