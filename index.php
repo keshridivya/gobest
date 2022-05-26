@@ -261,7 +261,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 	}
   .item1{
     height:0;
-    min-height:0;
+    /* min-height:0; */
   }
   .fluid1{
       height:126px !important;
