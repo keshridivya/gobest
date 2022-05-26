@@ -507,7 +507,7 @@ button:active {
             <?php include("include/topbar.php") ?>
 
 </head>
-<body class="home-page header-home">
+<body>
      
 
   
