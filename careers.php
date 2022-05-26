@@ -25,13 +25,8 @@
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
 
-<link rel="stylesheet" href="wp-content/themes/clove-child/css/newhome-style.css" type="text/css">
-
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<link rel="pingback" href="xmlrpc.php"> 
 <link rel="stylesheet" href="style-new.css">
-<link rel="stylesheet" href="css/carousel.min.css">
-<link rel="stylesheet" href="css/styleindex.css">
+
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
