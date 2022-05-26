@@ -636,9 +636,9 @@ button:active {
                 foreach($data as $d){
             ?>		
         <div class="item item1">
-        <div class="video-box row">
+        <div class="video-box">
           <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-          <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players col-xl-6" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+          <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
           <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
         </div>
         </div><!-- item end here -->
