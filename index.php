@@ -104,7 +104,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
                 slider = document.createElement("img");
                 // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
                 slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","images/black-arrow.png")
+                slider.setAttribute("src","images/slider.png")
 
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
@@ -192,8 +192,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   -webkit-transform: rotate(-135deg);*/
 
   position: absolute; 
-  width: 45px; 
-  height: 45px; 
+  width: 40px; 
+  height: 100%; 
   cursor: col-resize;
   line-height: 30px;
    text-align: center; 
