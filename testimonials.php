@@ -1204,7 +1204,7 @@ position: absolute;
      <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
    </div> 
 </div> 
-	<div class="box1">
+	<div class="container">
       <div class="testimonial_content">		
                 <!-- testimonials-text start here -->
 		      <div class="text_testimonials_wrap patient_speak_videos">
