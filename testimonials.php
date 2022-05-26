@@ -1,16 +1,22 @@
-<?php
-$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 
-<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:09 GMT -->
+<!-- Mirrored from clovedental.in/testimonials-clinics/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:50:03 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
 	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
+	<title>
+	Video Testimonials- Clove Dental	</title>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<link rel="pingback" href="xmlrpc.php">
+
   <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
 <script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 
@@ -29,74 +35,20 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
-<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
-<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
-
-
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-<link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
-	<title>Root-Cannal-Treatment - Gobest Dentist	</title>
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<link rel="pingback" href="xmlrpc.php">
 
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 
 <link href="wp-content/themes/clove/css/fonts.css" rel="stylesheet"/>
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
-
- <!-- Font awesome  -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    
-      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
-       
-    <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-    <!-- OWL Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    
-      <!-- animated css  -->
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- validation -->
-    <link rel="stylesheet" href="css/validation/validation.css">
-
-    <link async rel="stylesheet" href="css/twentytwenty.min.css" defer>
-    <!-- Main css -->
-   <link rel="stylesheet" href="css/style-new.css">
-    <link rel="stylesheet" href="css/common.css">
-
-<style>
-  h1,h2,h3,h4,h5,h6{
-      font-family: Anton, sans-serif;
-
-    }
-    p {
-      font-family: 'Lora', sans-serif;
-    font-family: 'Muli', sans-serif;
-    }
-    .nav-bar li{
-      font-family: 'Open Sans', sans-serif;
-    }
-</style>
-
+<link rel="stylesheet" href="style-new.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>    
@@ -135,16 +87,19 @@ jQuery(window).scroll(function() {
 });
 </script> 	
 <script src="wp-content/themes/clove/js/jquery.js"></script>
+<link rel="stylesheet" href="wp-content/themes/clove/css/jquery-ui.css">
+<script src="wp-content/themes/clove/js/jquery-1.12.4.js" ></script>
+<script src="wp-content/themes/clove/js/jquery-ui.js" ></script>
 <meta name='robots' content='max-image-preview:large' />
 
 <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Reach out to the Clove Dental Helpline or book an appointment online at Clove Dental here to put all your oral worries away."/>
+<meta name="description" content="Find out what patients have to say about the doctors and their experiences at Clove Dental."/>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Contact Us - Clove Dental" />
-<meta property="og:description" content="Reach out to the Clove Dental Helpline or book an appointment online at Clove Dental here to put all your oral worries away." />
-<meta property="og:url" content="https://clovedental.in/contact-us/" />
+<meta property="og:title" content="Video Testimonials- Clove Dental" />
+<meta property="og:description" content="Find out what patients have to say about the doctors and their experiences at Clove Dental." />
+<meta property="og:url" content="https://clovedental.in/testimonials-clinics/" />
 <meta property="og:site_name" content="Clove Dental" />
 <meta property="og:image" content="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg" />
 <!-- / Yoast WordPress SEO plugin. -->
@@ -169,6 +124,21 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
+.about{
+        padding-bottom: 0!important;
+}
+.about .about-info h5 {
+    font-size: 24px;
+}
+@media (max-width: 991px){
+.processing-contact-us-bg{
+    margin-top: 12rem;
+    margin-bottom:12rem;
+}
+}
+.overlay{
+    z-index:auto;
+}
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min9f31.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles5697.css?ver=5.5.3' type='text/css' media='all' />
@@ -182,11 +152,11 @@ var es_data = {"messages":{"es_empty_email_notice":"Please enter email address",
 /* ]]> */
 </script>
 <script type='text/javascript' src='wp-content/plugins/email-subscribers/lite/public/js/email-subscribers-public5560.js?ver=5.0.4' id='email-subscribers-js'></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/80.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/1427.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.7.2" />
-<link rel='shortlink' href='indexbde5.html?p=80' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embedacef.json?url=https%3A%2F%2Fclovedental.in%2Fcontact-us%2F" />
+<link rel='shortlink' href='index157d.html?p=1427' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed8d4c.json?url=https%3A%2F%2Fclovedental.in%2Ftestimonials-clinics%2F" />
 <script src="wp-content/themes/clove/js/jquery.datetimepicker.full.js" ></script>
 
 <script src="https://www.google.com/jsapi"></script>
@@ -620,8 +590,6 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
 
 
 
-
-
 	if ($(window).width() < 767) {
 		$(".toggle-mbl h4").click(function(){
 		$(this).parent().siblings().find('div').slideUp("slow");
@@ -692,12 +660,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script> 
 </head>
+<body class="home-page">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JX6KNP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<?php include("include/topbar.php") ?>
+
+
+<?php include("include/topbar.php"); ?>
 <style>
 @media screen and (max-width: 767px){
 .number-mbl .click-form {
@@ -728,16 +699,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	}
 	.number-mbl .click-form span {
     display: block;
-}
-@media(max-width:1024px){
-    h3{
-        width:100% !important;
-        font-size:1rem !important;
-    }
-    .content_fullco img.img_placed{
-     width:100% !important; 
-     margin-bottom:18px !important;
-    }
 }
 .dropdown_patient_safety > li a {
     font-size: 14px;
@@ -806,24 +767,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h4 style="line-height:5rem">Root-Cannal Treatment</h4></div>
-</div><style>
-.contact-form .button-row{text-align:left}
-.helpline-center li{margin:0;padding:0;padding:10px 0;}
-.helpline-center li a { float: right; }
-@media screen and (max-width:1199px){
- .helpline-center li,.helpline-center li a{
-   font-size:14px;
-  }
-  .helpline-center li{
-   width:100%;
-   float:none;
-    text-align:left;
-} 
-
-}
-</style>
- <script type="application/ld+json">
+</script><script type="application/ld+json">
 {
   "@context": "http://schema.org/",
   "@type": "BreadcrumbList",
@@ -840,174 +784,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       "@type": "ListItem",
       "position": "2",
       "item": {
-                "name": "Contact Us"
+                "name": "Testimonials"
       }
     }
   ]
 }
 </script>
-  	<div class="breadcrumb">
-		<div class="box">
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li>Root Canal Treatment</li>
-			</ul>
-		</div> 
-	</div>
-
- <script>
- (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-58837352-1', 'auto');
-  ga('send', 'pageview');
-  /*Facebook Pixel Code */
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '400629990135976');
-  fbq('track', 'PageView');
-  fbq('track', 'Lead');
- /* End Facebook Pixel Code*/
-</script>
-<!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-958029923');
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
-<script async>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-58837352-1');
-</script>
-
-
 <style>
-
-  @media (max-width:1024px){
-    .iframe-video{
-	width:150px !important;
-  height:180px !important;
-	}
-  .iframe-photo{
-	width:150px !important;
-  height:150px !important;
-	}
-  .item1{
-    height:0;
-    min-height:0;
-  }
-  .fluid1{
-      height:126px !important;
-  }
-  .hygines_txt{
-      display:none;
-  }
-  .hygines h4{
-      font-size:15px !important;
-  }
-  .image2{
-   width: 100px !important;
-  }
-  .button-50 {
-    padding: 8px 7px !important;
-    width:auto;
-  }
-  .button-50 span{
-      display:none;
-  }
-  .patient_speak_videos .iframe-footer{
-    padding:5px !important;
-  }
-  .img-fluid-set{
-height:8rem !important;
-  }
-}
-.patient_speak_videos .iframe-footer {
-    text-align:center;
-}
-@media (max-width: 1024px){
-.hi {
-    font-size: 1rem !important;
-    padding:0!importantt;
-}
-.caption{
-    padding-top:10px !important;
-}
-}
-.button-50 {
-  appearance: button;
-  background-color: #fe1e5b;
-  background-image: none;
-  border: 1px solid #000;
-  border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
-  box-sizing: border-box;
-  color: #fff;
-  font-weight:700;
-  cursor: pointer;
-  display: inline-block;
-  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0 5px 10px 0;
-  overflow: visible;
-  padding: 12px 40px;
-  text-align: center;
-  text-transform: none;
-  touch-action: manipulation;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-.button-50:focus {
-  text-decoration: none;
-}
-
-.button-50:hover {
-  text-decoration: none;
-}
-
-button:active {
-  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
-  outline: 0;
-  background:red !important;
-}
-
-.button-50:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-  transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .button-50 {
-    padding: 12px 50px;
-  }
-}
-
-
-</style>
-
-
-
-
-<style>
-  <style>
 .testimonal-nav.fixed {
     width: 100%;
     background-color: #FFF;
@@ -1270,7 +1053,24 @@ button:active {
     line-height: 18px;
    }
 }
+
+.banner .overlay p{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 100%;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
 </style>
+
 
     <!--stories-->
     <script type="text/javascript">
@@ -1301,48 +1101,39 @@ button:active {
     }
 </script>
 
+<div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
+</div>
+<div class="breadcrumb">
+  <div class="box">
+    <ul>
+	  <li><a href="index.php">Home</a></li>
+	  <li>
+		Testimonials	  </li>
+	</ul>
+  </div>
+</div>
 
-<script type="application/ld+json"> {
-            "@context": "http://schema.org", "@type": "MedicalOrganization", "name": "Gobest Dentist", "url": "https://clovedental.in/", "logo": "https://clovedental.in/wp-content/themes/clove/images/logo-img.jpg", "contactPoint": {"@type": "ContactPoint", "telephone": "+9111 3355 3232", "contactType": "customer service" },
-            "sameAs": [ "https://www.facebook.com/clovedentalindia", "https://twitter.com/Clove_Dental", "https://www.instagram.com/Gobest Dentist/", "https://www.youtube.com/watch?v=7XEZ7qnVaeg" ] } </</script>
 
-            <?php include("include/topbar.php") ?>
+<div class="containear">
+ <section class="about"></section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+                            <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+                            <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
+                        </div>
+                    </div>
+                </div>
 
-</head>
-<body>
-     
-
-  
-
-
-<!--
-<div class="showcase mobile">
-	<ul class="slides">
-			
-		</ul>
-	
-    Static caption -->
-
-    <h1>sasas</h1>
-    <section class="about">
-   <div class="container">
-
-    <div class="row">
-       <div class="col-xl-12">
-          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
-              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
-              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
-         </div>
-       </div>
-    </div>
-     <div class="row mt-3">
-         <div class="col-lg-4">
-            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                 <div class="d-flex flex-row bd-highlight mb-3">
-                        <div class="p-2 bd-highligh">
-                            <img src="images/google.png">
-                         </div>
-                                <div class="p-2 bd-highligh">
+                <div class="row mt-3">
+                    <div class="col-lg-4">
+                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/google.png">
+                                </div>
+                                <div class="col-lg-9">
                                     <h5>Google Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1350,21 +1141,19 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-lg-12">
-                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
-                      </div>
-                   </div>
-           </div>
-         </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
+                            <div class="row">
+                                <div class="col-lg-3">
                                     <img src="images/jd.png">
                                 </div>
-                                <div class="p-2 bd-highligh">
+                                <div class="col-lg-9">
                                     <h5>Just Dial Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1372,9 +1161,7 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mt-3">
                                     <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
                                 </div>
                             </div>
@@ -1382,12 +1169,11 @@ button:active {
                     </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
+                            <div class="row">
+                                <div class="col-lg-3">
                                     <img src="images/practo.png">
                                 </div>
-                            
-                                <div class="p-2 bd-highligh">
+                                <div class="col-lg-9">
                                     <h5>Practo Reviews</h5>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -1395,19 +1181,18 @@ button:active {
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mt-3">
                                     <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
                                 </div>
-                                </div>
+                            </div>
                         </div>
                     </div>
-         </div>
-    </div>
-</section>
+                </div>
+            </div>
+        </section>
 
-<div class="textimonial-tab">
+
+        <div class="textimonial-tab">
    <div class="heading " style="text-align:center;">
      <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
    </div> 
@@ -1468,19 +1253,83 @@ button:active {
           </div>
       </div>
 </div>
+
+
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script>
+// init Infinite Scroll
+(function($){
+var testInfinite = $('.text_testimonials_wrap').infiniteScroll({
+  path: function() {
+ 
+  var pageNumber = (this.pageIndex + 1);
+  
+  return '/testimonials-clinics/page/' + pageNumber;
+  
+  },
+  append: '.live_from_clinic_testi_row',
+  status: '.scroller-status',
+  hideNav: '.video_pagination',
+});
+testInfinite.on( 'load.infiniteScroll', function( event ) {
+ 
+});
+
+}(jQuery));
+function openModal(v_id){
+var y_src = "https://www.youtube.com/embed/";
+ jQuery('.patient_speak_modal').addClass('in');
+ jQuery('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
+}
+function closevModal(){
+  jQuery('.patient_speak_modal').removeClass('in');
+  jQuery('#patient_speak_modal iframe').attr('src', '');
+}
+function modalparentClose(event){
+ if(event.target.id == 'patient_speak_modal'){
+  $('.patient_speak_modal').removeClass('in');
+  $('#patient_speak_modal iframe').attr('src', '');
+ }
+}
+</script>
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+   <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+  </div>
+ </div>
+</div>
 <!-- video popup end here -->
  <!--live_from_clinic_testi end here -->
- 
+ </div>
+</div>
+</div>
+</div>
+
+<script>
+$(document).ready(function (){
+var navOffset = $('.testimonal-nav').offset().top;
+window.onscroll = function(){
+ var scrtp = document.body.scrollTop || document.documentElement.scrollTop;
+if($(window).width() > 767){
+ if(scrtp > Math.floor(navOffset-150)){
+   $('.testimonal-nav').addClass('fixed');
+ }else{
+   $('.testimonal-nav').removeClass('fixed');
+ }
+}
+}
+});
+</script>
 
 
 
-
-<!-- corona popup start here -->
-<!-- corona popup end here -->
 <!--<div class="important_info_icon">
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
-<!-- </div> -->
+<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
+<!--</div>-->
 <style>
 .important_info_icon{
   width:50px;
@@ -1505,7 +1354,6 @@ button:active {
    from{bottom:30px}
    to{bottom:50px}
 }
-
 .important_info_icon a{
    display:block;
    position:absolute;
@@ -1533,83 +1381,23 @@ button:active {
   border-right:10px solid #FFF;
 }
 </style>
-<style>
-  
-.phone-btn {
-    position: fixed;
-    z-index: 999;
-    background-color: #fe0600;
-    color: #fff;
-    padding: .6rem .9rem;
-    border-radius: 50%;
-    transition: .6s;
-    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
-    width: 3.5rem;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+
+<?php include("include/footer.php"); ?>
+
+
+<script>
+$zoho.salesiq.ready=function(){
+{
+$zoho.salesiq.customfield.add(
+{
+"name":"Enter your city",
+"hint":"Enter your city",
+"required":"false",
+"visibility":"both",
+});
 }
-
-@-webkit-keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
 }
-
-@keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-.phone-btn:hover {
-    text-decoration: none;
-}
-
-.phone-btn i {
-    font-size: 2rem;
-    transition: .3s ease;
-}
-
-.phone-btn:hover {
-    color: #fff;
-    box-shadow: 0px 0px 16px 3px #fff;
-    transform: translateY(-10px);
-    transition: .6s;
-}
-
-@media (max-width: 1024px) {
-  .phone-btn {
-        bottom: 1rem;
-        right: auto;
-        left: 15px;
-    }
-}
-
-</style>
-
-<?php include("include/footer.php") ?>
-
-    <!-- Call Us -->
-    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
-
-
-<!--<script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
-</script>-->
-<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+</script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>
@@ -1620,7 +1408,6 @@ var wpcf7 = {"api":{"root":"https:\/\/clovedental.in\/wp-json\/","namespace":"co
 </script>
 <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index5697.js?ver=5.5.3' id='contact-form-7-js'></script>
 <script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-
 <script type='text/javascript' src='wp-includes/js/masonry.min3a05.js?ver=4.2.2' id='masonry-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b' id='jquery-masonry-js'></script>
 <!-- Google Code for Remarketing Tag -->
@@ -1713,51 +1500,21 @@ jQuery(this).addClass('active');
             <!-- End of LiveChat code -->
 
 </body>
-<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
-</html><script>
-	$(".capcher-row").hide();
+<!-- Mirrored from clovedental.in/testimonials-clinics/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:50:07 GMT -->
+</html>
 
-function refreshCaptcha2() {
-	jQuery("#captcha_code2").attr('src','captcha/captchaCode48de.jpg?id=5&amp;var='+new Date().getTime());
-}
-</script>
-<style>
-.form-disclaimer {
-    position: relative;
-    padding: 20px;
-    float: left;
-}
 
-.form-disclaimer input {
-    width: 15px;
-    height: 20px;
-    position: absolute;
-    left: 0;
-    top: 16px;
-}
-.form-disclaimer label {
-    float: left;
-    padding-left: 5px;
-}
 
-</style>
+
+
+
+
+
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 140/161 objects using disk
-Database Caching 6/15 queries in 0.043 seconds using disk
+Object Caching 139/257 objects using disk
+Database Caching 6/19 queries in 0.014 seconds using disk
 
-Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
+Served from: clovedental.in @ 2022-03-03 17:14:16 by W3 Total Cache
 -->
-
-<script>
-  initComparisons();
- </script>
-
-
-
-
-
-
-
-
