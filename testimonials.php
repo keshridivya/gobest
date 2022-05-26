@@ -1338,7 +1338,7 @@ button:active {
 
     <!-- Static caption -->
 
-    <div class="containear">
+<div class="container">
     <section class="about">
    <div class="container">
 
