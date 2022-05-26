@@ -310,26 +310,88 @@ button:active {
 
     <!-- Static caption -->
 
-    <section>
+<section class="about">
+   <div class="container">
 
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-12">
-
-                    <div class="alert alert-success text-center">
-                    	<h3>Thank You. </h3>
-                    	<h6>We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.</h6>
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
+         </div>
+       </div>
+    </div>
+     <div class="row mt-3">
+         <div class="col-lg-4">
+            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                 <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highligh">
+                            <img src="images/google.png">
+                         </div>
+                                <div class="p-2 bd-highligh">
+                                    <h5>Google Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                      </div>
+                   </div>
+           </div>
+         </div>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
+                                    <img src="images/jd.png">
+                                </div>
+                                <div class="p-2 bd-highligh">
+                                    <h5>Just Dial Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-12">
+                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
+                                    <img src="images/practo.png">
+                                </div>
+                            
+                                <div class="p-2 bd-highligh">
+                                    <h5>Practo Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
+                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+         </div>
+    </div>
+</section>
 
 
     <!--stories-->
