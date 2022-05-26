@@ -1272,41 +1272,6 @@ button:active {
 }
 </style>
 
-
-
-<script type="application/ld+json"> {
-            "@context": "http://schema.org", "@type": "MedicalOrganization", "name": "Gobest Dentist", "url": "https://clovedental.in/", "logo": "https://clovedental.in/wp-content/themes/clove/images/logo-img.jpg", "contactPoint": {"@type": "ContactPoint", "telephone": "+9111 3355 3232", "contactType": "customer service" },
-            "sameAs": [ "https://www.facebook.com/clovedentalindia", "https://twitter.com/Clove_Dental", "https://www.instagram.com/Gobest Dentist/", "https://www.youtube.com/watch?v=7XEZ7qnVaeg" ] } </</script>
-
-            <?php include("include/topbar.php") ?>
-
-</head>
-<body>
-     
-
-  
-
-
-<!--
-<div class="showcase mobile">
-	<ul class="slides">
-			
-		</ul>
-		
-		
-	</div>wp-content/themes/clove-child/images/banner-1.jpg
-    -->
-<!--banner open-->
-
-
-
-
-<!--banner close-->
-    
-</div>
-
-
-
     <!--stories-->
     <script type="text/javascript">
     players = new Array();
@@ -1337,89 +1302,27 @@ button:active {
 </script>
 
 
-    <!-- Static caption -->
-    <section class="about">
-   <div class="container">
+<script type="application/ld+json"> {
+            "@context": "http://schema.org", "@type": "MedicalOrganization", "name": "Gobest Dentist", "url": "https://clovedental.in/", "logo": "https://clovedental.in/wp-content/themes/clove/images/logo-img.jpg", "contactPoint": {"@type": "ContactPoint", "telephone": "+9111 3355 3232", "contactType": "customer service" },
+            "sameAs": [ "https://www.facebook.com/clovedentalindia", "https://twitter.com/Clove_Dental", "https://www.instagram.com/Gobest Dentist/", "https://www.youtube.com/watch?v=7XEZ7qnVaeg" ] } </</script>
 
-    <div class="row">
-       <div class="col-xl-12">
-          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
-              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
-              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
-         </div>
-       </div>
-    </div>
-     <div class="row mt-3">
-         <div class="col-lg-4">
-            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                 <div class="d-flex flex-row bd-highlight mb-3">
-                        <div class="p-2 bd-highligh">
-                            <img src="images/google.png">
-                         </div>
-                                <div class="p-2 bd-highligh">
-                                    <h5>Google Reviews</h5>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-lg-12">
-                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
-                      </div>
-                   </div>
-           </div>
-         </div>
-                     <div class="col-lg-4">
-                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
-                                    <img src="images/jd.png">
-                                </div>
-                                <div class="p-2 bd-highligh">
-                                    <h5>Just Dial Reviews</h5>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-lg-12">
-                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                     <div class="col-lg-4">
-                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
-                                    <img src="images/practo.png">
-                                </div>
-                            
-                                <div class="p-2 bd-highligh">
-                                    <h5>Practo Reviews</h5>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-lg-12">
-                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
-                                </div>
-                                </div>
-                        </div>
-                    </div>
-         </div>
-    </div>
-</section>
+            <?php include("include/topbar.php") ?>
+
+</head>
+<body>
+     
+
+  
+
+
+<!--
+<div class="showcase mobile">
+	<ul class="slides">
+			
+		</ul>
+	
+    Static caption -->
+
     <div class="container">
     <section class="about">
    <div class="container">
