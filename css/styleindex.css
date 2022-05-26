@@ -58,8 +58,8 @@ nav-bar .navigation li a {
 }
 
 .patient_speak_videos .item {
-    width: 25% !important;
-    float: left !important;
+    width: 25%;
+    float: left;
 }
 
 .patient_speak_videos .video-box {
@@ -288,8 +288,8 @@ nav-bar .navigation li a {
         margin-right: -5px;
     }
     .patient_speak_videos .item {
-        margin-bottom: 50px !important;
-        width: 50% !important;
+        margin-bottom: 50px;
+        width: 50%;
     }
 }
 
