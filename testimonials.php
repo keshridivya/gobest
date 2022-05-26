@@ -1,3 +1,7 @@
+<?php
+$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
+
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -892,7 +896,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 }
 </script>
 
-<div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
+<div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><h1>Testimonials</h1></div>
 </div>
 <div class="breadcrumb">
   <div class="box">
@@ -987,6 +991,79 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     </div>
 </section>
 
+<script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+<!--video-->
+<section class="patient_speaks light_gray_bg light">
+ <div class="container_2">
+   <div class="heading">
+     <h2>Patient Speaks</h2> 
+   </div> 
+   <div class="patients_speaks_wrap">
+    <div class="patient_speak_videos row">
+    <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>		
+      <div class="item item1 ">
+       <div class="video-box">
+        <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
+        <ul class="image-grid" id="list">
+          <li>
+        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+        </li>
+        </ul> 
+       </div>
+      </div><!-- item end here -->
+      <?php } ?>
+      <div class="clearfix"></div>
+      <div style="text-align:center;">
+        <a href="testimonials.php" class="btn view_more">View More</a>
+      </div>
+    </div>   
+   </div><!-- patients_speaks_wrap end here -->  
+ </div>
+</section>
+<!--video-->
+
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn"><i class="fa fa-close"></i></div>
+   <iframe src="#" height="400" frameborder="0" allowfullscreen=""></iframe> 
+  </div>
+ </div>
+</div>
+<!-- video popup end here -->
 
 
 
