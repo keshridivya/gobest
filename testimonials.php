@@ -1189,7 +1189,7 @@ position: absolute;
         }
     }
 </script>
-	<section class="patient_speaks light_gray_bg light">
+<section class="patient_speaks light_gray_bg light">
           <div class="container_2">
             <div class="heading">
               <h2>Patient Speaks</h2> 
@@ -1201,23 +1201,25 @@ position: absolute;
                        $data = mysqli_query($conn, $sql);
                        foreach($data as $d){
                    ?>	
-	       <div class="w3-col l3">
-           <div class="video-box">	
-           <ul class="image-grid" id="list">
-          <li>
-           <p><?php echo $d['id']; ?></p>
-            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-         </li>
-        </ul>
+	              <div class="w3-col l3">
+                 <div class="video-box">	
+                                                   <ul class="image-grid" id="list">
+                                                  <li>
+                                                   <p><?php echo $d['id']; ?></p>
+                                                    <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+		                     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+                         </li>
+                        </ul>
 		     </div>
 	    </div>
       <?php } ?>
-	  </div>
-	
-	</div>			
-</div><!-- text_testimonials_wrap end here -->    
-			  
+      
+	    </div>
+	   </div>			
+  </div>    
+</section>
+<!-- text_testimonials_wrap end here -->    
+<!-- width="726" height="250" -->
 		<!-- status elements -->
 <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
   <div class="infinite-scroll-request loader-ellips">
