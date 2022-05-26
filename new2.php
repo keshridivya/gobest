@@ -17,6 +17,25 @@
 
 	<link rel="pingback" href="xmlrpc.php">
 
+  <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
+<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
+<meta property="og:url" content="https://clovedental.in/" />
+<meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 
 <link href="wp-content/themes/clove/css/fonts.css" rel="stylesheet"/>
@@ -1051,6 +1070,36 @@ position: absolute;
 
 
 </style>
+
+
+    <!--stories-->
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
 
 <div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
