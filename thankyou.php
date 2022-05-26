@@ -483,6 +483,22 @@ function openCity(evt, cityName) {
  </script>
 
 
+<Script>
+
+    $(document).ready(function() {
+
+        // Handler for .ready() called.
+
+        window.setTimeout(function() {
+
+            location.href = "index.php";
+
+        }, 15000);
+
+    });
+
+    </Script>
+
 
 
 
