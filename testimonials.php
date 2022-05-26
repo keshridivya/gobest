@@ -831,6 +831,181 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		</div> 
 	</div>
 
+<!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
+<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
+<meta property="og:url" content="https://clovedental.in/" />
+<meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
+<!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
+
+
+ <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.defer=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58837352-1', 'auto');
+  ga('send', 'pageview');
+  /*Facebook Pixel Code */
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '400629990135976');
+  fbq('track', 'PageView');
+  fbq('track', 'Lead');
+ /* End Facebook Pixel Code*/
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-958029923');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-58837352-1');
+</script>
+
+
+<style>
+
+  @media (max-width:1024px){
+    .iframe-video{
+	width:150px !important;
+  height:180px !important;
+	}
+  .iframe-photo{
+	width:150px !important;
+  height:150px !important;
+	}
+  .item1{
+    height:0;
+    min-height:0;
+  }
+  .fluid1{
+      height:126px !important;
+  }
+  .hygines_txt{
+      display:none;
+  }
+  .hygines h4{
+      font-size:15px !important;
+  }
+  .image2{
+   width: 100px !important;
+  }
+  .button-50 {
+    padding: 8px 7px !important;
+    width:auto;
+  }
+  .button-50 span{
+      display:none;
+  }
+  .patient_speak_videos .iframe-footer{
+    padding:5px !important;
+  }
+  .img-fluid-set{
+height:8rem !important;
+  }
+}
+.patient_speak_videos .iframe-footer {
+    text-align:center;
+}
+@media (max-width: 1024px){
+.hi {
+    font-size: 1rem !important;
+    padding:0!importantt;
+}
+.caption{
+    padding-top:10px !important;
+}
+}
+.button-50 {
+  appearance: button;
+  background-color: #fe1e5b;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight:700;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+  background:red !important;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+
+</style>
+
+
+
+
+<style>
   <style>
 .testimonal-nav.fixed {
     width: 100%;
