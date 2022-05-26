@@ -1,3 +1,8 @@
+
+<?php
+$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
+
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
