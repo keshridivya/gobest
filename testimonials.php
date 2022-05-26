@@ -1324,6 +1324,9 @@ button:active {
     Static caption -->
 
     <h1>sasas</h1>
+    <section class="about">
+   <div class="container">
+
     <div class="row">
        <div class="col-xl-12">
           <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
@@ -1402,48 +1405,47 @@ button:active {
                     </div>
          </div>
     </div>
+</section>
 
-        <div class="textimonial-tab">
-        <div class="heading " style="text-align:center;">
-        <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
- 
+<div class="textimonial-tab">
+   <div class="heading " style="text-align:center;">
+     <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
    </div> 
+</div> 
 	<div class="box">
-
-
- <div class="testimonial_content">		
- <!-- testimonials-text start here -->
-
-		 <div class="text_testimonials_wrap patient_speak_videos">
-    
-		    <div class="w3-row live_from_clinic_testi_row">	
-        <?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-              $sql = "SELECT * FROM review WHERE is_delete = '0'";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-          ?>		
-	       <div class="w3-col l3">
-           <div class="video-box">	
-            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-		     </div>
-	    </div>
-      <?php } ?>
-	  </div>
-	
-	</div>			
-</div><!-- text_testimonials_wrap end here -->  
+      <div class="testimonial_content">		
+                <!-- testimonials-text start here -->
+		      <div class="text_testimonials_wrap patient_speak_videos">
+		         <div class="w3-row live_from_clinic_testi_row">	
+                                      <?php
+                                //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
+                                $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+                                $sql = "SELECT * FROM review WHERE is_delete = '0'";
+                                $data = mysqli_query($conn, $sql);
+                                foreach($data as $d){
+                            ?>		
+	              <div class="w3-col l3">
+                  <div class="video-box">	
+                            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+		                     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+		                </div>
+	               </div>
+               <?php } ?>
+	           </div>
+         	</div>			
+       </div>
+       <!-- text_testimonials_wrap end here -->  
 			  
 		<!-- status elements -->
-<div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
-  <div class="infinite-scroll-request loader-ellips">
-    <i class="fa fa-spinner fa-spin"></i>
+    <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+     <div class="infinite-scroll-request loader-ellips">
+         <i class="fa fa-spinner fa-spin"></i>
+       </div>
+              <p class="infinite-scroll-last">End of content</p>
+              <p class="infinite-scroll-error">No more Content to load</p>
+    </div>
   </div>
-  <p class="infinite-scroll-last">End of content</p>
-  <p class="infinite-scroll-error">No more Content to load</p>
-</div>
+
 <!-- status elements end here -->
 		<!-- <div class="pagination1 video_pagination">
 		<span aria-current="page" class="page-numbers current">1</span>
@@ -1456,28 +1458,20 @@ button:active {
 		</div>pagination end here -->
 
 
-
-
-	
-		
-   </div>
-
-
 <!-- video popup -->
 <div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
- <div class="patient_speak_modal_body">
-  <div class="modal_video_box">
-   <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
-   <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
-  </div>
- </div>
+      <div class="patient_speak_modal_body">
+         <div class="modal_video_box">
+            <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+               <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+             </div>
+          </div>
+      </div>
 </div>
 <!-- video popup end here -->
  <!--live_from_clinic_testi end here -->
- </div>
-</div>
-</div>
-</div>
+ 
+
 
 
 
