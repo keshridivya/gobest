@@ -682,7 +682,7 @@ button:active {
 
 
         <div class="textimonial-tab">
-        <div class="heading " style="text-align:center;margin-top:7rem">
+        <div class="heading " style="text-align:center;">
         <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
  
    </div> 
@@ -723,7 +723,7 @@ button:active {
   <p class="infinite-scroll-error">No more Content to load</p>
 </div>
 <!-- status elements end here -->
-		<div class="pagination1 video_pagination">
+		<!-- <div class="pagination1 video_pagination">
 		<span aria-current="page" class="page-numbers current">1</span>
 <a class="page-numbers" href="page/2/index.html">2</a>
 <a class="page-numbers" href="page/3/index.html">3</a>
@@ -731,7 +731,7 @@ button:active {
 <a class="page-numbers" href="page/12/index.html">12</a>
 <a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
 			 			</div>
-		</div><!-- pagination end here -->
+		</div>pagination end here -->
 
 
 
