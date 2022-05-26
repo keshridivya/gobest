@@ -1,3 +1,7 @@
+<?php
+$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
+
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -1240,14 +1244,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <!--video-->
 
 <!-- video popup -->
-<div class="patient_speak_modal" id="patient_speak_modal">
- <div class="patient_speak_modal_body">
-  <div class="modal_video_box">
-   <div class="close_btn"><i class="fa fa-close"></i></div>
-   <iframe src="#" height="400" frameborder="0" allowfullscreen=""></iframe> 
-  </div>
- </div>
-</div>
+
 <!-- video popup end here -->
 
 
