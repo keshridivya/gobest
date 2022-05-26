@@ -1154,33 +1154,6 @@ position: absolute;
         <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
  
    </div> 
-	<div class="box">
-
-
- <div class="testimonial_content">		
- <!-- testimonials-text start here -->
-
-		 <div class="text_testimonials_wrap patient_speak_videos">
-    
-		    <div class="w3-row live_from_clinic_testi_row">	
-        <?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-              $sql = "SELECT * FROM review WHERE is_delete = '0'";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-          ?>		
-	       <div class="w3-col l3">
-           <div class="video-box">	
-            <iframe width="726" height="250" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-		     </div>
-	    </div>
-      <?php } ?>
-	  </div>
-	
-	</div>			
-</div><!-- text_testimonials_wrap end here -->  
 			  
 		<!-- status elements -->
 <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
