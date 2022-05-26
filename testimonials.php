@@ -1160,7 +1160,7 @@ position: absolute;
         <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
  
    </div> 
-	<div class="box">
+	<!-- <div class="box"> -->
 
   <script type="text/javascript">
     players = new Array();
@@ -1213,7 +1213,7 @@ position: absolute;
 		     </div>
 	    </div>
       <?php } ?>
-      
+
 	    </div>
 	   </div>			
   </div>    
