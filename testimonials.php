@@ -1068,26 +1068,24 @@ position: absolute;
   </div>
 </div>
 
+<section class="about">
+   <div class="container">
 
-<div class="containear">
- <section class="about"></section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
-                            <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
-                            <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-lg-4">
-                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
-                                    <img src="images/google.png">
-                                </div>
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
+         </div>
+       </div>
+    </div>
+     <div class="row mt-3">
+         <div class="col-lg-4">
+            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                 <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highligh">
+                            <img src="images/google.png">
+                         </div>
                                 <div class="p-2 bd-highligh">
                                     <h5>Google Reviews</h5>
                                     <i class="fa fa-star"></i>
@@ -1096,14 +1094,14 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-lg-12">
-                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                      </div>
+                   </div>
+           </div>
+         </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
                             <div class="d-flex flex-row bd-highlight mb-3">
@@ -1118,8 +1116,8 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                </div>
-                                <div class="row">
+                              </div>
+                              <div class="row">
                                 <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
                                 </div>
@@ -1149,115 +1147,19 @@ position: absolute;
                                 </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+         </div>
+    </div>
+</section>
 
 
-        <div class="textimonial-tab">
-        <div class="heading " style="text-align:center;margin-top:7rem">
+
+    <div class="heading " style="text-align:center;margin-top:7rem">
         <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
  
    </div> 
 			  
-		<!-- status elements -->
-<div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
-  <div class="infinite-scroll-request loader-ellips">
-    <i class="fa fa-spinner fa-spin"></i>
-  </div>
-  <p class="infinite-scroll-last">End of content</p>
-  <p class="infinite-scroll-error">No more Content to load</p>
-</div>
-<!-- status elements end here -->
-		<div class="pagination1 video_pagination">
-		<span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="page/2/index.html">2</a>
-<a class="page-numbers" href="page/3/index.html">3</a>
-<span class="page-numbers dots">&hellip;</span>
-<a class="page-numbers" href="page/12/index.html">12</a>
-<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
-			 			</div>
-		</div><!-- pagination end here -->
 
-
-
-
-	
-		
-   </div>
-
-
-
-<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
-<script>
-// init Infinite Scroll
-(function($){
-var testInfinite = $('.text_testimonials_wrap').infiniteScroll({
-  path: function() {
- 
-  var pageNumber = (this.pageIndex + 1);
-  
-  return '/testimonials-clinics/page/' + pageNumber;
-  
-  },
-  append: '.live_from_clinic_testi_row',
-  status: '.scroller-status',
-  hideNav: '.video_pagination',
-});
-testInfinite.on( 'load.infiniteScroll', function( event ) {
- 
-});
-
-}(jQuery));
-function openModal(v_id){
-var y_src = "https://www.youtube.com/embed/";
- jQuery('.patient_speak_modal').addClass('in');
- jQuery('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
-}
-function closevModal(){
-  jQuery('.patient_speak_modal').removeClass('in');
-  jQuery('#patient_speak_modal iframe').attr('src', '');
-}
-function modalparentClose(event){
- if(event.target.id == 'patient_speak_modal'){
-  $('.patient_speak_modal').removeClass('in');
-  $('#patient_speak_modal iframe').attr('src', '');
- }
-}
-</script>
-<!-- video popup -->
-<div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
- <div class="patient_speak_modal_body">
-  <div class="modal_video_box">
-   <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
-   <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
-  </div>
- </div>
-</div>
-<!-- video popup end here -->
- <!--live_from_clinic_testi end here -->
- </div>
-</div>
-</div>
-</div>
-
-<script>
-$(document).ready(function (){
-var navOffset = $('.testimonal-nav').offset().top;
-window.onscroll = function(){
- var scrtp = document.body.scrollTop || document.documentElement.scrollTop;
-if($(window).width() > 767){
- if(scrtp > Math.floor(navOffset-150)){
-   $('.testimonal-nav').addClass('fixed');
- }else{
-   $('.testimonal-nav').removeClass('fixed');
- }
-}
-}
-});
-</script>
-
-<script type="text/javascript">
+   <script type="text/javascript">
     players = new Array();
 
     function onYouTubeIframeAPIReady() {
@@ -1319,6 +1221,105 @@ if($(window).width() > 767){
  </div>
 </section>
 <!--video-->
+
+
+
+		<!-- status elements -->
+<!-- <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+  <div class="infinite-scroll-request loader-ellips">
+    <i class="fa fa-spinner fa-spin"></i>
+  </div>
+  <p class="infinite-scroll-last">End of content</p>
+  <p class="infinite-scroll-error">No more Content to load</p>
+</div> -->
+<!-- status elements end here -->
+		<!-- <div class="pagination1 video_pagination">
+		<span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="page/2/index.html">2</a>
+<a class="page-numbers" href="page/3/index.html">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="page/12/index.html">12</a>
+<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
+			 			</div> -->
+		<!-- </div>pagination end here -->
+
+
+
+
+	
+		
+   <!-- </div> -->
+
+
+
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script>
+// init Infinite Scroll
+(function($){
+var testInfinite = $('.text_testimonials_wrap').infiniteScroll({
+  path: function() {
+ 
+  var pageNumber = (this.pageIndex + 1);
+  
+  return '/testimonials-clinics/page/' + pageNumber;
+  
+  },
+  append: '.live_from_clinic_testi_row',
+  status: '.scroller-status',
+  hideNav: '.video_pagination',
+});
+testInfinite.on( 'load.infiniteScroll', function( event ) {
+ 
+});
+
+}(jQuery));
+function openModal(v_id){
+var y_src = "https://www.youtube.com/embed/";
+ jQuery('.patient_speak_modal').addClass('in');
+ jQuery('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
+}
+function closevModal(){
+  jQuery('.patient_speak_modal').removeClass('in');
+  jQuery('#patient_speak_modal iframe').attr('src', '');
+}
+function modalparentClose(event){
+ if(event.target.id == 'patient_speak_modal'){
+  $('.patient_speak_modal').removeClass('in');
+  $('#patient_speak_modal iframe').attr('src', '');
+ }
+}
+</script>
+<!-- video popup -->
+<!-- <div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+   <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+  </div>
+ </div>
+</div>
+video popup end here -->
+ <!--live_from_clinic_testi end here -->
+ <!-- </div>
+</div>
+</div>
+</div> -->
+
+<script>
+$(document).ready(function (){
+var navOffset = $('.testimonal-nav').offset().top;
+window.onscroll = function(){
+ var scrtp = document.body.scrollTop || document.documentElement.scrollTop;
+if($(window).width() > 767){
+ if(scrtp > Math.floor(navOffset-150)){
+   $('.testimonal-nav').addClass('fixed');
+ }else{
+   $('.testimonal-nav').removeClass('fixed');
+ }
+}
+}
+});
+</script>
 
 
 <!--<div class="important_info_icon">
