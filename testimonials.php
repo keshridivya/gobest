@@ -1197,16 +1197,16 @@ position: absolute;
             <div class="patients_speaks_wrap">
              <div class="patient_speak_videos row">
              <?php
-                       $sql = "SELECT * FROM review WHERE is_delete = '0' ";
+                       $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
                        $data = mysqli_query($conn, $sql);
                        foreach($data as $d){
                    ?>	
-	       <div class="item item1 ">
-       <div class="video-box">	
+	       <div class="w3-col l3">
+           <div class="video-box">	
            <ul class="image-grid" id="list">
           <li>
            <p><?php echo $d['id']; ?></p>
-            <iframe width="726" height="250" id="<?php echo $d['id']; ?>1" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_playerss" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
 		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
          </li>
         </ul>
@@ -1216,7 +1216,7 @@ position: absolute;
 	  </div>
 	
 	</div>			
-</div><!-- text_testimonials_wrap end here -->  
+</div><!-- text_testimonials_wrap end here -->    
 			  
 		<!-- status elements -->
 <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
