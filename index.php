@@ -635,7 +635,7 @@ button:active {
                 $data = mysqli_query($conn, $sql);
                 foreach($data as $d){
             ?>		
-        <div class="item item">
+        <div class="item item1">
         <div class="video-box">
           <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
           <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players .iframe-video" title="YouTube video player" frameborder="0" allowfullscreen  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> 
