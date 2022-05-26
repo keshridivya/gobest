@@ -839,7 +839,7 @@ button:active {
     
     width: 3.5rem;
     height: 3.5rem;
-    /* display: flex; */
+    display: flex;
     align-items: center;
 }
 
@@ -887,7 +887,6 @@ button:active {
         right: auto;
         left: 15px;
     }
-    
 }
 
 </style>
@@ -897,34 +896,150 @@ button:active {
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-<script defer src="wp-content/themes/clove/js/waypoints.min.js" ></script>
-<script defer src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
-<!--<script src="https://clovedental.in/wp-content/themes/clove/js/owl.carousel.min.js" ></script>-->
 
-<script defer src="wp-content/themes/clove/js/jquery.flexslider.js" ></script>
-<script defer src="wp-content/themes/clove/js/scripts.js" ></script>
+<!--<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>-->
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/clovedental.in\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index5697.js?ver=5.5.3' id='contact-form-7-js'></script>
+<script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
 
-<script defer src="wp-content/themes/clove-child/js/style.js"></script>
-<script src="js/comparisonimage.js"></script>
-
+<script type='text/javascript' src='wp-includes/js/masonry.min3a05.js?ver=4.2.2' id='masonry-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b' id='jquery-masonry-js'></script>
+<!-- Google Code for Remarketing Tag -->
+<script src="wp-content/themes/clove/js/waypoints.min.js" ></script>
+<script src="wp-content/themes/clove/js/jquery.counterup.min.js" ></script>
+<script src="wp-content/themes/clove/js/owl.carousel.min.js" ></script>
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("button-50");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+
+jQuery(document).ready(function() {
+	jQuery(".br_close").click(function(){
+        jQuery(".br_overlay").hide();
+    });
+
+
+	 
+	if(localStorage.getItem("timesec") === null)
+	{	
+	var time = "30", 
+	gettime = time; 	
+    localStorage.setItem('timesec', time);
+	}
+	if(localStorage.getItem("timesec") >=0)
+	{
+    var timer = setInterval(function(){
+		gettime = localStorage.getItem('timesec');
+		gettime--; 
+		localStorage.setItem('timesec', gettime);	 
+	   if(gettime==-1) {  
+		  localStorage.setItem('timesec', gettime);
+		  jQuery(".br_overlay").show();
+		  clearInterval(timer);		 
+		  return;
+		}  
+    }, 1000);
+	}
+
+jQuery('.counter').counterUp({ delay: 39, time: 2000 });
+
+jQuery( ".video-btn-box" ).click(function() {jQuery( ".corporate-video-wrap" ).addClass('active');});
+
+jQuery(".corporate-video-wrap .close").click(function(){jQuery(".corporate-video-wrap").removeClass('active');});
+
+jQuery(".down-arrow").click(function(){ jQuery('html,body').animate({scrollTop: jQuery(".Specialities-box").offset().top-210},'slow');});
+
+jQuery(".next").click(function(){ owl.trigger('owl.next'); });
+jQuery(".prev").click(function(){ owl.trigger('owl.prev'); });
+jQuery("#vidTest").click(function(){
+  jQuery("#Text").hide();
+  jQuery("#txtTest").removeClass('active');
+  jQuery("#Video").show();
+  jQuery(this).addClass('active');      
+})
+jQuery("#txtTest").click(function(){
+jQuery("#Video").hide();
+jQuery("#vidTest").removeClass('active');
+jQuery("#Text").show();
+jQuery(this).addClass('active');
+})
+
+	jQuery('.acc-content').hide(); 								
+	jQuery('.acc-tab').click(function(){
+	if( jQuery(this).next().is(':hidden') ) {
+	jQuery('.acc-tab').removeClass('active').next().slideUp(); 
+	jQuery(this).toggleClass('active').next().slideDown(); 
+	}
+		return false;
+	});
+	jQuery('#wplc_chatmsg').removeAttr("disabled");
+	jQuery(".mobile.read_more3").click(function(){
+	jQuery(".tab-content3 p").css("height", "auto");
+	jQuery(".mobile.read_more3").css("display", "none");
+	jQuery(".tab-content3").addClass("remove_after");
+	});
+});	
+</script>
+<!-- Start of LiveChat (www.livechatinc.com) code --
+            <script type="text/javascript">
+              window.__lc = window.__lc || {};
+              window.__lc.license = 4175831;
+              (function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+              })();
+            </script>
+            <noscript>
+            <a href="https://www.livechatinc.com/chat-with/4175831/" rel="nofollow">Chat with us</a>,
+            powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+            </noscript>
+            <!-- End of LiveChat code -->
+
+</body>
+<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
+</html><script>
+	$(".capcher-row").hide();
+
+function refreshCaptcha2() {
+	jQuery("#captcha_code2").attr('src','captcha/captchaCode48de.jpg?id=5&amp;var='+new Date().getTime());
+}
+</script>
+<style>
+.form-disclaimer {
+    position: relative;
+    padding: 20px;
+    float: left;
 }
 
-</script>
+.form-disclaimer input {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 16px;
+}
+.form-disclaimer label {
+    float: left;
+    padding-left: 5px;
+}
 
+</style>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
+Object Caching 140/161 objects using disk
+Database Caching 6/15 queries in 0.043 seconds using disk
+
+Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
+-->
 
 <script>
   initComparisons();
@@ -935,7 +1050,5 @@ function openCity(evt, cityName) {
 
 
 
-</body>
-</html>
 
 
