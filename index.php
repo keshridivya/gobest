@@ -608,7 +608,7 @@ button:active {
                                     <div class="point" style="text-align:center;"><a href="#." class="btn">Affordable <br> Dentists</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Advanced <br> Techniques</a></div>
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn rounded">Advanced <br> Techniques</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="900">
                                     <div class="point" style="text-align:center;"><a href="#." class="btn">Hygiene Safety <br> priority</a></div>
