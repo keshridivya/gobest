@@ -552,7 +552,7 @@ button:active {
                                     <div class="point211"><a href="#." class="btncheck">Multispecialist Dentists</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="1800">
-                                    <div class="point211"><a href="#." style="font: size 29px;" class="btncheck">Professional Staff</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Professional Staff</a></div>
                                 </div>
                             </div>
                         </div>

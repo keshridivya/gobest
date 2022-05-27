@@ -1570,15 +1570,17 @@ p {
         font-size: 24px;
     }
 }
-.about-seew{
+
+.about-seew {
     margin-top: 10px;
 }
-.point211
-{
+
+.point211 {
     background: #0f094f;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
-.btncheck{
-    color:white;
+
+.btncheck {
+    color: white;
 }
