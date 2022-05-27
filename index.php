@@ -356,7 +356,75 @@ button:active {
 
 
 
-
+<style>
+  .about{
+  background-color: aliceblue;
+  background-color: #fff;
+}
+.about .about-info h5{
+  color: #fe235b;
+  font-size: 20px;
+}
+.about .about-info h2{
+  color: #0f094f;
+  font-size: 40px;
+}
+.about .about-info p{
+  font-size: 17px;
+  color: #6d7a8c;
+  line-height: 30px;
+}
+.about .about-info p a{
+  color: #090909;
+  text-decoration: none;
+  transition: all .5s;
+}
+.about .about-info p a:hover{
+  color: #fe235b;
+  transition: all .5s;
+}
+.about .about-point > div{
+  padding: 0 5px;
+  display: grid;
+}
+.about .about-info .row .point{
+      background: #0f094f;
+      margin: 5px 0;
+      border-radius: 4px;
+}
+.about .about-info .btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: context-menu;
+    /* display: block; */
+    padding: 10px;
+}
+.about .about-info .btn:focus{
+  box-shadow: none;
+}
+.about-img{
+  padding-top: 110px;
+  position: relative;
+}
+.about .about-img img{
+  clip-path: polygon(14% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.about .about-img .experience{
+  position: absolute;
+  background-color: #fe1e5b;
+  color: #fff;
+  top: 50%;
+  transform: translateY(50%);
+  padding: 2.2rem 1.5rem;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 5px solid #f0f8ff;
+}
+.about .about-img .experience strong{
+  font-size: 45px;
+}
+</style>
 
 
 
@@ -535,24 +603,24 @@ button:active {
                                 towards delivering all dental treatment under one roof. We strive to provide high
                                 quality, personalized dental care in a relaxing, comfortable, and safe environment.
                                 Lifelong relationships are created with our patients based on trust and honesty.</p>
-                            <div class="row about-see">
-                                <div class="col-lg-4 col-6 about-seew" >
-                                    <div class="point211"><a href="#." class="btncheck">Affordable Dentists</a></div>
+                                <div class="row about-point" >
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="500">
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Affordable <br> Dentists</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="point211"><a href="#." class="btncheck">Advanced Techniques</a></div>
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="700">
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Advanced <br> Techniques</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="900">
-                                    <div class="point211"><a href="#." class="btncheck">Hygiene Safety priority</a></div>
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="900">
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Hygiene Safety <br> priority</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1200">
-                                    <div class="point211"><a href="#." class="btncheck">Advanced Instruments</a></div>
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="1200">
+                                    <div  class="point" style="text-align:center;"><a href="#." class="btn">Advanced <br> Instruments</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1500">
-                                    <div class="point211"><a href="#." class="btncheck">Multispecialist Dentists</a></div>
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="1500">
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Multispecialist <br> Dentists</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="1800">
-                                    <div class="point211"><a href="#." class="btncheck">Professional Staff</a></div>
+                                <div class="col-lg-4 col-6" data-aos="fade-up" data-aos-duration="1800">
+                                    <div class="point" style="text-align:center;"><a href="#." class="btn">Professional <br> Staff</a></div>
                                 </div>
                             </div>
                         </div>

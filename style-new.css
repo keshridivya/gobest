@@ -107,7 +107,7 @@ section.banner {
 
 .animateHeader {
     /* animation: sdb05 1.5s; */
-    display:none;
+    display: none;
     animation-duration: 1.5s;
     /* animation-timing-function: ease; */
     /* -webkit-animation: fadein 6s; */
@@ -122,12 +122,12 @@ section.banner {
 @keyframes sdb05 {
     0% {
         transform: translateY(-50px);
-        margin-top:-50px;
+        margin-top: -50px;
         ;
     }
     100% {
         transform: translateY(0);
-        margin-top:0;
+        margin-top: 0;
     }
 }
 
@@ -3740,4 +3740,3 @@ a.jx-knightlab:focus span.juxtapose-name {
         height: 25vh;
     }
 }
-

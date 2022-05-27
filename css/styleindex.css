@@ -1569,6 +1569,9 @@ p {
         padding-top: 10px;
         font-size: 24px;
     }
+    .PS {
+        padding: auto !important;
+    }
 }
 
 .about-seew {

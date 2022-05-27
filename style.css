@@ -77,7 +77,7 @@ fieldset {
 }
 
 .point {
-    display: none !important;
+    /* display: none !important; */
 }
 
 .css {
