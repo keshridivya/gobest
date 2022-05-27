@@ -537,7 +537,7 @@ button:active {
                                 Lifelong relationships are created with our patients based on trust and honesty.</p>
                             <div class="row about-see">
                                 <div class="col-lg-4 col-6 about-seew" >
-                                    <div class="point211"><a href="#." class="btn">Affordable Dentists</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Affordable Dentists</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="700">
                                     <div class="point211"><a href="#." class="btncheck">Advanced Techniques</a></div>
