@@ -55,7 +55,7 @@
                 slider = document.createElement("img");
                 // slider.setAttribute("class", "fa fa-chevron-circle-right img-comp-slider");
                 slider.setAttribute("class", "img-comp-slider");
-                slider.setAttribute("src","images/slider.png")
+                slider.setAttribute("src","slider.png")
                 /*insert slider*/
                 img.parentElement.insertBefore(slider, img);
                 /*position the slider in the middle:*/
