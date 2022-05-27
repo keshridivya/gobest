@@ -3,7 +3,7 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 
-<!-- Mirrored from clovedental.in/openings/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:45:25 GMT -->
+<!-- Mirrored from clovedental.in/testimonials-clinics/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:50:03 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -12,26 +12,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
 	<title>
-	Careers - GoBest Dental	</title>
+	Video Testimonials- Clove Dental	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<link rel="pingback" href="xmlrpc.php">
-  <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
+<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
+<meta property="og:url" content="https://clovedental.in/" />
+<meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 
 <link href="wp-content/themes/clove/css/fonts.css" rel="stylesheet"/>
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
-
-
+<link rel="stylesheet" href="style-new.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>    
@@ -76,13 +93,13 @@ jQuery(window).scroll(function() {
 <meta name='robots' content='max-image-preview:large' />
 
 <!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
-<meta name="description" content="Clove Dental hires the best and the brightest from the field of dentistry and its associated branches to bring world-class dental services to you."/>
+<meta name="description" content="Find out what patients have to say about the doctors and their experiences at Clove Dental."/>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Openings - Clove Dental" />
-<meta property="og:description" content="Clove Dental hires the best and the brightest from the field of dentistry and its associated branches to bring world-class dental services to you." />
-<meta property="og:url" content="https://clovedental.in/openings/" />
+<meta property="og:title" content="Video Testimonials- Clove Dental" />
+<meta property="og:description" content="Find out what patients have to say about the doctors and their experiences at Clove Dental." />
+<meta property="og:url" content="https://clovedental.in/testimonials-clinics/" />
 <meta property="og:site_name" content="Clove Dental" />
 <meta property="og:image" content="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg" />
 <!-- / Yoast WordPress SEO plugin. -->
@@ -107,7 +124,21 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
-
+.about{
+        padding-bottom: 0!important;
+}
+.about .about-info h5 {
+    font-size: 24px;
+}
+@media (max-width: 991px){
+.processing-contact-us-bg{
+    margin-top: 12rem;
+    margin-bottom:12rem;
+}
+}
+.overlay{
+    z-index:auto;
+}
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min9f31.css?ver=5.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles5697.css?ver=5.5.3' type='text/css' media='all' />
@@ -121,11 +152,11 @@ var es_data = {"messages":{"es_empty_email_notice":"Please enter email address",
 /* ]]> */
 </script>
 <script type='text/javascript' src='wp-content/plugins/email-subscribers/lite/public/js/email-subscribers-public5560.js?ver=5.0.4' id='email-subscribers-js'></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/78.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/1427.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.7.2" />
-<link rel='shortlink' href='index7896.html?p=78' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed8018.json?url=https%3A%2F%2Fclovedental.in%2Fopenings%2F" />
+<link rel='shortlink' href='index157d.html?p=1427' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed8d4c.json?url=https%3A%2F%2Fclovedental.in%2Ftestimonials-clinics%2F" />
 <script src="wp-content/themes/clove/js/jquery.datetimepicker.full.js" ></script>
 
 <script src="https://www.google.com/jsapi"></script>
@@ -446,8 +477,7 @@ jQuery(function(){jQuery(".table-doctors table tr").slice(0, 6).addClass('displa
 jQuery("#loadMore").on('click', function(e){e.preventDefault();jQuery(".table-doctors table tr:hidden").slice(0, 6).addClass('display');});});		
 jQuery('a[href=#top]').click(function(){jQuery('body,html').animate({scrollTop:0},600);return false;});
 
-$(document).ready(function(){
-    jQuery(".toggle-icon").click(function(){
+jQuery(".header-main .toggle-icon").click(function(){
 		jQuery(".side-menu").addClass("slide-right");
 		jQuery('.transparent-bg').fadeIn();
 		jQuery("body").addClass("no-scroll");
@@ -457,8 +487,6 @@ $(document).ready(function(){
 		jQuery('.transparent-bg').fadeOut();
 		jQuery("body").removeClass("no-scroll");
 	});
-
-});
 
 $(window).scroll(function () {
 		if ($(this).scrollTop() > 50) {
@@ -631,145 +659,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script> 
-
-
-
-<?php
-$postData = $uploadedFile = $statusMsg = '';
-$msgClass = 'errordiv';
-if(isset($_POST['submit'])){
-    // Get the submitted form data
-    $postData = $_POST;
-    $email = $_POST['email'];
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-    
-    // Check whether submitted data is not empty
-    if(!empty($email) && !empty($name) && !empty($subject) && !empty($message)){
-        
-        // Validate email
-        if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-            $statusMsg = 'Please enter your valid email.';
-        }else{
-            $uploadStatus = 1;
-            
-            // Upload attachment file
-            if(!empty($_FILES["attachment"]["name"])){
-                
-                // File path config
-                $targetDir = "images/";
-                $fileName = basename($_FILES["attachment"]["name"]);
-                $targetFilePath = $targetDir . $fileName;
-                $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
-                
-                // Allow certain file formats
-                $allowTypes = array('pdf', 'doc', 'docx', 'jpg', 'png', 'jpeg');
-                if(in_array($fileType, $allowTypes)){
-                    // Upload file to the server
-                    if(move_uploaded_file($_FILES["attachment"]["tmp_name"], $targetFilePath)){
-                        $uploadedFile = $targetFilePath;
-                    }else{
-                        $uploadStatus = 0;
-                        $statusMsg = "Sorry, there was an error uploading your file.";
-                    }
-                }else{
-                    $uploadStatus = 0;
-                    $statusMsg = 'Sorry, only PDF, DOC, JPG, JPEG, & PNG files are allowed to upload.';
-                }
-            }
-            
-            if($uploadStatus == 1){
-                
-                // Recipient
-                $toEmail = 'naiduvedant@gmail.com';
-
-                // Sender
-                $from = '$email';
-                $fromName = 'CodexWorld';
-                
-                // Subject
-                $emailSubject = 'Contact Request Submitted by '.$name;
-                
-                // Message 
-                $htmlContent = '<h2>Contact Request Submitted</h2>
-                    <p><b>Name:</b> '.$name.'</p>
-                    <p><b>Email:</b> '.$email.'</p>
-                    <p><b>Subject:</b> '.$subject.'</p>
-                    <p><b>Message:</b><br/>'.$message.'</p>';
-                
-                // Header for sender info
-                $headers = "From: $fromName"." <".$from.">";
-
-                if(!empty($uploadedFile) && file_exists($uploadedFile)){
-                    
-                    // Boundary 
-                    $semi_rand = md5(time()); 
-                    $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x"; 
-                    
-                    // Headers for attachment 
-                    $headers .= "\nMIME-Version: 1.0\n" . "Content-Type: multipart/mixed;\n" . " boundary=\"{$mime_boundary}\""; 
-                    
-                    // Multipart boundary 
-                    $message = "--{$mime_boundary}\n" . "Content-Type: text/html; charset=\"UTF-8\"\n" .
-                    "Content-Transfer-Encoding: 7bit\n\n" . $htmlContent . "\n\n"; 
-                    
-                    // Preparing attachment
-                    if(is_file($uploadedFile)){
-                        $message .= "--{$mime_boundary}\n";
-                        $fp =    @fopen($uploadedFile,"rb");
-                        $data =  @fread($fp,filesize($uploadedFile));
-                        @fclose($fp);
-                        $data = chunk_split(base64_encode($data));
-                        $message .= "Content-Type: application/octet-stream; name=\"".basename($uploadedFile)."\"\n" . 
-                        "Content-Description: ".basename($uploadedFile)."\n" .
-                        "Content-Disposition: attachment;\n" . " filename=\"".basename($uploadedFile)."\"; size=".filesize($uploadedFile).";\n" . 
-                        "Content-Transfer-Encoding: base64\n\n" . $data . "\n\n";
-                    }
-                    
-                    $message .= "--{$mime_boundary}--";
-                    $returnpath = "-f" . $email;
-                    
-                    // Send email
-                    $mail = mail($toEmail, $emailSubject, $message, $headers, $returnpath);
-                    
-                    // Delete attachment file from the server
-                    @unlink($uploadedFile);
-                }else{
-                     // Set content-type header for sending HTML email
-                    $headers .= "\r\n". "MIME-Version: 1.0";
-                    $headers .= "\r\n". "Content-type:text/html;charset=UTF-8";
-                    
-                    // Send email
-                    $mail = mail($toEmail, $emailSubject, $htmlContent, $headers); 
-                }
-                
-                // If mail sent
-                if($mail){
-                    $Msg = 'Thanks for Contacting Gobest Dentist. Careers Page !';
-                    $msgClass = 'succdiv';
-                    
-                    $postData = '';
-                }else{
-                    $statusMsg = 'Your contact request submission failed, please try again.';
-                }
-            }
-        }
-    }else{
-        $statusMsg = 'Please fill all the fields.';
-    }
-}
-?>
-
-
 </head>
 <body class="home-page">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JX6KNP"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<?php include("include/topbar.php") ?>
 
+
+
+<?php include("include/topbar.php"); ?>
 <style>
 @media screen and (max-width: 767px){
 .number-mbl .click-form {
@@ -885,225 +784,547 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
       "@type": "ListItem",
       "position": "2",
       "item": {
-                "name": "Openings"
+                "name": "Testimonials"
       }
     }
   ]
 }
 </script>
-<div class="banner" style=" margin-top: 8rem;"> 
-<img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w"  /><div class="overlay">
-<h1>Careers</h1>
-</div>
+<style>
+.testimonal-nav.fixed {
+    width: 100%;
+    background-color: #FFF;
+    padding: 20px 0 25px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 72px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    z-index: 9;
+}
+.w3-row{
+  margin-left:-15px;
+  margin-right:-15px;
+}
+.w3-row:before,
+.w3-row:after{
+  content:'';
+  display:table;
+  clear:both;
+}
+.w3-row > .w3-col{
+  padding:15px;
+}
+.w3-col{
+  display:block;
+  float:left;
+}
+.w3-col.l3{
+   width:25%;
+}
+.grid-sizer,
+.testi_item{
+  width:25%;
+}
+.testi_item{
+  padding:15px;
+}
+.testi_item .testi_box{
+  width:100%;
+  padding:15px;
+  box-shadow:0 0 6px rgba(0,0,0,.4);
+  border-radius:5px;
+}
+.testi_item .testi_box .text-box{
+  width:100%;
+  min-height:160px;
+  padding:10px;
+}
+.testi_item .testi_box .text-box q:before,
+.testi_item .testi_box .text-box q:after{
+   position:relative;
+   left:initial;
+   top:initial;
+   margin: 0px 10px 0;
+}
+.testi_item .testi_box .text-box q:after{
+  bottom:-5px;
+}
+.testi_item .testi_box .clients-bar{
+  background-color:#FFF;
+  margin-top:0;
+  text-align:center;
+}
+.testi_item .testi_box .clients-bar:before{
+  display:none;
+}
+.testi_item .testi_box .clients-bar img{
+  display:inline-block;
+  float:none;
+  margin:10px 0 0;
+} 
+.testi_item .testi_box .clients-bar h4{
+  margin:0;
+  padding:0;
+  color:#000;
+}
+
+/*
+.testimonial_content .row{
+   width:50%;
+   padding:15px;
+   border:0;
+}
+.testi_with_video .row .video,
+.testi_with_video .row.right .video,
+.testi_with_video .text-box{
+  width:100%;
+  float:none;
+}
+.testi_with_video .text-box{
+  padding:20px;
+}
+.testi_with_video .text-box q{
+  display:block;
+  min-height:160px;
+}
+*/
+
+.video-box{
+  width:100%;
+  position:relative;
+}
+.video-box iframe{
+  width:100%;
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  border-radius:5px 5px 0 0;
+}
+.video-box .iframe-footer{
+  font-size: 15px;
+  color: #000000;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  background: #FBEBCC;
+  padding: 10px 15px;
+  box-shadow: -1px 0 2px rgba(0,0,0,.4);
+  border-radius:0 0 5px 5px;
+  position:static;
+ 
+}
+.testimonial_content .video iframe{
+   border-radius:5px;
+}
+.patient_speak_videos .video-box{
+  position:relative;
+}
+.patient_speak_videos .play_btn{
+   width:100%;
+   position:absolute;
+   left:0;
+   top:0;
+   bottom:40px;
+   z-index:1;
+   cursor:pointer;
+   background:url('wp-content/uploads/2020/05/play-btn.png') no-repeat center;
+}
+.patient_speak_videos .play_btn:hover{
+   background:url('wp-content/uploads/2020/05/play-btn-active.png') no-repeat center;
+}
+.patient_speak_videos img{
+   width:100%;
+   border-radius:5px 5px 0 0;
+}
+
+.patient_speak_modal{
+   width:100%;
+   height:100%;
+   position:fixed;
+   top:0;
+   left:0;
+   background-color:rgba(0,0,0,.5);
+   display:none;
+   z-index:99999;
+  padding:0 20px;
+}
+.patient_speak_modal.in{
+  display:block;
+}
+.patient_speak_modal_body{
+   width:100%;
+   max-width:680px;
+   margin:90px auto 0;
+   background-color:#FFF;
+   border-radius:8px;
+   padding:15px;
+   box-shadow:0 0 4px rgba(0,0,0,.4);
+}
+.modal_video_box{
+  width:100%;
+  position:relative;
+}
+.modal_video_box iframe{
+  width:100%;
+  border-radius:4px;
+}
+.modal_video_box .close_btn{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-size:22px;
+  line-height:50px;
+  position:absolute;
+  right:-15px;
+  top:-65px;
+  background-color:rgba(255,255,255,.8);
+  border-radius:4px;
+  cursor:pointer;
+}
+.modal_video_box .close_btn:hover{
+  background-color:#FFF;
+}
+
+@media screen and (max-width:1024px){
+  .testimonal-nav.fixed{
+    top:97px;
+  }
+
+}
+@media screen and (max-width:992px){
+  .grid-sizer,
+  .testi_item{
+    width:33.3333%;
+  }
+  .live_from_clinic_testi_row .w3-col.l3{
+    width:33.3333%;
+  }
+}
+@media screen and (max-width:880px){
+  body .testimonials_wrap li{
+    width:50%;
+  }
+}
+@media screen and (max-width:768px){
+  .testi_with_video .row{
+    width:100%;
+    float:none;
+  }
+  body .testimonials_wrap li .text-box{
+     min-height:170px;
+  }
+  .video-box .iframe-footer{min-height: 57px;}
+
+}
+@media screen and (max-width:767px){
+ .testi_item{
+   padding:10px;
+ }
+ .live_from_clinic_testi_row{
+   margin-left:-10px;
+   margin-right:-10px;
+ }
+ .live_from_clinic_testi_row .w3-col.l3{
+   padding:10px;
+ }
+ 
+}
+@media screen and (max-width:600px){
+  body .testimonials_wrap li{
+    width:100%;
+  }
+  body .testimonials_wrap li .text-box{
+    min-height:120px;
+  }
+  .grid-sizer,
+  .testi_item{
+    width:50%;
+ }
+ .testi_item .testi_box{
+   padding:10px;
+  }
+  .live_from_clinic_testi_row .w3-col.l3{
+   width:50%;
+  }
+  .video-box .iframe-footer {
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+   }
+}
+
+.banner .overlay p{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 100%;
+    font-weight: bold;
+    font-size:20px;
+}
+
+
+</style>
+
+
+    <!--stories-->
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+<div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
 <div class="breadcrumb">
-		<div class="box">
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li>Careers</li>
-			</ul>
-		</div> 
-	</div>
-<div class="join-overlay">
-	<div class="join-video">
-		<span class="close"> X </span>
-		<iframe src="https://www.youtube-nocookie.com/embed/7XEZ7qnVaeg?rel=0" frameborder="0" allowfullscreen></iframe>
-	</div>
+  <div class="box">
+    <ul>
+	  <li><a href="index.php">Home</a></li>
+	  <li>
+		Testimonials	  </li>
+	</ul>
+  </div>
 </div>
-<div>
 
-<div class="open-positions">
-	<div class="box">
-		<div class="open-location">
-		    
 
-    
-
-		<section class="wpcf7 mb-3 form-label ">
-            <div class="wpcf7 mb-3 form-label">
-                <div class="wpcf7 mb-3 form-label">
-                   
-
-                    <div class="wpcf7 mb-3 form-label">
-                       <div class="wpcf7 mb-3 form-label">
-
-  <figure class="text-end">
-  <blockquote class="blockquote " style="text-align:center;" >
-       <strong>Careers Opportunities at GoBest Dentist</strong>
-  </blockquote><br>
-  </style>
-  <figcaption class="blockquote-footer"><strong>
-  Explore open positions and dental jobs in Pune.</strong>
-  </figcaption>
-
-  
-  We are continuously looking out for talented and dedicated minds to be a part of our team and to help us further the vision of our founder.
-<br><br>
-</figure>
-            <?php if(!empty($statusMsg)){ ?>
-    <p class="statusMsg ml-3"  style="color:red;font-size:15px;margin-top:15px;padding:5px"<?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo '**'.$statusMsg; ?></p>
-<?php } ?>
-<?php if(!empty($Msg)){ ?>
-    <p class="statusMsg ml-3"  style="color:green;font-size:15px;margin-top:15px;padding:5px"<?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo '**'.$Msg; ?></p>
-<?php } ?>
-                <form action="thankyou.php" method="post" enctype="multipart/form-data" id="form1" name="form1" class="mb-3 form-label" autocomplete="off" >
-                  <fieldset>
-                <div class="border">
-                    <div class="mb-3">
-                        <div class="mb-3">
-                            <input type="text" name="name" style="border-radius:10px; border:none; padding:15px;" class=" wpcf7-form-control" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" placeholder="Name*" id="name" required="">
+<div class="containear">
+ <section class="about"></section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+                            <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+                            <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
                         </div>
                     </div>
                 </div>
-                <div class="mb-3">
-                    <div class="from-control">     
-                        <div class="from-control">
-                           <input type="email" name="email" style="border-radius:10px; border:none; padding:15px;" class="wpcf7-from-control"  value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" id="email" placeholder="Email address*" required="">
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="input-container">
-                        <div class="validateField">
-                           <input type="text" name="subject" style="border-radius:10px; border:none; padding:15px;" class="wpcf7-form-control-wrap phone_number" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" placeholder="Phone*" id="phone" required="">
-                        </div>
-                    </div>
-                </div>
-              
-                <div class="mb-3">
-                    <div class="input-container">
-                        <div class="validateField ">
-                            <input type="text" style="border-radius:10px; border:none; padding:15px;" value="<?php echo !empty($postData['message'])?$postData['message']:''; ?>" class="wpcf7-form-control-wrap your_message" name="message" id="comments" placeholder="Write your message here*">
-                        </div>
-                    </div>
-                </div> 
-                 <div class="mb-3">
-                    <div class="mb-3 ">
-                        <div class="validateField contact-form-label">
-                            <label>Upload Resume* </label>
-                            <input type="file" name="attachment" class="contact-form-label btn ">
-                        </div>
-                    </div>
-                </div> 
-                 
-               
-                <div class="button-row contact-form-label mb-3"> <input type="submit" class=" btn btn-primary wpcf7-form-control has-spinner wpcf7-submit" name="submit" class="btn" value="SUBMIT"></div>
-    </fieldset>
-            </form>
 
-            
-        </div>
+                <div class="row mt-3">
+                    <div class="col-lg-4">
+                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/google.png">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Google Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/jd.png">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Just Dial Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <img src="images/practo.png">
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5>Practo Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
 
+        <div class="textimonial-tab">
+   <div class="heading " style="text-align:center;">
+     <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
+   </div> 
+</div> 
+	<div class="box">
+      <div class="testimonial_content">		
+                <!-- testimonials-text start here -->
+		      <div class="text_testimonials_wrap patient_speak_videos">
+		         <div class="w3-row live_from_clinic_testi_row">	
+                                      <?php
+                                //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
+                                $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+                                $sql = "SELECT * FROM review WHERE is_delete = '0'";
+                                $data = mysqli_query($conn, $sql);
+                                foreach($data as $d){
+                            ?>		
+	              <div class="w3-col l3">
+                  <div class="video-box">	
+                            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+		                     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+		                </div>
+	               </div>
+               <?php } ?>
+	           </div>
+         	</div>			
+       </div>
+       <!-- text_testimonials_wrap end here -->  
+			  
+		<!-- status elements -->
+    <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+     <div class="infinite-scroll-request loader-ellips">
+         <i class="fa fa-spinner fa-spin"></i>
+       </div>
+              <p class="infinite-scroll-last">End of content</p>
+              <p class="infinite-scroll-error">No more Content to load</p>
+    </div>
+  </div>
 
-			
-		
-		</div>
+<!-- status elements end here -->
+		<!-- <div class="pagination1 video_pagination">
+		<span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="page/2/index.html">2</a>
+<a class="page-numbers" href="page/3/index.html">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="page/12/index.html">12</a>
+<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
+			 			</div>
+		</div>pagination end here -->
 
-		
+
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+      <div class="patient_speak_modal_body">
+         <div class="modal_video_box">
+            <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+               <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+             </div>
+          </div>
+      </div>
 </div>
-	</div>
+
+
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script>
+// init Infinite Scroll
+(function($){
+var testInfinite = $('.text_testimonials_wrap').infiniteScroll({
+  path: function() {
+ 
+  var pageNumber = (this.pageIndex + 1);
+  
+  return '/testimonials-clinics/page/' + pageNumber;
+  
+  },
+  append: '.live_from_clinic_testi_row',
+  status: '.scroller-status',
+  hideNav: '.video_pagination',
+});
+testInfinite.on( 'load.infiniteScroll', function( event ) {
+ 
+});
+
+}(jQuery));
+function openModal(v_id){
+var y_src = "https://www.youtube.com/embed/";
+ jQuery('.patient_speak_modal').addClass('in');
+ jQuery('.patient_speak_modal iframe').attr('src', y_src+v_id+'?autoplay=1');
+}
+function closevModal(){
+  jQuery('.patient_speak_modal').removeClass('in');
+  jQuery('#patient_speak_modal iframe').attr('src', '');
+}
+function modalparentClose(event){
+ if(event.target.id == 'patient_speak_modal'){
+  $('.patient_speak_modal').removeClass('in');
+  $('#patient_speak_modal iframe').attr('src', '');
+ }
+}
+</script>
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+   <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+  </div>
+ </div>
+</div>
+<!-- video popup end here -->
+ <!--live_from_clinic_testi end here -->
+ </div>
+</div>
+</div>
 </div>
 
+<script>
+$(document).ready(function (){
+var navOffset = $('.testimonal-nav').offset().top;
+window.onscroll = function(){
+ var scrtp = document.body.scrollTop || document.documentElement.scrollTop;
+if($(window).width() > 767){
+ if(scrtp > Math.floor(navOffset-150)){
+   $('.testimonal-nav').addClass('fixed');
+ }else{
+   $('.testimonal-nav').removeClass('fixed');
+ }
+}
+}
+});
+</script>
 
 
-<style>
-  .contact-form-label {
-    align-items: center;
-    font-size: 15px;
-    font-weight: 600;
-    display: block;
-    text-align: center;
-    
-}
-.border{
-  border-radius:10px;
-}
-.content{
-  font-size:100px;
-  padding-bottom:10px;
-}
-.form-button{
-  font-size: 10
-}
- .open-positions li a{
-	display:block;
-    padding-bottom:50px;
-	padding-top:15px;
-  }
-   .open-positions li a .location{
-	 float:none;
-     display: block;
-	 margin-bottom:10px;
-  }
-  .open-positions li .experience_{
-	 float:none;
-	 min-height: 22px;
-     display: block;
-	  position: relative;
-	  padding-left: 20px;
-  }
-  .open-positions li .experience_:before{
-	 content: "\f0f2";
-     position: absolute;
-     left: 0px;
-     top: 1px;
-     font-size: 14px;
-     color: #000000;
-	 font-family:'FontAwesome';
-  }
-  .open-positions li a h4{
-	 min-height:50px;
-  }
-  .btn-apply{  display: block;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid;
-    width: 120px;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 15px;
-    padding:10px;
-	background-color:#f5781d;
-	color:#FFF;
-  }
-.btn-apply:hover{ 
-	color:#fff;
-	background-color:#f5781d;
-}
-.w3-btn.theme_btn.view_all {
-    border: 2px solid #fff;
-    border-radius: 0;
-    color: #fff;
-    margin-top: 10px;
-    font-weight: 500;
-    background: #f5781d;
-}
-.submit_resume {
-    text-align: center!important;
-    position:relative;
-    top:20px;
-}
-.w3-btn.theme_btn {
-    font-size: 16px;
-    line-height: 16px;
-    color: #09a2c5;
-    border: 1px solid #09a2c5;
-    border-radius: 6px;
-    padding: 10px 17px;
-    -webkit-transition: all ease-in .2s;
-    transition: all ease-in .2s;
-    background-color: transparent;
-    margin-top: 10px;
-    text-transform: uppercase;
-}
-</style>
 
 <!--<div class="important_info_icon">
  <a href="https://clovedental.in/press-release-on-covid-19/"></a>
@@ -1160,79 +1381,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   border-right:10px solid #FFF;
 }
 </style>
-<style>
-  
-.phone-btn {
-    position: fixed;
-    z-index: 999;
-    background-color: #fe0600;
-    color: #fff;
-    padding: .6rem .9rem;
-    border-radius: 50%;
-    transition: .6s;
-    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
-    width: 3.5rem;
-    height: 3.5rem;
-    /* display: flex; */
-    align-items: center;
-}
 
-@-webkit-keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-@keyframes cc-calto-action-ripple {
-    0% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
-    }
-    100% {
-        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
-        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
-    }
-}
-
-.phone-btn:hover {
-    text-decoration: none;
-}
-
-.phone-btn i {
-    font-size: 2rem;
-    transition: .3s ease;
-}
-
-.phone-btn:hover {
-    color: #fff;
-    box-shadow: 0px 0px 16px 3px #fff;
-    transform: translateY(-10px);
-    transition: .6s;
-}
-
-@media (max-width: 1024px) {
-  .phone-btn {
-        bottom: 1rem;
-        right: auto;
-        left: 15px;
-    }
-    
-}
-
-</style>
-
-<?php include("include/footer.php") ?>
-
-    <!-- Call Us -->
-    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
-
+<?php include("include/footer.php"); ?>
 
 
 <script>
@@ -1247,7 +1397,6 @@ $zoho.salesiq.customfield.add(
 });
 }
 }
-
 </script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
@@ -1351,13 +1500,21 @@ jQuery(this).addClass('active');
             <!-- End of LiveChat code -->
 
 </body>
-<!-- Mirrored from clovedental.in/openings/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:09 GMT -->
+<!-- Mirrored from clovedental.in/testimonials-clinics/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:50:07 GMT -->
 </html>
+
+
+
+
+
+
+
+
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
-Object Caching 195/514 objects using disk
-Database Caching 6/114 queries in 0.342 seconds using disk
+Object Caching 139/257 objects using disk
+Database Caching 6/19 queries in 0.014 seconds using disk
 
-Served from: clovedental.in @ 2022-03-03 17:02:29 by W3 Total Cache
+Served from: clovedental.in @ 2022-03-03 17:14:16 by W3 Total Cache
 -->

@@ -1030,7 +1030,7 @@ GoBest Credit Cover: It is quicker & they can use their money for any alternate 
     
     width: 3.5rem;
     height: 3.5rem;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 

@@ -11,10 +11,30 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
-	<title>Video Testimonials- Clove Dental	</title>
+	<title>
+	Video Testimonials- GoBest Dental	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<link rel="pingback" href="xmlrpc.php">
+
+  <!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
+
+<!--<script defer src="/wp-content/themes/clove-child/js/newhome-head.js"></script>-->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Best Dentists and Dental Clinics Near You | Largest Dental Chain India" />
+<meta property="og:description" content="India&#039;s Largest Dental Chain. Best Dentists and Dental Clinics in Delhi NCR, Jaipur, Chandigarh, Ahmedabad, Hyderabad, Chennai, Bangalore and pan India with a team of India’s best dentists. Find best dentist near me." />
+<meta property="og:url" content="https://clovedental.in/" />
+<meta property="og:site_name" content="Clove Dental" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 
@@ -1051,7 +1071,37 @@ position: absolute;
 
 </style>
 
-<div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
+
+    <!--stories-->
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
+
+<div class="banner" style=" margin-top: 8rem;"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
 <div class="breadcrumb">
   <div class="box">
@@ -1077,12 +1127,12 @@ position: absolute;
                 </div>
 
                 <div class="row mt-3">
-                    <div class="col-lg-4">
-                        <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="p-2 bd-highligh">
-                                    <img src="images/google.png">
-                                </div>
+                <div class="col-lg-4">
+            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                 <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highligh">
+                            <img src="images/google.png">
+                         </div>
                                 <div class="p-2 bd-highligh">
                                     <h5>Google Reviews</h5>
                                     <i class="fa fa-star"></i>
@@ -1091,14 +1141,14 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-lg-12">
-                                    <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
+                      </div>
+                   </div>
+           </div>
+         </div>
                      <div class="col-lg-4">
                         <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
                             <div class="d-flex flex-row bd-highlight mb-3">
@@ -1113,8 +1163,8 @@ position: absolute;
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                </div>
-                                <div class="row">
+                              </div>
+                              <div class="row">
                                 <div class="col-lg-12">
                                     <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
                                 </div>
@@ -1150,65 +1200,55 @@ position: absolute;
 
 
         <div class="textimonial-tab">
-        <div class="heading " style="text-align:center;margin-top:7rem">
-        <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
- 
-   </div> 
-	<div class="box">
-
-
- <div class="testimonial_content">		
- <!-- testimonials-text start here -->
-
-		 <div class="text_testimonials_wrap patient_speak_videos">
-    
-		    <div class="w3-row live_from_clinic_testi_row">	
-        <?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-              $sql = "SELECT * FROM review WHERE is_delete = '0'";
-              $data = mysqli_query($conn, $sql);
-              foreach($data as $d){
-          ?>		
-	       <div class="w3-col l3">
-           <div class="video-box">	
-            <iframe width="726" height="250" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-		     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-		     </div>
-	    </div>
-      <?php } ?>
-	  </div>
-	
-	</div>			
-</div><!-- text_testimonials_wrap end here -->  
+   <div class="heading " style="text-align:center;">
+     <h5 style="font-family: 'Raleway', sans-serif;font-size: 30px;color: #4a4a4a;text-transform: uppercase;text-align: center;margin: 0 0 20px;font-weight: 700;">Videos</h5>
+    </div> 
+    </div> 
+	 <div class="container">
+      <div class="testimonial_content">		
+                <!-- testimonials-text start here -->
+		      <div class="text_testimonials_wrap patient_speak_videos">
+		         <div class="w3-row live_from_clinic_testi_row">	
+                                      <?php
+                                //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
+                                $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+                                $sql = "SELECT * FROM review WHERE is_delete = '0'";
+                                $data = mysqli_query($conn, $sql);
+                                foreach($data as $d){
+                            ?>		
+	              <div class="w3-col l3">
+                  <div class="video-box">	
+                            <iframe width="726" height="250" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+		                     <!-- <div class="iframe-footer"><span class="clinic-location"><?php// echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+		                </div>
+	               </div>
+               <?php } ?>
+	           </div>
+         	</div>			
+       </div>
+       <!-- text_testimonials_wrap end here -->  
 			  
-		<!-- status elements -->
-<div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
-  <div class="infinite-scroll-request loader-ellips">
-    <i class="fa fa-spinner fa-spin"></i>
-  </div>
-  <p class="infinite-scroll-last">End of content</p>
-  <p class="infinite-scroll-error">No more Content to load</p>
+              		<!-- status elements -->
+              <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+                <div class="infinite-scroll-request loader-ellips">
+                  <i class="fa fa-spinner fa-spin"></i>
+                </div>
+                <p class="infinite-scroll-last">End of content</p>
+                <p class="infinite-scroll-error">No more Content to load</p>
+              </div>
+
+               <!-- video popup -->
+               <div class="patient_speak_modal" id="patient_speak_modal" onclick="modalparentClose(event)">
+                     <div class="patient_speak_modal_body">
+                        <div class="modal_video_box">
+                           <div class="close_btn" onclick="closevModal()"><i class="fa fa-close"></i></div>
+                              <iframe src="https://www.youtube.com/embed/" height="400" frameborder="0" allowfullscreen=""></iframe> 
+                            </div>
+                         </div>
+                     </div>
+               </div>
+     </div>
 </div>
-<!-- status elements end here -->
-		<div class="pagination1 video_pagination">
-		<span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="page/2/index.html">2</a>
-<a class="page-numbers" href="page/3/index.html">3</a>
-<span class="page-numbers dots">&hellip;</span>
-<a class="page-numbers" href="page/12/index.html">12</a>
-<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
-			 			</div>
-		</div><!-- pagination end here -->
-
-
-
-
-	
-		
-   </div>
-
-
 
 <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 <script>
@@ -1336,6 +1376,7 @@ if($(window).width() > 767){
   border-right:10px solid #FFF;
 }
 </style>
+
 <style>
   
 .phone-btn {
@@ -1347,13 +1388,13 @@ if($(window).width() > 767){
     border-radius: 50%;
     transition: .6s;
     box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite;
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
     width: 3.5rem;
     height: 3.5rem;
     /* display: flex; */
     align-items: center;
 }
-
 
 @-webkit-keyframes cc-calto-action-ripple {
     0% {
@@ -1399,6 +1440,7 @@ if($(window).width() > 767){
         right: auto;
         left: 15px;
     }
+    
 }
 
 </style>
@@ -1508,7 +1550,6 @@ jQuery(this).addClass('active');
 	});
 });	
 </script>
-<script src="js/jsddd.js"></script>
 <!-- Start of LiveChat (www.livechatinc.com) code --
             <script type="text/javascript">
               window.__lc = window.__lc || {};

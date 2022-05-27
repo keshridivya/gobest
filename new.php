@@ -1,3 +1,6 @@
+<?php
+$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
+//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -22,6 +25,46 @@
 
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
 
+ <!-- Font awesome  -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+      <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+       
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    
+      <!-- animated css  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- validation -->
+    <link rel="stylesheet" href="css/validation/validation.css">
+
+    <link async rel="stylesheet" href="css/twentytwenty.min.css" defer>
+    <!-- Main css -->
+   <link rel="stylesheet" href="css/style-new.css">
+    <link rel="stylesheet" href="css/common.css">
+
+<style>
+  h1,h2,h3,h4,h5,h6{
+      font-family: Anton, sans-serif;
+
+    }
+    p {
+      font-family: 'Lora', sans-serif;
+    font-family: 'Muli', sans-serif;
+    }
+    .nav-bar li{
+      font-family: 'Open Sans', sans-serif;
+    }
+</style>
 
 
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
@@ -553,6 +596,8 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
 
 
 
+
+
 	if ($(window).width() < 767) {
 		$(".toggle-mbl h4").click(function(){
 		$(this).parent().siblings().find('div').slideUp("slow");
@@ -660,6 +705,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	.number-mbl .click-form span {
     display: block;
 }
+@media(max-width:1024px){
+    h3{
+        width:100% !important;
+        font-size:1rem !important;
+    }
+    .content_fullco img.img_placed{
+     width:100% !important; 
+     margin-bottom:18px !important;
+    }
+}
 .dropdown_patient_safety > li a {
     font-size: 14px;
     line-height: 15px;
@@ -727,9 +782,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 (function($){
 $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass('in'); });
 }(jQuery));
-</script><div class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h4 style="line-height:5rem"> Root Canal Treatment
-
-</h4></div>
+</script><div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay"><h4 style="line-height:5rem">Root-Cannal Treatment</h4></div>
 </div><style>
 .contact-form .button-row{text-align:left}
 .helpline-center li{margin:0;padding:0;padding:10px 0;}
@@ -773,320 +826,127 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		<div class="box">
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li> Root Canal Treatment</li>
+				<li>Root Canal Treatment</li>
 			</ul>
 		</div> 
 	</div>
 
-<!--
-	<div class="bg-grey">
-		<div class="box">
-			
-			
-		</div>
-	</div>
--->
-	<div class="containear">
-		<div class="service-toppanel">
-<div class="inner_servicebg"></div>
-<div class="box">
-<div class="service-contentbox">
-<div class="content_fullcol">
-		<p><img class="img_placed" src="images/treatment/root-canal-1.png" alt="Root Canal Treatment" /></p>
-	<h2 class="hed-all"><strong>ROOT CANAL TREATMENT</strong></h2>
-	<h2 class="hed-all"><strong>‘After all natural tooth is always better’</strong></h2>
-	
-	
 
-
-<p>There is no point in keeping an infection when getting a root canal is as easy as getting a filling.<br><br>
-
-Your comfort is our priority! Get your RCT done today</p>
-	<a href=""  class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-calendar"></span><p style="color:black;">Book an Appointment</p></a>
+<div style=" margin-top: 8rem;" class="banner"> <img width="1920" height="110" src="wp-content/uploads/2017/03/img_banner.jpg" class="attachment-full size-full wp-post-image" alt="Dental Treatment" loading="lazy" srcset="https://clovedental.in/wp-content/uploads/2017/03/img_banner.jpg 1920w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-300x17.jpg 300w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-768x44.jpg 768w, https://clovedental.in/wp-content/uploads/2017/03/img_banner-1024x59.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><div class="overlay d-block" ><p>Testimonials</p></div>
 </div>
-	
+<div class="breadcrumb">
+  <div class="box">
+    <ul>
+	  <li><a href="index.php">Home</a></li>
+	  <li>
+		Testimonials	  </li>
+	</ul>
+  </div>
 </div>
-	</div>
-	</div>
-			</div>
-					
-	
-	
-	
-		
 
-<div class="box"style="margin-top:%;">
-<div class="service-contentbox">
-<h2 class="hed-all"><strong>WHAT</strong></h2>
-	<h2 class="hed-all"><strong>What is a Root Canal treatment ?</strong></h2>
-<div class="content_fullcol">
-<p>It is a process of removing dead pulp tissue and replacing it with an inert material after thorough cleansing of <br>tooth. Pulp is the centre of your tooth which is the home to its nerve and blood supply.<br><br>
+<section class="about">
+   <div class="container">
 
-Root canal therapy is a series of procedures used to address issues with the soft pulp tissue of the tooth, which includes nerves and blood vessels.<br> While some people wrongly believe it is a painful operation, it is usually no more painful than a filling. It is, in reality, one of the most effective treatments<br> for toothaches.<br><br>
-
-When the pulp tissue of a tooth becomes infected or inflamed, root canal treatment is needed. Pulp tissue is made up of blood vessels,<br> connective tissue, and nerve cells. That is the reason why a problem here can be so painful. The pain can fade away with time, at least temporarily.<br> However, without treatment, the infection can transform into an abscess and can even lead to systemic health problems which are occasionally reported to be fatal.<br><br>
-
-
-
-We provide Revolutionary technology for a painless experience! Looking for a root canal specialist in Pune?</p>
-</div>
-	</div>
-	</div>
-		
-	
-		
-		
-		
-		
-<div class="box"style="margin-top:%;">
-<div class="service-contentbox">
-
-<div class="content_fullco">
-	<p><img class="img_placed" src="images/treatment/root-canal-1.png" alt="Root Canal Treatment" /></p>
-<h2 class="hed-all"><strong>WHEN ...</strong></h2>
-	<h2 class="hed-all"><strong>When do you need a Root Canal?</strong></h2>
-	<h4>You might need a root canal if you have any of the following symptoms:</h4><br><br>
-
-<p><i class="fa fa-plus"></i>&emsp;Severe tooth pain.<br><br><i class="fa fa-plus"></i>&emsp;Prolonged sensitivity.<br><br><i class="fa fa-plus"></i>&emsp;Tooth discolouration.<br><br><i class="fa fa-plus"></i>&emsp;Gum swelling.<br><br>
-	<i class="fa fa-plus"></i>&emsp;Recurrent pimple on gum.<br><br>Ready to be pain free now? Get the best<b> root canal treatment in PimpriChinchwad.</b><br><br></p>
-	<a href=""  class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-calendar"></span><p style="color:black;">Book an Appointment</p></a>
-</div>
-	</div>
-	</div>
-			
-
-<div class="box"style="margin-top:5%;">
-<div class="service-contentbox"style="background-image: url('images/footer-cta-11.png');background-size: 100% 100%;">
-<h2 class="hed-all"style="color: #fff;"><strong>WHY ...</strong></h2>
-	
-<div class="content_fullcol">
-	<p ><img class="img_placed" src="images/treatment/root-canal-2.png" alt="Root Canal Treatment" /></p>
-
-	<p><h4  style="color: #ffffff;">Following are the reasons to get a root canal treatment:<br><br>
-
-	You may need a root canal treatment to address:</h4><br></p>
-	
-	<div class="col-lg-12">
-                        <div class="root-info">
-                            <!-- <h5 class="mb-3">WHY</h5> -->
-                            
-                            <h3>An abscess.</h3>
-                            <h3>A cavity that has reached tooth pulp.</h3>
-                            <h3>Severing of tooth nerve due to trauma.</h3>
-                            <h3>A tooth fracture</h3>
-                            <h3> Inflammation of tooth nerve due to repeated dental procedures.</h3><br>
-                            <p style="color: #fff;">We recommend you to make an appointment for full evaluation of Root Canal.</p>
-<a href=""  class="btn btn-xs btn-warning"><span class="glyphicon glyphicon-calendar"></span><p style="color:black;">Book an Appointment</p></a>
-							
-                        </div>
+    <div class="row">
+       <div class="col-xl-12">
+          <div class="about-info py-3"  data-aos="fade-up" data-aos-duration="2000">
+              <h5 class="mb-3" style="font-size:18px">" We've been able to build trust and therefore we have good ratings on Google Practo and Just Dial ".</h5>
+              <!-- <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2> -->
+         </div>
+       </div>
+    </div>
+     <div class="row mt-3">
+         <div class="col-lg-4">
+            <div class="box mb-3 google-box" data-aos="fade-up" data-aos-duration="2000">
+                 <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highligh">
+                            <img src="images/google.png">
+                         </div>
+                                <div class="p-2 bd-highligh">
+                                    <h5>Google Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p><span class="color">5.0</span> Stars - 1100+ Reviews </p>
                       </div>
-	
-
-
-</div>
-	</div>
-	</div>
-			
-
-<div class="box"style="margin-top:8%;">
-<div class="service-contentbox">
-<div class="content_fullco">
-		
-	<img class="img_placed" src="images/treatment/root-canal-3.png" alt="Root Canal Treatment" />
-	<h2 class="hed-all"><strong>HOW</strong></h2>
-
-  	<h2 class="hed-all"><strong>How is root canal treatment done?</strong></h2>
-
-	<p>The root canal treatment process usually begins in the same way as a filling and without major discomfort: local anesthesia is given to numb the tooth and the area around it.<br><br><span id="dots">...</span><span id="more">Then, a small opening is made in the surface of the affected tooth in order to reach the pulp cavity and root canals. Tiny instruments, sometimes with the aid of a microscope, are used to remove the dead pulp tissue from the narrow canals of your tooth. The cavity and empty channels are cleaned, disinfected and prepared to receive the filling made of inert and biocompatible material. Finally, adhesive cement is used to seal the opening of the tooth, thus preventing future infections.<br><br>
-After root canal treatment, your tooth may be slightly tender or sore for a few days. Over-the-counter pain relievers such as ibuprofen are effective in relieving discomfort, but prescription medications can be given if necessary. During this period, it is probably best to avoid biting hard on the affected tooth. However, all these symptoms should be temporary.<br><br>
-In order for the tooth to be more protected and to fully recover, in general, a crown or other type of restoration is needed. The restoration can be done in several ways: with traditional gold crowns or with dental replicas made of high-tech tooth-colored material. In all cases, you will have made an investment in maintaining your dental health in the future.
-</span><br>
-<button class="btn  btn-xs btn-primary"onclick="myFunction()" id="myBtn">Read more</button><br>
-		
-	Unable to chew due to pain? Get a painless root canal treatment near me.</p>
-	
-	
-	</div>
-
-	</div>
-	</div>	
-	
-	
-	
-	
-<div class="box"style="margin-top:20%;">
-<div class="service-contentbox"style="">
-<h2 class="hed-all"style="align-items: center;"><strong>Frequently Asked Questions</strong></h2>
-	
-<div class="content_fullcol">
-	<p ><img class="img_placed" src="images/faq-img.jpg" alt="Root Canal Treatment" /></p>
-
-	<div class="col-lg-7">
-                        <!--Accordion wrapper-->
-                        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingOne1">
-                              <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1" class="collapsed">
-                                <h5 class="mb-0">
-                                   Do I need a root canal if I don’t have pain? <i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                                If there is a decay in your tooth and you leave it untreated, you will make the condition worse because the decay will spread to other adjacent teeth in your oral cavity.
+                   </div>
+           </div>
+         </div>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 justdial-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
+                                    <img src="images/jd.png">
+                                </div>
+                                <div class="p-2 bd-highligh">
+                                    <h5>Just Dial Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
                               </div>
+                              <div class="row">
+                                <div class="col-lg-12">
+                                    <p><span class="color">5.0</span> Stars - 1400+ Reviews</p>
+                                </div>
                             </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingTwo2">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                                <h5 class="mb-0">
-                                   What are my other treatment choices? <i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                               If you don’t want to get your tooth root canal treated, the only other option is are removal of the infected tooth.
-                              </div>
-                            </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingThree3">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="true" aria-controls="collapseThree3">
-                                <h5 class="mb-0">
-                                   Will I have discomfort after the procedure is done? <i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                                You may feel a little discomfort when biting but it will last only for a couple of days following your treatment. We recommend chewing on the other side until the treated tooth is secured with a crown. You can take an over the counter painkiller or visit us anytime in case of a doubt.
-                              </div>
-                            </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingThree4">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
-                                <h5 class="mb-0">
-                                   Is there anything I can do to avoid the need for future root canals? <i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                              Of course, Prevention is always better than cure! Regular oral hygiene practices like brushing twice a day for at least two minutes using a fluoride containing toothpaste and flossing at least once a day to clean the areas between your teeth can go a long way in preventing tooth decay and other oral health problems.
-                              </div>
-                            </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingThree5">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
-                                <h5 class="mb-0">
-                                    Aren’t Root Canals Prone to Failure? <i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseThree5" class="collapse" role="tabpanel" aria-labelledby="headingThree5" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                                Absolutely not. This is a misconception that dates back to the beginning of root canal procedures. In the present era of modern technology and advanced dental materials, the success rate of root canals are expected to be around 90%. Of course it also depends on the after care of the treated tooth.
-                              </div>
-                            </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
-                          <!-- Accordion card -->
-                          <div class="card"style="margin-bottom: 2%;">
-
-                            <!-- Card header -->
-                            <div class="card-header" role="tab" id="headingThree6">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
-                                <h5 class="mb-0">
-                                   Why do I need a dental crown after getting a Root Canal treatment?<i class="fa rotate-icon fa-angle-down"></i>
-                                </h5>
-                              </a>
-                            </div>
-
-                            <!-- Card body -->
-                            <div id="collapseThree6" class="collapse" role="tabpanel" aria-labelledby="headingThree6" data-parent="#accordionEx" style="">
-                              <div class="card-body">
-                                We can save a dying tooth (which would otherwise have to be removed) through the process of root canal but it becomes brittle. By restoring it with a dental crown, we ensure its strength similar tooth your natural healthy tooth. Thus, a dental crown will give you confidence to chew your food comfortably once again.
-                              </div>
-                            </div>
-
-                          </div>
-                          <!-- Accordion card -->
-
                         </div>
-                        <!-- Accordion wrapper -->
                     </div>
+                     <div class="col-lg-4">
+                        <div class="box mb-3 practo-box" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="p-2 bd-highligh">
+                                    <img src="images/practo.png">
+                                </div>
+                            
+                                <div class="p-2 bd-highligh">
+                                    <h5>Practo Reviews</h5>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-12">
+                                    <p><span class="color">5.0</span> Stars - 100+ Reviews</p>
+                                </div>
+                                </div>
                         </div>
-                      </div>
-	
+                    </div>
+         </div>
+    </div>
+</section>
 
+	<!-- status elements -->
+<!-- <div class="scroller-status" style="padding:20px;text-align:center;font-size:24px;color:#000;">
+  <div class="infinite-scroll-request loader-ellips">
+    <i class="fa fa-spinner fa-spin"></i>
+  </div>
+  <p class="infinite-scroll-last">End of content</p>
+  <p class="infinite-scroll-error">No more Content to load</p>
+</div> -->
+<!-- status elements end here -->
+		<!-- <div class="pagination1 video_pagination">
+		<span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="page/2/index.html">2</a>
+<a class="page-numbers" href="page/3/index.html">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="page/12/index.html">12</a>
+<a class="next page-numbers" href="page/2/index.html">next »</a>			<div>
+			 			</div> -->
+		<!-- </div>pagination end here -->
 
-</div>
-	</div>
-	</div>
-
-            <div class="box"style="margin-top:10%;">
-            <div class="service-contentbox"style="">
-
-	
-            <div class="content_fullcol">
-                  <div class="col-lg-12">
-                            <div class="root-info">
-                                
-                                <h2 class="mb-4 text-center"> Videos</h2> 
-                            </div>
-                        </div>
-                        <div class="offset-lg-4 col-lg-4">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/e4wHETPg898" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-
-</div>
-	</div>
-	</div>
-	
-<script>function myFunction() {
+ <script>function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
@@ -1116,22 +976,13 @@ In order for the tooth to be more protected and to fully recover, in general, a 
 	 h3 {
     color: #fff;
    margin-bottom: 1%;
-   width: 40%;
+   width: 60%;
     padding: 10px;
     background-color: #0000007a;
     box-shadow: 0px 0px 8px #fff;
     border-radius: 10px;
 }
-@media(max-width:1024px){
-    h3{
-        width:100% !important;
-        font-size:1rem !important;
-    }
-    .content_fullco img.img_placed{
-     width:100% !important; 
-     margin-bottom:18px !important;
-    }
-}
+	
 .important_info_icon{
   width:50px;
   height:50px;
@@ -1186,23 +1037,83 @@ In order for the tooth to be more protected and to fully recover, in general, a 
 		padding:2%;
 	}
 </style>
+<style>
+  
+.phone-btn {
+    position: fixed;
+    z-index: 999;
+    background-color: #fe0600;
+    color: #fff;
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
+    animation: cc-calto-action-ripple .6s linear infinite !important;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+@-webkit-keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+@keyframes cc-calto-action-ripple {
+    0% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2);
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 0 rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2)
+    }
+    100% {
+        -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent;
+        box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
+    }
+}
+
+.phone-btn:hover {
+    text-decoration: none;
+}
+
+.phone-btn i {
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.phone-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 16px 3px #fff;
+    transform: translateY(-10px);
+    transition: .6s;
+}
+
+@media (max-width: 1024px) {
+  .phone-btn {
+        bottom: 1rem;
+        right: auto;
+        left: 15px;
+    }
+}
+
+</style>
 
 <?php include("include/footer.php") ?>
 
+    <!-- Call Us -->
+    <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
 
-<script>
-$zoho.salesiq.ready=function(){
-{
-$zoho.salesiq.customfield.add(
-{
-"name":"Enter your city",
-"hint":"Enter your city",
-"required":"false",
-"visibility":"both",
-});
-}
-}
-</script><script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+
+<!--<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>-->
+<script type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="wp-includes/js/dist/vendor/wp-polyfill-object-fit.min531b.js?ver=2.3.4"></scr' + 'ipt>' );
 </script>
@@ -1213,6 +1124,7 @@ var wpcf7 = {"api":{"root":"https:\/\/clovedental.in\/wp-json\/","namespace":"co
 </script>
 <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/index5697.js?ver=5.5.3' id='contact-form-7-js'></script>
 <script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+
 <script type='text/javascript' src='wp-includes/js/masonry.min3a05.js?ver=4.2.2' id='masonry-js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b' id='jquery-masonry-js'></script>
 <!-- Google Code for Remarketing Tag -->
@@ -1331,6 +1243,7 @@ function refreshCaptcha2() {
     float: left;
     padding-left: 5px;
 }
+
 </style>
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
@@ -1340,3 +1253,7 @@ Database Caching 6/15 queries in 0.043 seconds using disk
 
 Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
 -->
+
+
+
+	
