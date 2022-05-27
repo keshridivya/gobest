@@ -221,7 +221,7 @@ else {
 <i class="fa fa-calendar" aria-hidden="true"></i> <samp>book an <span>appointment</span></samp></p>
 </div>
 
-<div class="number-mbl toggle1">
+<div class="number-mbl toggle1" style="z-index:1;">
    <div class="toggle1" style="cursor:pointer; padding-bottom:-20px;"></div><i class="fa fa-calendar" style="margin-left:40%;font-size:28px"></i>
    <p style="margin-bottom:0rem;font-size:12px!important;"><strong> Book Appointment</strong> </p>
 </div>
