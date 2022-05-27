@@ -540,19 +540,19 @@ button:active {
                                     <div class="point211"><a href="#." class="btn">Affordable Dentists</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="point211"><a href="#." class="btn">Advanced Techniques</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Advanced Techniques</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="900">
-                                    <div class="point211"><a href="#." class="btn">Hygiene Safety priority</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Hygiene Safety priority</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1200">
-                                    <div class="point211"><a href="#." class="btn">Advanced Instruments</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Advanced Instruments</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1500">
-                                    <div class="point211"><a href="#." class="btn">Multispecialist Dentists</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Multispecialist Dentists</a></div>
                                 </div>
                                 <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="1800">
-                                    <div class="point211"><a href="#." class="btn">Professional Staff</a></div>
+                                    <div class="point211"><a href="#." class="btncheck">Professional Staff</a></div>
                                 </div>
                             </div>
                         </div>
