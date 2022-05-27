@@ -73,9 +73,6 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <meta property="og:url" content="https://clovedental.in/" />
 <meta property="og:site_name" content="Clove Dental" />
 
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 <!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
 <!-- <script src="https://kit.fontawesome.com/785fbde44c.js" crossorigin="anonymous"></script> -->
 <!-- <script src="https://kit.fontawesome.com/84b1b3a848.js" crossorigin="anonymous"></script> -->
@@ -192,8 +189,8 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
   -webkit-transform: rotate(-135deg);*/
 
   position: absolute; 
-  width: 40px; 
-  height: 100%; 
+  width: 45px; 
+  height: 45px; 
   cursor: col-resize;
   line-height: 30px;
    text-align: center; 
@@ -538,24 +535,24 @@ button:active {
                                 towards delivering all dental treatment under one roof. We strive to provide high
                                 quality, personalized dental care in a relaxing, comfortable, and safe environment.
                                 Lifelong relationships are created with our patients based on trust and honesty.</p>
-                            <div class="row about-point">
-                                <div class="col-lg-4 col-6 about-btn" >
-                                    <div class="point"><a href="#." class="btn">Affordable Dentists</a></div>
+                            <div class="row about-see">
+                                <div class="col-lg-4 col-6 about-seew" >
+                                    <div class="point211"><a href="#." class="btn">Affordable Dentists</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-btn" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="point"><a href="#." class="btn">Advanced Techniques</a></div>
+                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="700">
+                                    <div class="point211"><a href="#." class="btncheck">Advanced Techniques</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-btn" data-aos="fade-up" data-aos-duration="900">
-                                    <div class="point"><a href="#." class="btn">Hygiene Safety priority</a></div>
+                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="900">
+                                    <div class="point211"><a href="#." class="btncheck">Hygiene Safety priority</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6  about-btn" data-aos="fade-up" data-aos-duration="1200">
-                                    <div class="point"><a href="#." class="btn">Advanced Instruments</a></div>
+                                <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1200">
+                                    <div class="point211"><a href="#." class="btncheck">Advanced Instruments</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6  about-btn" data-aos="fade-up" data-aos-duration="1500">
-                                    <div class="point"><a href="#." class="btn">Multispecialist Dentists</a></div>
+                                <div class="col-lg-4 col-6  about-seew" data-aos="fade-up" data-aos-duration="1500">
+                                    <div class="point211"><a href="#." class="btncheck">Multispecialist Dentists</a></div>
                                 </div>
-                                <div class="col-lg-4 col-6 about-btn" data-aos="fade-up" data-aos-duration="1800">
-                                    <div class="point"><a href="#." class="btn">Professional Staff</a></div>
+                                <div class="col-lg-4 col-6 about-seew" data-aos="fade-up" data-aos-duration="1800">
+                                    <div class="point211"><a href="#." class="btncheck">Professional Staff</a></div>
                                 </div>
                             </div>
                         </div>
@@ -593,76 +590,50 @@ button:active {
                 </div>
             </div>
         </section>
-  <!--stories-->
-  <script type="text/javascript">
-      players = new Array();
+<!--stories-->
 
-      function onYouTubeIframeAPIReady() {
-          var temp = $("iframe.yt_players");
-          for (var i = 0; i < temp.length; i++) {
-              var t = new YT.Player($(temp[i]).attr('id'), {
-                  events: {
-                      'onStateChange': onPlayerStateChange
-                  }
-              });
-              players.push(t);
-          }
-      }
-      onYouTubeIframeAPIReady();
 
-      function onPlayerStateChange(event) {
-          if (event.data == YT.PlayerState.PLAYING) {
-              var temp = event.target.getVideoUrl();
-              var tempPlayers = $("iframe.yt_players");
-              for (var i = 0; i < players.length; i++) {
-                  if (players[i].getVideoUrl() != temp) 
-                      players[i].stopVideo();
-              }
-          }
-      }
-  </script>
+<!--video-->
+<section class="patient_speaks light_gray_bg light">
+ <div class="container_2">
+   <div class="heading">
+     <h2>Patient Speaks</h2> 
+   </div> 
+   <div class="patients_speaks_wrap">
+    <div class="patient_speak_videos row">
+    <?php
+              $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
+              $data = mysqli_query($conn, $sql);
+              foreach($data as $d){
+          ?>		
+      <div class="item item1 ">
+       <div class="video-box">
+        <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
+        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_playerss" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
+        <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
+       </div>
+      </div><!-- item end here -->
+      <?php } ?>
+      <div class="clearfix"></div>
+      <div style="text-align:center;">
+        <a href="testimonials.php" class="btn view_more">View More</a>
+      </div>
+    </div>   
+   </div><!-- patients_speaks_wrap end here -->  
+ </div>
+</section>
+<!--video-->
 
-  <!--video-->
-  <section class="patient_speaks light_gray_bg light">
-  <div class="container_2">
-    <div class="heading">
-      <h2>Patient Speaks</h2> 
-    </div> 
-    <div class="patients_speaks_wrap">
-      <div class="patient_speak_videos row">
-      <?php
-                $sql = "SELECT * FROM review WHERE is_delete = '0' LIMIT 4";
-                $data = mysqli_query($conn, $sql);
-                foreach($data as $d){
-            ?>		
-        <div class="item item1">
-        <div class="video-box">
-          <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-          <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="yt_players iframe-video" title="YouTube video player" frameborder="0" allowfullscreen  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> 
-          <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
-        </div>
-        </div><!-- item end here -->
-        <?php } ?>
-        <div class="clearfix"></div>
-        <div style="text-align:center;">
-          <a href="testimonials.php" class="btn view_more">View More</a>
-        </div>
-      </div>   
-    </div><!-- patients_speaks_wrap end here -->  
+<!-- video popup -->
+<div class="patient_speak_modal" id="patient_speak_modal">
+ <div class="patient_speak_modal_body">
+  <div class="modal_video_box">
+   <div class="close_btn"><i class="fa fa-close"></i></div>
+   <iframe src="#" height="400" frameborder="0" allowfullscreen=""></iframe> 
   </div>
-  </section>
-  <!--video-->
-
-  <!-- video popup -->
-  <div class="patient_speak_modal" id="patient_speak_modal">
-  <div class="patient_speak_modal_body">
-    <div class="modal_video_box">
-    <div class="close_btn"><i class="fa fa-close"></i></div>
-    <iframe src="#" height="400" frameborder="0" allowfullscreen=""></iframe> 
-    </div>
-  </div>
-  </div>
-  <!-- video popup end here -->
+ </div>
+</div>
+<!-- video popup end here -->
 
 
 <!--section-->
@@ -1177,7 +1148,7 @@ button:active {
 
 
 <script>
-onYouTubeIframeAPIReady();
+
 </script>
 
 
