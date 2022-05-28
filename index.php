@@ -211,6 +211,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
           .img-comp-container {
             /* position: relative; */
             height: 350px !important;
+            cursor: col-resize !important;
             /*should be the same height as the images*/
         }
       	}
