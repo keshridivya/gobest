@@ -168,6 +168,7 @@ else {
 </li>
 <li id="menu-item-4792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4792"><a class="a" href="about-us.php" class="a">ABOUT US</a>
 <ul class="sub-menu">
+	<li id="menu-item-4811035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="about-us.php" class="a">Know More</a></li>
 	<li id="menu-item-481100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="fullcasestudy.php" class="a">Case Study</a></li>
 </ul>
 </li>
