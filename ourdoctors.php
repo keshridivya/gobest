@@ -840,8 +840,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 @media only screen and (max-width:767px)
 {
   .card-img-top{
-   /* width: 90px; */
-   /* height:350px; */
+    width: 80%;
+    height: 70%;
   }
   .headingName{
     font-size:20px !important;
