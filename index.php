@@ -580,10 +580,10 @@ button:active {
                   <div class="col-xl-6 mt-3 " id="sliderCompImg">
                     <div class="img-comp-container" >
                         <div class="img-comp-img">
-                             <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety1-min.jpg" width="350px" height="350px">
+                             <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety1-min.jpg" width="550px" height="550px">
                         </div>
                         <div class="img-comp-img img-comp-overlay">
-                            <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety2-min.webp" width="350px" height="350px">
+                            <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety2-min.webp" width="550px" height="550px">
                         </div>
                     </div>
                     <!-- <div class="juxtapose" style="position:sticky">
