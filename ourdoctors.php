@@ -947,7 +947,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <div class="flip-card rounded pb-2 pl-0 pr-0 mb-5 col-lg-3" style="border-top-left-radius: 30px !important;">
   <div class="flip-card-inner" style="border-top-left-radius: 30px !important;">
     <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px !important;">
-      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top mt-2" alt="..." >
+      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top mt-5" alt="..." >
         <h4 class="card-title headingName m-2"><?php echo $d['name']; ?></h4>
         <h6 style="color:#fe235b;"><?php echo $d['degree']; ?></h6>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
