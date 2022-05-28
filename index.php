@@ -202,7 +202,18 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
         z-index:1;   
         font-weight:500;
         }
-        
+
+        @media (max-width:1024px){
+          .imgComp{
+               width:"350px";
+               height:"350px";
+          }
+          .img-comp-container {
+            /* position: relative; */
+            height: 350px;
+            /*should be the same height as the images*/
+        }
+      	}
 
  </style>
 
@@ -580,10 +591,10 @@ button:active {
                   <div class="col-xl-6 mt-3 " id="sliderCompImg">
                     <div class="img-comp-container" >
                         <div class="img-comp-img">
-                             <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety1-min.jpg" width="500px" height="500px">
+                             <img style="display: block; vertical-align: middle;" class="imgComp" src="wp-content/uploads/2020/10/safety1-min.jpg" width="500px" height="500px">
                         </div>
                         <div class="img-comp-img img-comp-overlay">
-                            <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety2-min.webp" width="500px" height="500px">
+                            <img style="display: block; vertical-align: middle;" class="imgComp" src="wp-content/uploads/2020/10/safety2-min.webp" width="500px" height="500px">
                         </div>
                     </div>
                     <!-- <div class="juxtapose" style="position:sticky">
