@@ -577,7 +577,7 @@ button:active {
             <div class="container">
                 <div class="row">
 
-                  <div class="col-xl-4 mt-3 " id="sliderCompImg">
+                  <div class="col-xl-6 mt-3 " id="sliderCompImg">
                     <div class="img-comp-container" >
                         <div class="img-comp-img">
                              <img style="display: block; vertical-align: middle;" src="wp-content/uploads/2020/10/safety1-min.jpg" width="350px" height="350px">
@@ -592,7 +592,7 @@ button:active {
                     </div> -->
                   </div>
 
-                    <div class="col-xl-8">
+                    <div class="col-xl-6">
                         <div class="about-info py-3" data-aos="fade-up" data-aos-duration="2000">
                             <h5 class="mb-3">WHO WE ARE</h5>
                             <h2 class="mb-3">Multi-Specialty Dental Clinic In Pimpri-Chinchwad, Pune</h2>
