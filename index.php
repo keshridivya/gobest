@@ -1104,7 +1104,7 @@ button:active {
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>	
-      <div class="col-lg-3 col-6 col-sm-6 ">
+      <div class="col-lg-3 col-6 col-sm-6 m-0 p-0">
         <div class="case_study_img">
           <img src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" alt="case_study_img" class="img-fluid img-fluid-set" style="height:12rem !important;width:100% !important">
         </div>
