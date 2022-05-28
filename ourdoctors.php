@@ -805,7 +805,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 .flip-card-inner {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 101%;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -865,7 +865,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 }
 .flip-card {
   width: 120px;
-  height: 570px;
+  height: 665px;
 }
 }
 .readMore:hover{
