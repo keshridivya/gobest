@@ -689,7 +689,7 @@ button:active {
       <div class="item item1 ">
        <div class="video-box">
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_playerss" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
+        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_players" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
        </div>
       </div><!-- item end here -->
@@ -1398,6 +1398,33 @@ function openCity(evt, cityName) {
  </script>
 
 
+<script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
 
 
 
