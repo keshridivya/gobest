@@ -8,7 +8,8 @@
 <head>
 
 	<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
 	<title>
 	Video Testimonials- GoBest Dental	</title>
@@ -33,7 +34,7 @@
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+        <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
 
