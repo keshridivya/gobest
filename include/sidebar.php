@@ -120,66 +120,7 @@
 
 <?php
 if(isset($_POST['submit'])){
-  $time= $_POST['time'];
-  date_default_timezone_set('Asia/Calcutta'); 
-    $currentTime=time();
-    if($time<10 || $time>=20){?>
-    <script>swal("","Please choose Appointment timing between 10:00 Am to 08:00pm", "error");</script> 
-    
-    <?php
-    $name= $_POST['name'];
-    $PhoneNumber = $_POST['PhoneNumber'];
-    $branch = $_POST['branch'];
-    $comments= $_POST['comments'];
-    $date= $_POST['date'];
-    $time= $_POST['time'];   
-    
-    // configure
-    $from = 'Enquiry <maheshniwate10@gmail.com>';
-    $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
-    $subject = 'Book an Appointment Form';
-    $fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date', 'time' => 'time'); // array variable name => Text to appear in email
-    $okMessage = 'Thank You';
-    $errorMessage = 'There was an error while submitting the form. Please try again later';
-    
-    // let's do the sending
-    
-    try
-    {
-        $emailText = "You have new message from contact form\n=============================\n";
-    
-        foreach ($_POST as $key => $value) {
-    
-            if (isset($fields[$key])) {
-                $emailText .= "$fields[$key]: $value\n";
-            }
-        }
-    
-        mail($sendTo, $subject, $emailText, "From: " . $from);
-        echo "<script>window.location.href='thankyou.php';</script>";
-            //$responseArray = array('type' => 'success', 'message' => $okMessage);
-    }
-    catch (\Exception $e)
-    {
-        
-        echo "<script>alert('$errorMessage');</script>";
-        //$responseArray = array('type' => 'danger', 'message' => $errorMessage);
-    }
-    
-    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-        $encoded = json_encode($responseArray);
-        
-        header('Content-Type: application/json');
-        
-        echo $encoded;
-    }
-    else {
-        echo $responseArray['message'];
-    }
-       } 
-      
   
-    else{ 
       $name= $_POST['name'];
 $PhoneNumber = $_POST['PhoneNumber'];
 $branch = $_POST['branch'];
@@ -231,7 +172,6 @@ else {
 }
    } 
 
-}
 ?>
 </head>
 
