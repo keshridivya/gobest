@@ -15,6 +15,7 @@ $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dent
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <link rel="shortcut icon" href="wp-content\themes\clove\images\favicon.png" type="image/x-icon">
 
@@ -453,6 +454,34 @@ button:active {
 <script>
 
 </script>
+    <!--stories-->
+    <script type="text/javascript">
+    players = new Array();
+
+    function onYouTubeIframeAPIReady() {
+        var temp = $("iframe.yt_players");
+        for (var i = 0; i < temp.length; i++) {
+            var t = new YT.Player($(temp[i]).attr('id'), {
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            players.push(t);
+        }
+    }
+    onYouTubeIframeAPIReady();
+
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            var temp = event.target.getVideoUrl();
+            var tempPlayers = $("iframe.yt_players");
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].getVideoUrl() != temp) 
+                    players[i].stopVideo();
+            }
+        }
+    }
+</script>
 
 
   
@@ -689,7 +718,7 @@ button:active {
       <div class="item item1 ">
        <div class="video-box">
         <!--<div class="play_btn" data-src="Lo_qC-_d_us"></div>-->
-        <iframe width="260" height="320" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" class="iframe-video yt_players" title="YouTube video player" frameborder="0"  allowfullscreen="1"></iframe> 
+        <iframe width="260" height="320" id="<?php echo $d['id']; ?>" src="https://www.youtube.com/embed/<?php echo $d['link']; ?>?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" class="iframe-video yt_players" title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
         <!--<div class="iframe-footer"><span class="clinic-location"><?php //echo $d['client_name']; ?></span><span class="video-time"></span></div>-->
        </div>
       </div><!-- item end here -->
@@ -1396,35 +1425,6 @@ function openCity(evt, cityName) {
 <script>
   initComparisons();
  </script>
-
-
-<script type="text/javascript">
-    players = new Array();
-
-    function onYouTubeIframeAPIReady() {
-        var temp = $("iframe.yt_players");
-        for (var i = 0; i < temp.length; i++) {
-            var t = new YT.Player($(temp[i]).attr('id'), {
-                events: {
-                    'onStateChange': onPlayerStateChange
-                }
-            });
-            players.push(t);
-        }
-    }
-    onYouTubeIframeAPIReady();
-
-    function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING) {
-            var temp = event.target.getVideoUrl();
-            var tempPlayers = $("iframe.yt_players");
-            for (var i = 0; i < players.length; i++) {
-                if (players[i].getVideoUrl() != temp) 
-                    players[i].stopVideo();
-            }
-        }
-    }
-</script>
 
 
 
