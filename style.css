@@ -86,10 +86,10 @@ fieldset {
 }
 
 .close2 {
-    background: #0704B4!important;
+    background: white!important;
     top: 2px!important;
     right: 2px!important;
-    color: white!important;
+    color: black!important;
     font-size: 13px!important;
     width: 27px!important;
     height: 27px!important;

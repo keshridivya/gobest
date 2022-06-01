@@ -284,7 +284,7 @@ button:active {
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('wp-content/themes/clove-child/images/banner-3.jpg');height:50vh!important;">
       <div class="carousel-caption caption"  style="top:70%!important">
-                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>BISO Certified and<br>Awarded Dental Clinic</span></h1>
+                <h1 class=" hi" style="width: max-content;padding:0 30px"><span>ISO Certified and<br>Awarded Dental Clinic</span></h1>
               </div>
              
       </div>
