@@ -129,7 +129,7 @@ $date= $_POST['date'];
 $time= $_POST['time'];   
 
 // configure
-$from = 'Enquiry <maheshniwate10@gmail.com>';
+$from = 'Enquiry <info@sachinenterprise.in';
 $sendTo = 'Enquiry <maheshniwate10@gmail.com>';
 $subject = 'Book an Appointment Form';
 $fields = array('name' => 'name', 'PhoneNumber' => 'PhoneNumber', 'branch' => 'branch', 'comments' => 'comments', 'date' => 'date', 'time' => 'time'); // array variable name => Text to appear in email
