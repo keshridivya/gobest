@@ -1093,8 +1093,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>		
-	       <div class="w3-col l3">
-           <div class="video-box  m-0 p-1">	
+	       <div class="w3-col l3 m-0 p-1">
+           <div class="video-box">	
            <img style="height:11rem !important;width:100%" src="adm/pages/forms/caseimage/<?php echo $d['banner']; ?>" class="iframe-video" title="YouTube video player">  
 		      <div class="iframe-footer"><span class="clinic-location"><?php echo $d['title']; ?></span><span class="video-time"></span></div></div>
 	    </div>
