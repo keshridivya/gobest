@@ -1,3 +1,5 @@
+<?php
+include("include/config.php") ?>
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -1048,8 +1050,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 		 <div class="text_testimonials_wrap patient_speak_videos">
      <?php
-              //$conn = new mysqli("localhost","mokashi","mokashi@123","mokashi");
-              $conn = new mysqli("localhost","root","","GoBestDentist");
               $sql = "SELECT * FROM review WHERE is_delete = '0'";
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
