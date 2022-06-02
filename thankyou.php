@@ -1,7 +1,5 @@
 <?php
-$conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-//$conn = new mysqli("localhost","root","","GoBestDentist"); ?>
-<!DOCTYPE html>
+include("include/config.php") ?><!DOCTYPE html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 
 <!-- Mirrored from clovedental.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:43:46 GMT -->

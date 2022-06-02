@@ -809,7 +809,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 				
 		<form style="text-align: center;">
 			<h1 style="margin: 80px;">
-				MAKE Payment
+				Make Your Payment
 			</h1>
 			<script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_IVrFJdXee8fMUX" async> </script> </form>
 	</div>

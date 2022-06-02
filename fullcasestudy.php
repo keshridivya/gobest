@@ -1,4 +1,5 @@
-
+<?php
+include("include/config.php") ?>
   <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
@@ -1087,8 +1088,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     
 		    <div class="w3-row live_from_clinic_testi_row">	
         <?php
-               $conn = new mysqli("localhost","u188140722_dentist","Admin@123","u188140722_dentist");
-             // $conn = new mysqli("localhost","root","","GoBestDentist");
               $sql = "SELECT * FROM casestudy WHERE is_delete = '0'";
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){

@@ -1,3 +1,5 @@
+<?php
+include("include/config.php") ?>
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
