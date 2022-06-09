@@ -1072,10 +1072,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     display: flex;
     align-items: center;
 }
-@media (min-width: 1024px)
-.phone-btn {
-  display: none !important;
-}
+
 
 
 @-webkit-keyframes cc-calto-action-ripple {
@@ -1123,7 +1120,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         left: 15px;
     }
 }
-
+@media (min-width: 1024px){
+.phone-btn {
+  display: none !important;
+}
+}
 </style>
 
 <?php include("include/footer.php") ?>
