@@ -862,7 +862,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                             <p style="font-size:16px; line-height: 200%;">At GoBest Dentist, we try our best to save your teeth by any possible means we can. But there are some conditions which inadvertently requires your tooth to be removed.<br>
                             These conditions are as follows:</p>
                             <ul class="list-style">
-                                <li><i class="fa fa-plus"></i> Excessively decayed teeth which cannot be saved by<a href="\change\Root-Canal-Treatment.php"> Root canal treatments.</a></li>
+                                <li><i class="fa fa-plus"></i> Excessively decayed teeth which cannot be saved by<a href="Root-Canal-Treatment.php"> Root canal treatments.</a></li>
                                 <li><i class="fa fa-plus"></i> Tooth infection.</li>
                                 <li><i class="fa fa-plus"></i> Before orthodontic treatment in case of severe crowding.</li>
                                 <li><i class="fa fa-plus"></i> Periodontally compromised/Mobile teeth.</li>

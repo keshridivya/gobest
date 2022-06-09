@@ -954,7 +954,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                                 <li><i class="fa fa-plus"></i>Adequate rest in the days following the extraction promotes complete recovery in less time.</li>
                                 <li><i class="fa fa-plus"></i>Gently rinse the mouth with disinfectant warm saline water 24 hours after the wisdom tooth extraction . Continue rinsing for at least two weeks after the operation: it is advisable to rinse the mouth - with a quantity of solution that can contain a measuring cup - for at least one minute.</li>
                                 <li><i class="fa fa-plus"></i>Contact the dental office if the pain persists even after 3 days after dental surgery.</li>
-                                <li><i class="fa fa-plus"></i>Proceed with normal <a href="\change\Dental-Care-Hygiene.php"> dental care </a> with extreme delicacy in the dental extraction site (do not force with the toothbrush, prefer those with soft bristles).</li>
+                                <li><i class="fa fa-plus"></i>Proceed with normal <a href="Dental-Care-Hygiene.php"> dental care </a> with extreme delicacy in the dental extraction site (do not force with the toothbrush, prefer those with soft bristles).</li>
                                 <li><i class="fa fa-plus"></i>Contact your dentist immediately if your body temperature exceeds 39 ° C and cannot be reduced with medication.</li>
                                 <li><i class="fa fa-plus"></i>Eat only soft food for the first 24 hours.</li>
                             </ul>

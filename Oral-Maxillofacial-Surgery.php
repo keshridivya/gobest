@@ -876,7 +876,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                         <div class="root-info py-4">
                             
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3">  	1.	Jaw cyst</h2>
-                            <p style="font-size:16px; line-height: 200%;">A jaw cyst is formed when there is an abnormal collection of fluid which is surrounded by a sac of tissues in the oral cavity. The involved teeth might need a <a href="\change\Root-Canal-Treatment.php"> root canal treatment </a> or <a href="C:\xampp\htdocs\change\Tooth-Extraction.php">extraction </a> in case of a peri-apical cyst.</p>
+                            <p style="font-size:16px; line-height: 200%;">A jaw cyst is formed when there is an abnormal collection of fluid which is surrounded by a sac of tissues in the oral cavity. The involved teeth might need a <a href="Root-Canal-Treatment.php"> root canal treatment </a> or <a href="Tooth-Extraction.php">extraction </a> in case of a peri-apical cyst.</p>
                            <p style="font-size:16px; line-height: 200%;" class="moretext">The most common type of cysts are known to grow from the developmental tissues which were originally supposed to grow into your normal oral hard and soft tissues. After the growth period, these developmental tissues generally become inactive. Sometimes an abnormal stimulus cause these tissues to re-activate and grow to form a cyst. Due to the growing fluid and expanding cyst, it can cause the destruction of the surrounding tissues to create space for itself.</p>
                            
                             <a class="moreless-button" href="javascript:void().">Read more</a>

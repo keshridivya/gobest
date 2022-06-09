@@ -880,7 +880,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                         </div></div>
                                  <div class="col-lg-7">
                                  <div class="root-info py-3">
-                                     <p style="font-size:18px; line-height: 200%;">We continue with this list talking about another very common paediatric dentistry treatment among children. Pulpectomy is a treatment similar to <a href="\change\Root-Canal-Treatment.php"> Root canal treatment </a> that is performed in adults, but with the difference that, in the case of children, caries will be affecting a baby tooth.<br>Remember that endodontics is the treatment applied to adult teeth when a cavity appears that reaches the pulp of the tooth.</p>
+                                     <p style="font-size:18px; line-height: 200%;">We continue with this list talking about another very common paediatric dentistry treatment among children. Pulpectomy is a treatment similar to <a href="Root-Canal-Treatment.php"> Root canal treatment </a> that is performed in adults, but with the difference that, in the case of children, caries will be affecting a baby tooth.<br>Remember that endodontics is the treatment applied to adult teeth when a cavity appears that reaches the pulp of the tooth.</p>
                                  </div>
                                     </div>
                                  </div>

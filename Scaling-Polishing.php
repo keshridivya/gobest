@@ -945,9 +945,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                                 <li><i class="fa fa-plus"></i> It can promote healing of gums.</li>
                                 <li><i class="fa fa-plus"></i> It can treat infections in the gums.</li>
                                 <li><i class="fa fa-plus"></i> It can clean the inaccessible areas like areas below your gumline.</li>
-                                <li><i class="fa fa-plus"></i> It can remove extrinsic stains and enhance your smile ( for other stains see <a href="\change\Teeth-Whitening.php">teeth whitening</a>).</li>
+                                <li><i class="fa fa-plus"></i> It can remove extrinsic stains and enhance your smile ( for other stains see <a href="Teeth-Whitening.php">teeth whitening</a>).</li>
                                 <li><i class="fa fa-plus"></i> It can prevent and treat halitosis(bad breath).</li>
-                                <li><i class="fa fa-plus"></i> It can protect the root of your teeth which acts as foundation from disease causing bacterias thus save you from <a href="\change\Tooth-Extraction.php">extraction of teeth.</a></li>
+                                <li><i class="fa fa-plus"></i> It can protect the root of your teeth which acts as foundation from disease causing bacterias thus save you from <a href="Tooth-Extraction.php">extraction of teeth.</a></li>
                              
                           
                           
@@ -962,7 +962,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                       <div class="root-info py-5">
                           <h5 style="font-family: Anton, sans-serif;" class="mb-3">HOW</h5>
                           <h2 style="font-family: Anton, sans-serif;" class="mb-3">How is it done?</h2>
-                         <p style="font-size:16px; line-height: 200%;">The process of scaling is as simple as getting a <a href="\change\Dental-Cavity-Fillings.php"> dental filling</a>. This procedure usually takes longer than regular brushing, so we can schedule extra time or brush only a quarter or half of your mouth at a time. We can use either a hand-held scraping instrument or an ultrasonic instrument, which is a tiny vibrating stick that breaks down plaque. We can use a local anesthetic during the procedure to "numb" the area for added comfort. </p>
+                         <p style="font-size:16px; line-height: 200%;">The process of scaling is as simple as getting a <a href="Dental-Cavity-Fillings.php"> dental filling</a>. This procedure usually takes longer than regular brushing, so we can schedule extra time or brush only a quarter or half of your mouth at a time. We can use either a hand-held scraping instrument or an ultrasonic instrument, which is a tiny vibrating stick that breaks down plaque. We can use a local anesthetic during the procedure to "numb" the area for added comfort. </p>
                           <p style="font-size:16px; line-height: 200%;" class="moretext2">
                           The bacteria live in plaque and feed on the sugar you eat and drink, releasing toxins that cause gingivitis (i.e., infected, red, swollen, and bleeding gums). This can eventually lead to gum disease if the plaque is not removed from the teeth, causing the gums to flake off from the teeth, leaving pockets or spaces for tartar and bacteria. <br><br>If you already have gum disease, this plaque has already formed under the gum tissue and along the root of the tooth. This makes it nearly impossible to access and remove bacteria with a conventional toothbrush.   
                           </p>

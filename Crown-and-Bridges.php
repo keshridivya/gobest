@@ -895,8 +895,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
                                 <li><i class="fa fa-plus"></i> A Fractured tooth.</li>
                                 <li><i class="fa fa-plus"></i> Cosmetically imperfect tooth.</li>
-                                <li><i class="fa fa-plus"></i> As a final step of<a href="\change\Root-Canal-Treatment.php"> Root Canal Treatment</a> to strengthen the treated tooth.</li>
-                                <li><i class="fa fa-plus"></i> As a final step of<a href="C:\xampp\htdocs\change\Dental-Implants.php"> Dental Implant procedures</a> to replace a missing tooth.</li>
+                                <li><i class="fa fa-plus"></i> As a final step of<a href="Root-Canal-Treatment.php"> Root Canal Treatment</a> to strengthen the treated tooth.</li>
+                                <li><i class="fa fa-plus"></i> As a final step of<a href="Dental-Implants.php"> Dental Implant procedures</a> to replace a missing tooth.</li>
                             </ul>
                             <p style="font-size:16px; line-height: 200%;">Looking for replacement options that looks exactly like your natural teeth?</p>
                             <a href="javascript:void()" onclick="openNav()" class="btn mt-3 toggle1 display">BOOK AN APPOINTMENT </a>

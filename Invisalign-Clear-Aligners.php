@@ -898,7 +898,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
             <p  style="font-size:16px; line-height: 200%;">Invisalignis an innovative system that is a transparent mouth guard for bite correction. These systems are suitable for those patients who intend to correct the bite and preserve the aesthetics of the smile.</p>
 
-             <p  style="font-size:16px; line-height: 200%;">The Invisalign set will consist of a series of individual removable aligners that are almost invisible on your teeth opposite to the traditional <a href="\change\Braces-Orthodontic Treatment.php"> orthodontic treatment</a>.</p>
+             <p  style="font-size:16px; line-height: 200%;">The Invisalign set will consist of a series of individual removable aligners that are almost invisible on your teeth opposite to the traditional <a href="Braces-Orthodontic Treatment.php"> orthodontic treatment</a>.</p>
 
               <p  style="font-size:16px; line-height: 200%;" class="moretext">One of the latest achievements in orthodontics is the use of transparent aligners for orthodontic treatment. Aligners (aligners) effectively correct a significant part of bite pathologies, but at the same time they are much more convenient than braces as they are absolutely invisible on the teeth.</p>
 
@@ -1052,7 +1052,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
                 <li><i class="fa fa-plus"></i><b> Treatment period</b><p style="font-size:16px; line-height: 200%;">Your treatment period will be determined based on your clinical situation and will be known after the end of treatment planning. Remember that the success of the treatment depends on you - aligners should be worn 20-22 hours a day throughout the entire treatment period.</p></li>
 
-                <li><i class="fa fa-plus"></i><b> Less painful</b><p style="font-size:16px; line-height: 200%;">The Invisalign system is the most comfortable and effective among the orthodontic systems. You may haveas little discomfort as getting a <a href="\change\Scaling-Polishing.php"> scaling </a> done. In this case, the trays can be removed if necessary, which allows you to combine treatment with your lifestyle.</p></li>
+                <li><i class="fa fa-plus"></i><b> Less painful</b><p style="font-size:16px; line-height: 200%;">The Invisalign system is the most comfortable and effective among the orthodontic systems. You may haveas little discomfort as getting a <a href="Scaling-Polishing.php"> scaling </a> done. In this case, the trays can be removed if necessary, which allows you to combine treatment with your lifestyle.</p></li>
 
                 <li><i class="fa fa-plus"></i><b> No food restrictions</b><p style="font-size:16px; line-height: 200%;">At the time of eating, the trays must be removed. Therefore, there are no restrictions. And also remember that it is forbidden to take hot drinks in a mouth guard. As a rule, there are no difficulties - the set contains special hooks for removing caps so as not to spoil the manicure (especially important for women).</p></li>
 

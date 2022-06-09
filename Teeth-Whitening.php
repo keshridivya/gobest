@@ -898,7 +898,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                                          <li><i class="fa fa-plus"></i>Poor oral hygiene</li>
                                          <li><i class="fa fa-plus"></i>Excessive use of Mouthwash</li>
                                      </ul>
-                                     <p style="font-size:16px; line-height: 200%;">These stains can usually be removed by simple procedures like <a href="\change\Scaling-Polishing.php"> scaling and polishing </a>of teeth.</p>
+                                     <p style="font-size:16px; line-height: 200%;">These stains can usually be removed by simple procedures like <a href="Scaling-Polishing.php"> scaling and polishing </a>of teeth.</p>
                                     </li>
                                     <li>
                                     <h6 style="font-family: Anton, sans-serif;">Intrinsic stains</h6> <br>
@@ -960,7 +960,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                                     
                                     
                                     
-                                        <p style="font-size:16px; line-height: 200%;">They contain peroxide based bleaching agents ( either hydrogen peroxide or carbamide peroxide ) in a concentration of 3% to 20%. If you decide to go for home whitening procedures, it is imperative that you discuss with your dentist first. This becomes even more important when you have problems like sensitive teeth or large dental fillings. You should also consider a dental visit if you have only a single discoloured tooth.(In that case you might require a <a href="\change\Root-Canal-Treatment.php"> root canal treatment</a>.</p>
+                                        <p style="font-size:16px; line-height: 200%;">They contain peroxide based bleaching agents ( either hydrogen peroxide or carbamide peroxide ) in a concentration of 3% to 20%. If you decide to go for home whitening procedures, it is imperative that you discuss with your dentist first. This becomes even more important when you have problems like sensitive teeth or large dental fillings. You should also consider a dental visit if you have only a single discoloured tooth.(In that case you might require a <a href="Root-Canal-Treatment.php"> root canal treatment</a>.</p>
                                        <p style="font-size:16px; line-height: 200%;">Rather than over the counter gels and whitening toothpaste, a better option is getting a custom made tray for your mouth which will cover only those areas which needs bleaching.  This will reduce the chances of getting a burn on your gums.</p>
                                          <p style="font-size:16px; line-height: 200%;">The procedure includes loading the tray with the peroxide base paste and placing it over teeth for one to several hours a day for up to 4 weeks depending upon the severity of stains.</p>
                                              <p style="font-size:16px; line-height: 200%;">IT IS IMPERATIVE THAT YOU FOLLOW THE INSTRUCTIONS OF OUR DENTIST REGARDING THE TECHNIQUE TO AVOID UNNESCESSARY SIDE-EFFECTS.</p>

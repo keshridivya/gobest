@@ -955,7 +955,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                         <div class="root-info py-5">
                             <h5 style="font-family: Anton, sans-serif;" class="mb-3">WHEN</h5>
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3"> When to choose surgical treatment over conventional?</h2>
-                            <p style="font-size:16px; line-height: 200%;"><i class="fa fa-plus"></i> When a periodontal pocket becomes very deep, extending more than 3-4 mm in depth, it becomes impossible to completely restore the attachment apparatus of teeth only by using a non-surgical treatment like <strong>scaling and root planing</strong> or a <strong><a href="\change\Root-Canal-Treatment.php">root canal treatment</a></strong>. Why?</p>
+                            <p style="font-size:16px; line-height: 200%;"><i class="fa fa-plus"></i> When a periodontal pocket becomes very deep, extending more than 3-4 mm in depth, it becomes impossible to completely restore the attachment apparatus of teeth only by using a non-surgical treatment like <strong>scaling and root planing</strong> or a <strong><a href="Root-Canal-Treatment.php">root canal treatment</a></strong>. Why?</p>
 
                             <p style="font-size:16px; line-height: 200%;"><i class="fa fa-plus"></i> First, it is almost impossible to completely remove dental plaque from deep periodontal pockets.</p>
 
