@@ -1066,13 +1066,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     border-radius: 50%;
     transition: .6s;
     box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
+    animation: cc-calto-action-ripple .6s linear infinite;
     width: 3.5rem;
     height: 3.5rem;
-    /* display: flex; */
+    display: flex;
     align-items: center;
 }
+
 
 @-webkit-keyframes cc-calto-action-ripple {
     0% {
@@ -1126,6 +1126,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 
 
 
