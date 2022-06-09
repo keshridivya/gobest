@@ -1069,8 +1069,12 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     animation: cc-calto-action-ripple .6s linear infinite;
     width: 3.5rem;
     height: 3.5rem;
-    /* display: flex; */
+    display: none;
     align-items: center;
+}
+@media (max-width: 1024px)
+.phone-btn {
+  display: flex !important;
 }
 
 
