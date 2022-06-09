@@ -940,10 +940,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 			<section class="get-in-touch" >
         <div class="row bg-secondary">
           <div class="col-6">
-            <h5 class="">Email: gobestdentist@gmail.com</h5>
+            <h4 class="text-info">Email: gobestdentist@gmail.com</h4>
           </div>
           <div class="col-6">
-            <h5 class="">Phone no: 7264889986</h5>
+            <h4 class="text-warning">Phone no: 7264889986</h4>
           </div>
         </div>
 				<h1 class="title">Fill the Form</h1>
