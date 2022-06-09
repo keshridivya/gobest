@@ -938,7 +938,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
 			<section class="get-in-touch" >
-        <div class="row bg-secondary rounded">
+        <div class="row bg-secondary my-2 rounded">
           <div class="col-6 my-2">
           <center> <h4 class="ml-2"  style="color:#ff8001;">Email: gobestdentist@gmail.com</h4></center>
           </div>
