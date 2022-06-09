@@ -943,7 +943,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
             <h5 class="">Email: gobestdentist@gmail.com</h5>
           </div>
           <div class="col-6">
-            <h5 class="">Phone no: 1231231231</h5>
+            <h5 class="">Phone no: 7264889986</h5>
           </div>
         </div>
 				<h1 class="title">Fill the Form</h1>
