@@ -828,24 +828,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 		</div> 
 	</div>
 
-<!--
-	<div class="bg-grey">
-		<div class="box">
-			
-			
-		</div>
-	</div>
--->
 <section class="root">
             <div class="container">
                 <div class="row">
-
                 <?php include("include/treatments.php") ?>
-                    <!-- <div class="col-lg-5">
-                        <div class="root-img py-3">
-                            <img src="image/root-canal.jpg" alt="Root Canal">
-                        </div>
-                    </div> -->
                     <div class="col-lg-7">
                         <div class="root-info py-3">
                             <h5 style="font-family: Anton, sans-serif;" class="mb-3">SCALING TREATMENT</h5>
@@ -880,13 +866,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
                         </div>
                     </div>
-                   <!--  <div class="col-lg-5 pr-xl-0">
-                        <div class="root-img">
-                           
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/yAoLSRbwxL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-
-                    </div> -->
+               
                 </div>
 
                 <div class="row">
@@ -925,7 +905,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
             </section>
                 <div class="dental root">
                   <div class="container">
-                    <!-- <h5 class="mb-3">WHY</h5> -->
                     <h5 style="font-family: Anton, sans-serif;" class="mb-3">WHAT</h5>
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3"> What are the causes of such gum problems?</h2>
                           
@@ -933,7 +912,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                     <div class="row">
                       <div class="col-lg-7">
                         <div class="root-info">
-                            <!-- <h5 class="mb-3">WHY</h5> -->
                             
                             <h3 style="width:100%; font-family: Anton,sans-serif;">Improper oral hygiene.</h3>
                             <h3 style="width:100%; font-family: Anton,sans-serif;">Use of any form of tobacco.</h3>
@@ -963,7 +941,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3"> What are the advantages of getting a scaling done?</h2>
                            
                             <ul class="list-style">
-                                <!-- <li><i class="fa fa-plus"></i> </li> -->
                                 <li><i class="fa fa-plus"></i> It can stop the advancement of gum disease.</li>
                                 <li><i class="fa fa-plus"></i> It can promote healing of gums.</li>
                                 <li><i class="fa fa-plus"></i> It can treat infections in the gums.</li>
@@ -1016,16 +993,12 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                 <div class="row">
                     <div class="col-lg-12">
                             <div class="root-info">
-                                <!-- <h5 class="mb-3">ROOT CANAL TREATMENT</h5> -->
                                 <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked Questions</h2> 
                             </div>
                         </div>
                     <div class="col-lg-7">
-                        <!--Accordion wrapper-->
                         <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-                          <!-- Accordion card -->
                           <div class="card">
-                            <!-- Card header -->
                             <div class="card-header" role="tab" id="headingOne1">
                               <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
                                 aria-controls="collapseOne1">
@@ -1427,21 +1400,7 @@ jQuery(this).addClass('active');
 	});
 });	
 </script>
-<!-- Start of LiveChat (www.livechatinc.com) code --
-            <script type="text/javascript">
-              window.__lc = window.__lc || {};
-              window.__lc.license = 4175831;
-              (function() {
-                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-              })();
-            </script>
-            <noscript>
-            <a href="https://www.livechatinc.com/chat-with/4175831/" rel="nofollow">Chat with us</a>,
-            powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
-            </noscript>
-            <!-- End of LiveChat code -->
+
 
 </body>
 <!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
@@ -1472,12 +1431,3 @@ function refreshCaptcha2() {
 }
 
 </style>
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Object Caching 140/161 objects using disk
-Database Caching 6/15 queries in 0.043 seconds using disk
-
-Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
---
--->
