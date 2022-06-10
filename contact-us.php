@@ -954,10 +954,10 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
        <div class="row my-2 justify-content-center get-in-touch">
           <div class="col-7 bd-callout bd-callout-info rounded ">
-          <center> <h4 class="fw-bold title"  style="color:#fff;  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
+          <center> <h4 class="fw-bold title"  style="color:#fff;  font-weight: 200;">Email : gobestdentist@gmail.com</h4></center>
           </div>
           <div class="col-4 bd-callout bd-callout-info rounded ml-1 ">
-           <center> <h4 class="title" style="color:#fff; font-weight: 900;">Phone No : 7264889986</h4></center>
+           <center> <h4 class="title" style="color:#fff; font-weight: 200;">Phone No : 7264889986</h4></center>
           </div>
       </div>
 
