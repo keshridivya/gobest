@@ -924,8 +924,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     padding: 1.25rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    background-color: var(--bd-callout-bg, var(--bs-gray-100));
-    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+    background-color: green;
+    border-left: 0.25rem solid green;
 }
 </style>
 
