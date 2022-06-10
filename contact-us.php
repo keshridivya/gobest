@@ -940,7 +940,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
           <center> <h4 class="fw-bold"  style="color:#fff;  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
           </div>
           <div class="col-5 bg-secondary rounded m-2">
-           <center> <h4 class="" style="color:#fff;">Phone No : 7264889986</h4></center>
+           <center> <h4 class="" style="color:#fff; font-weight: 900;">Phone No : 7264889986</h4></center>
           </div>
       </div>
 
