@@ -936,7 +936,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
        <div class="row my-2 justify-content-center ">
-          <div class="col-5 bg-secondary rounded ">
+          <div class="col-6 bg-secondary rounded ">
           <center> <h4 class="fw-bold"  style="color:#fff;  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
           </div>
           <div class="col-5 bg-secondary rounded ">
