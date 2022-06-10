@@ -928,6 +928,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     background-color: rgba(255, 128, 0, 0.40);
     border: 0.1px solid orange;
     border-left: 0.25rem solid rgba(255, 128, 0, 1);
+    border-right: 0.25rem solid rgba(255, 128, 0, 1);
     border-radius:10px !important;
 }
 </style>
