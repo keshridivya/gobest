@@ -914,7 +914,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   ]
 }
 </script>
-  	<div class="breadcrumb">
+  <div class="breadcrumb">
 		<div class="box">
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -935,17 +935,17 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
 
-    <div class="row bg-secondary my-2 rounded">
+       <div class="row bg-secondary my-2 rounded">
           <div class="col-6 my-2">
           <center> <h4 class="fw-bold"  style="color:#fff;">Email : gobestdentist@gmail.com</h4></center>
           </div>
           <div class="col-6 my-2">
            <center> <h4 class="" style="color:#fff;">Phone No : 7264889986</h4></center>
           </div>
-        </div>
+      </div>
 
 			<section class="get-in-touch" >
-     
+       
 				<h1 class="title">Fill the Form</h1>
 
 				<form class="contact-form row" style="margin-left:0px" id="contact-form" method="post" action="thankyou.php" enctype="multipart/form-data">
