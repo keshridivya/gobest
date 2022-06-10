@@ -930,7 +930,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
 	
-	<div class="bg-white">
+	<div class="bg-white container">
 		<div class="box">
 
 
