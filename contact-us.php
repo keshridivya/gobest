@@ -921,11 +921,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     --bd-callout-border: rgba(var(--bs-info-rgb), .5);
 }
 .bd-callout {
-    padding: 1.25rem;
+    /* padding: 1.25rem;
     margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem; */
     /* background-color: green; */
-    border: 0.5px solid black;
+    border: 0.1px solid gray;
     border-left: 0.25rem solid green;
 }
 </style>
@@ -952,9 +952,9 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
        <div class="row my-2 justify-content-center ">
-          <!-- <div class="col-7 bg-secondary rounded ">
+          <div class="col-7 bd-callout bd-callout-info rounded ">
           <center> <h4 class="fw-bold"  style="color:#fff;  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
-          </div> -->
+          </div>
           <div class="col-4 bd-callout bd-callout-info rounded ml-1 ">
            <center> <h4 class="" style="color:#fff; font-weight: 900;">Phone No : 7264889986</h4></center>
           </div>
