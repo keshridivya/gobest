@@ -931,11 +931,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 	
 	<div class="bg-white container">
-		<div class="box">
+		<div class="box container-fluid">
 
 
 
-       <div class="row bg-secondary m-2 rounded">
+       <div class="row bg-secondary my-2 rounded">
           <div class="col-6 my-2">
           <center> <h4 class="fw-bold"  style="color:#fff;">Email : gobestdentist@gmail.com</h4></center>
           </div>
