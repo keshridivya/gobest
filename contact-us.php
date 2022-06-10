@@ -928,6 +928,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     background-color: rgba(255, 128, 0, 0.40);
     border: 0.1px solid orange;
     border-left: 0.25rem solid rgba(255, 128, 0, 1);
+    border-radius:10px !important;
 }
 </style>
 
@@ -953,11 +954,11 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
        <div class="row my-2 justify-content-center">
-          <div class="col-7 bd-callout bd-callout-info rounded ">
-          <center> <h4 class=""  style="color:rgba(255, 128, 0, 1);  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
+          <div class="col-7 bd-callout bd-callout-info  ">
+          <center> <h4 class=""  style="color:rgb(159 66 66);  font-weight: 900;">Email : gobestdentist@gmail.com</h4></center>
           </div>
-          <div class="col-4 bd-callout bd-callout-info rounded ml-1 ">
-           <center> <h4 class="" style="color:rgba(255, 128, 0, 1); font-weight: 900;">Phone No : 7264889986</h4></center>
+          <div class="col-4 bd-callout bd-callout-info  ml-1 ">
+           <center> <h4 class="" style="color:rgb(159 66 66); font-weight: 900;">Phone No : 7264889986</h4></center>
           </div>
       </div>
 
