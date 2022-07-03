@@ -200,12 +200,13 @@ else {
 <li id="menu-item-11888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11888"><a href="ourdoctors.php" class="a">Our Doctors</a></li>
 <li id="menu-item-14145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14145"><a href="careers.php" class="a">Careers</a></li>
 <li id="menu-item-8073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a href="testimonials.php" class="a">REVIEW</a></li>
-<li id="menu-item-8074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a class="a" style="cursor:pointer">OUR CLINIC</a>
+<li id="menu-item-8074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a class="a" style="cursor:pointer">OUR BRANCHES</a>
 	<ul class="sub-menu">
 	<li id="menu-item-4811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php" class="a">AKURDI BRANCH</a></li>
 	<li id="menu-item-4812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php" class="a">WAKAD BRANCH</a></li>
 	<li id="menu-item-13791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-baner-pune.php" class="a">BANER BRANCH</a></li>
 	<li id="menu-item-13792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-pimple-saudagar.php" class="a">PIMPLE SAUDAGAR BRANCH</a></li>
+	<li id="menu-item-13793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-hinjewadi.php" class="a">HINJEWADI BRANCH</a></li>
 	</ul>
 </li>
 </ul></div> <div class="mobile-nav">

@@ -190,6 +190,7 @@ else {
           <option value="Wakad Branch">Wakad Branch</option>
           <option value="Baner Branch">Baner Branch</option>
           <option value="Pimple Saudagar Branch">Pimple Saudagar Branch</option>
+          <option value="Hinjewadi Branch">Hinjewadi Branch</option>
         </select>
       <textarea name="comments" placeholder="Message here.." id="message" required></textarea>
       <div style="display:flex;">
