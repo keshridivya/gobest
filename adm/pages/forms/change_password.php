@@ -1,7 +1,9 @@
 <?php 
 session_start();
-
-include("pages/forms/checklogin.php");
+if(!isset($_SESSION['username'])){
+    
+  }
+include("checklogin.php");
 
 ?>
 <!DOCTYPE html>
@@ -13,7 +15,7 @@ include("pages/forms/checklogin.php");
 
   <!-- Google Font: Source Sans Pro -->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="../../dist/css/style.css">
 
   <style>
     input[type=password] {
@@ -47,7 +49,7 @@ include("pages/forms/checklogin.php");
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="dist/img/logo.png" id="icon" alt="User Icon" />
+      <img src="../../dist/img/logo.png" id="icon" alt="User Icon" />
     </div>
 
     <!-- Login Form -->
@@ -80,65 +82,7 @@ include("pages/forms/checklogin.php");
 
 <!-- jQuery -->
 <script>
-  $(function () {
-
-    $('#loginForm').validate({
-
-        rules: {
-            username: {
-                required: true,
-            },
-            password:{
-                required: true,
-            }
-        },
-        messages: {
-            username: {
-                required: "Please Enter Username",
-            },
-            password: {
-                required: "Please Enter Password",
-            }
-        },
-        submitHandler: function (form) {
-          var username = $('#username').val();
-          var password = $('#password').val();
-          $.ajax({
-            url:'checklogin.php',
-            method:'POST',
-            dataType:'json',
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            },    
-            data:{username:username,password:password},
-
-            success:function(data){
-              console.log(data);
-             if(data.status == 200){
-              swal({
-                  type:"success",
-                  title:"Success",
-                  text:data.message,
-                  closeModal:false,
-                  button:"Ok",
-                },function(){
-                  window.location.href = 'dashboard.php';
-                })
-             }
-            },error:function(error){
-              console.log(error);
-              swal({
-                  type:"warning",
-                  title:"Warning",
-                  text:error.statusText,
-                  closeModal:false,
-                  button:"Ok",
-                })
-            }
-          })  
-      }
-    });
-  });
+ 
 </script>
 </body>
 </html>
