@@ -640,14 +640,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 $postData = $uploadedFile = $statusMsg = '';
 $msgClass = 'errordiv';
 if(isset($_POST['submit'])){
-    // Get the submitted form data
     $postData = $_POST;
     $email = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     
-    // Check whether submitted data is not empty
     if(!empty($email) && !empty($name) && !empty($subject) && !empty($message)){
         
         // Validate email

@@ -77,6 +77,15 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="change_password.php" class="nav-link">
+              <i class="nav-icon fas fa-gift"></i>
+              <p>
+                Change Password
+                <span class="right badge badge-danger"></span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="logout.php" class="nav-link">
           <i class="fa fa-sign-out-alt fa-sign-out"></i>
 				
