@@ -1203,6 +1203,7 @@ button:active {
   <button class="button-50" onclick="openCity(event, 'wakad')">WAKAD <span>BRANCH</span>	</button> 
   <button class="button-50 active" onclick="openCity(event, 'baner')">BANER <span>BRANCH</span></button>
   <button class="button-50" onclick="openCity(event, 'pimple')"><span>PIMPLE</span> SAUDAGAR</button> 
+  <button class="button-50" onclick="openCity(event, 'hinjewadi')"><span>HINJEWADI</span> BRANCH</button> 
   
 </div>
 
@@ -1221,6 +1222,10 @@ button:active {
 
 <div id="pimple" class="tabcontent" style="display: none;"> 
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5573524673227!2d73.79077811489384!3d18.59398458736632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5b1e259af1e4cdb!2sGo%20Best%20Dentist%20-%20earlier%20Mokashi%20Dental%20clinic%2C%20Pimple%20Saudagar!5e0!3m2!1sen!2sin!4v1629264870279!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</div>
+<div id="hinjewadi" class="tabcontent" style="display: none;"> 
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.514356516996!2d73.74008!3d18.595920900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbddeb629c77%3A0x66a7aa789b024d7d!2sGo-Best%20Dentist%2C%20Hinjewadi!5e0!3m2!1sen!2sin!4v1656677144789!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 </div>
  

@@ -941,7 +941,7 @@ They come in variety of shapes and sizes and is hollow on inside to allow the ab
 The abutment screws into the implant post and is attached in preparation for the implant tooth. It is used to stabilize the implant tooth and the design depends on the final restoration.<br><br>
 
 <b>3.  The Final Restoration</b><br>
-It is that part of the dental implant that will function and look exactly like your natural teeth. It can either be of cemented type or directly screwed into the abutment. We provide a variety of options for natural looking <a href="\change\Crown-and-Bridges.php"> crown and bridges</a>.
+It is that part of the dental implant that will function and look exactly like your natural teeth. It can either be of cemented type or directly screwed into the abutment. We provide a variety of options for natural looking <a href="Crown-and-Bridges.php"> crown and bridges</a>.
 </p>
 
                         
@@ -970,7 +970,7 @@ We will also discuss the surgical anesthesia options that are best suitable for 
 <b>Step 2: The Surgical Procedure</b><br>
 The surgery for dental implants is usually completed in several stages. The typical order of the surgical procedure is as follows:</p>
 <ul class="list-style">
-    <li><i class="fa fa-plus"></i><a href="\change\Tooth-Extraction.php"> Extraction</a> of the damaged tooth(if present) and prepare the jaw bone for surgery.</li>
+    <li><i class="fa fa-plus"></i><a href="Tooth-Extraction.php"> Extraction</a> of the damaged tooth(if present) and prepare the jaw bone for surgery.</li>
     <li><i class="fa fa-plus"></i> Perform procedures like bone grafting (if required) and insert the implant into the gumline after the bone heals.</li>
     <li><i class="fa fa-plus"></i> After the period of healing, an abutment is placed and your implant is ready to be crowned.</li>
 </ul><br>

@@ -1028,7 +1028,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                 <div class="root-info py-4">
                 <h2 style="font-family: Anton, sans-serif;" class="mb-3"> Orthodontics</h2>
                 <p style="font-size:16px; line-height: 200%;">Improper positioning of teeth will not only cause problems in your appearance but it can also adversely affect your bite and thus disrupt the oral function. We provide orthodontic treatment to correct everything from crooked teeth to gaps between teeth using devices which may be either fixed or removable.</p>
-                <p style="font-size:16px; line-height: 200%;"><a href="\change\Braces-Orthodontic Treatment.php"> Click here</a> to know more about the types of braces available at GoBest Dentist. </p>
+                <p style="font-size:16px; line-height: 200%;"><a href="Braces-Orthodontic Treatment.php"> Click here</a> to know more about the types of braces available at GoBest Dentist. </p>
 
                 </div>
             </div>
@@ -1038,8 +1038,8 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
             <div class="col-lg-12">
                 <div class="root-info py-4">
                 <h2 style="font-family: Anton, sans-serif;" class="mb-3"> Teeth whitening</h2>
-                <p style="font-size:16px; line-height: 200%;"><a href="\change\Teeth-Whitening.php">Teeth whitening</a> also known as bleaching of teeth can be done either at home or at a dental clinic by a dental professional. At GoBest Dentist we use a special light to safely whiten your teeth using a whitening agent that is directly applied to your teeth.</p>
-                <p style="font-size:16px; line-height: 200%;"><a href="\change\Teeth-Whitening.php"> Click here</a> to know in detail about the pre and post care for undergoing a teeth whitening procedure.</p>
+                <p style="font-size:16px; line-height: 200%;"><a href="Teeth-Whitening.php">Teeth whitening</a> also known as bleaching of teeth can be done either at home or at a dental clinic by a dental professional. At GoBest Dentist we use a special light to safely whiten your teeth using a whitening agent that is directly applied to your teeth.</p>
+                <p style="font-size:16px; line-height: 200%;"><a href="Teeth-Whitening.php"> Click here</a> to know in detail about the pre and post care for undergoing a teeth whitening procedure.</p>
 
 
                 </div>

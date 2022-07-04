@@ -50,6 +50,10 @@ Sonigara Landmark, Shop No. 302, Kaspate Wasti, Wakad, Pune, MH-411057
 <span>
     Vision 9 Mall, Shop 269, 2nd floor Kunal Icon Rd, Pimple Saudagar, Pune, MH-411027.  
 </span></li>
+<li id="menu-item-7275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7275"><a href="best-dentist-in-pimple-saudagar.php" style="font-size:18px !important; color:white;"> Hinjewadi Branch</a></br>
+<span>
+KB Heights, Near Bharat Petroleum, opp. Gold Gym, Hinjewadi, Pune, MH-411057.  
+</span></li>
 </ul></div>					</div>
 					<div class="links-comman-box toggle-mbl">
 						<h4>MENU</h4>

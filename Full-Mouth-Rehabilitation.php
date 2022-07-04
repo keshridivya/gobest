@@ -928,12 +928,12 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                            <p style="font-size:16px; line-height: 200%;"><b>Dental implants</b><br>
                            <p style="font-size:16px; line-height: 200%;">Dental implants are titanium restorations that are located in the jaw and replace the roots of the teeth. The implant is covered with a porcelain or ceramic crown that looks like natural teeth. If your jaw does not have enough bone mass to support the implant, you may need a bone graft procedure.</p>
                             <p style="font-size:16px; line-height: 200%;">If you have multiple teeth replaced, our dentist can offer options such as All-on-4 implants. This method uses just four implants to support the entire arch of the replacement teeth. All-on-4 usually does not require a bone graft.</p>
-                            <p style="font-size:16px; line-height: 200%;"><a href="\change\Dental-Implants.php"> Click here</a> to know in detail about <a href="\change\Dental-Implants.php">Dental Implant</a> procedure at GoBest Dentist. </p></p><br>
+                            <p style="font-size:16px; line-height: 200%;"><a href="Dental-Implants.php"> Click here</a> to know in detail about <a href="Dental-Implants.php">Dental Implant</a> procedure at GoBest Dentist. </p></p><br>
 
                             <p style="font-size:16px; line-height: 200%;"><b>Crowns and bridges</b><br>
                                  <p style="font-size:16px; line-height: 200%;">Dental crown and bridges are ceramic copings that are placed over damaged teeth or dental implants. They can function as replacement teeth and are designed to completely replace natural teeth.</p>
                                 <p style="font-size:16px; line-height: 200%;">Dental bridges are artificial teeth that are used to fill in the gaps where teeth have been lost or removed. Bridges can consist of one removable tooth or several teeth and are supported on both sides by crowns.</p>
-                                <p style="font-size:16px; line-height: 200%;"><a href="\change\Crown-and-Bridges.php"> Click here</a> to know more about <a href="\change\Crown-and-Bridges.php">Crown and Bridges</a>. </p>
+                                <p style="font-size:16px; line-height: 200%;"><a href="Crown-and-Bridges.php"> Click here</a> to know more about <a href="Crown-and-Bridges.php">Crown and Bridges</a>. </p>
                         </p><br>
 
                         <p style="font-size:16px; line-height: 200%;"><b>Veneers</b><br>
@@ -943,13 +943,13 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
                         <p style="font-size:16px; line-height: 200%;"><b>Gum surgery</b><br>
                         <p style="font-size:16px; line-height: 200%;">If your gums are affected by periodontal disease, our dentist may first try to remove plaque with scaling and root planing. If your gum disease progresses (periodontitis), you may need a soft tissue or bone graft to replace lost or damaged tissue in your gums, jaw, and tooth roots.</p>
-                        <p style="font-size:16px; line-height: 200%;"><a href="\change\Flap-Surgery-Gum-Treatments.php"> Click here</a> to know more about <a href="\change\Flap-Surgery-Gum-Treatments.php">Flap surgeries</a></p>
+                        <p style="font-size:16px; line-height: 200%;"><a href="Flap-Surgery-Gum-Treatments.php"> Click here</a> to know more about <a href="Flap-Surgery-Gum-Treatments.php">Flap surgeries</a></p>
                                     
                         </p><br>
                      
                         <p style="font-size:16px; line-height: 200%;"><b>Orthodontics</b><br>
                           <p style="font-size:16px; line-height: 200%;">If your upper and lower teeth are not properly aligned, our dentist may recommend orthodontic treatment such as braces or clean aligners to correct your bite. Ideally, orthodontic treatment should be completed before other rehabilitative procedures begin.</p>
-                          <p style="font-size:16px; line-height: 200%;"><a href="\change\Braces-Orthodontic Treatment.php"> Click here</a> to know more about options available for <a href="\change\Braces-Orthodontic Treatment.php"> Orthodontic treatment</a></p> 
+                          <p style="font-size:16px; line-height: 200%;"><a href="Braces-Orthodontic Treatment.php"> Click here</a> to know more about options available for <a href="Braces-Orthodontic Treatment.php"> Orthodontic treatment</a></p> 
                        </p><br>
 
                        <p style="font-size:16px; line-height: 200%;"><b>Jaw surgery</b><br>

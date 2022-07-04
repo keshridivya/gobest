@@ -956,7 +956,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                         <div class="root-info py-5">
                             <h5 style="font-family: Anton, sans-serif;" class="mb-3">HOW</h5>
                             <h2 style="font-family: Anton, sans-serif;" class="mb-3"> How can professional teeth cleaning help?</h2>
-                            <p style="font-size:16px; line-height: 200%;">Even with all of the above brushing actions, bacteria, tartar, and inflammation can still spread. This is where our dentists has to deal with. Early detection can save you from <strong><a href="\change\Tooth-Extraction.php">tooth extraction</a></strong>. With professional teeth cleaning, the teeth are cleaned and cared for intensively with special instruments. This comprises several steps:</p>
+                            <p style="font-size:16px; line-height: 200%;">Even with all of the above brushing actions, bacteria, tartar, and inflammation can still spread. This is where our dentists has to deal with. Early detection can save you from <strong><a href="Tooth-Extraction.php">tooth extraction</a></strong>. With professional teeth cleaning, the teeth are cleaned and cared for intensively with special instruments. This comprises several steps:</p>
                             <ul class="list-style">
                                 <li><i class="fa fa-plus"></i> Thorough investigation</li>
                                 <li><i class="fa fa-plus"></i> Removal of hard and soft deposits such as tartar and plaque</li>
@@ -995,7 +995,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
                     <p style="font-size:16px; line-height: 200%;">2. Antiseptic treatment of the patient's oral cavity by a periodontist.</p>
 
-                    <p style="font-size:16px; line-height: 200%;">3. <a href="\change\Scaling-Polishing.php">Scaling</a> <span class="moretext6">To do this, our dentists uses an ultrasonic scaler - cleaning the teeth with ultrasound. Hand tools can be used that do not damage tooth enamel. If necessary, work with an ultrasound device - ultrasonic cleaning of teeth - can be carried out under local anesthesia. </span> </p>
+                    <p style="font-size:16px; line-height: 200%;">3. <a href="Scaling-Polishing.php">Scaling</a> <span class="moretext6">To do this, our dentists uses an ultrasonic scaler - cleaning the teeth with ultrasound. Hand tools can be used that do not damage tooth enamel. If necessary, work with an ultrasound device - ultrasonic cleaning of teeth - can be carried out under local anesthesia. </span> </p>
                     <a class="moreless-button6" href="javascript:void()">Read more</a><br><br>
 
                     <p style="font-size:16px; line-height: 200%;">4. The next stage is air-abrasive polishing.</p>

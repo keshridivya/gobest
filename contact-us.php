@@ -914,7 +914,26 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
   ]
 }
 </script>
-  	<div class="breadcrumb">
+
+<style>
+  .bd-callout-info {
+    --bd-callout-bg: rgba(var(--bs-info-rgb), .075);
+    --bd-callout-border: rgba(var(--bs-info-rgb), .5);
+}
+.bd-callout {
+    /* padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; */
+    /* opacity: 0.3; */
+    background-color: rgba(255, 128, 0, 0.40);
+    border: 0.1px solid orange;
+    border-left: 0.25rem solid rgba(255, 128, 0, 1);
+    border-right: 0.25rem solid rgba(255, 128, 0, 1);
+    border-radius:10px !important;
+}
+</style>
+
+  <div class="breadcrumb">
 		<div class="box">
 			<ul>
 				<li><a href="index.php">Home</a></li>
@@ -930,14 +949,22 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
 
 	
-	<div class="bg-white">
-		<div class="box">
+	<div class="bg-white container">
+		<div class="box ">
 
 
 
-
+       <div class="row my-2 justify-content-center">
+          <div class="col-7 bd-callout bd-callout-info  ">
+          <center> <h4 class=""  style="color:rgb(159 66 66);  font-weight: 800;">Email : gobestdentist@gmail.com</h4></center>
+          </div>
+          <div class="col-4 bd-callout bd-callout-info  ml-1 ">
+           <center> <h4 class="" style="color:rgb(159 66 66); font-weight: 800;">Phone No : 7264889986</h4></center>
+          </div>
+      </div>
 
 			<section class="get-in-touch" >
+       
 				<h1 class="title">Fill the Form</h1>
 
 				<form class="contact-form row" style="margin-left:0px" id="contact-form" method="post" action="thankyou.php" enctype="multipart/form-data">
@@ -1058,13 +1085,14 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     border-radius: 50%;
     transition: .6s;
     box-shadow: 0 0 0 0.2rem rgb(254 6 0 / 48%);
-    animation: cc-calto-action-ripple .6s linear infinite !important;
-    
+    animation: cc-calto-action-ripple .6s linear infinite;
     width: 3.5rem;
     height: 3.5rem;
     display: flex;
     align-items: center;
 }
+
+
 
 @-webkit-keyframes cc-calto-action-ripple {
     0% {
@@ -1111,13 +1139,18 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         left: 15px;
     }
 }
-
+@media (min-width: 1024px){
+.phone-btn {
+  display: none !important;
+}
+}
 </style>
 
 <?php include("include/footer.php") ?>
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
+
 
 
 
