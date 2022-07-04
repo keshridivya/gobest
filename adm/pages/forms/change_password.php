@@ -2,9 +2,6 @@
 session_start();
 
 include("pages/forms/checklogin.php");
-if(isset($_SESSION['username'])){
-  header("location:pages/forms/dashboard.php");
-}else{
 
 ?>
 <!DOCTYPE html>
@@ -145,4 +142,3 @@ if(isset($_SESSION['username'])){
 </script>
 </body>
 </html>
-<?php } ?>
