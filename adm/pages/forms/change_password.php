@@ -12,16 +12,16 @@ if(!isset($_SESSION['username'])){
         $newpassword=$_POST["newpassword"];
     
     
-        $sql = mysqli_query($conn,"SELECT * FROM login WHERE username='$d'") ;
+        $sql = mysqli_query($conn,"SELECT * FROM login WHERE name='$d'") ;
             $row=mysqli_fetch_assoc($sql); 
             $verify=password_verify($password,$row['password']);
         
         $hashpassword=password_hash($newpassword,PASSWORD_BCRYPT);
     
             if($verify==1){
-                $query=mysqli_query($conn,"UPDATE `login` SET `password`='$hashpassword' WHERE username='$d'");
+                $query=mysqli_query($conn,"UPDATE `login` SET `password`='$hashpassword' WHERE name='$d'");
           if($query){
-            echo "<script>alert('Password Changed Successfully'),window.location='index';</script>";
+            echo "<script>alert('Password Changed Successfully'),window.location='../../index.php';</script>";
           }
             }
             else{
@@ -71,10 +71,10 @@ if(!isset($_SESSION['username'])){
         <form method="post">
       
       <div class="form-group">
-        <input type="password" class="form-control form-control-lg" name="password" id="exampleInputPassword1" placeholder="Old Password">
+        <input type="text" class="form-control form-control-lg" name="password" id="exampleInputPassword1" placeholder="Old Password">
       </div>
        <div class="form-group">
-        <input type="password" class="form-control form-control-lg" name="newpassword" id="exampleInputPassword1" placeholder="New Password">
+        <input type="text" class="form-control form-control-lg" name="newpassword" id="exampleInputPassword1" placeholder="New Password">
       </div>
       <div class="mt-6">
         <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Change Password" name="login">
