@@ -15,7 +15,7 @@ if(isset($_POST['login']) && !empty($_POST['login'])){
     $hasspassword=$num['password'];
     if(password_verify($password ,$hasspassword)){
       header("location:pages/forms/dashboard.php");
-      $_SESSION['name']=$uname;
+      $_SESSION['username']=$uname;
     }
     else{
       $msg="username and password is not correct";
