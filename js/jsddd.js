@@ -9,7 +9,7 @@ $(document).ready(function(){
       $(".banner").addClass("up");
    });
 
-    
+    let catdnkname;
    $("#spancatname").hide();
    $(".callmessage").keyup(function(){
 	     txt_check();
@@ -29,6 +29,22 @@ $(document).ready(function(){
 		       
 		   }
 	   }
+
+      $(".submitBtn").click(function(){ 
+         if(catdnkname =="no"){
+             alert("Please fill all the fields");
+           }
+               else{
+               swal("Agreement Save");
+             }
+               txt_err = true;
+               txt_check();
+                 
+                 if((txt_err==true)){
+                    return true;
+                 }
+                 else{return false;}
+            });
 });
 
 
