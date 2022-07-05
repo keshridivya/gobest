@@ -8,6 +8,27 @@ $(document).ready(function(){
       $(".orange").css("display","none"); 
       $(".banner").addClass("up");
    });
+
+    
+   $("#spancatname").hide();
+   $(".callmessage").keyup(function(){
+	     txt_check();
+	   });
+	   function txt_check(){
+		   let txt=$(".callmessage").val();
+		   let vali =/^[A-Za-z ]+$/;
+		   if(!vali.test(txt)){
+            catdnkname="no";
+			  $("#spancatname").show().html("Enter Alphabets only").css("color","red").focus();
+			  txt_err=false;
+			  return false;
+		   }
+		   else{
+            catdnkname="yes";
+		       $("#spancatname").hide();
+		       
+		   }
+	   }
 });
 
 

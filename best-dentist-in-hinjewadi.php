@@ -851,18 +851,19 @@ include("include/config.php") ?>
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
 
-	<?php
+<?php
 if(isset($_POST['subm'])){
 $firstname= $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $PhoneNumber= $_POST['PhoneNumber'];
-$email= $_POST['email'];
+$branch= $_POST['branch'];
 $message= $_POST['message'];
 // configure
-$from = 'Enquiry <info@sachinenterprise.in>'; 
-$sendTo = 'Enquiry <maheshniwate10@gmail.com>';
-$subject = 'Pimple Saudagar Form from Website';
-$fields = array('firstname' => 'firstname', 'lastname' => 'lastname','PhoneNumber' => 'PhoneNumber', 'message' => 'message', 'email' => 'email'); // array variable name => Text to appear in email
+$from = 'Enquiry <care@gobestdentist.com>'; 
+$send = ['dr.sanamokashi@gmail.com', 'gobestdentist@gmail.com', 'seniormanager1234@gmail.com','naiduvedant@gmail.com','dkeshari094@gmail.com'];
+$sendTo =  implode(',',$send);
+$subject = 'Hinjewadi Form from Website';
+$fields = array('firstname' => 'firstname', 'lastname' => 'lastname','PhoneNumber' => 'PhoneNumber', 'message' => 'message', 'branch' => 'branch'); // array variable name => Text to appear in email
 $okMessage = '   you! We will respond to you as early as possible. For Quick Confirmation, Call us on 7264889986 and take instant appointment on Call.';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
@@ -870,7 +871,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new message from Hinjewadi form Website \n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
@@ -879,8 +880,11 @@ try
         }
     }
 
-    mail($sendTo, $subject, $emailText, "From: " . $from);
-    echo "<script>window.location.href='thankyou.php';</script>";
+    if(mail($sendTo, $subject, $emailText, "From: " . $from)){
+    echo "<script>window.location.href='thankyou.php';</script>";}
+    else{
+        echo "<script>alert('Message not send . Something Went Wrong');</script>";
+    }
     // $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
@@ -892,8 +896,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
     $encoded = json_encode($responseArray);
     
     //header('Content-Type: application/json');
-    echo "alert('ppppp')";
-    header("location:best-dentist-in-pimple-saudagar.php.");
+    echo "alert('Something Wrong')";
+    header("location:best-dentist-in-hinjewadi.php");
     
     echo $encoded;
 }
