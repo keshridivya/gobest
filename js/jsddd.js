@@ -16,7 +16,7 @@ $(document).ready(function(){
 	   });
 	   function txt_check(){
 		   let txt=$(".callmessage").val();
-		   let vali =/^[12]+$/;
+		   let vali =/^\d{10}$/;
 		   if(!vali.test(txt)){
             catdnkname="no";
 			  $("#spancatname").show().html("Enter Alphabets only").css("color","red").focus();
