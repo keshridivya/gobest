@@ -19,7 +19,7 @@ $(document).ready(function(){
 		   let vali =/^\d{10}$/;
 		   if(!vali.test(txt)){
             catdnkname="no";
-			  $("#spancatname").show().html("Enter Alphabets only").css("color","red").focus();
+			  $("#spancatname").show().html("** Enter Alphabets only").css("color","black").focus();
 			  txt_err=false;
 			  return false;
 		   }
