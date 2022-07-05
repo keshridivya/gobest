@@ -89,7 +89,7 @@
                     <div class="input-container">
                         <div class="">
                             <input type="tel" required="" name="PhoneNumber" id="message-input"  class="callmessage" minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
-                            <span id="spancatname"></span>
+                            <span id="spancatname" style="display:block"></span>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@ else {
 </div>
 <div class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
 <div class="toggle-menu"><span></span></div>
-<div class="nav-bar ppp">
+<div class="nav-bar ppp" style="width:78%">
 <div class="navigation">
 <div class="navigation-scroll">
 <div class="menu-menu-1-container">
