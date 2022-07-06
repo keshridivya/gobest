@@ -83,12 +83,12 @@
                     <div class="input-container">
                         <div class="">
                             <input type="tel" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" class="callmessage" aria-required="true">
-                            <span style="display:block" id="spancatname"></span>
                         </div>
                     </div>
                 </div>
 
                 <input type="submit" class="submitBtn checkValidationBtn" name="sub2" value="Submit" data-sitekey="6Lf6h1EcAAAAAMFnv3HckaiAGnSU3DDEBX2OCVok" style="max-width: fit-content;">
+                <span style="display:block" id="spancatname"></span>
                 </form>
                 	<?php
 	if(isset($_POST['sub2'])){
