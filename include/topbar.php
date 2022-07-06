@@ -49,10 +49,10 @@
         
             <div class="common links">
             <ul>
-            <li><a href="about-us.php"><span><!--<img src="https://clovedental.in/wp-content/themes/clove-child/images/hospital-icon.png" alt="best dental hospital">--></span>About us</a></li>
-            <!--<li><a href="https://clovedental.in/clove-dental-doctors/"><span><!--<img src="https://clovedental.in/wp-content/themes/clove-child/images/doctor-icon2.png" alt="dental doctor near me"></span>Our Doctors</a></li>-->
-            <li><a href="careers.php"><span><!--<img src="https://clovedental.in/wp-content/themes/clove-child/images/career-icon.png" alt="dental clinic in delhi">--></span>CAREER</a></li>
-            <li><a href="contact-us.php"><span><!--<img src="https://clovedental.in/wp-content/themes/clove-child/images/info-icon.png" alt="dentist in delhi">--></span>Contact us</a></li>
+            <li><a href="about-us.php"><span></span>About us</a></li>
+            
+            <li><a href="careers.php"><span></span>CAREER</a></li>
+            <li><a href="contact-us.php"><span></span>Contact us</a></li>
             </ul>
             </div>
             <div class="common follow">
@@ -78,24 +78,17 @@
             <div class="col-lg-4 col-md-6 col-7 pdr-0">
                <div class="validateContainer">
                 <form class="form-inline form" style="flex-flow: nowrap;" name="form1" method="post" id="form1"> 
-                  <!--  <div class="form-group">
-                    <div class="input-container">
-                        <div class="validateField">
-                            <input type="text" class="validateRequired validateNumber validateMobileNoLimit" name="PhoneNumber" id="message-input" placeholder="Mobile Number*">
-                        </div>
-                    </div>
-                </div> -->
+                 
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="tel" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
+                            <input type="tel" required="" name="PhoneNumber" id="message-input"  minlength="10" maxlength="10" placeholder="Mobile Number*" class="callmessage" aria-required="true">
+                            <span style="display:block" id="spancatname"></span>
                         </div>
                     </div>
                 </div>
 
                 <input type="submit" class="submitBtn checkValidationBtn" name="sub2" value="Submit" data-sitekey="6Lf6h1EcAAAAAMFnv3HckaiAGnSU3DDEBX2OCVok" style="max-width: fit-content;">
-                    <!-- <input type="text" id="number" placeholder="Mobile Number" name="number">  -->
-                    <!-- <button type="submit" class="submitBtn">Submit</button> -->
                 </form>
                 	<?php
 	if(isset($_POST['sub2'])){
