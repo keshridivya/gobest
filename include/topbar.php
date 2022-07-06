@@ -69,7 +69,7 @@
     </div>
 </div>
 <div class="head-outer">
-<div class="header-main"><div class="orange helpme overlay animateHeader aos-init aos-animate" id="myModal" >
+<div class="header-main"><div class="orange helpme overlay animateHeader aos-init aos-animate" id="myModal" data-aos="fade-up" data-aos-delay="15000">
     <div class="container positionRel"> 
         <div class="row">
             <div class="col-lg-5 col-md-6">
@@ -77,7 +77,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-7 pdr-0">
                <div class="validateContainer">
-                <form class="form-inline form" style="flex-flow: nowrap;" name="form1" method="post" id="form1"> 
+                <form class="form-inline form" name="form1" method="post" id="form1"> 
                   <!--  <div class="form-group">
                     <div class="input-container">
                         <div class="validateField">
@@ -88,8 +88,7 @@
                 <div class="form-group">
                     <div class="input-container">
                         <div class="">
-                            <input type="tel" required="" name="PhoneNumber" id="message-input"  class="callmessage" minlength="10" maxlength="10" placeholder="Mobile Number*" aria-required="true">
-                            <span id="spancatname" style="display:block"></span>
+                            <input type="text" required="" name="PhoneNumber" id="message-input" placeholder="Mobile Number*" aria-required="true">
                         </div>
                     </div>
                 </div>
@@ -121,7 +120,7 @@ try
     }
 
     mail($sendTo, $subject, $emailText, "From: " . $from);
-    echo "<script>window.location.href='thankyou.php';</script>";
+echo "<script>alert('$okMessage');</script>";
     
 }
 catch (\Exception $e)
@@ -144,11 +143,11 @@ else {
 ?>
             </div>
           </div>
-            <div class="col-lg-3 col-md-4 col-5 pl-2 pd-0" style="line-height: 2;">
+            <div class="col-lg-3 col-md-4 col-5 pd-0" style="line-height: 2;">
                 <span class="cp-info-bar-msg"><i class="fa fa-phone"></i> <a href="tel:+917264889986" style="color: #fff;font-size:13px">+91 72648 89986</a></span>
             </div>
         </div>
-        <a class="close close2" data-dismiss="modal">x</a>
+        <a class="close close2" data-dismiss="modal">×</a>
 
 
 </div>
@@ -160,18 +159,14 @@ else {
 </div>
 <div class="toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
 <div class="toggle-menu"><span></span></div>
-<div class="nav-bar ppp" style="width:78%">
+<div class="nav-bar ppp">
 <div class="navigation">
 <div class="navigation-scroll">
 <div class="menu-menu-1-container">
 <ul id="primary-menu" class="menu">
 <li id="menu-item-427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-427"><a href="index.php" class="a">HOME</a>
 </li>
-<li id="menu-item-4792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4792"><a class="a" href="about-us.php" class="a">ABOUT US</a>
-<ul class="sub-menu">
-	<li id="menu-item-4811035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="about-us.php" class="a">Know More</a></li>
-	<li id="menu-item-481100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="fullcasestudy.php" class="a">Case Study</a></li>
-</ul>
+<li id="menu-item-4792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4792"><a href="about-us.php" class="a">ABOUT US</a>
 </li>
 <li id="menu-item-7267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7267"><a class="a" href="treatment.php" style="cursor:pointer">TREATMENT</a>
 	<ul class="sub-menu">
@@ -201,20 +196,19 @@ else {
 <li id="menu-item-11888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11888"><a href="ourdoctors.php" class="a">Our Doctors</a></li>
 <li id="menu-item-14145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14145"><a href="careers.php" class="a">Careers</a></li>
 <li id="menu-item-8073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a href="testimonials.php" class="a">REVIEW</a></li>
-<li id="menu-item-8074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a class="a" style="cursor:pointer">OUR BRANCHES</a>
+<li id="menu-item-8074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8073"><a class="a" style="cursor:pointer">OUR CLINIC</a>
 	<ul class="sub-menu">
 	<li id="menu-item-4811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="dentist-near-me-akurdi-nigdi-pradhikaran.php" class="a">AKURDI BRANCH</a></li>
 	<li id="menu-item-4812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="dentist-near-me-wakad-hinjewadi-dange-chowk.php" class="a">WAKAD BRANCH</a></li>
 	<li id="menu-item-13791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-baner-pune.php" class="a">BANER BRANCH</a></li>
 	<li id="menu-item-13792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-pimple-saudagar.php" class="a">PIMPLE SAUDAGAR BRANCH</a></li>
-	<li id="menu-item-13793" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13797"><a href="best-dentist-in-hinjewadi.php" class="a">HINJEWADI BRANCH</a></li>
 	</ul>
 </li>
 </ul></div> <div class="mobile-nav">
 <ul>
-<!-- <li class="menu-item "><a href="about-us.php" class="a">About us</a></li> -->
+<li class="menu-item "><a href="about-us.php" class="a">About us</a></li>
 
-<!-- <li class="menu-item "><a href="careers.php" class="a">CAREER</a></li> -->
+<li class="menu-item "><a href="careers.php" class="a">CAREER</a></li>
 <li class="menu-item "><a href="contact-us.php" class="a">Contact us</a></li>
 </ul>
 </div>
@@ -224,9 +218,9 @@ else {
 <i class="fa fa-calendar" aria-hidden="true"></i> <samp>book an <span>appointment</span></samp></p>
 </div>
 
-<div class="number-mbl toggle1" style="z-index:1;">
+<div class="number-mbl toggle1">
    <div class="toggle1" style="cursor:pointer; padding-bottom:-20px;"></div><i class="fa fa-calendar" style="margin-left:40%;font-size:28px"></i>
-   <p style="margin-bottom:0rem;font-size:12px!important;"><strong> Book Appointment</strong> </p>
+   <p style="margin-bottom:0rem;font-size:12px!important;">Book &nbsp; Appointment</p>
 </div>
 </div>
 </div>
