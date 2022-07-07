@@ -11,13 +11,12 @@ $description='';
 $image='';
 if(isset($_GET['id'])){
   $id=intval($_GET['id']);
-  $sql="select * from addcategories where id='$id'";
+  $sql="select * from specialist where id='$id'";
   $arr=mysqli_query($conn,$sql);
   $result=mysqli_fetch_array($arr);
-  $name=$result['name'];
+  $name=$result['doctor_name'];
   $degree=$result['degree'];
-  $shortdesc=$result['shortdesc'];
-  $description=$result['description'];
+  $description=$result['designation'];
   $image=$result['image'];
 }
 
@@ -94,13 +93,9 @@ if(isset($_GET['id'])){
 		  <label for="degree">Profession:</label>
 		  <input type="text" class="form-control degree" value="<?php echo $degree?>" id="degree" placeholder="Enter degree" name="degree">
 		</div>
-    <div class="form-group">
-		  <label for="shortdesc">Short Description:</label>
-		  <input type="text" class="form-control shortdesc" value="<?php echo $shortdesc?>" id="shortdesc" placeholder="Enter short description" name="shortdesc">
-		</div>
 		<div class="form-group">
 		  <label for="description">Description:</label>
-		  <textarea class="form-control description" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
+		  <textarea class="form-control description descri" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
 		  </textarea>
 		</div>
 		<div class="form-group">
@@ -164,6 +159,26 @@ $("#show-sidebar").click(function() {
    
 });
 		</script>
+        <script>
+      $(document).ready(function() {
+        $(".error").hide();
+
+       $('#description').keyup(function() {
+         err_func();
+       });
+       function  err_func(){
+       let text_length = $('#description').val().length;
+         if(text_length > 50){
+           $(".error").show();
+           $(".error").text("Maximum 50 characters allowed");
+           $("#description").css("border-color","red");
+       }else{
+            $(".error").hide();
+            $("#description").css("border-color","#ced4da");
+       }
+      };
+    });
+    </script>
 </body>
 </html>
 <?php } ?>

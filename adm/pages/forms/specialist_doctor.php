@@ -161,15 +161,16 @@ $("#show-sidebar").click(function() {
        });
        function  err_func(){
        let text_length = $('#description').val().length;
-         if(text_length > 1000){
+         if(text_length > 50){
            $(".error").show();
-           $(".error").text("Maximum 1000 characters allowed");
+           $(".error").text("Maximum 50 characters allowed");
            $("#description").css("border-color","red");
        }else{
             $(".error").hide();
             $("#description").css("border-color","#ced4da");
        }
-      });
+      };
+    });
     </script>
     <script>
     let catdnkname;
