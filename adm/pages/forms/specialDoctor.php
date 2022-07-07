@@ -10,7 +10,7 @@ if(!isset($_SESSION['username'])){
       $sql = "UPDATE specialist set status= '0' WHERE id='$id'";
       mysqli_query($conn,$sql);
     }
-if (mysqli_num_rows($doctors)>0){
+if (mysqli_num_rows($specialist)>0){
 
 }
 include("Include/topbar.php");
@@ -79,7 +79,7 @@ include("Include/topbar.php");
 					<td>
 						<table>
 							<tbody>
-              <td><a class="btn btn-primary editBlog" href="editdoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Edit Blog"><i class="far fa-edit"></i></a> <a class="btn btn-danger" href="specialDoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Delete Blog"><i class="far fa-trash-alt"></i></a></td>
+              <td><a class="btn btn-primary editBlog" href="editspecialdoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Edit Blog"><i class="far fa-edit"></i></a> <a class="btn btn-danger" href="specialDoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Delete Blog"><i class="far fa-trash-alt"></i></a></td>
 
             </tbody>
 					</table>
