@@ -92,6 +92,7 @@ if(isset($_GET['id'])){
 		  <label for="degree">Profession:</label>
 		  <input type="text" class="form-control degree" value="<?php echo $degree?>" id="degree" placeholder="Enter degree" name="degree">
 		</div>
+        
 		<div class="form-group">
 		  <label for="description">Treatment:</label>
 		  <textarea class="form-control description descri"  id="description" placeholder="Enter description" name="description"><?php echo $description ?>
