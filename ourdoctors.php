@@ -13,27 +13,16 @@ include("include/config.php") ?>
 <!DOCTYPE html>
 
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
-
-
 <head>
-
 	<meta charset="UTF-8">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <link rel="shortcut icon" href="wp-content/themes/clove/images/favicon.png" type="image/x-icon">
 	<title>Our Doctors - Gobest Dentist	</title>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
 	<link rel="pingback" href="xmlrpc.php">
-
 <link href="wp-content/themes/clove/css/font-awesome.css" rel="stylesheet">
-
 <link href="wp-content/themes/clove/css/fonts.css" rel="stylesheet"/>
-
 <link href="wp-content/themes/clove/css/animations.css" rel="stylesheet">
-
-
-
 <link rel="stylesheet" href="wp-content/themes/clove/css/jquery.datetimepicker.css" />
 <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet'>
@@ -57,9 +46,6 @@ jQuery(document).ready(function() {
 		jQuery("body").addClass("no-scroll");
 	});
 	
-	
-	
-
 var stickyNavTop = jQuery('.head-outer').offset().top;
 var stickyNav = function(){
 var scrollTop = jQuery(window).scrollTop();
@@ -79,8 +65,6 @@ jQuery(window).scroll(function() {
 </script> 	
 <script src="wp-content/themes/clove/js/jquery.js"></script>
 <meta name='robots' content='max-image-preview:large' />
-
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="Reach out to the Clove Dental Helpline or book an appointment online at Clove Dental here to put all your oral worries away."/>
 <link rel="canonical" href="index.html" />
 <meta property="og:locale" content="en_US" />
@@ -173,7 +157,6 @@ var es_data = {"messages":{"es_empty_email_notice":"Please enter email address",
 function refreshCaptchaApp_r() {
 		jQuery( "#captcha_code1_r" ).attr( 'src', 'captcha/captchaCodeffb3.jpg?id=1&amp;var=' + new Date().getTime() ); 	
 		}
-//jQuery(function(){ jQuery('.scroll-pane').jScrollPane();});
 jQuery(document).ready(function(){
     jQuery(".ethics .text-box a").click(function(){
 		jQuery(this).toggleClass("active");
@@ -192,11 +175,6 @@ jQuery(document).ready(function(){
     jQuery(".join-overlay .join-video .close").click(function(){
         jQuery(".join-overlay").fadeOut()
     });
-
-	/* jQuery(".wpcf7-form").submit(function(){
-		$(".wpcf7-submit").hide();
-    }); */
-
 	jQuery( ".acc-tab,.news-popup .imgbox .close" ).click(function() {		/* Toggle */	
 	jQuery( ".newscontent" ).removeClass("active");
 	});	
@@ -500,11 +478,7 @@ $(window).scroll(function () {
 			$('.side-menu').removeClass("sticky");
 		}
 	});
-/* jQuery(window).scroll(function(){
-	if($(this).scrollTop() > 50){jQuery('.totop a').fadeIn();$('.side-menu').addClass("sticky");}else{jQuery('.totop a').fadeOut();}
-	}); */
 var click_type='first';
-
 	jQuery('.offers-content').hide().fadeIn();
 	jQuery('.offers-nav-tab a').bind('click', function(e){
 		jQuery('.offers-nav-tab li a.active').removeClass('active');
@@ -582,18 +556,10 @@ $( "#app_error4_r" ).show();
 
 }
 
-/*if(phone1=="8851672425" || phone1=="8178109008" || phone1=='08851672425' || phone1=='08178109008' || phone1=="+918851672425" || phone1=="+918178109008" || phone1=="8268868995"){
-		$( "#r_app_error1" ).show(); $( "#r_app_error1" ).html( "*The phone number mentioned has been blocked due to multiple unscrupulous requests generated. Kindly use a different phone number to register your request." ); error = error+2;
-}*/
-
-
 if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); return true; }
 });
 
-
-
-
-	if ($(window).width() < 767) {
+if ($(window).width() < 767) {
 		$(".toggle-mbl h4").click(function(){
 		$(this).parent().siblings().find('div').slideUp("slow");
 		$(this).parent().siblings().find('h4').removeClass("active");
@@ -624,7 +590,6 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
   fbq('track', 'Lead');
   /*End Facebook Pixel Code*/
 </script>
-<!-- Global site tag (gtag.js) - Google Ads: 958029923 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-958029923"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -633,7 +598,6 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
 
   gtag('config', 'AW-958029923');
 </script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58837352-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -643,8 +607,6 @@ if ( error != "" ) {$(".sbt").show(); return false; } else {$(".plwt").show(); r
   gtag('config', 'UA-58837352-1');
 </script>
 
-
- 
  <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -914,7 +876,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
                            
                             <div class="row">
                                 <div class="col-md-4 col-lg-4 col-sm-12"  class="imgclass" >
-                                    <img src="adm/pages/forms/image/<?php echo $img ?>" style="border-top-left-radius: 30px;
+                                    <img src="admin/pages/forms/image/<?php echo $img ?>" style="border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;" alt="dentist in pimpri chinchwad">
                                 </div>
                                 <div class="col-md-8 col-lg-8 col-sm-12">
@@ -939,23 +901,14 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
               $data = mysqli_query($conn, $sql);
               foreach($data as $d){
           ?>
-
-<!-- <div class="row"> -->
-
-
-<!-- #str heroes -->
-<!-- #abaddon -->
-
 <div class="flip-card rounded pb-2 pl-0 pr-0 mb-5 col-lg-3" style="border-top-left-radius: 30px !important;">
   <div class="flip-card-inner" style="border-top-left-radius: 30px !important;">
     <div class="flip-card-front pb-2 mb-5" style="border-top-left-radius: 30px !important;">
-      <img src="adm/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top" alt="..." >
+      <img src="admin/pages/forms/image/<?php echo $d['image']; ?>" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top" alt="..." >
         <h4 class="card-title headingName m-2"><?php echo $d['name']; ?></h4>
         <h6 style="color:#fe235b;"><?php echo $d['degree']; ?></h6>
         <p style="font-size:15px; line-height: 130%;" class="card-text m-2"><?php echo $d['shortdesc']; ?>.</p>
-        <!-- <p style=" onMouseOver:this.style.color='#0F0'"><u>Read more</u></p> -->
         <p class="card-text readMore m-2" style="color:blue;">Read More</p>
-        <!-- onMouseOver="this.style.color='#0F0'" -->
     </div>
     <div class="flip-card-back p-1" style="border-top-left-radius: 25px;">
       </br>
@@ -964,8 +917,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
     </div>
   </div>
 </div>
-			
-
   <?php } ?>	
 </div>
 
@@ -974,70 +925,27 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 <h2>Our Specialist Doctors</h2>
 </div>
 <div class="row">
+  <?php
+  $sql1=mysqli_query($conn,"SELECT * FROM specialist WHERE is_delete = '0'");
+  while($special=mysqli_fetch_assoc($sql1)){
+  ?>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="single-doctor-box">
-<img src="assets/img/doctors/manali.jpg"  alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
+<img src="admin/pages/forms/image/<?php echo $special['image']; ?>"  alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
 <div class="content1 ">
-<h4 class="card-title">Dr. Manali K</h4>
-<span style="color:#fe235b;font-size: 1rem;">BDS MDS Endodontist</span>
-<p class="mt-1" style="font-size:1rem">Root Canal Specialist</p>
+<h4 class="card-title"><?php echo $special['doctor_name']; ?></h4>
+<span style="color:#fe235b;font-size: 1rem;"><?php echo $special['degree']; ?></span>
+<p class="mt-1" style="font-size:1rem"><?php echo $special['designation']; ?></p>
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-md-6 col-sm-6">
-<div class="single-doctor-box">
-<img src="assets/img/doctors/namrata.jpg"  alt="dentist in pune" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
-<div class="content1 ">
-<h4 class="card-title">Dr. Namrata C</h4>
-<span style="color:#fe235b;font-size: 1rem;">BDS MDS Oral Surgeon</span>
-<p class="mt-1" style="font-size:1rem">Oral and Maxillofacial Surgeon</p>
+<?php } ?>
+
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-md-6 col-sm-6">
-<div class="single-doctor-box">
-<img src="assets/img/doctors/richa.jpg" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
-<div class="content1 ">
-<h4 class="card-title"    >Dr. Richa A</h4>
-<span style="color:#fe235b;font-size: 1rem;">BDS MDS Pedodontist</span>
-<p class="mt-1" style="font-size:1rem">Child Teeth Specialist</p>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 col-sm-6">
-<div class="single-doctor-box">
-<img src="assets/img/doctors/shina.jpg" alt="dentist in pimpri chinchwad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
-<div class="content1 ">
-<h4 class="card-title">Dr. Shine M</h4>
-<span style="color:#fe235b;font-size: 1rem;">BDS MDS Prosthodontist</span>
-<p class="mt-1" style="font-size:1rem">Crown and Denture Specialist</p>
-</div>
-</div>
-</div>
-<div class="col-lg-3 col-md-6 col-sm-6">
-<div class="single-doctor-box">
-<img src="assets/img/doctors/harshala.jpg" alt="Best Dentist in Wakad" style="border-top-left-radius: 20px !important;border-bottom-right-radius: 25px;" class="card-img-top">
-<div class="content1 ">
-<h4 class="card-title">Dr. Harshala P</h4>
-<span style="color:#fe235b;font-size: 1rem;">BDS MDS Orthodontist</span>
-<p class="mt-1" style="font-size:1rem">Tooth Braces specialist</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- </section> -->
 		</div>
 	</div>
-
- 
-
-
-<!--<div class="important_info_icon">
- <a href="https://clovedental.in/press-release-on-covid-19/"></a>
-<!-- <div class="info"><p>Notice!</p><a href="https://clovedental.in/press-release-on-covid-19/"></a></div> -->
-<!--</div>-->
 <style>
 .important_info_icon{
   width:50px;
@@ -1128,7 +1036,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
         box-shadow: 0 4px 10px rgba(236, 139, 0, .2), 0 0 0 5px rgba(236, 139, 0, .2), 0 0 0 10px rgba(236, 139, 0, .2), 0 0 0 20px transparent
     }
 }
-
 .phone-btn:hover {
     text-decoration: none;
 }
@@ -1159,11 +1066,6 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 
     <!-- Call Us -->
     <a href="tel:+917264889986;" class="phone-btn wow slideInRight ui-btn ui-shadow ui-corner-all " title="Call Us" style="color:#ffffff;"><i class="fa fa-phone"></i></a>
-
-
-<!--<script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"67f9d29d312ddf7613178b444db356b5d4d2bbd9d7b763496d94409bcaaa2f27ffdddbb64bb6596c0cc65b99d53d23ad", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget?plugin_source=wordpress";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
-</script>-->
 <script>
 $zoho.salesiq.ready=function(){
 {
@@ -1200,8 +1102,6 @@ jQuery(document).ready(function() {
         jQuery(".br_overlay").hide();
     });
 
-
-	 
 	if(localStorage.getItem("timesec") === null)
 	{	
 	var time = "30", 
@@ -1262,24 +1162,7 @@ jQuery(this).addClass('active');
 	});
 });	
 </script>
-<!-- Start of LiveChat (www.livechatinc.com) code --
-            <script type="text/javascript">
-              window.__lc = window.__lc || {};
-              window.__lc.license = 4175831;
-              (function() {
-                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-              })();
-            </script>
-            <noscript>
-            <a href="https://www.livechatinc.com/chat-with/4175831/" rel="nofollow">Chat with us</a>,
-            powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
-            </noscript>
-            <!-- End of LiveChat code -->
-
 </body>
-<!-- Mirrored from clovedental.in/contact-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 11:46:12 GMT -->
 </html><script>
 	$(".capcher-row").hide();
 
@@ -1306,11 +1189,3 @@ function refreshCaptcha2() {
     padding-left: 5px;
 }
 </style>
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Object Caching 140/161 objects using disk
-Database Caching 6/15 queries in 0.043 seconds using disk
-
-Served from: clovedental.in @ 2022-03-03 17:02:33 by W3 Total Cache
--->
