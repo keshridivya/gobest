@@ -57,12 +57,12 @@ if(isset($_GET['id'])){
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-         <h3>Add New Doctor</h3>
+         <h3>Specialist Doctor</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add New Doctor</li>
+              <li class="breadcrumb-item active">Specialist Doctor</li>
             </ol>
           </div>
         </div>
@@ -72,7 +72,7 @@ if(isset($_GET['id'])){
               <div class="card-tools">
                 <ul class="nav nav-pills ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="add_new_doctor.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Doctor List</a>
+                    <a class="nav-link active" href="specialDoctor.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Specialist Doctor List</a>
                   </li>
                 </ul>
               </div>
