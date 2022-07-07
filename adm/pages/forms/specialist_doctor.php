@@ -93,7 +93,7 @@ if(!isset($_SESSION['username'])){
 		</div>
 		<div class="form-group">
 		  <label for="image">Image:</label>
-		  <input type="file" class="form-control" id="image" name="postimage" accept="image/webp,">
+		  <input type="file" class="form-control" id="image" name="postimage" accept="image/webp">
 		  <span style="color:red">File Size must be 280 × 376 px. File type should be in webp</span>
 		</div>
 		<button type="submit" id="subdoc" class="btn btn-primary" name="submit">Submit</button>

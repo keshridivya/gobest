@@ -6,8 +6,6 @@ if(!isset($_SESSION['username'])){
 include("include.php");
 
 $name='';
-$degree='';
-$description='';
 $image='';
 if(isset($_GET['id'])){
   $id=intval($_GET['id']);
@@ -15,25 +13,24 @@ if(isset($_GET['id'])){
   $arr=mysqli_query($conn,$sql);
   $result=mysqli_fetch_array($arr);
   $name=$result['doctor_name'];
-  $degree=$result['degree'];
-  $description=$result['designation'];
   $image=$result['image'];
 }
 
    if (isset($_POST['submit'])){
-	   $name=mysqli_real_escape_string($conn,$_POST['Name']);
-	   $degree=mysqli_real_escape_string($conn,$_POST['degree']);
-	   $description=mysqli_real_escape_string($conn,$_POST['description']);
 	   
-        $id=intval($_GET['id']);
-        $sql=mysqli_query($conn,"UPDATE `specialist` SET `doctor_name`='$name',`designation`='$description',`degree`='$degree'  where id='$id'");
-        if($sql){
-          header("location:specialDoctor.php");
-        }
-        else{
-          echo "<script> alert('Not Update');</script>";
-        }
-    }	
+	   $file=$_FILES['postimage']['name'];
+			$imgload=md5($file).$extension;
+			move_uploaded_file($_FILES['postimage']['tmp_name'],"image/".$imgload);
+			$status=0;
+            $id=intval($_GET['id']);
+            $sql=mysqli_query($conn,"update specialist set image='$imgload' where id='$id'");
+            if($sql){
+            header("location:editspecialdoctor.php?id=".$id);
+            }
+            else{
+            echo "<script> alert('Not Update');</script>";
+            }			
+	}
 
 	include("Include/topbar.php");
 ?>
@@ -48,12 +45,12 @@ if(isset($_GET['id'])){
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-         <h3>Add New Doctor</h3>
+         <h3>Special Doctor Image</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add New Doctor</li>
+              <li class="breadcrumb-item active">Special Doctor Image</li>
             </ol>
           </div>
         </div>
@@ -63,7 +60,7 @@ if(isset($_GET['id'])){
               <div class="card-tools">
                 <ul class="nav nav-pills ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="add_new_doctor.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Doctor List</a>
+                    <a class="nav-link active" href="specialDoctor.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Special Doctor List</a>
                   </li>
                 </ul>
               </div>
@@ -86,22 +83,16 @@ if(isset($_GET['id'])){
 		<form method="post" enctype="multipart/form-data">
 		<div class="form-group">
 		  <label for="Name">Name:</label>
-		  <input type="text" class="form-control name" id="Name" value="<?php echo $name ?>" placeholder="Enter name" name="Name">
+		  <input type="text" class="form-control name" id="Name" value="<?php echo $name ?>" placeholder="Enter name" name="Name" readonly>
+        </div>
+        <div class="form-group">
+        <img src="image/<?php echo $image ?>" style="border:1px solid black; width:100px; height:100px">
 		</div>
 		<div class="form-group">
-		  <label for="degree">Profession:</label>
-		  <input type="text" class="form-control degree" value="<?php echo $degree?>" id="degree" placeholder="Enter degree" name="degree">
+		  <label for="image">Image:</label>
+		  <input type="file" class="form-control" id="image" name="postimage" accept="image/webp">
 		</div>
-		<div class="form-group">
-		  <label for="description">Treatment:</label>
-		  <textarea class="form-control description descri"  id="description" placeholder="Enter description" name="description"><?php echo $description ?>
-		  </textarea>
-          <span style="color:red" id="spancatname"></span>
-		</div>
-		<div class="form-group">
-		  <img src="image/<?php echo $image ?>" style="border:1px solid black; width:100px; height:100px"><br><a href="changespecialdoctorimage.php?action=edit&id=<?php echo $result['id']; ?>" class="btn btn-success mt-2">Change Image</a>
-		</div>
-		<button type="submit" class="btn btn-primary" id="subdoc" name="submit">Submit</button>
+		<button type="submit" class="btn btn-primary" name="submit">change Image</button>
         </form>		
 		</div>
 	</div>
@@ -159,43 +150,6 @@ $("#show-sidebar").click(function() {
    
 });
 		</script>
-         <script>
-    let catdnkname;
-  $(document).ready(function(){
-   //TEXT VALIDATION
-   $("#spancatname").hide();
-	    $(".descri").keyup(function(){
-	     txt_check();
-	   });
-	   function txt_check(){
-		   let txt=$(".descri").val();
-		   if(txt.length > 50){
-            catdnkname="no";
-			  $("#spancatname").show().html("value must be less than 50 characters").css("color","red").focus();
-			  txt_err=false;
-			  return false;
-		   }
-		   else{
-            catdnkname="yes";
-		       $("#spancatname").hide();
-		       
-		   }
-	   }
-
-       $("#subdoc").click(function(){
-        let catstatus=$("#catstatus").val();
-        if(catdnkname =="no"){
-            alert("value must be less than 750 characters");
-          }
-              txt_err = true;
-              txt_check();
-                if((txt_err==true)){
-                   return true;
-                }
-                else{return false;}
-           });
-    });
-    </script>
 </body>
 </html>
 <?php } ?>
