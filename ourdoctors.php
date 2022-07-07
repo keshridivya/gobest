@@ -926,7 +926,7 @@ $('.patient_safety').click(function(){ $('.dropdown_patient_safety').toggleClass
 </div>
 <div class="row">
   <?php
-  $sql1=mysqli_query($conn,"SELECT * FROM specialist WHERE is_delete = '0'");
+  $sql1=mysqli_query($conn,"SELECT * FROM specialist WHERE status = '0'");
   while($special=mysqli_fetch_assoc($sql1)){
   ?>
 <div class="col-lg-3 col-md-6 col-sm-6">
