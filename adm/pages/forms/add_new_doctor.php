@@ -29,12 +29,12 @@ include("Include/topbar.php");
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-         <h3>Add New Doctor</h3>
+         <h3> Doctor List</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add New Doctor</li>
+              <li class="breadcrumb-item active">Doctor List</li>
             </ol>
           </div>
         </div>

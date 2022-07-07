@@ -11,7 +11,7 @@ $description='';
 $image='';
 if(isset($_GET['id'])){
   $id=intval($_GET['id']);
-  $sql="select * from addcategories where id='$id'";
+  $sql="select * from specialist where id='$id'";
   $arr=mysqli_query($conn,$sql);
   $result=mysqli_fetch_array($arr);
   $name=$result['name'];
@@ -57,12 +57,12 @@ if(isset($_GET['id'])){
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-         <h3>Specialist Doctor</h3>
+         <h3>Add Specialist Doctor</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Specialist Doctor</li>
+              <li class="breadcrumb-item active">Add Specialist Doctor</li>
             </ol>
           </div>
         </div>

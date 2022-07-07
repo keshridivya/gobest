@@ -7,7 +7,7 @@ if(!isset($_SESSION['username'])){
   include ('api.php');
   if(isset($_GET['id']) && $_GET['id']!=''){
       $id=mysqli_real_escape_string($conn,$_GET['id']);
-      $sql = "UPDATE addcategories set is_delete= '1' WHERE id='$id'";
+      $sql = "UPDATE specialist set is_delete= '1' WHERE id='$id'";
       mysqli_query($conn,$sql);
     }
 if (mysqli_num_rows($doctors)>0){
@@ -29,12 +29,12 @@ include("Include/topbar.php");
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-         <h3>Add New Doctor</h3>
+         <h3>Specialist Doctor List</h3>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Add New Doctor</li>
+              <li class="breadcrumb-item active">Specialist Doctor List</li>
             </ol>
           </div>
         </div>
@@ -44,7 +44,7 @@ include("Include/topbar.php");
               <div class="card-tools">
                 <ul class="nav nav-pills ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="add_new_doctorform.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Add Doctor</a>
+                    <a class="nav-link active" href="specialist_doctor.php" data-tt="tooltip" title="" data-original-title="Click here to Add New Doctor">Add Specialist Doctor</a>
                   </li>
                 </ul>
               </div>
@@ -59,26 +59,27 @@ include("Include/topbar.php");
                   <tr role="row">
                   <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="PO No." >ID</th>
 					  <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="PO No." >Doctor Name</th>
-					  <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" >Designation</th>	 
+					  <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" >Degree</th>	 
             <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" >Images</th>	 
 					  <th width="15%" class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending" >Action</th>
 				</tr>
                 </thead>
                 <tbody> 
                 <?php
+                $doctors=mysqli_query($conn,"select * from specialist");
 											$i=0;
 											while($row = mysqli_fetch_array($doctors)) {
 											?>                
                 <tr role="row" class="odd">
                 <td><?php echo $row["id"]; ?></td>
 
-					<td><?php echo $row["name"]; ?></td>
-					<td><?php echo $row["shortdesc"]; ?></td>	
+					<td><?php echo $row["doctor_name"]; ?></td>
+					<td><?php echo $row["degree"]; ?></td>	
           <td><img src="image/<?php echo $row["image"]; ?>" style="width: 50px;"></td>				
 					<td>
 						<table>
 							<tbody>
-              <td><a class="btn btn-primary editBlog" href="editdoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Edit Blog"><i class="far fa-edit"></i></a> <a class="btn btn-danger" href="add_new_doctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Delete Blog"><i class="far fa-trash-alt"></i></a></td>
+              <td><a class="btn btn-primary editBlog" href="editdoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Edit Blog"><i class="far fa-edit"></i></a> <a class="btn btn-danger" href="specialDoctor.php?action=delete&id=<?php echo $row['id']; ?>" title="Delete Blog"><i class="far fa-trash-alt"></i></a></td>
 
             </tbody>
 					</table>
