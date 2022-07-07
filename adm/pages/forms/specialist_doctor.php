@@ -19,7 +19,7 @@ if(!isset($_SESSION['username'])){
 			$sql=mysqli_query($conn,$query);
 			if($sql)
 			{
-			header("location:add_new_doctor.php");
+			header("location:specialDoctor.php");
 			}
 			else{
 			echo"<script> alert('Not Update');</script>";    
@@ -90,7 +90,6 @@ if(!isset($_SESSION['username'])){
 		  <textarea class="form-control description descri"  maxlength="1000" value="<?php echo $description ?>" id="description " placeholder="Enter description" name="description">
 		  </textarea>
 		  <span style="color:red" id="spancatname"></span>
-      <diV class="error"></div>
 		</div>
 		<div class="form-group">
 		  <label for="image">Image:</label>

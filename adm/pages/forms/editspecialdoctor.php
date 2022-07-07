@@ -23,13 +23,12 @@ if(isset($_GET['id'])){
    if (isset($_POST['submit'])){
 	   $name=mysqli_real_escape_string($conn,$_POST['Name']);
 	   $degree=mysqli_real_escape_string($conn,$_POST['degree']);
-     $shortdesc=mysqli_real_escape_string($conn,$_POST['shortdesc']);
 	   $description=mysqli_real_escape_string($conn,$_POST['description']);
 	   
         $id=intval($_GET['id']);
-        $sql=mysqli_query($conn,"update addcategories set name='$name',degree='$degree',shortdesc='$shortdesc',description='$description'  where id='$id'");
+        $sql=mysqli_query($conn,"UPDATE `specialist` SET `doctor_name`='$name',`designation`='$description',`degree`='$degree'  where id='$id'");
         if($sql){
-          header("location:add_new_doctor.php");
+          header("location:specialDoctor.php");
         }
         else{
           echo "<script> alert('Not Update');</script>";
@@ -94,14 +93,15 @@ if(isset($_GET['id'])){
 		  <input type="text" class="form-control degree" value="<?php echo $degree?>" id="degree" placeholder="Enter degree" name="degree">
 		</div>
 		<div class="form-group">
-		  <label for="description">Description:</label>
-		  <textarea class="form-control description descri" value="<?php echo $description ?>" id="description" placeholder="Enter description" name="description">
+		  <label for="description">Treatment:</label>
+		  <textarea class="form-control description descri"  id="description" placeholder="Enter description" name="description"><?php echo $description ?>
 		  </textarea>
+          <span style="color:red" id="spancatname"></span>
 		</div>
 		<div class="form-group">
 		  <img src="image/<?php echo $image ?>" style="border:1px solid black; width:100px; height:100px"><br><a href="changedoctorimage.php?action=edit&id=<?php echo $result['id']; ?>" class="btn btn-success mt-2">Change Image</a>
 		</div>
-		<button type="submit" class="btn btn-primary" name="submit">Submit</button>
+		<button type="submit" class="btn btn-primary" id="subdoc" name="submit">Submit</button>
         </form>		
 		</div>
 	</div>
@@ -159,24 +159,41 @@ $("#show-sidebar").click(function() {
    
 });
 		</script>
-        <script>
-      $(document).ready(function() {
-        $(".error").hide();
+         <script>
+    let catdnkname;
+  $(document).ready(function(){
+   //TEXT VALIDATION
+   $("#spancatname").hide();
+	    $(".descri").keyup(function(){
+	     txt_check();
+	   });
+	   function txt_check(){
+		   let txt=$(".descri").val();
+		   if(txt.length > 50){
+            catdnkname="no";
+			  $("#spancatname").show().html("value must be less than 50 characters").css("color","red").focus();
+			  txt_err=false;
+			  return false;
+		   }
+		   else{
+            catdnkname="yes";
+		       $("#spancatname").hide();
+		       
+		   }
+	   }
 
-       $('#description').keyup(function() {
-         err_func();
-       });
-       function  err_func(){
-       let text_length = $('#description').val().length;
-         if(text_length > 50){
-           $(".error").show();
-           $(".error").text("Maximum 50 characters allowed");
-           $("#description").css("border-color","red");
-       }else{
-            $(".error").hide();
-            $("#description").css("border-color","#ced4da");
-       }
-      };
+       $("#subdoc").click(function(){
+        let catstatus=$("#catstatus").val();
+        if(catdnkname =="no"){
+            alert("value must be less than 750 characters");
+          }
+              txt_err = true;
+              txt_check();
+                if((txt_err==true)){
+                   return true;
+                }
+                else{return false;}
+           });
     });
     </script>
 </body>
