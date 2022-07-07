@@ -7,7 +7,7 @@ if(!isset($_SESSION['username'])){
   include ('api.php');
   if(isset($_GET['id']) && $_GET['id']!=''){
       $id=mysqli_real_escape_string($conn,$_GET['id']);
-      $sql = "UPDATE specialist set is_delete= '1' WHERE id='$id'";
+      $sql = "UPDATE specialist set status= '0' WHERE id='$id'";
       mysqli_query($conn,$sql);
     }
 if (mysqli_num_rows($doctors)>0){
@@ -66,7 +66,7 @@ include("Include/topbar.php");
                 </thead>
                 <tbody> 
                 <?php
-                $doctors=mysqli_query($conn,"select * from specialist");
+                $doctors=mysqli_query($conn,"select * from specialist where status='1'");
 											$i=0;
 											while($row = mysqli_fetch_array($doctors)) {
 											?>                
